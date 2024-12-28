@@ -1,6 +1,6 @@
 {
   "name": "bookworm-light-astro",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "license": "MIT",
   "scripts": {
     "dev": "astro dev",
@@ -15,7 +15,7 @@
     "@astrojs/tailwind": "^5.1.2",
     "astro": "^4.16.9",
     "astro-auto-import": "^0.4.4",
-    "astro-font": "^0.0.81",
+    "astro-font": "^0.1.81",
     "date-fns": "^4.1.0",
     "fuse.js": "^7.0.0",
     "gray-matter": "^4.0.3",
