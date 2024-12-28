@@ -1,11 +1,12 @@
 {
   "site": {
     "title": "Rust 编程教程 | 学习 Rust 语言 - Rs.BiFuBa.COM",
-    "base_url": "",
+    "base_url": "https://rs.bifuba.com",
     "base_path": "/",
+    "base_static": "https://static-rs.bifuba.com",
     "trailing_slash": false,
-    "favicon": "/images/rust-programming-thumb.png",
-    "logo": "/images/rs.bifuba.com-logo.png",
+    "favicon": "https://static-rs.bifuba.com/images/rust-programming-thumb.png",
+    "logo": "https://static-rs.bifuba.com/images/rs.bifuba.com-logo.png",
     "logo_width": "200",
     "logo_height": "34",
     "logo_text": "Rust 编程教程 | 学习 Rust 语言"
