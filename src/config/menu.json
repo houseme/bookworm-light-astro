@@ -38,6 +38,10 @@
           "url": "/privacy-policy"
         }
       ]
+    },
+    {
+      "name": "Subscribe to RSS",
+      "url": "/rss.xml"
     }
   ],
   "footer": [
@@ -56,6 +60,10 @@
     {
       "name": "Privacy Policy",
       "url": "/privacy-policy"
+    },
+    {
+      "name": "Subscribe to RSS",
+      "url": "/rss.xml"
     }
   ]
 }

@@ -17,10 +17,10 @@
   },
   "fonts": {
     "font_family": {
-      "primary": "Mulish:wght@400;600;700",
-      "primary_type": "sans-serif",
-      "secondary": "",
-      "secondary_type": ""
+      "primary": "LXGW WenKai Screen",
+      "primary_type": "LXGW WenKai Mono Screen",
+      "secondary": "Mulish:wght@400;600;700",
+      "secondary_type": "sans-serif"
     },
     "font_size": {
       "base": "16",

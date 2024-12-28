@@ -15,15 +15,15 @@ export async function getStaticPaths() {
 
   const paths = allPages.map((page: any) => ({
     params: {
-      regular: page.slug,
+      regular: page.slug
     },
-    props: { page },
+    props: { page }
   }));
   return paths;
 }
 
 const { page } = Astro.props;
-const { title, meta_title, description, image } = page.data;
+const { title, meta_title, description, image, keywords } = page.data;
 ---
 
 <Base
@@ -31,6 +31,7 @@ const { title, meta_title, description, image } = page.data;
   meta_title={meta_title}
   description={description}
   image={image}
+  keywords={keywords}
 >
   {
     postsSlug.includes(page.slug) ? (

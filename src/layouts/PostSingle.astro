@@ -29,7 +29,7 @@ const { title, description, authors, categories, image, date, tags } =
                 .filter((author) =>
                   authors
                     .map((author: string) => slugify(author))
-                    .includes(slugify(author.data.title)),
+                    .includes(slugify(author.data.title))
                 )
                 .map((author, i) => (
                   <a
@@ -89,11 +89,15 @@ const { title, description, authors, categories, image, date, tags } =
             />
           )
         }
+        <p class="mt-6 text-center">Photo by <a href="https://unsplash.com?source=rs.bifuba.com" target="_blank" rel="nofollow">Unsplash</a></p>
       </div>
 
       <div class="md:col-10">
         <div class="content mb-16 text-left">
           <Content />
+        </div>
+        <div class="border-t border-b border-theme-light py-4">
+          <p class="text-left text-text">版权声明：自由转载-非商用-非衍生-保持署名（创意共享3.0许可证）</p>
         </div>
         <div class="flex flex-wrap items-center justify-between">
           <ul class="mr-4 mb-4 space-x-3">
@@ -125,11 +129,11 @@ const { title, description, authors, categories, image, date, tags } =
 <!-- similar posts -->
 {
   similarPosts.length > 0 && (
-    <section class="section pt-0">
-      <div class="container">
-        <h2 class="mb-8 text-center h3">Similar Posts</h2>
-        <SimilarPosts posts={similarPosts.slice(0, 3)} />
-      </div>
-    </section>
-  )
-}
+  <section class="section pt-0">
+    <div class="container">
+      <h2 class="mb-8 text-center h3">Similar Posts</h2>
+      <SimilarPosts posts={similarPosts.slice(0, 3)} />
+    </div>
+  </section>
+    )
+  }

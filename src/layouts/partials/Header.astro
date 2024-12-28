@@ -77,9 +77,13 @@ const { main }: { main: NavigationLink[] } = menu;
               </li>
             ) : (
               <li class="nav-item">
-                <a href={menu.url} class="nav-link block">
-                  {menu.name}
-                </a>
+                {
+                  menu.url === '/rss.xml' ? (
+                    <a href={menu.url} target="_blank"  class="nav-link block" rel="noopener noreferrer">{menu.name}</a>
+                  ) : (
+                    <a href={menu.url}  class="nav-link block" >{menu.name}</a>
+                  )
+                }
               </li>
             )}
           </>

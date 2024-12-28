@@ -29,6 +29,7 @@ if (theme.fonts.font_family.secondary) {
 export interface Props {
   title?: string;
   meta_title?: string;
+  keywords?: string;
   description?: string;
   image?: string;
   noindex?: boolean;
@@ -36,145 +37,166 @@ export interface Props {
 }
 
 // distructure frontmatters
-const { title, meta_title, description, image, noindex, canonical } =
+const { title, meta_title, keywords, description, image, noindex, canonical } =
   Astro.props;
 ---
 
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- favicon -->
-    <link rel="shortcut icon" href={config.site.favicon} />
-    <!-- theme meta -->
-    <meta name="theme-name" content="bookworm-light-astro" />
-    <meta name="msapplication-TileColor" content="#000000" />
-    <meta
-      name="theme-color"
-      media="(prefers-color-scheme: light)"
-      content="#fff"
-    />
-    <meta
-      name="theme-color"
-      media="(prefers-color-scheme: dark)"
-      content="#000"
-    />
-    <meta name="generator" content={Astro.generator} />
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<head>
+  <!-- favicon -->
+  <link rel="shortcut icon" href={config.site.favicon} />
+  <!-- theme meta -->
+  <meta name="theme-name" content="bookworm-light-astro" />
+  <meta name="msapplication-TileColor" content="#000000" />
+  <meta
+    name="theme-color"
+    media="(prefers-color-scheme: light)"
+    content="#fff"
+  />
+  <meta
+    name="theme-color"
+    media="(prefers-color-scheme: dark)"
+    content="#000"
+  />
+  <meta name="generator" content={Astro.generator} />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-    <!-- google font css -->
-    <AstroFont
-      config={[
-        {
-          src: [],
-          preload: false,
-          display: "swap",
-          name: fontPrimary!,
-          fallback: "sans-serif",
-          cssVariable: "font-primary",
-          googleFontsURL: `https://fonts.googleapis.com/css2?family=${pf}&display=swap`,
-        },
-        {
-          src: [],
-          preload: false,
-          display: "swap",
-          name: fontSecondary!,
-          fallback: "sans-serif",
-          cssVariable: "font-secondary",
-          googleFontsURL: `https://fonts.googleapis.com/css2?family=${sf}&display=swap`,
-        },
-      ]}
-    />
+  <!-- google font css -->
+  <AstroFont
+    config={[
+      {
+        src: [],
+        preload: false,
+        display: "swap",
+        name: fontPrimary!,
+        fallback: "sans-serif",
+        cssVariable: "font-primary",
+        googleFontsURL: `https://fonts.googleapis.com/css2?family=${pf}&display=swap`
+      },
+      {
+        src: [],
+        preload: false,
+        display: "swap",
+        name: fontSecondary!,
+        fallback: "sans-serif",
+        cssVariable: "font-secondary",
+        googleFontsURL: `https://fonts.googleapis.com/css2?family=${sf}&display=swap`
+      }
+    ]}
+  />
 
-    <!-- responsive meta -->
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, maximum-scale=5"
-    />
+  <!-- responsive meta -->
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=5"
+  />
 
-    <!-- title -->
-    <title>
-      {plainify(meta_title ? meta_title : title ? title : config.site.title)}
-    </title>
+  <!-- title -->
+  <title>
+    {plainify(meta_title ? meta_title : title ? title : config.site.title)}
+  </title>
 
-    <!-- canonical url -->
-    {canonical && <link rel="canonical" href={canonical} item-prop="url" />}
+  <!-- keywords -->
+  <meta
+    name="keywords"
+    content={plainify(
+      keywords ? keywords : config.metadata.meta_keywords
+    )}
+  />
+  <!-- canonical url -->
+  {canonical &&
+    <link rel="canonical" href={canonical} item-prop="url" />}
 
-    <!-- noindex robots -->
-    {noindex && <meta name="robots" content="noindex,nofollow" />}
+  <!-- noindex robots -->
+  {noindex &&
+    <meta name="robots" content="noindex,nofollow" />}
 
-    <!-- meta-description -->
-    <meta
-      name="description"
-      content={plainify(
-        description ? description : config.metadata.meta_description,
-      )}
-    />
+  <!-- meta-description -->
+  <meta
+    name="description"
+    content={plainify(
+      description ? description : config.metadata.meta_description
+    )}
+  />
 
-    <ViewTransitions />
+  <ViewTransitions />
 
-    <!-- author from config.json -->
-    <meta name="author" content={config.metadata.meta_author} />
+  <!-- author from config.json -->
+  <meta name="author" content={config.metadata.meta_author} />
 
-    <!-- og-title -->
-    <meta
-      property="og:title"
-      content={plainify(
-        meta_title ? meta_title : title ? title : config.site.title,
-      )}
-    />
+  <!-- og-title -->
+  <meta
+    property="og:title"
+    content={plainify(
+      meta_title ? meta_title : title ? title : config.site.title
+    )}
+  />
 
-    <!-- og-description -->
-    <meta
-      property="og:description"
-      content={plainify(
-        description ? description : config.metadata.meta_description,
-      )}
-    />
-    <meta property="og:type" content="website" />
-    <meta
-      property="og:url"
-      content={`${config.site.base_url}/${Astro.url.pathname.replace("/", "")}`}
-    />
+  <!-- og-description -->
+  <meta
+    property="og:description"
+    content={plainify(
+      description ? description : config.metadata.meta_description
+    )}
+  />
+  <meta property="og:type" content="website" />
+  <meta
+    property="og:url"
+    content={`${config.site.base_url}/${Astro.url.pathname.replace("/", "")}`}
+  />
 
-    <!-- twitter-title -->
-    <meta
-      name="twitter:title"
-      content={plainify(
-        meta_title ? meta_title : title ? title : config.site.title,
-      )}
-    />
+  <!-- twitter-title -->
+  <meta
+    name="twitter:title"
+    content={plainify(
+      meta_title ? meta_title : title ? title : config.site.title
+    )}
+  />
 
-    <!-- twitter-description -->
-    <meta
-      name="twitter:description"
-      content={plainify(
-        description ? description : config.metadata.meta_description,
-      )}
-    />
+  <!-- twitter-description -->
+  <meta
+    name="twitter:description"
+    content={plainify(
+      description ? description : config.metadata.meta_description
+    )}
+  />
 
-    <!-- og-image -->
-    <meta
-      property="og:image"
-      content={`${config.site.base_url}${
-        image ? image : config.metadata.meta_image
-      }`}
-    />
+  <!-- og-image -->
+  <meta
+    property="og:image"
+    content={`${config.site.base_url}${
+      image ? image : config.metadata.meta_image
+    }`}
+  />
 
-    <!-- twitter-image -->
-    <meta
-      name="twitter:image"
-      content={`${config.site.base_url}${
-        image ? image : config.metadata.meta_image
-      }`}
-    />
-    <meta name="twitter:card" content="summary_large_image" />
-  </head>
-  <body>
-    <TwSizeIndicator />
-    <Header />
-    <main id="main-content" class="min-h-[60vh]">
-      <slot />
-    </main>
-    <Footer />
-  </body>
+  <!-- twitter-image -->
+  <meta
+    name="twitter:image"
+    content={`${config.site.base_url}${
+      image ? image : config.metadata.meta_image
+    }`}
+  />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-web@1.501.0/style.min.css" />
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-L55ZEREC8J"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-L55ZEREC8J');
+  </script>
+  <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
+  <script>LA.init({id:"KYq92s1KCo3d2l07",ck:"KYq92s1KCo3d2l07"})</script>
+</head>
+<body>
+<TwSizeIndicator />
+<Header />
+<main id="main-content" class="min-h-[60vh]">
+  <slot />
+</main>
+<Footer />
+</body>
 </html>

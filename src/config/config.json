@@ -1,35 +1,36 @@
 {
   "site": {
-    "title": "Bookworm Light Astro | Blog Template",
-    "base_url": "https://bookworm-light-astro.vercel.app",
+    "title": "Rust 编程教程 | 学习 Rust 语言 - Rs.BiFuBa.COM",
+    "base_url": "",
     "base_path": "/",
     "trailing_slash": false,
-    "favicon": "/images/favicon.png",
-    "logo": "/images/logo.png",
+    "favicon": "/images/rust-programming-thumb.png",
+    "logo": "/images/rs.bifuba.com-logo.png",
     "logo_width": "200",
     "logo_height": "34",
-    "logo_text": "Bookworm Light"
+    "logo_text": "Rust 编程教程 | 学习 Rust 语言"
   },
 
   "settings": {
-    "pagination": 5,
+    "pagination": 7,
     "summary_length": 100
   },
 
   "metadata": {
-    "meta_author": "Themefisher",
-    "meta_image": "/images/og-image.png",
-    "meta_description": "Bookworm Light Astro Blog Template"
+    "meta_keywords": "Rust, Rust 语言，Rust 编程，Rust 教程，Rust 学习，Rust 入门，Rust 高级，Rust 中文实战，Rust 项目实战，Salvo web 框架，Tokio 异步编程",
+    "meta_author": "Houseme",
+    "meta_image": "https://static-rs.bifuba.com/images/rust-programming-thumb.png",
+    "meta_description": "探索 Rust 编程语言的全面教程，从入门到高级，Bifuba 带你深入掌握 Rust 语言。"
   },
 
   "params": {
     "contact_form_action": "#",
-    "copyright": "Copyright © 2023 a theme by [Themefisher](https://themefisher.com)"
+    "copyright": "Copyright © 2024 [BiFuBa](https://bifuba.com)"
   },
 
   "contactinfo": {
     "address": "355 S Grand Ave <br/> Los Angeles, CA 90071",
-    "email": "info@bookworm.org",
-    "phone": "+800 567 1234"
+    "email": "dev@bifuba.com",
+    "phone": "+800 XXX 1234"
   }
 }

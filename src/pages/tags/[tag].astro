@@ -12,7 +12,7 @@ export async function getStaticPaths() {
 
   return tags.map((tag) => {
     return {
-      params: { tag },
+      params: { tag }
     };
   });
 }
@@ -24,9 +24,13 @@ const filterByTags = taxonomyFilter(posts, "tags", tag);
 const sortedPosts = sortByDate(filterByTags);
 
 const title = humanize(tag || "");
+const meta_title = ` ${title} - Rust 编程教程 | 学习 Rust 语言 - Rs.BiFuBa.COM`;
 ---
 
-<Base title={title || "Tag"}>
+<Base
+  title={title}
+  meta_title={meta_title}
+>
   <div class="section">
     <div class="container">
       <p class="text-center text-2xl mb-4">Showing Posts From</p>
