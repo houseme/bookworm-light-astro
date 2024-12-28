@@ -2,7 +2,7 @@
 title: "Dioxus 0.6 工具链配置实战指南：打造高效开发环境"
 description: "在 Dioxus 0.6.1 中，工具链的配置更加现代化和简洁。通过合理设置开发工具，开发者可以更流畅地编写、调试和构建应用。本文将基于 Dioxus 0.6.1 的官方文档，详细讲解如何配置工具链，并提供完整的示例代码，帮助你打造一个高效、优雅的开发环境。"
 date: 2024-12-08T06:20:00Z
-image: "/images/posts/pexels-pavel-danilyuk-7406132.jpg"
+image: "https://static-rs.bifuba.com/images/posts/pexels-pavel-danilyuk-7406132.jpg"
 categories: [ "Rust", "Dioxus" ]
 authors: [ "houseme" ]
 tags: [ "rust", "Dioxus", "front-end","Assent","Trunk","Rustup","WASM","dioxus-cli" ]
