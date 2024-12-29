@@ -1,17 +1,19 @@
 ---
+import config from "@/config/config.json";
 import { Image } from "astro:assets";
 import Share from "@/components/Share.astro";
 import SimilarPosts from "@/components/SimilarPosts.astro";
 import { getSinglePage } from "@/lib/contentParser.astro";
 import dateFormat from "@/lib/utils/dateFormat";
-import similerItems from "@/lib/utils/similarItems";
+import similarItems from "@/lib/utils/similarItems";
 import { humanize, markdownify, slugify } from "@/lib/utils/textConverter";
 import { BiCalendarEdit, BiCategoryAlt } from "react-icons/bi";
 
+const { base_url } = config.site;
 const allAuthors = await getSinglePage("authors");
 const posts = await getSinglePage("posts");
 const { post } = Astro.props;
-const similarPosts = similerItems(post, posts, post.slug);
+const similarPosts = similarItems(post, posts, post.slug);
 const { Content } = await post.render();
 const { title, description, authors, categories, image, date, tags } =
   post.data;
@@ -33,7 +35,7 @@ const { title, description, authors, categories, image, date, tags } =
                 )
                 .map((author, i) => (
                   <a
-                    href={`/authors/${slugify(author.slug)}`}
+                    href={`${base_url}/authors/${slugify(author.slug)}`}
                     class="flex items-center hover:text-primary font-medium"
                   >
                     {author.data.image && (
@@ -62,7 +64,7 @@ const { title, description, authors, categories, image, date, tags } =
                   categories.map((category: string, i: number) => (
                     <li class="inline-block">
                       <a
-                        href={`/categories/${slugify(category)}`}
+                        href={`${base_url}/categories/${slugify(category)}`}
                         class="mr-2 hover:text-primary font-medium"
                       >
                         {humanize(category)}
@@ -105,7 +107,7 @@ const { title, description, authors, categories, image, date, tags } =
               tags.map((tag: string) => (
                 <li class="inline-block">
                   <a
-                    href={`/tags/${slugify(tag)}`}
+                    href={`${base_url}/tags/${slugify(tag)}`}
                     class="block rounded-lg bg-theme-light px-4 py-2 font-semibold text-dark text-sm hover:text-primary transition duration-300"
                   >
                     #{humanize(tag)}

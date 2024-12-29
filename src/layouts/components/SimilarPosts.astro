@@ -1,8 +1,10 @@
 ---
 import { Image } from "astro:assets";
+import config from "@/config/config.json";
 import dateFormat from "@/lib/utils/dateFormat";
 import { humanize, slugify } from "@/lib/utils/textConverter";
 import { BiCalendarEdit, BiCategoryAlt } from "react-icons/bi";
+const { base_url } = config.site;
 const { posts } = Astro.props;
 ---
 
@@ -12,7 +14,7 @@ const { posts } = Astro.props;
       <div class={`col-12 sm:col-6 md:col-4 ${i === 2 && "hidden md:block"}`}>
         {post.data.image && (
           <a
-            href={`/${post.slug}`}
+            href={`${base_url}/${post.slug}`}
             class="rounded-lg block hover:text-primary overflow-hidden group"
           >
             <Image
@@ -36,7 +38,7 @@ const { posts } = Astro.props;
                 {post.data.categories.map((category: string, i: number) => (
                   <li class="inline-block">
                     <a
-                      href={`/categories/${slugify(category)}`}
+                      href={`${base_url}/categories/${slugify(category)}`}
                       class="mr-2 hover:text-primary font-medium"
                     >
                       {humanize(category)}
@@ -50,7 +52,7 @@ const { posts } = Astro.props;
         </ul>
         <h3 class="h5">
           <a
-            href={`/${post.slug}`}
+            href={`${base_url}/${post.slug}`}
             class="block hover:text-primary transition duration-300"
           >
             {post.data.title}

@@ -5,12 +5,24 @@
       "url": "/"
     },
     {
-      "name": "About",
-      "url": "/about"
+      "name": "Categories",
+      "url": "/categories"
     },
     {
-      "name": "Contact",
-      "url": "/contact"
+      "name": "Tags",
+      "url": "/tags"
+    },
+    {
+      "name": "Rust Guide",
+      "url": "/categories/rust"
+    },
+    {
+      "name": "Salvo Web Framework",
+      "url": "/categories/salvo"
+    },
+    {
+      "name": "Tokio Async Programming",
+      "url": "/categories/tokio"
     },
     {
       "name": "Pages",
@@ -22,12 +34,12 @@
           "url": "/authors"
         },
         {
-          "name": "Categories",
-          "url": "/categories"
+          "name": "About",
+          "url": "/about"
         },
         {
-          "name": "Tags",
-          "url": "/tags"
+          "name": "Contact",
+          "url": "/contact"
         },
         {
           "name": "Elements",
