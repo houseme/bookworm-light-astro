@@ -24,7 +24,7 @@ const { category } = Astro.params;
 const posts = await getSinglePage("posts");
 const filterByCategory = taxonomyFilter(posts, "categories", category);
 const sortedPosts = sortByDate(filterByCategory);
-const totalPages = Math.ceil(posts.length / config.settings.pagination);
+const totalPages = Math.ceil(sortedPosts.length / config.settings.pagination);
 const currentPosts = sortedPosts.slice(0, config.settings.pagination);
 
 const title = humanize(category || "");
