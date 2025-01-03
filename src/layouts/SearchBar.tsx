@@ -95,7 +95,7 @@ export default function SearchBar({ searchList }: Props) {
           <div key={item.slug} className={"col-12 mb-8 sm:col-6"}>
             {item.data.image && (
               <a
-                href={`/${item.slug}`}
+                href={`/${item.slug}`} title={item.data.title}
                 className="rounded-lg block hover:text-primary overflow-hidden group"
               >
                 <img
@@ -120,7 +120,7 @@ export default function SearchBar({ searchList }: Props) {
                     {item.data.categories.map((category: string, i: number) => (
                       <li key={i} className="inline-block">
                         <a
-                          href={`/categories/${slugify(category)}`}
+                          href={`/categories/${slugify(category)}`} title={humanize(category)}
                           className="mr-2 hover:text-primary font-medium"
                         >
                           {humanize(category)}
@@ -135,7 +135,7 @@ export default function SearchBar({ searchList }: Props) {
 
             <h3 className="mb-2">
               <a
-                href={`/${item.slug}`}
+                href={`/${item.slug}`} title={item.data.title}
                 className="block hover:text-primary transition duration-300"
               >
                 {item.data.title}

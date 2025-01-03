@@ -14,7 +14,7 @@ const { posts } = Astro.props;
       <div class={`col-12 sm:col-6 md:col-4 ${i === 2 && "hidden md:block"}`}>
         {post.data.image && (
           <a
-            href={`${base_url}/${post.slug}`}
+            href={`${base_url}/${post.slug}`} title={post.data.title}
             class="rounded-lg block hover:text-primary overflow-hidden group"
           >
             <Image
@@ -39,7 +39,7 @@ const { posts } = Astro.props;
                   <li class="inline-block">
                     <a
                       href={`${base_url}/categories/${slugify(category)}`}
-                      class="mr-2 hover:text-primary font-medium"
+                      class="mr-2 hover:text-primary font-medium" title={humanize(category)}
                     >
                       {humanize(category)}
                       {i !== post.data.categories.length - 1 && ","}
@@ -53,7 +53,7 @@ const { posts } = Astro.props;
         <h3 class="h5">
           <a
             href={`${base_url}/${post.slug}`}
-            class="block hover:text-primary transition duration-300"
+            class="block hover:text-primary transition duration-300" title={post.data.title}
           >
             {post.data.title}
           </a>

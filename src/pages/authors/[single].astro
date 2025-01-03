@@ -54,7 +54,7 @@ const currentPosts = sortPostsByDate.filter((post) => {
               <div class="col-12 sm:col-6 lg:col-4">
                 {post.data.image && (
                   <a
-                    href={`/${post.slug}`}
+                    href={`/${post.slug}`} title={post.data.title}
                     class="rounded-lg block hover:text-primary overflow-hidden group"
                   >
                     <Image
@@ -79,7 +79,7 @@ const currentPosts = sortPostsByDate.filter((post) => {
                           (category: string, i: number) => (
                             <li class="inline-block">
                               <a
-                                href={`/categories/${slugify(category)}`}
+                                href={`/categories/${slugify(category)}`} title={humanize(category)}
                                 class="mr-2 hover:text-primary font-medium"
                               >
                                 {humanize(category)}
@@ -94,7 +94,7 @@ const currentPosts = sortPostsByDate.filter((post) => {
                 </ul>
                 <h3 class="h5">
                   <a
-                    href={`/${post.slug}`}
+                    href={`/${post.slug}`} title={post.data.title}
                     class="block hover:text-primary transition duration-300"
                   >
                     {post.data.title}

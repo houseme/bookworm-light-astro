@@ -9,7 +9,7 @@ import { BiCategoryAlt } from "react-icons/bi";
 const { base_url } = config.site;
 ---
 
-<Base title={"Categories - Rust 编程教程 | 学习 Rust 语言 - Rs.BiFuBa.COM"}>
+<Base title={"Categories - Rust 编程教程 - 学习 Rust 编程语言的最佳资源和教程"}>
   <section class="section">
     <div class="container text-center">
       <h1 class="h2 page-heading">Categories</h1>
@@ -18,7 +18,7 @@ const { base_url } = config.site;
           categories.map((category) => (
             <li class="inline-block">
               <a
-                href={`${base_url}/categories/${category}`}
+                href={`${base_url}/categories/${category}`} title={humanize(category || "")}
                 class="rounded-lg bg-theme-light px-4 py-2 text-dark transition hover:bg-primary hover:text-white flex items-center group"
               >
                 <BiCategoryAlt className="mr-1 text-primary group-hover:text-white transition h-6 w-6 scale-75" />

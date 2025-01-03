@@ -8,7 +8,7 @@ import { FaHashtag } from "react-icons/fa";
 const tags = await getTaxonomy("posts", "tags");
 ---
 
-<Base title={"Tags - Rust 编程教程 | 学习 Rust 语言 - Rs.BiFuBa.COM"}>
+<Base title={"Tags - Rust 编程教程 - 学习 Rust 编程语言的最佳资源和教程"}>
   <section class="section">
     <div class="container text-center">
       <h1 class="h2 page-heading">Tags</h1>
@@ -17,7 +17,7 @@ const tags = await getTaxonomy("posts", "tags");
           tags.map((tag) => (
             <li class="inline-block">
               <a
-                href={`/tags/${tag}`}
+                href={`/tags/${tag}`} title={humanize(tag || "")}
                 class="rounded-lg bg-theme-light px-4 py-2 text-dark transition hover:bg-primary hover:text-white flex items-center group"
               >
                 <FaHashtag className="mr-1 text-primary group-hover:text-white transition" />

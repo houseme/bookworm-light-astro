@@ -15,9 +15,9 @@ import { markdownify } from "@/lib/utils/textConverter";
           <li class="inline-block">
             {
               menu.url === '/rss.xml' ? (
-                <a href={menu.url} target="_blank"  class="p-4 text-white/75 hover:text-white transition-all" rel="noopener noreferrer">{menu.name}</a>
+                <a href={menu.url} target="_blank"  class="p-4 text-white/75 hover:text-white transition-all" rel="noopener noreferrer" title={menu.name}>{menu.name}</a>
               ) : (
-                <a href={menu.url}  class="p-4 text-white/75 hover:text-white transition-all" >{menu.name}</a>
+                <a href={menu.url}  class="p-4 text-white/75 hover:text-white transition-all" title={menu.name}>{menu.name}</a>
               )
             }
           </li>
