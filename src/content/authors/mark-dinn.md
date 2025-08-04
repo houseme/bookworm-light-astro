@@ -1,6 +1,6 @@
 ---
 title: "Mark Dinn"
-meta_title: "Mark Dinn - Rust 编程教程 | 学习 Rust 语言 - Rs.BiFuBa.COM"
+meta_title: "Mark Dinn - Rust 编程教程 - 学习 Rust 编程语言的最佳资源和教程 - bifuba.com"
 image: /images/authors/mark-dinn.jpg
 description: this is meta description
 social:
