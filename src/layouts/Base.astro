@@ -99,13 +99,6 @@ const { title, meta_title, keywords, description, image, noindex, canonical } =
       keywords ? keywords : config.metadata.meta_keywords
     )}
   />
-  <!-- canonical url -->
-  {canonical &&
-    <link rel="canonical" href={canonical} item-prop="url" />}
-
-  <!-- noindex robots -->
-  {noindex &&
-    <meta name="robots" content="noindex,nofollow" />}
 
   <meta name="robots" content="index,follow" />
 
