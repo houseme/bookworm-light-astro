@@ -3,9 +3,9 @@ title: "基于 `rumqttc` 的 MQTT 实战指南：从理论到实践，解锁 Rus
 description: "本文将为您提供一份详细的 `rumqttc` 实战指南，涵盖 MQTT 协议的理论基础、`rumqttc` 的核心功能，以及通过同步和异步方式实现 MQTT 通信的完整示例代码。我们将从基础配置到高级特性（如 MQTT 5.0 的用户属性、主题别名），结合实际场景，带您深入探索 Rust 与 MQTT 的完美结合。"
 date: 2025-06-12T10:00:00Z
 image: "https://static-rs.bifuba.com/images/posts/crossbeam/pexels-leonardo-mello-2147879281-29811614-1920.jpg"
-categories: [ "Rust", "MQTT", "rumqttc" ]
+categories: [ "Rust", "MQTT", "rumqttc","实战指南" ]
 authors: [ "houseme" ]
-tags: [ "rust", "mqtt", "rumqttc", "iot", "async", "sync", "mqtt5.0" ]
+tags: [ "rust", "mqtt", "rumqttc", "iot", "async", "sync", "mqtt5.0", "rust mqtt client","实战指南","物联网","异步编程","同步编程","解耦通信" ]
 keywords: "rust, mqtt, rumqttc, iot, async, sync, mqtt5.0, rust mqtt client"
 draft: false
 ---

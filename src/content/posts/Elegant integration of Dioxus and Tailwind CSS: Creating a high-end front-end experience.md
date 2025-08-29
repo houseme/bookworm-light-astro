@@ -3,10 +3,10 @@ title: "优雅整合 Dioxus 与 Tailwind CSS：打造高端前端体验"
 description: "在现代前端开发中，选择合适的工具和技术栈至关重要。Dioxus 作为一个高效、灵活的 Rust 前端框架，结合 Tailwind CSS 这一功能强大的实用型 CSS 框架，能够帮助开发者快速构建出优雅且高性能的 Web 应用。本文将基于 Dioxus 0.6.1 的语法，深入探讨如何在 Dioxus 项目中集成 Tailwind CSS，并利用 `asset` 管理静态资源，打造一个高端的前端开发体验。"
 date: 2024-12-08T06:20:10Z
 image: "https://static-rs.bifuba.com/images/posts/pexels-pixabay-66284.jpg"
-categories: [ "Rust", "Dioxus","Tailwind CSS" ]
+categories: [ "Rust", "Dioxus","Tailwind CSS","Front-end","Asset" ]
 authors: [ "houseme" ]
-tags: [ "rust", "Dioxus", "front-end","Tailwind CSS","asset" ]
-keywords: "rust,Dioxus,front-end,Tailwind CSS,asset"
+tags: [ "rust", "Dioxus", "front-end","Tailwind CSS","asset","web","static resource management","resource management","static assets","web development","web design","css framework","utility-first css","responsive design" ]
+keywords: "rust,Dioxus,front-end,Tailwind CSS,asset,web,static resource management,resource management,static assets,css framework,utility-first css,responsive design"
 draft: false
 ---
 

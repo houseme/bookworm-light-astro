@@ -3,10 +3,10 @@ title: "解密 Crossbeam：模块详解与实战代码"
 description: "Crossbeam 是 Rust 并发编程的利器，其模块化设计允许开发者根据需求选择性地使用功能强大的工具。本文将深入解析 Crossbeam 的主要模块，并通过完整的实例代码展示它们在实际场景中的应用。"
 date: 2024-12-09T10:45:00Z
 image: "https://static-rs.bifuba.com/images/posts/pexels-dropshado-29917549-1920.jpg"
-categories: [ "Rust","Crossbeam" ]
+categories: [ "Rust","Crossbeam","并发","线程管理","通道","队列","内存管理","实战指南" ]
 authors: [ "houseme" ]
-tags: [ "rust","crossbeam","concurrency","thread management","channel","queue","memory management","practical guide" ]
-keywords: "rust,crossbeam,并发,线程管理,通道,队列,内存管理,实战指南"
+tags: [ "rust","crossbeam","concurrency","thread management","channel","queue","memory management","practical guide","并发","线程管理","通道","队列","内存管理","实战指南" ]
+keywords: "rust,crossbeam,并发,线程管理,通道,队列,内存管理,实战指南,practical guide,concurrency,thread management,channel,queue,memory management"
 draft: false
 ---
 

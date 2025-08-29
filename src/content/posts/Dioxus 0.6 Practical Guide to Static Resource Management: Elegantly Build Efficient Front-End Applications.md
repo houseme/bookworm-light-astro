@@ -3,10 +3,10 @@ title: "Dioxus 0.6 静态资源管理实战指南：优雅构建高效前端应�
 description: "在 Dioxus 0.6.1 中，静态资源管理变得更加简洁和强大。通过 `asset!` 宏，开发者可以轻松地引用静态资源，并确保这些资源在构建过程中被自动优化和打包。本文将基于 Dioxus 0.6.1 的语法，修复并优化之前的示例代码，展示如何优雅地管理静态资源。"
 date: 2024-12-08T06:00:00Z
 image: "https://static-rs.bifuba.com/images/posts/pexels-pavel-danilyuk-7406132.jpg"
-categories: [ "Rust", "Dioxus" ]
+categories: [ "Rust", "Dioxus", "Front-end", "Assent","实战指南" ]
 authors: [ "houseme" ]
-tags: [ "rust", "Dioxus", "front-end","Assent" ]
-keywords: "rust,Dioxus,static resource management,front-end"
+tags: [ "rust", "Dioxus", "front-end","Assent","web","desktop","mobile","static resource management","resource management","static assets","web development","desktop development","mobile development","实战指南" ]
+keywords: "rust,Dioxus,static resource management,front-end,web,desktop,mobile,Assent,实战指南"
 draft: false
 ---
 

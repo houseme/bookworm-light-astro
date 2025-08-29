@@ -3,10 +3,10 @@ title: "✂️ 优雅裁剪依赖：Cargo Shear 实战使用指南"
 description: "本文将从基础到进阶，带你深入了解 `cargo-shear` 的安装、使用、局限性以及在 CI 环境中的集成。通过理论分析与实战代码示例，帮助你优雅地管理 Rust 项目的依赖，打造更干净、更高效的开发体验。"
 date: 2025-07-05T16:00:00Z
 image: "https://static-rs.bifuba.com/images/250804/pexels-lukasz-dabrowski-527586572-32806732.jpg"
-categories: [ "rust", "cargo" ]
+categories: [ "rust", "cargo", "Shear", "依赖管理" ]
 authors: [ "houseme" ]
-tags: [ "rust","Shear", "Open Source", "Dependency Management", "Cargo Shear", "Rust Project", "Dependency Cleanup", "Cargo" ]
-keywords: "rust,Open Source,Dependency Management,Cargo Shear,Rust Project,Dependency Cleanup,Cargo"
+tags: [ "rust","Shear", "Open Source", "Dependency Management", "Cargo Shear", "Rust Project", "Dependency Cleanup", "Cargo", "依赖管理","开源工具","项目优化" ]
+keywords: "rust,Open Source,Dependency Management,Cargo Shear,Rust Project,Dependency Cleanup,Cargo,依赖管理,开源工具,项目优化"
 draft: false
 ---
 

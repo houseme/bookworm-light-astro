@@ -3,10 +3,10 @@ title: "打造更安全的 Rust 项目：cargo audit 实战指南"
 description: "在 Rust 开发中，依赖管理是一个重要的环节。然而，依赖库中的漏洞可能会成为安全隐患。幸运的是，Rust 提供了强大的工具来帮助开发者进行安全检查，`cargo audit` 是其中的明星之一。本指南将从零开始，带你用实例代码体验如何优雅地使用 `cargo audit`，并保持依赖的安全性。"
 date: 2024-12-10T11:00:00Z
 image: "https://static-rs.bifuba.com/images/posts/pexels-pavel-danilyuk-7406132.jpg"
-categories: [ "Rust", "Cargo", "Cargo audit" ]
+categories: [ "Rust", "Cargo", "Cargo audit", "安全","依赖管理" ]
 authors: [ "houseme" ]
-tags: [ "rust", "cargo", "security", "Cargo audit", "Rust security", "Rust security audit", "Rust security vulnerabilities" ]
-keywords: "rust,cargo,security,Cargo audit,Rust security,Rust security audit,Rust security vulnerabilities"
+tags: [ "rust", "cargo", "security", "Cargo audit", "Rust security", "Rust security audit", "Rust security vulnerabilities","依赖管理","安全审计","漏洞检测" ]
+keywords: "rust,cargo,security,Cargo audit,Rust security,Rust security audit,Rust security vulnerabilities,依赖管理,安全审计,漏洞检测"
 draft: false
 ---
 

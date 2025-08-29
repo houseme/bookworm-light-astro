@@ -3,38 +3,10 @@ title: "Rust 中 PKCS1 与 PKCS8 RSA 密钥格式转换及比较"
 description: "在现代加在现代加密应用中，RSA 密钥对是常用的非对称加密技术。为了确保密钥的安全性和兼容性，我们通常需要将密钥存储为不同的格式，如 PKCS#1 和 PKCS#8。本文将详细介绍如何使用 Rust 将 PKCS#1 格式的 RSA 密钥对转换为 PEM 格式并存储，并比较 PKCS#1 与 PKCS#8 的异同及优缺点。"
 date: 2024-11-03T08:15:00Z
 image: "https://static-rs.bifuba.com/images/posts/tim-marshall-jqj2SqvxMVY-unsplash.jpg"
-categories:
-  [
-    "rust",
-    "RSA key pair",
-    "PKCS#1",
-    "PKCS#8",
-    "generate",
-    "store",
-    "file",
-    "format",
-    "encryption",
-    "decryption",
-    "security",
-    "compatibility",
-  ]
+categories: ["rust","RSA key pair","PKCS#1","PKCS#8","generate","store","file","format","encryption","decryption","security","compatibility"]
 authors: ["houseme"]
-tags:
-  [
-    "rust",
-    "RSA key pair",
-    "PKCS#1",
-    "PKCS#8",
-    "generate",
-    "store",
-    "file",
-    "format",
-    "encryption",
-    "decryption",
-    "security",
-    "compatibility",
-  ]
-keywords: "rust, RSA密钥对, PKCS#1, PKCS#8, 生成, 存储, 文件, 格式, 加密, 解密, 安全, 兼容性"
+tags: ["rust","RSA key pair","PKCS#1","PKCS#8","generate","store","file","format","encryption","decryption","security","compatibility","rsa","pem","key conversion","key storage","asymmetric encryption","cryptography","security best practices"]
+keywords: "rust, RSA密钥对, PKCS#1, PKCS#8, 生成, 存储, 文件, 格式, 加密, 解密, 安全, 兼容性,encryption,decryption,security,compatibility"
 draft: false
 ---
 

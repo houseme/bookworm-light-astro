@@ -3,10 +3,10 @@ title: "Hashbrown：Rust 中的“瑞士军刀”哈希表——从小白到高�
 description: "在 Rust 的标准库中，`HashMap`和`HashSet`是常用的哈希表实现，但它们在性能和内存上并非完美。进入 Hashbrown：这是一个 Rust 对 Google 高性能 SwissTable 哈希表的移植版本。它像瑞士军刀一样多功能，直接兼容 Rust 的标准库 API，却在速度、内存和灵活性上大放异彩。"
 date: 2025-07-28T10:20:00Z
 image: "https://static-rs.bifuba.com/images/250804/pexels-gera-cejas-3616330-31044026.jpg"
-categories: [ "Rust","Cargo","Hashbrown" ]
+categories: [ "Rust","Cargo","Hashbrown","哈希表","性能优化","实战指南" ]
 authors: [ "houseme" ]
-tags: [ "rust","cargo","Cargo.toml","Hashbrown","hash table","SwissTable","performance","memory optimization" ]
-keywords: "rust,cargo,Cargo.toml,Hashbrown,hash table,SwissTable,performance,memory optimization"
+tags: [ "rust","cargo","Cargo.toml","Hashbrown","hash table","SwissTable","performance","memory optimization","Rust HashMap","Rust HashSet","no_std","custom hasher","embedded systems","high performance","实战指南","性能优化","内存优化" ]
+keywords: "rust,cargo,Cargo.toml,Hashbrown,hash table,SwissTable,performance,memory optimization,Rust HashMap,Rust HashSet,no_std,custom hasher,embedded systems,high performance,实战指南,性能优化,内存优化"
 draft: false
 ---
 

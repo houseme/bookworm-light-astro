@@ -5,8 +5,8 @@ date: 2024-09-26T06:00:00Z
 image: "https://static-rs.bifuba.com/images/posts/01.jpg"
 categories: ["childcare home", "name change"]
 authors: ["houseme"]
-tags: ["childcare home", "name change", "community", "creativity", "育儿之家"]
-keywords: "childcare home, name change, community, creativity,育儿之家"
+tags: ["childcare home", "name change", "community", "creativity", "育儿之家","rust实战学习"]
+keywords: "childcare home, name change, community, creativity,育儿之家，rust实战学习"
 draft: false
 ---
 

@@ -5,8 +5,8 @@ date: 2025-08-25T18:20:00Z
 image: "https://static-rs.bifuba.com/images/250804/pexels-ernestorosas-33607930.jpg"
 categories: [ "Rust","Cargo","缓存","并发编程","性能优化" ]
 authors: [ "houseme" ]
-tags: [ "Rust 实战","Rust","cargo","缓存","并发编程","性能优化","Moka" ]
-keywords: "Rust 实战,Rust,cargo,缓存,并发编程,性能优化,Moka"
+tags: [ "Rust 实战","Rust","cargo","缓存","并发编程","性能优化","Moka","算法","异步编程","Tokio","TinyLFU","驱逐策略","过期策略","Eviction Listener","Upsert","基准测试","性能监控" ]
+keywords: "Rust 实战,Rust,cargo,缓存,并发编程,性能优化,Moka,算法,异步编程,Tokio,TinyLFU,驱逐策略,过期策略,Eviction Listener,Upsert,基准测试,性能监控"
 draft: false
 ---
 

@@ -3,10 +3,10 @@ title: "并发与异步的抉择：Crossbeam 与 Tokio 的全方位对比与实�
 description: "Crossbeam 是 Rust 并发编程的利器，其模块化设计允许开发者根据需求选择性地使用功能强大的工具。本文将深入解析 Crossbeam 的主要模块，并通过完整的实例代码展示它们在实际场景中的应用。"
 date: 2024-12-12T11:45:00Z
 image: "https://static-rs.bifuba.com/images/posts/pexels-dropshado-29917338-1920.jpg"
-categories: [ "Rust","Crossbeam" ]
+categories: [ "Rust","Crossbeam","实战指南","Tokio" ]
 authors: [ "houseme" ]
-tags: [ "rust","crossbeam","concurrency","thread management","channel","queue","memory management","practical guide" ]
-keywords: "rust,crossbeam,并发,线程管理,通道,队列,内存管理,实战指南"
+tags: [ "rust","crossbeam","concurrency","thread management","channel","queue","memory management","practical guide","实战指南","并发","线程管理","通道","队列","内存管理","Tokio","异步编程","异步任务调度" ]
+keywords: "rust,crossbeam,并发,线程管理,通道,队列,内存管理,实战指南,Tokio,异步编程,异步任务调度,concurrency,thread management,channel,queue,memory management,practical guide,asynchronous programming,asynchronous task scheduling"
 draft: false
 ---
 

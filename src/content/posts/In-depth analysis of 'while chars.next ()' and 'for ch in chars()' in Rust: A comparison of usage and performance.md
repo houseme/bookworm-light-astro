@@ -3,10 +3,10 @@ title: "深度剖析 Rust 中的 `while chars.next()` 与 `for ch in chars()`：
 description: "在 Rust 中，字符串处理是一个常见且重要的任务。Rust 提供了多种方式来遍历字符串中的字符，其中 `while chars.next()` 和 `for ch in chars()` 是两种常用的方法。本文将深入探讨这两种方法的使用方式、性能差异以及适用场景，帮助你更好地选择合适的字符串处理方法。"
 date: 2024-09-10T23:10:00Z
 image: "https://static-rs.bifuba.com/images/posts/tim-marshall-jqj2SqvxMVY-unsplash.jpg"
-categories: ["Rust", "for-while", "chars"]
+categories: ["Rust", "for-while", "chars","实战指南","性能优化"]
 authors: ["houseme"]
-tags: ["rust", "for-while", "Tokio", "chars"]
-keywords: "Rust, for-while, Tokio, chars, 字符串处理，性能优化"
+tags: ["rust", "for-while", "Tokio", "chars","字符串处理", "性能优化","Rust 字符串处理","Rust 性能优化"]
+keywords: "Rust, for-while, Tokio, chars, 字符串处理，性能优化,Rust 字符串处理，Rust 性能优化"
 draft: false
 ---
 

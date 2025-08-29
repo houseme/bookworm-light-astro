@@ -3,10 +3,10 @@ title: "掌握 Crossbeam：Rust 高性能并发编程深度实战指南"
 description: "Crossbeam 是 Rust 并发编程的利器，其模块化设计允许开发者根据需求选择性地使用功能强大的工具。学习 Crossbeam 不仅限于掌握其基础模块与用法，更重要的是持续跟踪生态发展，深入理解其设计哲学，并与社区互动以获得更多实际经验。本教程将为你提供进阶阅读推荐和社区参与的实用指导。"
 date: 2024-12-15T16:45:00Z
 image: "https://static-rs.bifuba.com/images/posts/pexels-pexels-user-2148204895-29971289-2k.jpg"
-categories: [ "Rust","Crossbeam","practical guide" ]
+categories: [ "Rust","Crossbeam","practical guide","实战指南" ]
 authors: [ "houseme" ]
-tags: [ "rust","crossbeam","practical guide","concurrency","community","advanced reading" ]
-keywords: "rust,crossbeam,实战指南,并发,社区参与,进阶阅读"
+tags: [ "rust","crossbeam","practical guide","concurrency","community","advanced reading","实战指南","并发","社区参与","进阶阅读","并发编程","高性能","生命周期","无锁队列" ]
+keywords: "rust,crossbeam,实战指南,并发,社区参与,进阶阅读,并发编程,高性能,practical guide,concurrency,community,advanced reading"
 draft: false
 ---
 

@@ -3,10 +3,10 @@ title: "跨平台 Rust 库开发实战：深入解析 Cargo.toml 中的 lib 配�
 description: "在 Rust 项目中，`Cargo.toml` 文件是项目配置的核心，它不仅定义了项目的依赖，还控制着库和二进制文件的构建方式。本文将深入探讨 `Cargo.toml` 中的 `[lib]` 配置项，特别是在不同操作系统下的使用差异和优化技巧，帮助开发者高效地进行跨平台库开发。"
 date: 2024-12-09T10:20:00Z
 image: "https://static-rs.bifuba.com/images/posts/stephanie-tuohy-z84vf2GjA_A-unsplash.jpg"
-categories: [ "Rust","Cargo" ]
+categories: [ "Rust","Cargo","跨平台","库开发","项目配置" ]
 authors: [ "houseme" ]
-tags: [ "rust","cargo","Cargo.toml","project configuration","dependency management","optimization tips","library" ]
-keywords: "rust,cargo,Cargo.toml,项目配置,依赖管理,优化技巧,库,跨平台"
+tags: [ "rust","cargo","Cargo.toml","project configuration","dependency management","optimization tips","library","cross-platform","lib configuration" ]
+keywords: "rust,cargo,Cargo.toml,项目配置,依赖管理,优化技巧,库,跨平台,lib 配置"
 draft: false
 ---
 

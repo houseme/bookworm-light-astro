@@ -3,20 +3,10 @@ title: "Rust 与 sqlx：实战项目与最佳实践指南"
 description: "在现代软件开发中，构建复杂业务系统和确保数据一致性是至关重要的。Rust，以其卓越的性能和安全性，结合 sqlx 库的强大功能，为开发者提供了处理数据库操作的理想工具。本文将深入探讨如何使用 Rust 和 sqlx 构建复杂业务系统，并通过详细的示例代码展示每一步的操作。。"
 date: 2024-08-07T06:00:00Z
 image: "https://static-rs.bifuba.com/images/posts/arno-senoner-_7bsgYdTTVE-unsplash.jpg"
-categories: ["sqlx", "security", "tokio", "serde", "rust"]
+categories: ["sqlx", "security", "tokio", "serde", "rust","实战指南"]
 authors: ["houseme"]
-tags:
-  [
-    "rust",
-    "sqlx",
-    "security",
-    "tokio",
-    "dotenv",
-    "bcrypt",
-    "serde",
-    "serde_json",
-  ]
-keywords: "rust,sqlx,security,tokio,Rust 数据库操作，Rust 数据库安全，Rust 数据库连接，Rust 数据库操作安全"
+tags: ["sqlx", "security", "tokio", "serde", "rust","Rust 数据库操作","Rust 数据库安全", "Rust 数据库连接", "Rust 数据库操作安全","实战指南"]
+keywords: "rust,sqlx,security,tokio,Rust 数据库操作，Rust 数据库安全，Rust 数据库连接，Rust 数据库操作安全,serde,实战指南"
 draft: false
 ---
 

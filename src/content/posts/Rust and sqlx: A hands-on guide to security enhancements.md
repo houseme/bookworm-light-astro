@@ -3,9 +3,9 @@ title: "Rust 与 sqlx：安全性增强实战指南"
 description: "在现代软件开发中，确保数据库操作的安全性是至关重要的。Rust，以其卓越的性能和安全性，结合 sqlx 库的强大功能，为开发者提供了处理数据库操作的理想工具。本文将深入探讨如何使用 Rust 和 sqlx 进行安全性增强，并通过详细的示例代码展示每一步的操作。"
 date: 2024-08-07T06:00:00Z
 image: "https://static-rs.bifuba.com/images/posts/arno-senoner-_7bsgYdTTVE-unsplash.jpg"
-categories: ["sqlx", "security", "tokio"]
+categories: ["sqlx", "security", "tokio","实战指南","安全性增强"]
 authors: ["houseme"]
-tags: ["rust", "sqlx", "security", "tokio", "dotenv", "bcrypt"]
+tags: ["rust", "sqlx", "security", "tokio", "dotenv", "bcrypt","mysql","Rust 数据库操作，Rust 数据库安全，Rust 数据库连接，Rust 数据库操作安全"]
 keywords: "rust,sqlx,security,tokio,Rust 数据库操作，Rust 数据库安全，Rust 数据库连接，Rust 数据库操作安全"
 draft: false
 ---

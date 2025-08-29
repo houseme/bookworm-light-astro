@@ -3,10 +3,10 @@ title: "重磅发布 | RustFS：我们开源啦"
 description: "RustFS 从筹备至今已经过去了两年的时间。我们总算开源了，特别感谢您能看到我们。RustFS，一个基于 Rust 语言开发的高性能分布式对象存储系统，专为 AI、大数据和云原生工作负载设计，完全兼容 S3 协议，提供卓越的性能和安全性，助力企业快速搭建现代化数据基础设施。"
 date: 2025-07-02T11:00:00Z
 image: "https://static-rs.bifuba.com/images/rustfs/06069d27-a637-42dd-95dc-52aeec4bdcb3.png"
-categories: [ "Rust", "RustFS" ]
+categories: [ "Rust", "RustFS","对象存储" ]
 authors: [ "houseme" ]
-tags: [ "rust", "RustFS", ]
-keywords: "rust,RustFS"
+tags: [ "rust", "RustFS", "对象存储","分布式存储","开源","S3协议","高性能存储","云原生","大数据存储","AI存储" ]
+keywords: "rust,RustFS,对象存储,分布式存储,开源,S3协议,高性能存储,云原生,大数据存储,AI存储"
 draft: false
 ---
 

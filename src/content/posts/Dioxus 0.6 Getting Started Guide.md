@@ -5,8 +5,8 @@ date: 2024-12-09T07:00:00Z
 image: "https://static-rs.bifuba.com/images/posts/dioxus/pexels-felix-antoine-coutu-174902-29705625.jpg"
 categories: [ "Rust", "Dioxus", "Front-end", "Assent" ]
 authors: [ "houseme" ]
-tags: [ "rust", "Dioxus", "front-end","Assent" ]
-keywords: "rust,Dioxus,static resource management,front-end,web,desktop,mobile"
+tags: [ "rust", "Dioxus", "front-end","Assent","web","desktop","mobile","static resource management","resource management","static assets","web development","desktop development","mobile development" ]
+keywords: "rust,Dioxus,static resource management,front-end,web,desktop,mobile,Assent"
 draft: false
 ---
 

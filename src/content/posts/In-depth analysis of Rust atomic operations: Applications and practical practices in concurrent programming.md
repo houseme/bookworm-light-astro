@@ -3,25 +3,9 @@ title: "深入剖析 Rust 原子操作：并发编程中的应用与实战"
 description: "在并发编程中，原子操作（Atomic Operations）是确保数据一致性和线程安全的关键工具。Rust 通过 `std::sync::atomic` 模块提供了丰富的原子操作，使得开发者能够在多线程环境中安全地操作共享数据。本文将深入剖析 Rust 的原子操作，探讨其基础知识、在并发编程中的应用，并通过实战案例展示如何实现无锁数据结构。"
 date: 2024-09-10T21:00:00Z
 image: "https://static-rs.bifuba.com/images/posts/tim-marshall-jqj2SqvxMVY-unsplash.jpg"
-categories:
-  [
-    "Rust",
-    "concurrency",
-    "atomic-operations",
-    "multithreading",
-    "sync",
-    "atomic",
-  ]
+categories: ["rust","concurrency","atomic-operations","multithreading","sync","atomic","实战指南"]
 authors: ["houseme"]
-tags:
-  [
-    "rust",
-    "concurrency",
-    "atomic-operations",
-    "multithreading",
-    "sync",
-    "atomic",
-  ]
+tags: ["rust","concurrency","atomic-operations","multithreading","sync","atomic","Rust 并发编程","Rust 原子操作"]
 keywords: "Rust, 并发编程, 原子操作, 多线程, 无锁数据结构, std::sync::atomic, Rust 并发编程, Rust 原子操作"
 draft: false
 ---

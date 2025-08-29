@@ -3,10 +3,10 @@ title: "✂️ 从零到精通：Rust 音频采样率转换库 Rubato 的实战�
 description: "本篇指南将带领小白用户从零开始，深入探索 Rubato 库的原理与应用。我们将从基础概念入手，逐步深入到实际代码实现，并结合实例展示如何优雅地使用 Rubato 进行音频采样率转换。无论你是音频开发的初学者，还是希望在 Rust 生态中探索音频处理的开发者，这篇指南都将为你提供清晰的路径和实用的工具。"
 date: 2025-07-08T16:00:00Z
 image: "https://static-rs.bifuba.com/images/250804/pexels-hameen-32302344.jpg"
-categories: [ "rust", "cargo", "Rubato" ]
+categories: [ "rust", "cargo", "Rubato","实战指南","音频处理","采样率转换" ]
 authors: [ "houseme" ]
-tags: [ "rust","Shear", "Open Source","Cargo", "Dependency Management", "Rubato", "Audio Processing", "Sample Rate Conversion" ]
-keywords: "rust,Open Source,Cargo,Dependency Management,Rubato,Audio Processing,Sample Rate Conversion"
+tags: [ "rust","Shear", "Open Source","Cargo", "Dependency Management", "Rubato", "Audio Processing", "Sample Rate Conversion","实战指南","音频处理","采样率转换" ]
+keywords: "rust,Open Source,Cargo,Dependency Management,Rubato,Audio Processing,Sample Rate Conversion,实战指南,音频处理,采样率转换"
 draft: false
 ---
 

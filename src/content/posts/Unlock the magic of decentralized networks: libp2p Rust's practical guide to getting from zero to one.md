@@ -3,10 +3,10 @@ title: "解锁去中心化网络的魔法：libp2p Rust 实现从零到一实战
 description: "本指南将带你从零开始，深入浅出地探索 `rust-libp2p`，从理论到实战，逐步揭开 P2P 网络的奥秘。无论你是初学者还是有一定开发经验的开发者，本文都将为你提供清晰的路径：从理解 libp2p 的核心概念，到动手实现一个简单的 P2P 聊天应用。"
 date: 2025-07-26T10:20:00Z
 image: "https://static-rs.bifuba.com/images/250804/pexels-awesome-daily-vlog-2149533223-33392999.jpg"
-categories: [ "Rust","Cargo","libp2p" ]
+categories: [ "Rust","Cargo","libp2p","实战指南","点对点网络","P2P","网络编程" ]
 authors: [ "houseme" ]
-tags: [ "rust","cargo","Cargo.toml","libp2p","P2P","networking","distributed systems","peer-to-peer","Filecoin","Polkadot","Ethereum 2.0" ]
-keywords: "rust,cargo,Cargo.toml,libp2p,P2P,networking,distributed systems,peer-to-peer,Filecoin,Polkadot,Ethereum 2.0"
+tags: [ "rust","cargo","Cargo.toml","libp2p","P2P","networking","distributed systems","peer-to-peer","Filecoin","Polkadot","Ethereum 2.0","实战指南","点对点网络","网络编程","分布式系统","点对点通信","去中心化应用","区块链","区块链网络" ]
+keywords: "rust,cargo,Cargo.toml,libp2p,P2P,networking,distributed systems,peer-to-peer,Filecoin,Polkadot,Ethereum 2.0,实战指南,点对点网络,网络编程,分布式系统,点对点通信,去中心化应用,区块链,区块链网络"
 draft: false
 ---
 

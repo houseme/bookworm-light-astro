@@ -5,7 +5,7 @@ date: 2025-01-01T00:00:00Z
 image: "https://static-rs.bifuba.com/images/posts/pexels-anntarazevich-6027785.jpg"
 categories: [ "Rust","termion" ]
 authors: [ "houseme" ]
-tags: [ "rust","termion","ascii art","terminal effects","new year","blessings","code example" ] 
+tags: [ "rust","termion","ascii art","terminal effects","new year","blessings","code example","终端特效","新年祝福","代码示例","蛇年" ] 
 keywords: "rust,termion,ascii art,终端特效,新年,祝福,代码示例"
 draft: false
 ---

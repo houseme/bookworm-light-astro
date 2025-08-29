@@ -3,9 +3,9 @@ title: "RustFS- 高性能分布式对象存储的优雅之选"
 description: "RustFS 从筹备至今已经过去了两年的时间。我们总算开源了，特别感谢您能看到我们。"
 date: 2025-07-03T11:00:00Z
 image: "https://static-rs.bifuba.com/images/rustfs/06069d27-a637-42dd-95dc-52aeec4bdcb3.png"
-categories: [ "Rust", "RustFS", "Distributed Storage" ]
+categories: [ "Rust", "RustFS", "Distributed Storage","实战指南" ]
 authors: [ "houseme" ]
-tags: [ "rust", "RustFS","s3","Distributed Storage", "Object Storage", "Open Source" ]
+tags: [ "rust", "RustFS","s3","Distributed Storage", "Object Storage", "Open Source","实战指南","分布式存储","对象存储","云原生","云存储" ]
 keywords: "rust,RustFS,s3,Distributed Storage,Object Storage,Open Source"
 draft: false
 ---

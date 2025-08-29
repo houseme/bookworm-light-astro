@@ -3,9 +3,9 @@ title: "Rust 缓存双雄对决：lru-rs 与 Moka 的时空守护之旅"
 description: "lru-rs，这位“时间守护者”，以纯净的 LRU（Least Recently Used）机制守护单线程时空，受 Rust 标准库早期灵感，专注于 O(1) 操作的轻量级实现。Moka，这位“蒸汽咖啡师”，源于 Java Caffeine 的并发精华，提供线程安全、高命中率的现代缓存，支持同步/异步模式，如摩卡壶般快速萃取数据本质。"
 date: 2025-08-26T18:20:00Z
 image: "https://static-rs.bifuba.com/images/250804/pexels-altair-27103765.jpg"
-categories: [ "Rust","Cargo","缓存","并发编程","性能优化" ]
+categories: [ "Rust","Cargo","缓存","并发编程","性能优化","实战指南" ]
 authors: [ "houseme" ]
-tags: [ "Rust 实战","Rust","cargo","缓存","并发编程","性能优化","Moka","lru","LRU 缓存","数据结构","内存管理" ]
+tags: [ "Rust 实战","Rust","cargo","缓存","并发编程","性能优化","Moka","lru","LRU 缓存","数据结构","内存管理","实战指南" ]
 keywords: "Rust 实战,Rust,cargo,缓存,并发编程,性能优化,Moka,lru,LRU 缓存,数据结构,内存管理"
 draft: false
 ---

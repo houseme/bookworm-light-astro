@@ -3,18 +3,9 @@ title: "如何在 Astro 项目中实现动态生成的 RSS 订阅"
 description: "在现代博客或内容网站中，RSS 订阅依然是让用户获取更新的重要方式。本文将介绍如何使用 Astro 和 `@astrojs/rss` 插件实现动态生成的 RSS 订阅功能。我们将以 Markdown 文件作为数据源，实现自动化生成 `rss.xml`，使每次新增文章后，RSS 自动更新。"
 date: 2024-09-27T06:00:00Z
 image: "https://astro.build/assets/wallpapers/desktop/teal.png"
-categories:
-  [
-    "astro",
-    "rss",
-    "tutorial",
-    "javascript",
-    "web-development",
-    "web-design",
-    "webdev",
-  ]
+categories: ["astro", "rss", "javascript", "web-development", "web-design"]
 authors: ["houseme"]
-tags: ["astro", "rss", "javascript", "web-development", "web-design"]
+tags: ["astro", "rss", "javascript", "web-development", "web-design", "webdev", "RSS feed", "RSS subscription", "Astro project"]
 keywords: "astro, rss, javascript, web development, web design, webdev, RSS feed, RSS subscription, Astro project"
 draft: false
 ---

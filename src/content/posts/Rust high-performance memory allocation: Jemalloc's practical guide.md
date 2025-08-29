@@ -3,10 +3,10 @@ title: "Rust 高性能内存分配：Jemalloc 实战指南"
 description: "在 Rust 项目中，内存分配器的性能对整体应用的性能有着至关重要的影响。Jemalloc 是一种广泛使用的高性能内存分配器，它通过精细的内存管理策略，减少了内存碎片，提高了内存分配和回收的效率。本文将详细介绍如何在 Rust 项目中使用 Jemalloc，并通过实例代码展示其配置和使用方法。"
 date: 2024-11-04T09:35:00Z
 image: "https://static-rs.bifuba.com/images/posts/kenny-eliason-Hav7EXRbDoE-unsplash.jpg"
-categories: ["rust", "memory", "jemalloc", "performance"]
+categories: ["rust", "memory", "jemalloc", "performance","实战指南" ]
 authors: ["houseme"]
-tags: ["rust", "memory", "jemalloc", "performance"]
-keywords: "rust, memory, jemalloc, performance"
+tags: ["rust", "memory", "jemalloc", "performance","实战指南","内存分配","高性能","内存管理","多线程"]
+keywords: "rust, memory, jemalloc, performance,实战指南,内存分配,高性能,内存管理,多线程"
 draft: false
 ---
 

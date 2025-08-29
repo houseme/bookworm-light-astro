@@ -3,10 +3,10 @@ title: "Rust 泛型秘籍：零基础小白的代码魔法之旅"
 description: "本文适合初学者：我们从基础语法开始，逐步深入到高级应用，并以一个完整实战项目收尾。准备好你的 Rust 环境（推荐使用 Cargo），让我们开启这场代码冒险吧！"
 date: 2025-08-20T11:20:00Z
 image: "https://static-rs.bifuba.com/images/250804/peter-thomas-hcBVdd2leJs-unsplash.jpg"
-categories: [ "Rust","Cargo","泛型编程","Rust 泛型","Generics" ]
+categories: [ "Rust","Cargo","泛型编程","Rust 泛型","Generics","实战指南"  ]
 authors: [ "houseme" ]
-tags: [ "rust","cargo","Rust 泛型","泛型编程","代码复用","性能优化","Generics" ]
-keywords: "rust,cargo,Rust 泛型,泛型编程,代码复用,性能优化,Generics"
+tags: [ "rust","cargo","Rust 泛型","泛型编程","代码复用","性能优化","Generics","泛型模式","高级编程","实战指南" ]
+keywords: "rust,cargo,Rust 泛型,泛型编程,代码复用,性能优化,Generics,泛型模式,高级编程"
 draft: false
 ---
 

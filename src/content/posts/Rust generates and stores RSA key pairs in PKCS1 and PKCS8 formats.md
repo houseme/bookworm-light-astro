@@ -3,10 +3,10 @@ title: "Rust生成并存储PKCS1和PKCS8格式的RSA密钥对,以及异同点和
 description: "在现代加在现代加密应用中，RSA 密钥对是常用的非对称加密技术。为了确保密钥的安全性和兼容性，我们通常需要将密钥存储为不同的格式，如 PKCS#1 和 PKCS#8。本文将详细介绍如何使用 Rust 生成 RSA 密钥对，并将其分别存储为 PKCS#1 和 PKCS#8 格式的文件。"
 date: 2024-09-27T08:00:00Z
 image: "https://static-rs.bifuba.com/images/posts/tim-marshall-jqj2SqvxMVY-unsplash.jpg"
-categories: ["rust", "RSA", "safe"]
+categories: ["rust", "RSA", "safe","实战指南","加密","密钥管理","PKCS#1","PKCS#8"]
 authors: ["houseme"]
-tags: ["rust", "RSA", "safe"]
-keywords: "rust,RSA密钥对,PKCS#1,PKCS#8"
+tags: ["rust", "RSA", "safe","实战指南","加密","密钥管理","PKCS#1","PKCS#8","rust guide","rust programming","rust security"]
+keywords: "rust,RSA密钥对,PKCS#1,PKCS#8,rust programming,rust security,rust guide"
 draft: false
 ---
 

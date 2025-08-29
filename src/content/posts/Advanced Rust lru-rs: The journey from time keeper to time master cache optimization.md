@@ -5,7 +5,7 @@ date: 2025-08-26T08:20:00Z
 image: "https://static-rs.bifuba.com/images/250804/pexels-jillyjillystudio-32129126.jpg"
 categories: [ "Rust","Cargo","缓存","并发编程","性能优化" ]
 authors: [ "houseme" ]
-tags: [ "Rust 实战","Rust","cargo","缓存","并发编程","性能优化","Moka","lru","LRU 缓存","数据结构","内存管理" ]
+tags: [ "Rust 实战","Rust","cargo","缓存","并发编程","性能优化","Moka","lru","LRU 缓存","数据结构","内存管理","Hasher" ]
 keywords: "Rust 实战,Rust,cargo,缓存,并发编程,性能优化,Moka,lru,LRU 缓存,数据结构,内存管理"
 draft: false
 ---

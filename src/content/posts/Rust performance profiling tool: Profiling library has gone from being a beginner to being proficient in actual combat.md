@@ -3,10 +3,10 @@ title: "Rust 性能剖析利器：Profiling 库从小白入门到实战精通"
 description: "Profiling（性能剖析）就是那把解锁“最后一公里”的钥匙。它通过采集运行时数据，帮助开发者识别瓶颈、量化问题，并指导优化。本文将由浅入深，带你从理论基础起步，到实战代码落地，逐步掌握`profiling`的使用之道。准备好你的 Cargo.toml，我们一起开启性能剖析之旅！"
 date: 2025-07-31T10:20:00Z
 image: "https://static-rs.bifuba.com/images/250804/pexels-francesco-ungaro-32901663.jpg"
-categories: [ "Rust","Cargo","Profiling","Performance Optimization" ]
+categories: [ "Rust","Cargo","Profiling","Performance Optimization","实战指南" ]
 authors: [ "houseme" ]
-tags: [ "rust","cargo","Cargo.toml","profiling","performance optimization","jemalloc","pprof","flamegraph","tikv-jemallocator","tikv-jemalloc-ctl","tikv-jemalloc-sys" ]
-keywords: "rust,cargo,Cargo.toml,profiling,performance optimization,jemalloc,pprof,flamegraph,tikv-jemallocator,tikv-jemalloc-ctl,tikv-jemalloc-sys"
+tags: [ "rust","cargo","profiling","performance optimization","jemalloc","pprof","flamegraph","tikv-jemallocator","tikv-jemalloc-ctl","tikv-jemalloc-sys","实战指南","性能优化","性能剖析","火焰图","内存分配器" ]
+keywords: "rust,cargo,Cargo.toml,profiling,performance optimization,jemalloc,pprof,flamegraph,tikv-jemallocator,tikv-jemalloc-ctl,tikv-jemalloc-sys,实战指南,性能优化,性能剖析,火焰图,内存分配器"
 draft: false
 ---
 

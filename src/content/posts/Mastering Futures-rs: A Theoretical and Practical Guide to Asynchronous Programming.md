@@ -3,9 +3,9 @@ title: "第二篇：掌握 Futures-rs：理论与实践结合的异步编程指�
 description: "Rust 作为一门系统编程语言，以其内存安全性和并发性著称。掌握 Futures-rs 是学习 Rust 异步编程的关键。本文将从理论和实践两个方面，详细讲解 Futures-rs 的核心概念、使用方法以及 async/await 语法。"
 date: 2024-08-10T08:00:00Z
 image: "https://static-rs.bifuba.com/images/posts/elijah-hiett-7FNutMHhBxI-unsplash.jpg"
-categories: ["Futures-rs", "Async", "Rust", "Rust-async"]
+categories: ["Futures-rs", "Async", "Rust", "Rust-async","实战指南","异步编程"]
 authors: ["houseme"]
-tags: ["rust", "async", "futures-rs"]
+tags: ["rust", "async", "futures-rs", "异步编程", "Rust 异步编程", "futures-rs 项目", "异步任务", "异步操作", "异步 Rust 编程", "实战指南"]
 keywords: "rust,async,futures-rs，异步编程，Rust 异步编程，futures-rs 项目，异步任务，异步操作，异步 Rust 编程"
 draft: false
 ---

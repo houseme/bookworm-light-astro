@@ -3,10 +3,10 @@ title: "解锁低层网络的奥秘：libpnet Rust 实现从零到一实战指�
 description: "本指南专为初学者设计，将由浅入深地带你探索 `libpnet`，从理解其核心组件到实现一个简单的网络工具（如自定义 ICMP Ping）。我们将结合详细的理论讲解、完整的代码示例和最佳实践，助你在 Rust 的安全与性能加持下，快速上手低层网络编程。"
 date: 2025-07-29T10:20:00Z
 image: "https://static-rs.bifuba.com/images/250804/pexels-marius-dubost-2154685620-33430958.jpg"
-categories: [ "Rust","Cargo","libpnet" ]
+categories: [ "Rust","Cargo","libpnet","实战指南" ]
 authors: [ "houseme" ]
-tags: [ "rust","cargo","Cargo.toml","libpnet","network programming","ICMP","low-level networking","packet crafting" ]
-keywords: "rust,cargo,Cargo.toml,libpnet,network programming,ICMP,low-level networking,packet crafting"
+tags: [ "rust","cargo","libpnet","network programming","ICMP","low-level networking","packet crafting","实战指南","网络编程","低层网络","数据包构造","网络工具","网络协议","跨平台","安全编程","高性能" ]
+keywords: "rust,cargo,Cargo.toml,libpnet,network programming,ICMP,low-level networking,packet crafting,network tools,network protocols,cross-platform,safe programming,high performance,实战指南,网络编程,低层网络,数据包构造,网络工具,网络协议,跨平台,安全编程,高性能"
 draft: false
 ---
 

@@ -3,9 +3,9 @@ title: "Siumai：解锁 Rust 与 AI 的无限可能——从零到一的 LLM 接
 description: "Siumai 以其优雅的设计、类型安全的参数处理、跨提供商的统一接口和强大的异步支持，成为 Rust 社区中连接 AI 世界的桥梁。本文将带你从零开始，深入探索 Siumai 的魅力，通过理论讲解与实战代码，助你快速上手，释放 Rust 与 AI 的无限可能！"
 date: 2025-07-21T10:20:00Z
 image: "https://static-rs.bifuba.com/images/250804/elias-maurer-4l2DWmhdOes-unsplash.jpg"
-categories: [ "Rust","Cargo","Siumai" ]
+categories: [ "Rust","Cargo","Siumai","实战指南" ]
 authors: [ "houseme" ]
-tags: [ "rust","cargo","Cargo.toml","Siumai","LLM","AI","OpenAI","Anthropic","Ollama","Google Gemini" ]
+tags: [ "rust","cargo","Cargo.toml","Siumai","LLM","AI","OpenAI","Anthropic","Ollama","Google Gemini","实战指南" ]
 keywords: "rust,cargo,Cargo.toml,Siumai,LLM,AI,OpenAI,Anthropic,Ollama,Google Gemini"
 draft: false
 ---

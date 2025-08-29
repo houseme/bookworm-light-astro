@@ -3,10 +3,10 @@ title: "把子模块驯成乖猫咪：Git Submodule 从入门到精通的实战�
 description: "在真实的软件世界里，我们很少只面对“一个仓库、一条分支、一套代码”的童话。微服务、共享组件、跨团队 SDK、甚至不同语言的构建脚本，都可能散落在独立的 Git 仓库里。于是，“把别人的仓库嵌进我的仓库”成了日常刚需——"
 date: 2025-07-05T11:00:00Z
 image: "https://static-rs.bifuba.com/images/250804/pexels-ishahidsultan-33049607.jpg"
-categories: [ "git", "Submodule" ]
+categories: [ "git", "Submodule","实战指南" ]
 authors: [ "houseme" ]
-tags: [ "rust", "Submodule","Git","git submodule","git submodule update","git submodule add" ]
-keywords: "rust,Submodule,Git,git submodule,git submodule update,git submodule add"
+tags: [ "rust", "Submodule","Git","git submodule","git submodule update","git submodule add","实战指南","子模块","Git 子模块","git 子模块","git 子模块更新","git 子模块添加" ]
+keywords: "rust,Submodule,Git,git submodule,git submodule update,git submodule add,实战指南,子模块,Git 子模块,git 子模块,git 子模块更新,git 子模块添加"
 draft: false
 ---
 

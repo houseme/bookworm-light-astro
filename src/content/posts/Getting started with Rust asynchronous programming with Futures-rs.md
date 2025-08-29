@@ -3,9 +3,9 @@ title: "第一篇：通过 Futures-rs 入门 Rust 异步编程"
 description: "异步编程对于编写高效且响应迅速的应用程序至关重要，尤其是在处理 I/O 密集型任务（如网络请求或文件操作）时。Rust 强调性能和安全性，通过 `futures-rs` 库提供了强大的异步编程工具。本教程将指导您了解 `futures-rs` 的基础知识，并提供一个完整的示例代码以帮助您入门。"
 date: 2024-08-09T06:00:00Z
 image: "https://static-rs.bifuba.com/images/posts/frida-aguilar-estrada-sMV0Rv4UKKY-unsplash.jpg"
-categories: ["Futures-rs", "Async", "Rust"]
+categories: ["Futures-rs", "Async", "Rust", "异步编程"]
 authors: ["houseme"]
-tags: ["rust", "async", "futures-rs"]
+tags: ["rust", "async", "futures-rs", "异步编程", "Rust 异步编程", "futures-rs 项目", "异步任务", "异步操作", "异步 Rust 编程"]
 keywords: "rust,async,futures-rs，异步编程，Rust 异步编程，futures-rs 项目，异步任务，异步操作，异步 Rust 编程"
 draft: false
 ---

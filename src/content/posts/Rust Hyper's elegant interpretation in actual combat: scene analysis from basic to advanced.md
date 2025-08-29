@@ -3,10 +3,10 @@ title: "Rust Hyper 在实战中的优雅演绎：从基础到高级的场景剖�
 description: "`hyper` 是 Rust 生态中一颗璀璨的明珠，以其高性能和异步特性在 HTTP 开发领域独树一帜。作为一个底层库，它赋予开发者无与伦比的控制力，同时也要求对 Rust 的异步编程和网络协议有深刻的理解。从简单的静态文件服务到复杂的实时通信系统，`hyper` 的应用场景广泛而多样，能够满足从初学者到资深开发者的不同需求。"
 date: 2025-03-09T10:30:00Z
 image: "https://static-rs.bifuba.com/images/posts/priscilla-du-preez-WWD93Icc30Y-unsplash.jpg"
-categories: [ "Rust","Hyper" ]
+categories: [ "Rust","Hyper","实战指南"  ]
 authors: [ "houseme" ]
-tags: [ "rust","hyper","WebSocket","HTTP","RESTful API","file server","proxy server","FFI","cross-language integration" ]
-keywords: "rust,hyper,WebSocket,HTTP,RESTful API,file server,proxy server,FFI,cross-language integration"
+tags: [ "rust","hyper","WebSocket","HTTP","RESTful API","file server","proxy server","FFI","cross-language integration","实战指南","网络编程","异步编程","高性能","底层库" ]
+keywords: "rust,hyper,WebSocket,HTTP,RESTful API,file server,proxy server,FFI,cross-language integration,实战指南,网络编程,异步编程,高性能,底层库"
 draft: false
 ---
 

@@ -3,10 +3,10 @@ title: "Rust 日志魔法：RUST_LOG 从小白到高手的全方位实战指南"
 description: "Rust 的标准日志库是 `log` crate，它是一个轻量级的 facade，不负责实际的日志输出，而是定义了统一的接口。实际的日志处理需要后端 crate，比如 `env_logger`、`simple_logger` 或更高级的 `tracing`。"
 date: 2025-08-19T11:20:00Z
 image: "https://static-rs.bifuba.com/images/250804/ren-hosoya-xYI_dcYIQas-unsplash.jpg"
-categories: [ "Rust","logger" ]
+categories: [ "Rust","logger","实战指南" ]
 authors: [ "houseme" ]
-tags: [ "rust","cargo","RUST_LOG","env_logger","log"]
-keywords: "rust,cargo,Rust 实战学习,RUST_LOG,env_logger,log"
+tags: [ "rust","cargo","RUST_LOG","env_logger","log","实战指南","日志","日志管理","日志级别","日志过滤" ]
+keywords: "rust,cargo,Rust 实战学习,RUST_LOG,env_logger,log,实战指南,日志,日志管理,日志级别,日志过滤"
 draft: false
 ---
 

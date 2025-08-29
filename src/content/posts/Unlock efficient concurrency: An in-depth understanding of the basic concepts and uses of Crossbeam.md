@@ -3,10 +3,10 @@ title: "解锁高效并发：深入理解 Crossbeam 的基本概念与用途"
 description: "在 Rust 编程中，并发性是提升性能和资源利用率的关键。然而，标准库对线程管理和并发工具的支持虽强大，但在某些高性能场景下可能显得不足。这时，Crossbeam 作为 Rust 的高性能并发库，成为开发者的理想选择。"
 date: 2024-12-09T06:00:00Z
 image: "https://static-rs.bifuba.com/images/posts/crossbeam/pexels-leonardo-mello-2147879281-29811614-1920.jpg"
-categories: [ "Rust", "Crossbeam" ]
+categories: [ "Rust", "Crossbeam","实战指南","Efficient Development","Guide","Rust Programming","Async" ]
 authors: [ "houseme" ]
-tags: [ "rust", "Crossbeam", "concurrency","Efficient Development","Guide","Rust Programming","Async" ]
-keywords: "rust,Crossbeam,concurrency,efficient development,guide,Rust programming,async"
+tags: [ "rust", "Crossbeam", "concurrency","Efficient Development","Guide","Rust Programming","Async","实战指南","并发编程","多线程","消息传递","无锁数据结构","内存管理","高性能","线程管理" ]
+keywords: "rust,Crossbeam,concurrency,efficient development,guide,Rust programming,async,实战指南,并发编程,多线程,消息传递,无锁数据结构,内存管理,高性能,线程管理"
 draft: false
 ---
 

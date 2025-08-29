@@ -5,7 +5,7 @@ date: 2025-04-21T00:00:00Z
 image: "https://static-rs.bifuba.com/images/posts/pexels-rui-wang-16615369-29954278-1920.jpg"
 categories: [ "Rust", "SmallVec", "String" ]
 authors: [ "houseme" ]
-tags: [ "rust", "smallvec", "string", "performance", "memory management" ]
+tags: [ "rust", "smallvec", "string", "performance", "memory management", "data structures", "utf-8", "heap allocation", "stack allocation" ]
 keywords: "rust, smallvec, string, performance, memory management"
 draft: false
 ---

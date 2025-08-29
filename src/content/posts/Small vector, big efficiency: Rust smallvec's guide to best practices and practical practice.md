@@ -3,9 +3,9 @@ title: "小向量，大效能：Rust smallvec 最佳实践与实战指南"
 description: "本文基于 Rust 2024 版（`edition = '2024'`），深入探讨 `smallvec` 的最佳实践，从基础场景到复杂应用，结合详细的理论分析和实战代码示例，带你从入门到精通。无论你是 Rust 新手还是寻求极致优化的老手，这篇指南都将为你提供清晰的实践路径和实用技巧，让你在项目中优雅地驾驭 `smallvec`。"
 date: 2025-07-25T10:20:00Z
 image: "https://static-rs.bifuba.com/images/250804/pexels-marc-nesen-2153115757-33387571.jpg"
-categories: [ "Rust","Cargo","smallvec" ]
+categories: [ "Rust","Cargo","smallvec","实战指南" ]
 authors: [ "houseme" ]
-tags: [ "rust","cargo","Cargo.toml","smallvec","vector","performance","memory optimization","data structure" ]
+tags: [ "rust","cargo","Cargo.toml","smallvec","vector","performance","memory optimization","data structure","实战指南","性能优化","内存优化","数据结构" ]
 keywords: "rust,cargo,Cargo.toml,smallvec,vector,performance,memory optimization,data structure"
 draft: false
 ---

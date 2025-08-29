@@ -4,10 +4,10 @@ description: "在 Rust 项目中，确保所有开发者使用相同的工具链
 提供的一种简单而强大的工具，用于指定项目所需的 Rust 工具链版本和组件。"
 date: 2025-01-01T20:00:00Z
 image: "https://static-rs.bifuba.com/images/posts/pexels-duc-tinh-ngo-2147637857-29990366-1920.jpg"
-categories: [ "Rust","rust-toolchain" ]
+categories: [ "Rust","rust-toolchain","实战指南" ]
 authors: [ "houseme" ]
-tags: [ "rust","rust-toolchain","practical guide","toolchain","project management" ]
-keywords: "rust,rust-toolchain,实战指南,工具链,项目管理"
+tags: [ "rust","rust-toolchain","practical guide","toolchain","project management","实战指南","工具链","项目管理" ]
+keywords: "rust,rust-toolchain,实战指南,工具链,项目管理,practical guide,toolchain,project management"
 draft: false
 ---
 

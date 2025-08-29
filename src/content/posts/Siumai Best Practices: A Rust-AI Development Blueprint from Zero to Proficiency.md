@@ -3,9 +3,9 @@ title: "Siumai 最佳实践：从零到精通的 Rust-AI 开发蓝图"
 description: "本文将深入探讨 Siumai 在实际开发中的最佳实践，覆盖从基础对话到复杂工具调用、流式处理优化以及本地模型部署的场景。我们将结合理论分析与实战代码，由浅入深地展示如何利用 Siumai 构建高效、健壮的 AI 应用，助你成为 Rust-AI 开发的行家里手！"
 date: 2025-07-22T10:20:00Z
 image: "https://static-rs.bifuba.com/images/250804/pexels-nexionly-4116411.jpg"
-categories: [ "Rust","Cargo","Siumai" ]
+categories: [ "Rust","Cargo","Siumai","实战指南"]
 authors: [ "houseme" ]
-tags: [ "rust","cargo","Cargo.toml","Siumai","LLM","AI","OpenAI","Anthropic","Ollama","Google Gemini" ]
+tags: [ "rust","cargo","Cargo.toml","Siumai","LLM","AI","OpenAI","Anthropic","Ollama","Google Gemini","实战指南" ]
 keywords: "rust,cargo,Cargo.toml,Siumai,LLM,AI,OpenAI,Anthropic,Ollama,Google Gemini"
 draft: false
 ---

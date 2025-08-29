@@ -3,10 +3,10 @@ title: "探索 Cargo.toml：Rust 项目配置全面指南"
 description: "在 Rust 编程世界中，`Cargo.toml` 是项目配置的核心。它决定了项目的构建方式、管理方式以及与其他项目的交互方式。深入理解 `Cargo.toml` 的各个部分和选项对于优化开发工作流程至关重要。本指南将深入探讨 `Cargo.toml` 的每个部分和选项，提供其功能、平台特定行为以及优化策略的见解。"
 date: 2024-12-09T10:00:00Z
 image: "https://static-rs.bifuba.com/images/posts/arno-senoner-_7bsgYdTTVE-unsplash.jpg"
-categories: [ "Rust","Cargo" ]
+categories: [ "Rust","Cargo","项目配置","依赖管理","优化技巧" ]
 authors: [ "houseme" ]
-tags: [ "rust","cargo","Cargo.toml","package","dependency management","optimization tips" ]
-keywords: "rust,cargo,Cargo.toml,项目配置,依赖管理,优化技巧"
+tags: [ "rust","cargo","Cargo.toml","package","dependency management","optimization tips","project configuration" ]
+keywords: "rust,cargo,Cargo.toml,项目配置,依赖管理,优化技巧,package"
 draft: false
 ---
 

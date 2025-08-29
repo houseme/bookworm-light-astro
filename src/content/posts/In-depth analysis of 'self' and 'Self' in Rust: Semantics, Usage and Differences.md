@@ -3,9 +3,9 @@ title: "深入解析 Rust 中的 `self` 与 `Self`：语义、用法与区别"
 description: "在 Rust 编程语言中，`self` 和 `Self` 是两个非常常见的关键字，但它们在语义和用法上有显著的区别。理解它们的区别对于掌握 Rust 的面向对象编程和类型系统至关重要。本文将深入剖析 `self` 和 `Self` 的区别，帮助读者更好地理解它们在 Rust 中的作用和使用场景。"
 date: 2024-09-10T21:00:00Z
 image: "https://static-rs.bifuba.com/images/posts/tim-marshall-jqj2SqvxMVY-unsplash.jpg"
-categories: ["Rust", "self"]
+categories: ["Rust", "self","实战指南"]
 authors: ["houseme"]
-tags: ["rust", "self"]
+tags: ["rust", "self", "Self", "面向对象编程", "类型系统", "关键字", "语法", "用法"]
 keywords: "Rust, self, Self, Rust 面向对象编程，Rust 类型系统，Rust 关键字，Rust 语法，Rust 用法"
 draft: false
 ---

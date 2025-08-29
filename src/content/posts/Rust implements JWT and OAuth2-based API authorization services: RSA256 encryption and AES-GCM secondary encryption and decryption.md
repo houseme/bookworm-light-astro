@@ -3,34 +3,10 @@ title: "Rust 实现基于 JWT 和 OAuth2 的 API 授权服务：RSA256 加密与
 description: "在现代 Web 应用中，API 授权是确保数据安全和用户隐私的关键环节。JSON Web Token (JWT) 和 OAuth2 是两种广泛使用的授权机制。本文将介绍如何使用 Rust 语言实现一个基于 JWT 和 OAuth2 的 API 授权服务，并结合 RSA256 对称加密和 AES-GCM 算法进行二次加解密，以增强安全性。"
 date: 2024-11-02T08:00:00Z
 image: "https://static-rs.bifuba.com/images/posts/tim-marshall-jqj2SqvxMVY-unsplash.jpg"
-categories:
-  [
-    "rust",
-    "OAuth2",
-    "JWT",
-    "encryption",
-    "decryption",
-    "security",
-    "compatibility",
-    "AES-GCM",
-  ]
+categories: [ "rust","OAuth2","JWT","encryption","decryption","security","compatibility","AES-GCM","实战指南"]
 authors: ["houseme"]
-tags:
-  [
-    "rust",
-    "RSA key pair",
-    "PKCS#1",
-    "PKCS#8",
-    "generate",
-    "store",
-    "file",
-    "format",
-    "encryption",
-    "decryption",
-    "security",
-    "compatibility",
-  ]
-keywords: "rust,RSA密钥对,PKCS#1,PKCS#8,生成,存储,文件,格式,加密,解密,安全,兼容性"
+tags: [ "rust","OAuth2","JWT","encryption","decryption","security","compatibility","AES-GCM","实战指南","身份验证","授权","安全","Salvo","JSON Web Token","RSA256"]
+keywords: "rust,RSA密钥对,PKCS#1,PKCS#8,生成,存储,文件,格式,加密,解密,安全,兼容性,practical guide,实战指南"
 draft: false
 ---
 

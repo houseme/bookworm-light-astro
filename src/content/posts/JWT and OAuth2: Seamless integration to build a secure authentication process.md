@@ -5,9 +5,8 @@ date: 2024-10-27T08:15:00Z
 image: "https://static-rs.bifuba.com/images/posts/tim-marshall-jqj2SqvxMVY-unsplash.jpg"
 categories: ["rust", "jwt", "jsonwebtoken", "oauth2", "security", "salvo"]
 authors: ["houseme"]
-tags:
-  ["rust", "jwt", "jsonwebtoken", "oauth2", "security", "authentication", "rsa"]
-keywords: "rust, jwt, jsonwebtoken, oauth2, security, authentication, rsa"
+tags: ["rust", "jwt", "jsonwebtoken", "oauth2", "security", "authentication", "rsa", "实战指南", "身份验证", "授权", "安全", "Salvo", "JSON Web Token"]
+keywords: "rust, jwt, jsonwebtoken, oauth2, security, authentication, rsa, 实战指南, 身份验证, 授权, 安全, Salvo, JSON Web Token"
 draft: false
 ---
 

@@ -3,9 +3,9 @@ title: "Rust 入门篇：第一个程序 - Your First Program"
 description: "Rust 是一种系统编程语言，拥有强大的类型系统和内存安全保障。在本教程中，我们将介绍如何编写你的第一个 Rust 程序。我们会从安装 Rust 开始，然后编写一个简单的 Hello World 程序，并解释每一步的含义。"
 date: 2022-04-02T05:00:00Z
 image: "https://static-rs.bifuba.com/images/posts/02.jpg"
-categories: ["development"]
+categories: ["development","rust 入门"]
 authors: ["houseme"]
-tags: ["rust", "Hello World"]
+tags: ["rust", "Hello World", "Rust 入门", "Rust 编程", "Rust 程序","development"]
 keywords: "rust,Hello World,Rust 入门，Rust 编程，Rust 程序"
 draft: false
 ---

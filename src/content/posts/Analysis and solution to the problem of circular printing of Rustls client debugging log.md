@@ -5,8 +5,8 @@ date: 2024-09-13T06:00:00Z
 image: "https://static-rs.bifuba.com/images/posts/caleb-woods-NntIbC93kaM-unsplash.jpg"
 categories: ["Rustls", "Rust", "TLS"]
 authors: ["houseme"]
-tags: ["rust", "Rustls", "TLS", "log", "client"]
-keywords: "Rustls, Rust, TLS, log, client"
+tags: ["rust", "Rustls", "TLS", "log", "client", "debug", "logging", "troubleshooting", "performance", "networking", "security", "debugging", "rust programming", "rustlang","证书"]
+keywords: "Rustls, Rust, TLS, log, client, debug, logging, troubleshooting, performance, networking, security, debugging, rust programming, rustlang"
 draft: false
 ---
 

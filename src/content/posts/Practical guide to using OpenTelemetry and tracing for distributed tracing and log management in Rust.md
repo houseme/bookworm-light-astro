@@ -3,10 +3,10 @@ title: "Rust 中使用 OpenTelemetry 与 tracing 实现分布式追踪与日志�
 description: "Rust 作为一门高性能、内存安全的语言，广泛应用于系统编程和微服务开发，其 `tracing` 生态提供了强大的事件和 Span 管理能力。结合 OpenTelemetry 的标准化协议（如 OTLP），Rust 开发者可以构建高效的监控系统，将追踪和日志无缝集成到 Jaeger、Prometheus 等后端。"
 date: 2025-04-26T08:15:00Z
 image: "https://static-rs.bifuba.com/images/posts/arno-senoner-_7bsgYdTTVE-unsplash.jpg"
-categories: [ "rust","OpenTelemetry" ]
+categories: [ "rust","OpenTelemetry","链路追踪","分布式追踪","日志管理","日志收集","实战指南" ]
 authors: [ "houseme" ]
-tags: [ "rust","OpenTelemetry","tracing","instrument","OTLP","Protocol","metrics","logs" ]
-keywords: "rust,OpenTelemetry,tracing,traces,Logging,logs,metrics,Jaeger,Prometheus"
+tags: [ "rust","OpenTelemetry","tracing","instrument","OTLP","Protocol","metrics","logs","Jaeger","Prometheus","分布式追踪","链路追踪","日志管理","日志收集","实战指南" ]
+keywords: "rust,OpenTelemetry,tracing,traces,Logging,logs,metrics,Jaeger,Prometheus,OTLP,Protocol,分布式追踪,链路追踪,日志管理,日志收集,实战指南"
 draft: false
 ---
 

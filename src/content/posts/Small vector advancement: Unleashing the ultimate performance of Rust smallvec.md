@@ -3,9 +3,9 @@ title: "小向量进阶：释放 Rust smallvec 的极致性能"
 description: "本文将从性能调优、并发场景、序列化支持、自定义分配器到复杂实战案例，结合详细的代码示例和分析，助你在 Rust 项目中优雅地驾驭 `smallvec`。"
 date: 2025-07-24T10:20:00Z
 image: "https://static-rs.bifuba.com/images/250804/pexels-zulfugarkarimov-33370120.jpg"
-categories: [ "Rust","Cargo","smallvec" ]
+categories: [ "Rust","Cargo","smallvec","实战指南" ]
 authors: [ "houseme" ]
-tags: [ "rust","cargo","Cargo.toml","smallvec","vector","performance","memory optimization","data structure" ]
+tags: [ "rust","cargo","Cargo.toml","smallvec","vector","performance","memory optimization","data structure","实战指南","性能优化","内存优化","数据结构" ]
 keywords: "rust,cargo,Cargo.toml,smallvec,vector,performance,memory optimization,data structure"
 draft: false
 ---

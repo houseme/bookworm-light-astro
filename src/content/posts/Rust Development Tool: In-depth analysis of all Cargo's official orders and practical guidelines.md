@@ -3,9 +3,9 @@ title: "Rust 开发利器：深入解析 Cargo 所有官方命令及实战指南
 description: "Cargo 是 Rust 的包管理器和构建系统，它极大地简化了 Rust 项目的管理和开发流程。本文将详细介绍 Cargo 的所有官方命令，包括其原理剖析和实战使用。通过本文，你将全面掌握 Cargo 的各项功能，提升 Rust 项目的开发效率。"
 date: 2024-12-09T10:35:00Z
 image: "https://static-rs.bifuba.com/images/posts/markus-spiske-OsHE_rhfWSI-unsplash.jpg"
-categories: [ "Rust","Cargo","practical guide" ]
+categories: [ "Rust","Cargo","practical guide","实战指南"  ]
 authors: [ "houseme" ]
-tags: [ "rust","cargo","practical guide","Cargo.toml","project configuration","dependency management","optimization tips","library","cross-platform" ]
+tags: [ "rust","cargo","practical guide","Cargo.toml","project configuration","dependency management","optimization tips","library","cross-platform","实战指南","项目配置","依赖管理","优化技巧","库","跨平台" ]
 keywords: "rust,cargo,Cargo.toml,项目配置,依赖管理,优化技巧,库,跨平台,实战指南,包管理器,构建系统"
 draft: false
 ---

@@ -3,10 +3,10 @@ title: "使用 PyO3 在 Rust 中调用 Python 包 JioNLP 实现成语接龙"
 description: "自然语言处理（NLP）是人工智能领域的一个重要分支，广泛应用于文本分析、情感分析、机器翻译等场景。Python 因其丰富的库生态系统和易用性成为 NLP 开发者的首选语言，而 Rust 则以其高性能和内存安全特性逐渐受到关注。本教程详细介绍了如何使用 Rust 和 PyO3 库调用 Python 包 `JioNLP`，实现一个简单的成语接龙游戏。通过本教程，你将学会如何设置 Rust 项目、创建 Python 虚拟环境、安装所需的 Python 包，并在 Rust 中调用 Python 代码。"
 date: 2024-09-08T23:00:00Z
 image: "https://static-rs.bifuba.com/images/posts/mohammad-alizade-EkC1RcOmfmE-unsplash.jpg"
-categories: ["PyO3", "Python", "Rust", "JioNLP", "NLP"]
+categories: ["PyO3", "Python", "Rust", "JioNLP", "NLP","实战指南"]
 authors: ["houseme"]
-tags: ["rust", "Python", "Tokio", "JioNLP", "PyO3"]
-keywords: "Rust, Python, PyO3, JioNLP, NLP, 自然语言处理，中文分词，Rust 调用 Python,PyO3 使用指南，JioNLP 成语接龙，Rust 和 Python 结合，跨语言编程"
+tags: ["rust", "Python", "Tokio", "JioNLP", "PyO3", "NLP","自然语言处理，中文分词，Rust 调用 Python,PyO3 使用指南，JioNLP 成语接龙，Rust 和 Python 结合，跨语言编程","实战指南"]
+keywords: "Rust, Python, PyO3, JioNLP, NLP, 自然语言处理，中文分词，Rust 调用 Python,PyO3 使用指南，JioNLP 成语接龙，Rust 和 Python 结合，跨语言编程,实战指南"
 draft: false
 ---
 
