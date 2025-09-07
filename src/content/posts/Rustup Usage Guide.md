@@ -5,7 +5,7 @@ date: 2024-08-07T05:00:00Z
 image: "https://static-rs.bifuba.com/images/posts/arno-senoner-_7bsgYdTTVE-unsplash.jpg"
 categories: ["rust guide", "rustup","实战指南"]
 authors: ["houseme"]
-tags: ["rust", "rustup","实战指南","Rust 安装，Rust 版本管理，Rust 工具链","rust guide"]
+tags: ["rust", "rustup","实战指南","Rust 安装","Rust 版本管理","Rust 工具链","rust guide"]
 keywords: "rust,rustup,Rust 安装，Rust 版本管理，Rust 工具链,rust guide"
 draft: false
 ---

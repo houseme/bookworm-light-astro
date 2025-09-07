@@ -5,7 +5,7 @@ date: 2024-09-08T23:00:00Z
 image: "https://static-rs.bifuba.com/images/posts/mohammad-alizade-EkC1RcOmfmE-unsplash.jpg"
 categories: ["PyO3", "Python", "Rust", "JioNLP", "NLP","实战指南"]
 authors: ["houseme"]
-tags: ["rust", "Python", "Tokio", "JioNLP", "PyO3", "NLP","自然语言处理，中文分词，Rust 调用 Python,PyO3 使用指南，JioNLP 成语接龙，Rust 和 Python 结合，跨语言编程","实战指南"]
+tags: ["rust", "Python","Tokio", "JioNLP", "PyO3", "NLP","自然语言处理","中文分词","Rust 调用 Python","PyO3 使用指南","JioNLP 成语接龙","Rust 和 Python 结合","跨语言编程","实战指南"]
 keywords: "Rust, Python, PyO3, JioNLP, NLP, 自然语言处理，中文分词，Rust 调用 Python,PyO3 使用指南，JioNLP 成语接龙，Rust 和 Python 结合，跨语言编程,实战指南"
 draft: false
 ---

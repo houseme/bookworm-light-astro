@@ -5,7 +5,7 @@ date: 2024-08-07T06:00:00Z
 image: "https://static-rs.bifuba.com/images/posts/arno-senoner-_7bsgYdTTVE-unsplash.jpg"
 categories: ["UniFFI", "Kotlin", "deployment", "release","实战指南"]
 authors: ["houseme"]
-tags: ["rust", "UniFFI", "Kotlin", "deployment", "release","实战指南","Rust 库发布，Kotlin 库发布，CI/CD 集成，Google Play 部署"]
+tags: ["rust", "UniFFI", "Kotlin", "deployment", "release","实战指南","Rust 库发布","Kotlin 库发布","CI/CD 集成","Google Play 部署"]
 keywords: "rust,UniFFI,Kotlin,deployment,release,Rust 库发布，Kotlin 库发布，CI/CD 集成，Google Play 部署"
 draft: false
 ---

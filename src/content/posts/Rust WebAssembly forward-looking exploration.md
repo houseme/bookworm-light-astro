@@ -7,7 +7,7 @@ date: 2024-08-07T06:00:00Z
 image: "https://static-rs.bifuba.com/images/posts/arno-senoner-_7bsgYdTTVE-unsplash.jpg"
 categories: ["WebAssembly","Rust","exploration","future","wasmtime","wasmer","实战指南"]
 authors: ["houseme"]
-tags: ["rust", "WebAssembly", "exploration","wasmtime","wasmer","实战指南","Rust WebAssembly","WebAssembly 未来，WebAssembly 生态系统","高性能","多线程","并行计算","安全性","生态系统"]
+tags: ["rust", "WebAssembly", "exploration","wasmtime","wasmer","实战指南","Rust WebAssembly","WebAssembly 未来","WebAssembly 生态系统","高性能","多线程","并行计算","安全性","生态系统"]
 keywords: "rust,WebAssembly,exploration,Rust WebAssembly,WebAssembly 未来，WebAssembly 生态系统"
 draft: false
 ---

@@ -5,7 +5,7 @@ date: 2024-08-07T06:00:00Z
 image: "https://static-rs.bifuba.com/images/posts/arno-senoner-_7bsgYdTTVE-unsplash.jpg"
 categories: ["sqlx", "security", "tokio","实战指南","安全性增强"]
 authors: ["houseme"]
-tags: ["rust", "sqlx", "security", "tokio", "dotenv", "bcrypt","mysql","Rust 数据库操作，Rust 数据库安全，Rust 数据库连接，Rust 数据库操作安全"]
+tags: ["rust", "sqlx", "security", "tokio", "dotenv", "bcrypt","mysql","Rust 数据库操作","Rust 数据库安全","Rust 数据库连接","Rust 数据库操作安全"]
 keywords: "rust,sqlx,security,tokio,Rust 数据库操作，Rust 数据库安全，Rust 数据库连接，Rust 数据库操作安全"
 draft: false
 ---
