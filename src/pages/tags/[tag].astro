@@ -24,9 +24,13 @@ const filterByTags = taxonomyFilter(posts, "tags", tag);
 const sortedPosts = sortByDate(filterByTags);
 
 const title = humanize(tag || "");
+const meta_title = ` ${title} | Tags - Rust 编程教程 - 学习 Rust 编程语言的最佳资源和教程`;
 ---
 
-<Base title={title || "Tag"}>
+<Base
+  title={title + ` | Tags - Rust 编程教程 - 学习 Rust 编程语言的最佳资源和教程`}
+  meta_title={meta_title}
+>
   <div class="section">
     <div class="container">
       <p class="text-center text-2xl mb-4">Showing Posts From</p>

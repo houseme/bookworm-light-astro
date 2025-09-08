@@ -1,5 +1,6 @@
 ---
-title: "Privacy"
+title: "Privacy Policy"
+meta_title: "Privacy Policy - Rust 编程教程 - 学习 Rust 编程语言的最佳资源和教程 - bifuba.com"
 description: "this is meta description"
 draft: false
 ---

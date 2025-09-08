@@ -1,18 +1,19 @@
 ---
-import { Image } from "astro:assets";
 import Share from "@/components/Share.astro";
 import SimilarPosts from "@/components/SimilarPosts.astro";
 import { getSinglePage } from "@/lib/contentParser.astro";
 import dateFormat from "@/lib/utils/dateFormat";
 import similerItems from "@/lib/utils/similarItems";
 import { humanize, markdownify, slugify } from "@/lib/utils/textConverter";
+import { Image } from "astro:assets";
+import { render } from "astro:content";
 import { BiCalendarEdit, BiCategoryAlt } from "react-icons/bi";
 
 const allAuthors = await getSinglePage("authors");
 const posts = await getSinglePage("posts");
 const { post } = Astro.props;
 const similarPosts = similerItems(post, posts, post.slug);
-const { Content } = await post.render();
+const { Content } = await render(post);
 const { title, description, authors, categories, image, date, tags } =
   post.data;
 ---
@@ -29,12 +30,12 @@ const { title, description, authors, categories, image, date, tags } =
                 .filter((author) =>
                   authors
                     .map((author: string) => slugify(author))
-                    .includes(slugify(author.data.title)),
+                    .includes(slugify(author.data.title))
                 )
-                .map((author, i) => (
+                .map((author) => (
                   <a
-                    href={`/authors/${slugify(author.slug)}`}
-                    class="flex items-center hover:text-primary font-medium"
+                    href={`/authors/${slugify(author.id)}`}
+                    class="flex items-center hover:text-primary font-medium" title={author.data.title}
                   >
                     {author.data.image && (
                       <Image
@@ -52,27 +53,26 @@ const { title, description, authors, categories, image, date, tags } =
           </li>
           <li class="mx-3 flex items-center flex-wrap font-medium">
             <BiCalendarEdit className="mr-1 h-5 w-5 text-gray-600" />
-            <>{dateFormat(date)}</>
+            {dateFormat(date)}
           </li>
           <li class="mx-3 flex items-center flex-wrap">
             <BiCategoryAlt className="mr-1 h-[18px] w-[18px] text-gray-600" />
-            <>
-              <ul>
-                {
-                  categories.map((category: string, i: number) => (
-                    <li class="inline-block">
-                      <a
-                        href={`/categories/${slugify(category)}`}
-                        class="mr-2 hover:text-primary font-medium"
-                      >
-                        {humanize(category)}
-                        {i !== post.data.categories.length - 1 && ","}
-                      </a>
-                    </li>
-                  ))
-                }
-              </ul>
-            </>
+
+            <ul>
+              {
+                categories.map((category: string, i: number) => (
+                  <li class="inline-block">
+                    <a
+                      href={`/categories/${slugify(category)}`}
+                      class="mr-2 hover:text-primary font-medium"
+                    >
+                      {humanize(category)}
+                      {i !== post.data.categories.length - 1 && ","}
+                    </a>
+                  </li>
+                ))
+              }
+            </ul>
           </li>
         </ul>
       </div>
@@ -89,11 +89,15 @@ const { title, description, authors, categories, image, date, tags } =
             />
           )
         }
+        <p class="mt-6 text-center">Photos provided by <a href="https://unsplash.com?source=rs.bifuba.com" target="_blank" rel="nofollow">Unsplash</a> OR <a href="https://www.pexels.com?source=rs.bifuba.com" target="_blank" rel="nofollow"> Pexels </a></p>
       </div>
 
       <div class="md:col-10">
         <div class="content mb-16 text-left">
           <Content />
+        </div>
+        <div class="border-t border-b border-theme-light py-4">
+          <p class="text-left text-text">版权声明：自由转载-非商用-非衍生-保持署名（创意共享3.0许可证）</p>
         </div>
         <div class="flex flex-wrap items-center justify-between">
           <ul class="mr-4 mb-4 space-x-3">
@@ -102,7 +106,7 @@ const { title, description, authors, categories, image, date, tags } =
                 <li class="inline-block">
                   <a
                     href={`/tags/${slugify(tag)}`}
-                    class="block rounded-lg bg-theme-light px-4 py-2 font-semibold text-dark text-sm hover:text-primary transition duration-300"
+                    class="block rounded-lg bg-light px-4 py-2 font-semibold text-dark text-sm hover:text-primary transition duration-300"
                   >
                     #{humanize(tag)}
                   </a>
@@ -114,7 +118,7 @@ const { title, description, authors, categories, image, date, tags } =
             className="social-share mb-4"
             title={title}
             description={description}
-            slug={post.slug}
+            slug={post.id}
           />
         </div>
       </div>

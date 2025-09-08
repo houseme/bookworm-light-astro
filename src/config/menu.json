@@ -5,12 +5,24 @@
       "url": "/"
     },
     {
-      "name": "About",
-      "url": "/about"
+      "name": "Categories",
+      "url": "/categories"
     },
     {
-      "name": "Contact",
-      "url": "/contact"
+      "name": "Tags",
+      "url": "/tags"
+    },
+    {
+      "name": "Rust",
+      "url": "/categories/rust"
+    },
+    {
+      "name": "Salvo",
+      "url": "/categories/salvo"
+    },
+    {
+      "name": "Tokio",
+      "url": "/categories/tokio"
     },
     {
       "name": "Pages",
@@ -22,12 +34,12 @@
           "url": "/authors"
         },
         {
-          "name": "Categories",
-          "url": "/categories"
+          "name": "About",
+          "url": "/about"
         },
         {
-          "name": "Tags",
-          "url": "/tags"
+          "name": "Contact",
+          "url": "/contact"
         },
         {
           "name": "Elements",
@@ -38,6 +50,10 @@
           "url": "/privacy-policy"
         }
       ]
+    },
+    {
+      "name": "Subscribe to RSS",
+      "url": "/rss.xml"
     }
   ],
   "footer": [
@@ -56,6 +72,10 @@
     {
       "name": "Privacy Policy",
       "url": "/privacy-policy"
+    },
+    {
+      "name": "Subscribe to RSS",
+      "url": "/rss.xml"
     }
   ]
 }

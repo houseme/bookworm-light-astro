@@ -1,35 +1,33 @@
 {
   "site": {
-    "title": "Bookworm Light Astro | Blog Template",
-    "base_url": "https://bookworm-light-astro.vercel.app",
+    "title": "Rust 编程教程 - 学习 Rust 编程语言的最佳资源和教程",
+    "base_url": "https://rs.bifuba.com",
     "base_path": "/",
+    "base_static": "https://static-rs.bifuba.com",
     "trailing_slash": false,
-    "favicon": "/images/favicon.png",
-    "logo": "/images/logo.png",
+    "favicon": "https://static-rs.bifuba.com/images/rust-programming-thumb.png",
+    "logo": "https://static-rs.bifuba.com/images/rs.bifuba.com-logo.png",
     "logo_width": "200",
     "logo_height": "34",
-    "logo_text": "Bookworm Light"
+    "logo_text": "Rust 编程教程 - 学习 Rust 编程语言的最佳资源和教程"
   },
-
   "settings": {
-    "pagination": 5,
+    "pagination": 13,
     "summary_length": 100
   },
-
   "metadata": {
-    "meta_author": "Themefisher",
-    "meta_image": "/images/og-image.png",
-    "meta_description": "Bookworm Light Astro Blog Template"
+    "meta_keywords": "Rust 编程，Rust 教程，OpenTelemetry，分布式追踪，Rust 异步编程，Rust 网络开发，Rust 并发编程，Rust 项目实战，Salvo,Tokio,Cargo",
+    "meta_author": "Houseme",
+    "meta_image": "https://static-rs.bifuba.com/images/rust-programming-thumb.png",
+    "meta_description": "探索全面的 Rust 编程教程，获取学习 Rust 编程语言的最佳资源，适合初学者和有经验的开发者。通过详细的示例和深入的解析，掌握 Rust 的核心概念和实践技巧，提高你的编程技能。"
   },
-
   "params": {
     "contact_form_action": "#",
-    "copyright": "Copyright © 2023 a theme by [Themefisher](https://themefisher.com)"
+    "copyright": "Copyright © 2025 [BiFuBa](https://bifuba.com)"
   },
-
   "contactinfo": {
     "address": "355 S Grand Ave <br/> Los Angeles, CA 90071",
-    "email": "info@bookworm.org",
-    "phone": "+800 567 1234"
+    "email": "dev@bifuba.com",
+    "phone": "+800 XXX 1234"
   }
 }

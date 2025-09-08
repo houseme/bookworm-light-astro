@@ -96,7 +96,7 @@ export default function SearchBar({ searchList }: Props) {
             {item.data.image && (
               <a
                 href={`/${item.slug}`}
-                className="rounded-lg block hover:text-primary overflow-hidden group"
+                className="rounded-lg block hover:text-primary overflow-hidden group" title={item.data.title}
               >
                 <img
                   className="group-hover:scale-[1.03] transition duration-300 w-full"
@@ -135,7 +135,7 @@ export default function SearchBar({ searchList }: Props) {
 
             <h3 className="mb-2">
               <a
-                href={`/${item.slug}`}
+                href={`/${item.slug}`}  title={item.data.title}
                 className="block hover:text-primary transition duration-300"
               >
                 {item.data.title}

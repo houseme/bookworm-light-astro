@@ -7,14 +7,14 @@ import { getSinglePage } from "@/lib/contentParser.astro";
 const posts = await getSinglePage("posts");
 
 // List of items to search in
-const searchList = posts.map((item: any) => ({
-  slug: item.slug,
+const searchList = posts.map((item) => ({
+  slug: item.id,
   data: item.data,
   content: item.body,
 }));
 ---
 
-<Base title={`Search`}>
+<Base title={`Search - Rust 编程教程 - 学习 Rust 编程语言的最佳资源和教程`}>
   <section class="section">
     <div class="container">
       <SearchBar client:load searchList={searchList} />
