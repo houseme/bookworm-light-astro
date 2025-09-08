@@ -97,6 +97,7 @@ rustup show
 ### 4. 使用工具链
 
 - **格式化代码**：
+
   ```bash
   cargo fmt
   ```

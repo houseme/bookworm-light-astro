@@ -3,9 +3,24 @@ title: "Rust Axum 域名魔力：子域名与路径的优雅交汇，铸就高�
 description: "在 Rust 的 Web 开发宇宙中，Axum 如同一缕清风，轻量却强大。它基于 Tokio 异步运行时和 Hyper HTTP 库，强调模块化和类型安全，让开发者以最小开销构建高性能服务器。回想我们的需求：在 Rust 项目中，让`a.com/a`（路径路由）和`a.a.com`（子域名路由）同时指向同一目录或文件。这不仅仅是路由技巧，更是虚拟主机（Virtual Hosting）的艺术体现——通过 HTTP Host 头动态分发资源，避免重复部署，提升效率。"
 date: 2025-09-03T16:00:00Z
 image: "https://static-rs.bifuba.com/images/posts/damir-semirkhanov-Fd-8feAJJT0-unsplash.jpg"
-categories: ["rust","实战指南","并发","Web开发","axum"]
+categories: ["rust", "实战指南", "并发", "Web开发", "axum"]
 authors: ["houseme"]
-tags: ["rust","实战指南","并发","Web开发","axum","tokio","hyper","tower","tower-http","虚拟主机","Host-based Routing","ServeDir","Steer"]
+tags:
+  [
+    "rust",
+    "实战指南",
+    "并发",
+    "Web开发",
+    "axum",
+    "tokio",
+    "hyper",
+    "tower",
+    "tower-http",
+    "虚拟主机",
+    "Host-based Routing",
+    "ServeDir",
+    "Steer",
+  ]
 keywords: "rust,实战指南,并发,Web开发,axum,tokio,hyper,tower,tower-http,虚拟主机,Host-based Routing,ServeDir,Steer"
 draft: false
 ---

@@ -3,13 +3,26 @@ title: "Rust Cargo 缓存管理：自动清理、最佳实践与高效工具指�
 description: "Cargo 作为 Rust 的包管理工具，不仅在项目构建中扮演了重要的角色，其高效的缓存机制也为 Rust 开发者节省了大量的时间。Cargo 使用缓存来提高构建效率，当执行构建命令时，它会把下载的依赖包存放在 `CARGO_HOME` 目录下，该目录默认位于用户的 home 目录下的 `.cargo` 文件夹内。"
 date: 2024-12-10T06:00:00Z
 image: "https://static-rs.bifuba.com/images/posts/elijah-hiett-7FNutMHhBxI-unsplash.jpg"
-categories: [ "Rust", "Cargo","缓存管理","实战指南" ]
-authors: [ "houseme" ]
-tags: [ "rust", "cargo", "cache", "Rust cache", "Cargo cache", "Rust cache management", "Cargo cache management","实战指南","缓存管理","自动清理","最佳实践","高效工具" ]
+categories: ["Rust", "Cargo", "缓存管理", "实战指南"]
+authors: ["houseme"]
+tags:
+  [
+    "rust",
+    "cargo",
+    "cache",
+    "Rust cache",
+    "Cargo cache",
+    "Rust cache management",
+    "Cargo cache management",
+    "实战指南",
+    "缓存管理",
+    "自动清理",
+    "最佳实践",
+    "高效工具",
+  ]
 keywords: "rust,cargo,cache,Rust cache,Cargo cache,Rust cache management,Cargo cache management,实战指南,缓存管理,自动清理,最佳实践,高效工具"
 draft: false
 ---
-
 
 ## Rust Cargo 缓存管理实战指南
 
@@ -55,7 +68,7 @@ gc = true
 
 通过上述指南，你可以更好地理解和操作 Cargo 缓存，让你在 Rust 的世界中畅游无阻。
 
-------------
+---
 
 ## 1. 如何设置 Cargo 来自动清理缓存？
 
@@ -107,34 +120,42 @@ gc = true
 
 通过上述步骤，你可以有效地管理 Cargo 的缓存，确保构建效率和环境的整洁。
 
---------
+---
 
 清理 Cargo 的 index cache 可以通过以下几种方法：
 
 1. **手动删除**：
    你可以手动删除 `.cargo` 目录下的 `registry` 子目录，这包括了索引和缓存的 crate 文件。例如，你可以使用以下命令：
+
    ```sh
    rm -rf ~/.cargo/registry
    ```
+
    这将删除所有下载的 crate 索引和压缩文件，Cargo 在需要时会重新下载它们。
 
 2. **使用 cargo-cache 工具**：
    `cargo-cache` 是一个第三方工具，可以用来查看和管理 Cargo 的缓存。你可以通过以下命令安装 `cargo-cache`：
+
    ```sh
    cargo install cargo-cache
    ```
+
    安装完成后，你可以使用以下命令来清理缓存：
+
    ```sh
    cargo cache --remove-dir all
    ```
+
    这将清理所有的缓存目录，包括 registry、git-db 等。
 
 3. **自动清理（不稳定特性）**：
    从 nightly-2023-11-17 开始，Cargo 提供了一个不稳定特性，可以自动清理缓存内容。要启用这个特性，你需要在你的 `~/.cargo/config.toml` 或 `%USERPROFILE%\.cargo\config.toml` 文件中添加以下配置：
+
    ```toml
    [unstable]
    gc = true
    ```
+
    或者设置环境变量 `CARGO_UNSTABLE_GC=true`，或者使用 `-Zgc` CLI 标志来为单个命令启用它。
 
 4. **手动垃圾收集**：

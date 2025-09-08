@@ -3,9 +3,20 @@ title: "Rust Crate bb8: A Comprehensive Guide to Async PostgreSQL Connection Poo
 description: "The `bb8` crate, a full-featured, Tokio-based asynchronous connection pool, is designed to manage database connections efficiently, particularly for PostgreSQL via the `bb8-postgres` adapter. Inspired by the synchronous `r2d2` connection pool, `bb8` brings the same robustness to the async world, making it an essential tool for Rust developers working with databases in asynchronous applications. "
 date: 2025-04-20T00:00:00Z
 image: "https://static-rs.bifuba.com/images/posts/pexels-rui-wang-16615369-29954278-1920.jpg"
-categories: [ "Rust","Pooling","Practical Guide"  ]
-authors: [ "houseme" ]
-tags: [ "rust","Pooling","bb8","postgresql","connection pooling","async","实战指南","连接池","异步编程" ]
+categories: ["Rust", "Pooling", "Practical Guide"]
+authors: ["houseme"]
+tags:
+  [
+    "rust",
+    "Pooling",
+    "bb8",
+    "postgresql",
+    "connection pooling",
+    "async",
+    "实战指南",
+    "连接池",
+    "异步编程",
+  ]
 keywords: "rust,bb8,postgresql,connection pooling,async"
 draft: false
 ---
@@ -547,28 +558,29 @@ To get the most out of `bb8`, consider these optimization strategies:
 
 1. **Tune Pool Size**:
 
-  - Set `max_size` based on your application's concurrency needs and database limits.
-  - Use `min_idle` to maintain a baseline of idle connections for low-latency access.
+- Set `max_size` based on your application's concurrency needs and database limits.
+- Use `min_idle` to maintain a baseline of idle connections for low-latency access.
 
 2. **Connection Lifetime**:
 
-  - Use `max_lifetime` to recycle old connections, preventing issues with long-lived connections.
+- Use `max_lifetime` to recycle old connections, preventing issues with long-lived connections.
 
 3. **Connection Timeout**:
 
-  - Set a reasonable `connection_timeout` to avoid tasks hanging indefinitely.
+- Set a reasonable `connection_timeout` to avoid tasks hanging indefinitely.
 
 4. **Health Checks**:
 
-  - Optimize `is_valid` to perform lightweight checks (e.g., a simple `SELECT 1`).
-  - Ensure `has_broken` accurately detects broken connections to avoid reusing them.
+- Optimize `is_valid` to perform lightweight checks (e.g., a simple `SELECT 1`).
+- Ensure `has_broken` accurately detects broken connections to avoid reusing them.
 
 5. **Error Handling**:
 
-  - Use an `ErrorSink` to log and monitor connection issues, helping diagnose performance bottlenecks.
+- Use an `ErrorSink` to log and monitor connection issues, helping diagnose performance bottlenecks.
 
 6. **Benchmarking**:
-  - Compare `bb8` performance with tools like `wrk` or `ab` to ensure it meets your needs. Note that some benchmarks suggest `r2d2` may outperform `bb8` in certain scenarios due to async overhead, so test thoroughly.[](https://github.com/djc/bb8/issues/29)
+
+- Compare `bb8` performance with tools like `wrk` or `ab` to ensure it meets your needs. Note that some benchmarks suggest `r2d2` may outperform `bb8` in certain scenarios due to async overhead, so test thoroughly.[](https://github.com/djc/bb8/issues/29)
 
 ---
 

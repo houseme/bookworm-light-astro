@@ -5,7 +5,17 @@ date: 2024-09-08T23:00:00Z
 image: "https://static-rs.bifuba.com/images/posts/tim-marshall-jqj2SqvxMVY-unsplash.jpg"
 categories: ["rust", "assert", "assert_eq", "testing", "debugging"]
 authors: ["houseme"]
-tags: ["rust", "assert", "assert_eq", "testing", "debugging", "unit tests", "macros", "error handling"]
+tags:
+  [
+    "rust",
+    "assert",
+    "assert_eq",
+    "testing",
+    "debugging",
+    "unit tests",
+    "macros",
+    "error handling",
+  ]
 keywords: "Rust, Rust `assert!`, Rust `assert_eq!`, testing, debugging, unit tests, macros, error handling"
 draft: false
 ---

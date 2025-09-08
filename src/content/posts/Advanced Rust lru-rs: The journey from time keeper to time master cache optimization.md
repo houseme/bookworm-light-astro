@@ -3,9 +3,23 @@ title: "Rust lru-rs 高级进阶：从时间守护到时空大师的缓存优化
 description: "lru-rs 作为 Rust 中轻量级 LRU 缓存的代表，受 std::collections 早期实现启发，以其纯净设计和常数时间复杂度，在单线程环境中大放异彩。不同于 Moka 的并发复杂性，lru-rs 专注于简洁高效，适合作为构建块扩展到更广场景。"
 date: 2025-08-26T08:20:00Z
 image: "https://static-rs.bifuba.com/images/250804/pexels-jillyjillystudio-32129126.jpg"
-categories: [ "Rust","Cargo","缓存","并发编程","性能优化" ]
-authors: [ "houseme" ]
-tags: [ "Rust 实战","Rust","cargo","缓存","并发编程","性能优化","Moka","lru","LRU 缓存","数据结构","内存管理","Hasher" ]
+categories: ["Rust", "Cargo", "缓存", "并发编程", "性能优化"]
+authors: ["houseme"]
+tags:
+  [
+    "Rust 实战",
+    "Rust",
+    "cargo",
+    "缓存",
+    "并发编程",
+    "性能优化",
+    "Moka",
+    "lru",
+    "LRU 缓存",
+    "数据结构",
+    "内存管理",
+    "Hasher",
+  ]
 keywords: "Rust 实战,Rust,cargo,缓存,并发编程,性能优化,Moka,lru,LRU 缓存,数据结构,内存管理"
 draft: false
 ---

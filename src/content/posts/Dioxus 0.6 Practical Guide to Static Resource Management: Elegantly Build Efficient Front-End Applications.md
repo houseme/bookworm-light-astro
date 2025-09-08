@@ -3,9 +3,25 @@ title: "Dioxus 0.6 静态资源管理实战指南：优雅构建高效前端应�
 description: "在 Dioxus 0.6.1 中，静态资源管理变得更加简洁和强大。通过 `asset!` 宏，开发者可以轻松地引用静态资源，并确保这些资源在构建过程中被自动优化和打包。本文将基于 Dioxus 0.6.1 的语法，修复并优化之前的示例代码，展示如何优雅地管理静态资源。"
 date: 2024-12-08T06:00:00Z
 image: "https://static-rs.bifuba.com/images/posts/pexels-pavel-danilyuk-7406132.jpg"
-categories: [ "Rust", "Dioxus", "Front-end", "Assent","实战指南" ]
-authors: [ "houseme" ]
-tags: [ "rust", "Dioxus", "front-end","Assent","web","desktop","mobile","static resource management","resource management","static assets","web development","desktop development","mobile development","实战指南" ]
+categories: ["Rust", "Dioxus", "Front-end", "Assent", "实战指南"]
+authors: ["houseme"]
+tags:
+  [
+    "rust",
+    "Dioxus",
+    "front-end",
+    "Assent",
+    "web",
+    "desktop",
+    "mobile",
+    "static resource management",
+    "resource management",
+    "static assets",
+    "web development",
+    "desktop development",
+    "mobile development",
+    "实战指南",
+  ]
 keywords: "rust,Dioxus,static resource management,front-end,web,desktop,mobile,Assent,实战指南"
 draft: false
 ---
@@ -149,32 +165,32 @@ my_dioxus_app/
 
 ```css
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f4f8;
-    color: #333;
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+  color: #333;
 }
 
 .container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 2rem;
-    text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
 }
 
 .profile-img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin-bottom: 1rem;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
 }
 
 .btn {
-    display: inline-block;
-    padding: 0.5rem 1rem;
-    background-color: #4299e1;
-    color: white;
-    border-radius: 0.25rem;
-    text-decoration: none;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #4299e1;
+  color: white;
+  border-radius: 0.25rem;
+  text-decoration: none;
 }
 ```
 

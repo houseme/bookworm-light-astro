@@ -5,7 +5,29 @@ date: 2024-09-09T12:00:00Z
 image: "https://static-rs.bifuba.com/images/posts/mariana-franco-48e4LUyIXVE-unsplash.jpg"
 categories: ["PyO3", "Python", "Rust", "JioNLP", "Salvo", "API", "Docker"]
 authors: ["houseme"]
-tags: ["rust", "Python", "Tokio", "JioNLP", "PyO3", "Salvo", "API", "Docker", "NLP", "自然语言处理", "中文分词", "Rust 调用 Python", "PyO3 使用指南", "JioNLP 成语接龙", "Rust 和 Python 结合", "跨语言编程", "Linux 环境配置", "Salvo Web 框架", "API 接口服务", "Docker 容器化"]
+tags:
+  [
+    "rust",
+    "Python",
+    "Tokio",
+    "JioNLP",
+    "PyO3",
+    "Salvo",
+    "API",
+    "Docker",
+    "NLP",
+    "自然语言处理",
+    "中文分词",
+    "Rust 调用 Python",
+    "PyO3 使用指南",
+    "JioNLP 成语接龙",
+    "Rust 和 Python 结合",
+    "跨语言编程",
+    "Linux 环境配置",
+    "Salvo Web 框架",
+    "API 接口服务",
+    "Docker 容器化",
+  ]
 keywords: "Rust, Python, PyO3, JioNLP, NLP, 自然语言处理，中文分词，Rust 调用 Python,PyO3 使用指南，JioNLP 成语接龙，Rust 和 Python 结合，跨语言编程，Linux 环境配置 , Salvo Web 框架 , API 接口服务 , Docker 容器化"
 draft: false
 ---

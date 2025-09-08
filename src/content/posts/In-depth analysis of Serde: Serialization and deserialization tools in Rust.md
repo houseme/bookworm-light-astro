@@ -5,7 +5,20 @@ date: 2024-11-03T09:15:00Z
 image: "https://static-rs.bifuba.com/images/posts/willian-justen-de-vasconcellos-wk3Pjf4MK7w-unsplash.jpg"
 categories: ["rust", "serde", "serialization", "deserialization", "实战指南"]
 authors: ["houseme"]
-tags: ["rust", "serde", "serialization", "deserialization","实战指南","rust-serde","serde-tutorial","rust-serialization","rust-deserialization","序列化","反序列化"]
+tags:
+  [
+    "rust",
+    "serde",
+    "serialization",
+    "deserialization",
+    "实战指南",
+    "rust-serde",
+    "serde-tutorial",
+    "rust-serialization",
+    "rust-deserialization",
+    "序列化",
+    "反序列化",
+  ]
 keywords: "rust, serde, serialization, deserialization,实战指南,rust-serde,serde-tutorial,rust-serialization,rust-deserialization,序列化,反序列化"
 draft: false
 ---

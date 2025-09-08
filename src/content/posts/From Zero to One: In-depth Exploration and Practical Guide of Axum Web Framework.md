@@ -3,9 +3,21 @@ title: "从零到一：Axum Web 框架深度探索与实战指南 - Rust 异步�
 description: "本教程深入浅出地介绍了 Axum Web 框架的基础知识和高级特性，通过实战示例，帮助 Rust 开发者快速掌握构建高性能 Web 应用的技能。从环境搭建到 RESTful API 的实现，再到错误处理和数据库集成，本指南将带你一步步成为 Axum 的高手。"
 date: 2024-08-09T16:00:00Z
 image: "https://static-rs.bifuba.com/images/posts/tim-marshall-jqj2SqvxMVY-unsplash.jpg"
-categories: ["Axum", "Web","rust", "async", "Tokio"]
+categories: ["Axum", "Web", "rust", "async", "Tokio"]
 authors: ["houseme"]
-tags: ["rust", "async", "Tokio", "Axum","Web framework","RESTful API","middleware","state sharing","error handling","database integration"]
+tags:
+  [
+    "rust",
+    "async",
+    "Tokio",
+    "Axum",
+    "Web framework",
+    "RESTful API",
+    "middleware",
+    "state sharing",
+    "error handling",
+    "database integration",
+  ]
 keywords: "Axum, Rust Web 框架，异步编程，Tokio, Tower 服务栈，RESTful API, 中间件，状态共享，错误处理，数据库集成"
 draft: false
 ---

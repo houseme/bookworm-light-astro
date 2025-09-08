@@ -3,13 +3,28 @@ title: "优雅整合 Dioxus 与 Tailwind CSS：打造高端前端体验"
 description: "在现代前端开发中，选择合适的工具和技术栈至关重要。Dioxus 作为一个高效、灵活的 Rust 前端框架，结合 Tailwind CSS 这一功能强大的实用型 CSS 框架，能够帮助开发者快速构建出优雅且高性能的 Web 应用。本文将基于 Dioxus 0.6.1 的语法，深入探讨如何在 Dioxus 项目中集成 Tailwind CSS，并利用 `asset` 管理静态资源，打造一个高端的前端开发体验。"
 date: 2024-12-08T06:20:10Z
 image: "https://static-rs.bifuba.com/images/posts/pexels-pixabay-66284.jpg"
-categories: [ "Rust", "Dioxus","Tailwind CSS","Front-end","Asset" ]
-authors: [ "houseme" ]
-tags: [ "rust", "Dioxus", "front-end","Tailwind CSS","asset","web","static resource management","resource management","static assets","web development","web design","css framework","utility-first css","responsive design" ]
+categories: ["Rust", "Dioxus", "Tailwind CSS", "Front-end", "Asset"]
+authors: ["houseme"]
+tags:
+  [
+    "rust",
+    "Dioxus",
+    "front-end",
+    "Tailwind CSS",
+    "asset",
+    "web",
+    "static resource management",
+    "resource management",
+    "static assets",
+    "web development",
+    "web design",
+    "css framework",
+    "utility-first css",
+    "responsive design",
+  ]
 keywords: "rust,Dioxus,front-end,Tailwind CSS,asset,web,static resource management,resource management,static assets,css framework,utility-first css,responsive design"
 draft: false
 ---
-
 
 在现代前端开发中，选择合适的工具和技术栈至关重要。Dioxus 作为一个高效、灵活的 Rust 前端框架，结合 Tailwind CSS 这一功能强大的实用型 CSS 框架，能够帮助开发者快速构建出优雅且高性能的 Web 应用。本文将基于 Dioxus 0.6.1 的语法，深入探讨如何在 Dioxus 项目中集成 Tailwind CSS，并利用 `asset` 管理静态资源，打造一个高端的前端开发体验。
 
@@ -20,6 +35,7 @@ draft: false
 ### **1.1 为什么选择 Dioxus？**
 
 Dioxus 是一个基于 Rust 的前端框架，具有以下优势：
+
 - **高性能**：Rust 语言的高效性和内存安全性使得 Dioxus 在性能上表现出色。
 - **跨平台**：Dioxus 支持 Web、桌面和移动端开发，具备良好的跨平台能力。
 - **声明式 UI**：类似于 React 的声明式 UI 编程模型，使得开发者可以轻松构建复杂的用户界面。
@@ -27,6 +43,7 @@ Dioxus 是一个基于 Rust 的前端框架，具有以下优势：
 ### **1.2 Tailwind CSS 的魅力**
 
 Tailwind CSS 是一个实用型 CSS 框架，具有以下特点：
+
 - **原子化 CSS**：通过组合细粒度的 CSS 类，快速构建出复杂的 UI。
 - **高度可定制**：通过配置文件，开发者可以轻松定制 Tailwind 的主题和样式。
 - **响应式设计**：内置的响应式设计工具，使得构建自适应布局变得简单。
@@ -74,7 +91,7 @@ module.exports = {
     extend: {},
   },
   plugins: [],
-}
+};
 ```
 
 创建 `src/styles.css` 文件，并添加 Tailwind 的基础样式：

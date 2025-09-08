@@ -3,13 +3,26 @@ title: "把子模块驯成乖猫咪：Git Submodule 从入门到精通的实战�
 description: "在真实的软件世界里，我们很少只面对“一个仓库、一条分支、一套代码”的童话。微服务、共享组件、跨团队 SDK、甚至不同语言的构建脚本，都可能散落在独立的 Git 仓库里。于是，“把别人的仓库嵌进我的仓库”成了日常刚需——"
 date: 2025-07-05T11:00:00Z
 image: "https://static-rs.bifuba.com/images/250804/pexels-ishahidsultan-33049607.jpg"
-categories: [ "git", "Submodule","实战指南" ]
-authors: [ "houseme" ]
-tags: [ "rust", "Submodule","Git","git submodule","git submodule update","git submodule add","实战指南","子模块","Git 子模块","git 子模块","git 子模块更新","git 子模块添加" ]
+categories: ["git", "Submodule", "实战指南"]
+authors: ["houseme"]
+tags:
+  [
+    "rust",
+    "Submodule",
+    "Git",
+    "git submodule",
+    "git submodule update",
+    "git submodule add",
+    "实战指南",
+    "子模块",
+    "Git 子模块",
+    "git 子模块",
+    "git 子模块更新",
+    "git 子模块添加",
+  ]
 keywords: "rust,Submodule,Git,git submodule,git submodule update,git submodule add,实战指南,子模块,Git 子模块,git 子模块,git 子模块更新,git 子模块添加"
 draft: false
 ---
-
 
 🌱 引言 · 为什么今天一定要学会 submodule？
 
@@ -37,6 +50,7 @@ clone 后代码是空的、update 命令一长串、指针冲突看不懂、CI �
 ---
 
 ## 📚 目录
+
 1. 概念速览：Submodule 到底是什么？
 2. 环境准备：初始化一个“主仓库”与“子仓库”
 3. 添加子模块：第一次把猫咪带回家
@@ -54,6 +68,7 @@ clone 后代码是空的、update 命令一长串、指针冲突看不懂、CI �
 ---
 
 ## 1️⃣ 概念速览
+
 - **主仓库**（Superproject）：你的大项目。
 - **子模块**（Submodule）：存在于主仓库里，却指向另一个独立 Git 仓库的某个提交。
 - **指针文件**：主仓库只记录子模块的“提交 SHA”，不记录代码本身。
@@ -63,6 +78,7 @@ clone 后代码是空的、update 命令一长串、指针冲突看不懂、CI �
 ---
 
 ## 2️⃣ 环境准备
+
 ```bash
 # 创建两个干净的练习仓库
 mkdir ~/submodule-lab && cd ~/submodule-lab
@@ -84,6 +100,7 @@ git add . && git commit -m "Initial app commit"
 ---
 
 ## 3️⃣ 添加子模块：第一次把猫咪带回家
+
 ```bash
 # 仍在 ~/submodule-lab/app
 git submodule add ../library vendor/library   # 使用相对路径，方便本地演练
@@ -93,7 +110,9 @@ git status
 # new file:   vendor/library
 git commit -m "Add library as submodule"
 ```
+
 `.gitmodules` 文件内容：
+
 ```
 [submodule "vendor/library"]
     path = vendor/library
@@ -103,6 +122,7 @@ git commit -m "Add library as submodule"
 ---
 
 ## 4️⃣ 克隆含子模块的仓库：别让猫咪跑丢
+
 ```bash
 # 换台电脑/目录模拟
 cd ~/submodule-lab
@@ -118,6 +138,7 @@ git clone --recurse-submodules ../app app-clone-fast
 ---
 
 ## 5️⃣ 本地更新子模块：猫咪想换新毛
+
 ```bash
 # 进入子模块目录
 cd vendor/library
@@ -139,24 +160,28 @@ git commit -m "Bump library to latest main"
 ---
 
 ## 6️⃣ 批量更新所有子模块：一键换毛
+
 ```bash
 # 顶层目录
 git submodule foreach 'git fetch origin && git checkout main && git pull origin main'
 # 或者直接递归拉取
 git submodule update --remote --merge
 ```
+
 - `--remote`：让 Git 读取 `.gitmodules` 中记录的跟踪分支并拉取。
 - `--merge/--rebase`：决定如何整合上游变更。
 
 ---
 
 ## 7️⃣ 提交子模块指针变更：告诉主仓库“猫换毛了”
+
 ```bash
 git status
 git add .
 git commit -m "Update all submodules to latest upstream"
 git push
 ```
+
 CI/CD 提示：如果主仓库有钩子，请确保子模块的 URL 对 CI 可见（SSH key 或 token）。
 
 ---
@@ -164,19 +189,25 @@ CI/CD 提示：如果主仓库有钩子，请确保子模块的 URL 对 CI 可�
 ## 8️⃣ 进阶技巧
 
 ### 8.1 固定子模块到指定分支
+
 `.gitmodules` 追加：
+
 ```
 [submodule "vendor/library"]
     branch = stable
 ```
+
 然后：
+
 ```bash
 git submodule set-branch --branch stable vendor/library
 git submodule update --remote
 ```
 
 ### 8.2 递归克隆/拉取 alias
+
 `~/.gitconfig` 添加：
+
 ```ini
 [alias]
     cloneall = clone --recurse-submodules
@@ -184,7 +215,9 @@ git submodule update --remote
 ```
 
 ### 8.3 子模块冲突排查
+
 场景：主仓库 A 同事把子模块指到 SHA1，你指到 SHA2。
+
 ```bash
 git pull --rebase          # 此时出现冲突
 git mergetool              # 如果配置了子模块 diff 工具
@@ -197,7 +230,9 @@ git add vendor/library && git rebase --continue
 ---
 
 ## 9️⃣ 一键脚本：懒人专属
+
 保存为 `update-submodules.sh`：
+
 ```bash
 #!/usr/bin/env bash
 set -e
@@ -207,7 +242,9 @@ git add .
 git commit -m "chore: sync submodules $(date '+%F %T')" || true
 git push
 ```
+
 使用：
+
 ```bash
 chmod +x update-submodules.sh
 ./update-submodules.sh
@@ -216,6 +253,7 @@ chmod +x update-submodules.sh
 ---
 
 ## 🔖 参考资料 & 彩蛋
+
 1. 官方文档：  
    https://git-scm.com/book/zh/v2/Git-工具-子模块
 2. GitHub Cheatsheet:  

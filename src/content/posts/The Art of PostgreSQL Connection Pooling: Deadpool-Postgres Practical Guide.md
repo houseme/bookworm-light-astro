@@ -3,9 +3,25 @@ title: "PostgreSQL 连接池的艺术：Deadpool-Postgres 实战指南"
 description: "在现代 Web 应用中，数据库连接池是提升性能和资源利用率的关键组件。`deadpool-postgres` 是 Rust 生态中一个轻量级、高性能的 PostgreSQL 连接池库，基于 `tokio-postgres` 实现。本文将带你从零开始，逐步深入，掌握 `deadpool-postgres` 的使用技巧，并通过完整的示例代码展示如何在实际项目中优雅地管理 PostgreSQL 连接池。"
 date: 2024-12-10T06:00:00Z
 image: "https://static-rs.bifuba.com/images/posts/arno-senoner-_7bsgYdTTVE-unsplash.jpg"
-categories: [ "PostgreSQL", "Deadpool", "Rust", "Database","Tokio","实战指南" ]
-authors: [ "houseme" ]
-tags: [ "rust", "deadpool-postgres", "PostgreSQL", "database", "connection-pooling", "Rust database", "Rust PostgreSQL", "Rust database connection pooling","实战指南","数据库","连接池","高性能","异步","Tokio" ]
+categories: ["PostgreSQL", "Deadpool", "Rust", "Database", "Tokio", "实战指南"]
+authors: ["houseme"]
+tags:
+  [
+    "rust",
+    "deadpool-postgres",
+    "PostgreSQL",
+    "database",
+    "connection-pooling",
+    "Rust database",
+    "Rust PostgreSQL",
+    "Rust database connection pooling",
+    "实战指南",
+    "数据库",
+    "连接池",
+    "高性能",
+    "异步",
+    "Tokio",
+  ]
 keywords: "rust,deadpool-postgres,PostgreSQL,database,connection pooling,Rust database,Rust PostgreSQL,Rust database connection pooling,实战指南,数据库,连接池,高性能,异步,Tokio"
 draft: false
 ---
@@ -19,12 +35,15 @@ draft: false
 ## 1. 为什么选择 Deadpool-Postgres？
 
 ### 1.1 轻量级与高性能
+
 `deadpool-postgres` 的设计非常简洁，专注于连接池的核心功能，避免了不必要的复杂性。它通过异步方式管理连接，能够充分利用 Rust 的并发优势，适用于高并发的 Web 服务。
 
 ### 1.2 灵活的配置
+
 `deadpool-postgres` 提供了丰富的配置选项，例如最大连接数、超时时间、连接回收策略等，能够满足各种复杂场景的需求。
 
 ### 1.3 与 Tokio 无缝集成
+
 `deadpool-postgres` 完全兼容 `tokio` 异步运行时，能够与 Rust 的异步生态无缝集成，适用于构建高性能的异步应用。
 
 ---

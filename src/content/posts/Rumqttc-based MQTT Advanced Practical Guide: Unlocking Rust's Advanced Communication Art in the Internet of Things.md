@@ -3,9 +3,23 @@ title: "基于 `rumqttc` 的 MQTT 进阶实战指南：解锁 Rust 在物联网�
 description: "我们将从 MQTT 5.0 的高级特性入手，探索 `rumqttc` 的异步架构、TLS 加密、遗嘱消息、动态订阅管理等功能，并通过多个实战示例（包括请求 - 响应模式、集群客户端和高并发测试）展示如何构建健壮的 IoT 通信系统。无论您是追求极致性能的系统架构师，还是希望在 Rust 中实现复杂 MQTT 应用的开发者，本文都将为您提供清晰的理论支持和可直接运行的代码示例，助您在物联网领域挥洒创意。"
 date: 2025-06-13T10:00:00Z
 image: "https://static-rs.bifuba.com/images/posts/crossbeam/pexels-leonardo-mello-2147879281-29811614-1920.jpg"
-categories: [ "Rust", "MQTT", "rumqttc","实战指南" ]
-authors: [ "houseme" ]
-tags: [ "rust", "mqtt", "rumqttc", "iot", "async", "sync", "mqtt5.0", "rust mqtt client","实战指南","物联网","异步编程","同步编程" ]
+categories: ["Rust", "MQTT", "rumqttc", "实战指南"]
+authors: ["houseme"]
+tags:
+  [
+    "rust",
+    "mqtt",
+    "rumqttc",
+    "iot",
+    "async",
+    "sync",
+    "mqtt5.0",
+    "rust mqtt client",
+    "实战指南",
+    "物联网",
+    "异步编程",
+    "同步编程",
+  ]
 keywords: "rust, mqtt, rumqttc, iot, async, sync, mqtt5.0, rust mqtt client,实战指南, 物联网, 异步编程, 同步编程"
 draft: false
 ---
@@ -459,8 +473,8 @@ mqttoptions.set_transport(Transport::Ws);
 
 1. **TLS 连接失败**：
 
-  - 确认 Broker 支持 TLS（`broker.emqx.io:8883`）。
-  - 检查根证书是否正确：
+- 确认 Broker 支持 TLS（`broker.emqx.io:8883`）。
+- 检查根证书是否正确：
 
 ```bash
 cargo add webpki-roots
@@ -475,12 +489,12 @@ cargo run
 
 2. **消息丢失**：
 
-  - 确认 QoS 等级一致。
-  - 检查 Broker 会话设置（`Clean Session` 或 `Session Expiry Interval`）。
+- 确认 QoS 等级一致。
+- 检查 Broker 会话设置（`Clean Session` 或 `Session Expiry Interval`）。
 
 3. **性能瓶颈**：
 
-  - 增大事件循环容量：
+- 增大事件循环容量：
 
 ```rust
 AsyncClient::new(mqttoptions, 100)
@@ -489,8 +503,9 @@ AsyncClient::new(mqttoptions, 100)
 - 减少发布频率或使用 QoS 0。
 
 4. **Broker 拒绝连接**：
-  - 检查客户端 ID 是否重复。
-  - 确认用户名/密码：
+
+- 检查客户端 ID 是否重复。
+- 确认用户名/密码：
 
 ```rust
 mqttoptions.set_credentials("user", "pass");

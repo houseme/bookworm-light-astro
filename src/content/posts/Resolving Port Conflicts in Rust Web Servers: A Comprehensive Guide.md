@@ -3,9 +3,25 @@ title: "Resolving Port Conflicts in Rust Web Servers: A Comprehensive Guide"
 description: "In modern web development, building secure and efficient web servers often involves handling both HTTP and HTTPS traffic. Rust, with its strong type system and performance guarantees, is an excellent choice for building such servers, particularly with frameworks like axum, tower, tower_http, hyper, and rustls. "
 date: 2025-04-12T00:00:00Z
 image: "https://static-rs.bifuba.com/images/posts/pexels-sakuratosoju-29962711-1920.jpg"
-categories: [ "Rust","Web","Practical Guide" ]
-authors: [ "houseme" ]
-tags: [ "rust","Web","axum","HTTPS","hyper","tower","tower_http","rustls","port conflicts","networking","TCP/IP","IPv4","IPv6","socket programming" ]
+categories: ["Rust", "Web", "Practical Guide"]
+authors: ["houseme"]
+tags:
+  [
+    "rust",
+    "Web",
+    "axum",
+    "HTTPS",
+    "hyper",
+    "tower",
+    "tower_http",
+    "rustls",
+    "port conflicts",
+    "networking",
+    "TCP/IP",
+    "IPv4",
+    "IPv6",
+    "socket programming",
+  ]
 keywords: "rust,Web,axum,HTTPS,hyper,tower,tower_http,rustls,port conflicts,networking,TCP/IP,IPv4,IPv6,socket programming"
 draft: false
 ---
@@ -23,18 +39,24 @@ This guide provides a comprehensive, step-by-step approach to understanding and 
 ## Table of Contents
 
 1. Understanding Port Conflicts
-  - TCP/IP Port Binding Basics
-  - IPv4 vs. IPv6 and Dual-Stack Behavior
-  - Why Conflicts Occur in Rust Servers
+
+- TCP/IP Port Binding Basics
+- IPv4 vs. IPv6 and Dual-Stack Behavior
+- Why Conflicts Occur in Rust Servers
+
 2. Common Scenarios Leading to Port Conflicts
 3. Solutions to Avoid Port Conflicts
-  - Solution 1: Use Different Ports (Standard Approach)
-  - Solution 2: Configure IPV6_V6ONLY for Separate Bindings
-  - Solution 3: Single Socket with Application-Layer Routing
-  - Solution 4: Use a Reverse Proxy
+
+- Solution 1: Use Different Ports (Standard Approach)
+- Solution 2: Configure IPV6_V6ONLY for Separate Bindings
+- Solution 3: Single Socket with Application-Layer Routing
+- Solution 4: Use a Reverse Proxy
+
 4. Complete Example Implementation
-  - Solution 1 Example: HTTPS on 443, HTTP Redirect on 80
-  - Solution 2 Example: Separate IPv4 and IPv6 Bindings
+
+- Solution 1 Example: HTTPS on 443, HTTP Redirect on 80
+- Solution 2 Example: Separate IPv4 and IPv6 Bindings
+
 5. Best Practices and Recommendations
 6. Conclusion
 
@@ -54,7 +76,7 @@ Key points:
 
 ### IPv4 vs. IPv6 and Dual-Stack Behavior
 
-IPv6 was designed to coexist with IPv4, and many modern operating systems support *dual-stack* sockets. When a server binds to an IPv6 address like `[::]:443`, it may also handle IPv4 traffic via *IPv4-mapped IPv6 addresses* (e.g., `::ffff:192.168.1.1`). This is controlled by the `IPV6_V6ONLY` socket option:
+IPv6 was designed to coexist with IPv4, and many modern operating systems support _dual-stack_ sockets. When a server binds to an IPv6 address like `[::]:443`, it may also handle IPv4 traffic via _IPv4-mapped IPv6 addresses_ (e.g., `::ffff:192.168.1.1`). This is controlled by the `IPV6_V6ONLY` socket option:
 
 - **Default Behavior**: On most systems (e.g., Linux), an IPv6 socket with `IPV6_V6ONLY` disabled listens to both IPv6 and IPv4 traffic.
 - **With** `IPV6_V6ONLY` **Enabled**: The IPv6 socket only listens to IPv6 traffic, allowing a separate IPv4 socket to bind to the same port.

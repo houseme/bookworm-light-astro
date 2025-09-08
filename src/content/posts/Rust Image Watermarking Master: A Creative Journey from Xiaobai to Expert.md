@@ -3,9 +3,22 @@ title: "Rust 图像水印大师：从小白到专家的创意之旅"
 description: "Rust，作为一门注重性能、安全和并发的现代语言，通过其强大生态（如 image 和 rusttype crate），让图像处理变得高效而优雅。无需担心内存泄漏，你能轻松自定义字体、大小、位置，甚至添加文字边框、图片边框、背景等多重元素。"
 date: 2025-09-01T06:00:00Z
 image: "https://static-rs.bifuba.com/images/posts/wietse-jongsma-BELKzF_JcFQ-unsplash.jpg"
-categories: ["rust","实战指南","图像处理"]
+categories: ["rust", "实战指南", "图像处理"]
 authors: ["houseme"]
-tags: ["rust","实战指南","图像处理","watermark","image","rusttype","imageproc","ab_glyph","anyhow","clap","fltk"]
+tags:
+  [
+    "rust",
+    "实战指南",
+    "图像处理",
+    "watermark",
+    "image",
+    "rusttype",
+    "imageproc",
+    "ab_glyph",
+    "anyhow",
+    "clap",
+    "fltk",
+  ]
 keywords: "rust,实战指南,图像处理,watermark,image,rusttype,imageproc,ab_glyph,anyhow,clap,fltk"
 draft: false
 ---

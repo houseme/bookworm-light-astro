@@ -3,13 +3,32 @@ title: "优雅入门：使用 Deadpool 管理 Rust 中的连接池"
 description: "在现代应用程序中，高效地管理数据库连接是至关重要的。Rust 社区提供了许多优秀的库来帮助开发者实现这一目标，其中 `deadpool` 是一个轻量级、高性能的连接池库，特别适合用于数据库连接的管理。本文将带你从零开始，学习如何使用 `deadpool` 来管理你的数据库连接，并通过一个简单的示例来巩固所学知识。"
 date: 2024-12-07T06:00:00Z
 image: "https://static-rs.bifuba.com/images/posts/01.jpg"
-categories: [ "Rust", "Database", "Deadpool", "Connection Pool", "PostgreSQL", "Async", "Tokio", "实战指南" ]
-authors: [ "houseme" ]
-tags: [ "rust", "deadpool", "connection pool", "database", "PostgreSQL", "async","tokio","实战指南" ]
+categories:
+  [
+    "Rust",
+    "Database",
+    "Deadpool",
+    "Connection Pool",
+    "PostgreSQL",
+    "Async",
+    "Tokio",
+    "实战指南",
+  ]
+authors: ["houseme"]
+tags:
+  [
+    "rust",
+    "deadpool",
+    "connection pool",
+    "database",
+    "PostgreSQL",
+    "async",
+    "tokio",
+    "实战指南",
+  ]
 keywords: "rust, Deadpool, connection pool, database, PostgreSQL, async, tokio, 实战指南"
 draft: false
 ---
-
 
 在现代应用程序中，高效地管理数据库连接是至关重要的。Rust 社区提供了许多优秀的库来帮助开发者实现这一目标，其中 `deadpool` 是一个轻量级、高性能的连接池库，特别适合用于数据库连接的管理。本文将带你从零开始，学习如何使用 `deadpool` 来管理你的数据库连接，并通过一个简单的示例来巩固所学知识。
 

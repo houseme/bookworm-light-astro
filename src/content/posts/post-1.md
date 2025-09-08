@@ -3,9 +3,19 @@ title: "Rust 入门篇：开发环境搭建 - Setting up Dev Environment"
 description: "Rust 是一种快速、安全、并发的系统编程语言，具有强大的类型系统和内存安全性。在本教程中，我们将介绍如何搭建 Rust 的开发环境，以便开始编写和运行 Rust 程序。"
 date: 2022-04-01T05:00:00Z
 image: "https://static-rs.bifuba.com/images/posts/01.jpg"
-categories: ["rust guide", "dev", "Environment", "setting up","rust 入门篇","rust programming","rust development"]
+categories:
+  [
+    "rust guide",
+    "dev",
+    "Environment",
+    "setting up",
+    "rust 入门篇",
+    "rust programming",
+    "rust development",
+  ]
 authors: ["houseme"]
-tags: ["dev", "Environment", "setting up", "rust programming", "rust development"]
+tags:
+  ["dev", "Environment", "setting up", "rust programming", "rust development"]
 keywords: "rust,dev,Environment,setting up,rust programming,rust development"
 draft: false
 ---

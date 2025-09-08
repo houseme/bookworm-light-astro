@@ -3,9 +3,9 @@ title: "🚀 公众号全新升级公告：正式更名为「Rust 实战学习�
 description: ""
 date: 2025-08-18T10:20:00Z
 image: "https://static-rs.bifuba.com/images/250804/uDszMDa5SfsDO4cY3zAiakxvKGtNGZCibIqCTlweABgUR4phg.jpeg"
-categories: [ "Rust","Rust 实战学习" ]
-authors: [ "houseme" ]
-tags: [ "rust","cargo","Rust Practical Learning","公众号升级","全新改版" ]
+categories: ["Rust", "Rust 实战学习"]
+authors: ["houseme"]
+tags: ["rust", "cargo", "Rust Practical Learning", "公众号升级", "全新改版"]
 keywords: "rust,cargo,公众号升级,全新改版,Rust 实战学习,Rust Practical Learning,Rust 实战学习"
 draft: false
 ---

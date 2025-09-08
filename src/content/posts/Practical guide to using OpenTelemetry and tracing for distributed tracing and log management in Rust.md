@@ -3,9 +3,35 @@ title: "Rust 中使用 OpenTelemetry 与 tracing 实现分布式追踪与日志�
 description: "Rust 作为一门高性能、内存安全的语言，广泛应用于系统编程和微服务开发，其 `tracing` 生态提供了强大的事件和 Span 管理能力。结合 OpenTelemetry 的标准化协议（如 OTLP），Rust 开发者可以构建高效的监控系统，将追踪和日志无缝集成到 Jaeger、Prometheus 等后端。"
 date: 2025-04-26T08:15:00Z
 image: "https://static-rs.bifuba.com/images/posts/arno-senoner-_7bsgYdTTVE-unsplash.jpg"
-categories: [ "rust","OpenTelemetry","链路追踪","分布式追踪","日志管理","日志收集","实战指南" ]
-authors: [ "houseme" ]
-tags: [ "rust","OpenTelemetry","tracing","instrument","OTLP","Protocol","metrics","logs","Jaeger","Prometheus","分布式追踪","链路追踪","日志管理","日志收集","实战指南" ]
+categories:
+  [
+    "rust",
+    "OpenTelemetry",
+    "链路追踪",
+    "分布式追踪",
+    "日志管理",
+    "日志收集",
+    "实战指南",
+  ]
+authors: ["houseme"]
+tags:
+  [
+    "rust",
+    "OpenTelemetry",
+    "tracing",
+    "instrument",
+    "OTLP",
+    "Protocol",
+    "metrics",
+    "logs",
+    "Jaeger",
+    "Prometheus",
+    "分布式追踪",
+    "链路追踪",
+    "日志管理",
+    "日志收集",
+    "实战指南",
+  ]
 keywords: "rust,OpenTelemetry,tracing,traces,Logging,logs,metrics,Jaeger,Prometheus,OTLP,Protocol,分布式追踪,链路追踪,日志管理,日志收集,实战指南"
 draft: false
 ---
@@ -568,8 +594,9 @@ RUST_LOG=info cargo run
 ```
 
 3. **Jaeger 输出**：
-  - 访问 `http://localhost:16686`，选择 `opentelemetry-tracing-service`。
-  - 查看 Span（如 `do_traced_error`），包含事件（如 `Starting do_traced_error`）和日志（如 `Operation failed: Invalid input`）。
+
+- 访问 `http://localhost:16686`，选择 `opentelemetry-tracing-service`。
+- 查看 Span（如 `do_traced_error`），包含事件（如 `Starting do_traced_error`）和日志（如 `Operation failed: Invalid input`）。
 
 ---
 
@@ -577,25 +604,26 @@ RUST_LOG=info cargo run
 
 1. **官方文档**：
 
-  - [tracing](https://docs.rs/tracing/latest/tracing/ "tracing")
-  - [tracing-subscriber](https://docs.rs/tracing-subscriber/latest/tracing_subscriber/ "tracing-subscriber")
-  - [tracing-error](https://docs.rs/tracing-error/0.2.1/tracing_error/ "tracing-error")
-  - [opentelemetry](https://docs.rs/opentelemetry/0.29.0/opentelemetry/ "opentelemetry")
-  - [opentelemetry-otlp](https://docs.rs/opentelemetry-otlp/0.29.0/opentelemetry_otlp/ "opentelemetry-otlp")
-  - [tracing-opentelemetry](https://docs.rs/tracing-opentelemetry/0.30.0/tracing_opentelemetry/ "tracing-opentelemetry")
-  - [opentelemetry-appender-tracing](https://docs.rs/opentelemetry-appender-tracing/0.2.0/opentelemetry_appender_tracing/ "opentelemetry-appender-tracing")
+- [tracing](https://docs.rs/tracing/latest/tracing/ "tracing")
+- [tracing-subscriber](https://docs.rs/tracing-subscriber/latest/tracing_subscriber/ "tracing-subscriber")
+- [tracing-error](https://docs.rs/tracing-error/0.2.1/tracing_error/ "tracing-error")
+- [opentelemetry](https://docs.rs/opentelemetry/0.29.0/opentelemetry/ "opentelemetry")
+- [opentelemetry-otlp](https://docs.rs/opentelemetry-otlp/0.29.0/opentelemetry_otlp/ "opentelemetry-otlp")
+- [tracing-opentelemetry](https://docs.rs/tracing-opentelemetry/0.30.0/tracing_opentelemetry/ "tracing-opentelemetry")
+- [opentelemetry-appender-tracing](https://docs.rs/opentelemetry-appender-tracing/0.2.0/opentelemetry_appender_tracing/ "opentelemetry-appender-tracing")
 
 2. **源码与示例**：
 
-  - [tracing GitHub](https://github.com/tokio-rs/tracing "tracing GitHub")
-  - [opentelemetry-rust GitHub](https://github.com/open-telemetry/opentelemetry-rust "opentelemetry-rust GitHub")
-  - [opentelemetry-appender-tracing Examples](https://github.com/open-telemetry/opentelemetry-rust/tree/main/opentelemetry-appender-tracing/examples "opentelemetry-appender-tracing Examples")
+- [tracing GitHub](https://github.com/tokio-rs/tracing "tracing GitHub")
+- [opentelemetry-rust GitHub](https://github.com/open-telemetry/opentelemetry-rust "opentelemetry-rust GitHub")
+- [opentelemetry-appender-tracing Examples](https://github.com/open-telemetry/opentelemetry-rust/tree/main/opentelemetry-appender-tracing/examples "opentelemetry-appender-tracing Examples")
 
 3. **社区资源**：
-  - [Rust 论坛](https://users.rust-lang.org/ "Rust 论坛")
-  - [OpenTelemetry 社区](https://opentelemetry.io/community/ "OpenTelemetry 社区")
-  - [Tokio Discord](https://discord.gg/tokio "Tokio Discord")
-  - [Jaeger 文档](https://www.jaegertracing.io/docs/ "Jaeger 文档")
+
+- [Rust 论坛](https://users.rust-lang.org/ "Rust 论坛")
+- [OpenTelemetry 社区](https://opentelemetry.io/community/ "OpenTelemetry 社区")
+- [Tokio Discord](https://discord.gg/tokio "Tokio Discord")
+- [Jaeger 文档](https://www.jaegertracing.io/docs/ "Jaeger 文档")
 
 ---
 
@@ -603,5 +631,6 @@ RUST_LOG=info cargo run
 
 本文从基础概念到实战代码，全面介绍了 Rust 中使用 `tracing` 和 OpenTelemetry 实现分布式追踪与日志管理的流程。`tracing-opentelemetry` 将 Span 和事件导出为追踪，`opentelemetry-appender-tracing` 桥接日志，`tracing-error` 增强错误诊断。动态过滤和模块优化确保调试与生产的平衡，Jaeger 提供直观的监控界面。希望本指南为你构建高效的分布式监控系统提供清晰指引！
 
-----
+---
+
 其中有彩蛋，自己找一找。

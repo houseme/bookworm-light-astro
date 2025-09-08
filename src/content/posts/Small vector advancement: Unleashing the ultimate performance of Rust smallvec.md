@@ -3,9 +3,23 @@ title: "小向量进阶：释放 Rust smallvec 的极致性能"
 description: "本文将从性能调优、并发场景、序列化支持、自定义分配器到复杂实战案例，结合详细的代码示例和分析，助你在 Rust 项目中优雅地驾驭 `smallvec`。"
 date: 2025-07-24T10:20:00Z
 image: "https://static-rs.bifuba.com/images/250804/pexels-zulfugarkarimov-33370120.jpg"
-categories: [ "Rust","Cargo","smallvec","实战指南" ]
-authors: [ "houseme" ]
-tags: [ "rust","cargo","Cargo.toml","smallvec","vector","performance","memory optimization","data structure","实战指南","性能优化","内存优化","数据结构" ]
+categories: ["Rust", "Cargo", "smallvec", "实战指南"]
+authors: ["houseme"]
+tags:
+  [
+    "rust",
+    "cargo",
+    "Cargo.toml",
+    "smallvec",
+    "vector",
+    "performance",
+    "memory optimization",
+    "data structure",
+    "实战指南",
+    "性能优化",
+    "内存优化",
+    "数据结构",
+  ]
 keywords: "rust,cargo,Cargo.toml,smallvec,vector,performance,memory optimization,data structure"
 draft: false
 ---
@@ -319,22 +333,23 @@ fn main() {
 
 1. **官方资源**：
 
-  - [smallvec GitHub](https://github.com/servo/rust-smallvec "smallvec GitHub")
-  - [smallvec 文档](https://docs.rs/smallvec/2.0.0-alpha.1/smallvec/ "smallvec 文档")
+- [smallvec GitHub](https://github.com/servo/rust-smallvec "smallvec GitHub")
+- [smallvec 文档](https://docs.rs/smallvec/2.0.0-alpha.1/smallvec/ "smallvec 文档")
 
 2. **Rust 生态**：
 
-  - [Rust 性能优化指南](https://nnethercote.github.io/perf-book/ "Rust 性能优化指南")
-  - [Criterion 文档](https://docs.rs/criterion "Criterion 文档")
+- [Rust 性能优化指南](https://nnethercote.github.io/perf-book/ "Rust 性能优化指南")
+- [Criterion 文档](https://docs.rs/criterion "Criterion 文档")
 
 3. **并发与分配器**：
 
-  - [Rust 并发编程](https://doc.rust-lang.org/book/ch16-00-concurrency.html "Rust 并发编程")
-  - [allocator_api 文档](https://doc.rust-lang.org/stable/std/alloc/index.html "allocator_api 文档")
+- [Rust 并发编程](https://doc.rust-lang.org/book/ch16-00-concurrency.html "Rust 并发编程")
+- [allocator_api 文档](https://doc.rust-lang.org/stable/std/alloc/index.html "allocator_api 文档")
 
 4. **社区资源**：
-  - [Rust 用户论坛](https://users.rust-lang.org/ "Rust 用户论坛")
-  - [Reddit r/rust](https://www.reddit.com/r/rust/ "Reddit r/rust")
+
+- [Rust 用户论坛](https://users.rust-lang.org/ "Rust 用户论坛")
+- [Reddit r/rust](https://www.reddit.com/r/rust/ "Reddit r/rust")
 
 ---
 

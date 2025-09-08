@@ -3,9 +3,31 @@ title: "解锁去中心化网络的魔法：libp2p Rust 实现从零到一实战
 description: "本指南将带你从零开始，深入浅出地探索 `rust-libp2p`，从理论到实战，逐步揭开 P2P 网络的奥秘。无论你是初学者还是有一定开发经验的开发者，本文都将为你提供清晰的路径：从理解 libp2p 的核心概念，到动手实现一个简单的 P2P 聊天应用。"
 date: 2025-07-26T10:20:00Z
 image: "https://static-rs.bifuba.com/images/250804/pexels-awesome-daily-vlog-2149533223-33392999.jpg"
-categories: [ "Rust","Cargo","libp2p","实战指南","点对点网络","P2P","网络编程" ]
-authors: [ "houseme" ]
-tags: [ "rust","cargo","Cargo.toml","libp2p","P2P","networking","distributed systems","peer-to-peer","Filecoin","Polkadot","Ethereum 2.0","实战指南","点对点网络","网络编程","分布式系统","点对点通信","去中心化应用","区块链","区块链网络" ]
+categories:
+  ["Rust", "Cargo", "libp2p", "实战指南", "点对点网络", "P2P", "网络编程"]
+authors: ["houseme"]
+tags:
+  [
+    "rust",
+    "cargo",
+    "Cargo.toml",
+    "libp2p",
+    "P2P",
+    "networking",
+    "distributed systems",
+    "peer-to-peer",
+    "Filecoin",
+    "Polkadot",
+    "Ethereum 2.0",
+    "实战指南",
+    "点对点网络",
+    "网络编程",
+    "分布式系统",
+    "点对点通信",
+    "去中心化应用",
+    "区块链",
+    "区块链网络",
+  ]
 keywords: "rust,cargo,Cargo.toml,libp2p,P2P,networking,distributed systems,peer-to-peer,Filecoin,Polkadot,Ethereum 2.0,实战指南,点对点网络,网络编程,分布式系统,点对点通信,去中心化应用,区块链,区块链网络"
 draft: false
 ---
@@ -298,19 +320,26 @@ cargo run
 ## 参考资料
 
 1. **官方文档**：
-  - [rust-libp2p GitHub](https://github.com/libp2p/rust-libp2p "rust-libp2p GitHub")
-  - [libp2p 官方文档](https://docs.libp2p.io/ "libp2p 官方文档")
-  - [libp2p Specifications](https://github.com/libp2p/specs "libp2p Specifications")
+
+- [rust-libp2p GitHub](https://github.com/libp2p/rust-libp2p "rust-libp2p GitHub")
+- [libp2p 官方文档](https://docs.libp2p.io/ "libp2p 官方文档")
+- [libp2p Specifications](https://github.com/libp2p/specs "libp2p Specifications")
+
 2. **学习资源**：
-  - [Rust 官方文档](https://www.rust-lang.org/learn "Rust 官方文档")
-  - [Tokio 异步编程教程](https://tokio.rs/tokio/tutorial "Tokio 异步编程教程")
+
+- [Rust 官方文档](https://www.rust-lang.org/learn "Rust 官方文档")
+- [Tokio 异步编程教程](https://tokio.rs/tokio/tutorial "Tokio 异步编程教程")
+
 3. **社区和支持**：
-  - [IPFS 社区](https://discuss.ipfs.io/ "IPFS 社区")
-  - [libp2p 社区行为准则](https://github.com/ipfs/community/blob/master/code-of-conduct.md "libp2p 社区行为准则")
+
+- [IPFS 社区](https://discuss.ipfs.io/ "IPFS 社区")
+- [libp2p 社区行为准则](https://github.com/ipfs/community/blob/master/code-of-conduct.md "libp2p 社区行为准则")
+
 4. **示例项目**：
-  - [rust-libp2p Examples](https://github.com/libp2p/rust-libp2p/tree/master/examples "rust-libp2p Examples")
-  - [Filecoin Forest](https://github.com/ChainSafe/forest "Filecoin Forest")
-  - [Polkadot Substrate](https://github.com/paritytech/substrate "Polkadot Substrate")
+
+- [rust-libp2p Examples](https://github.com/libp2p/rust-libp2p/tree/master/examples "rust-libp2p Examples")
+- [Filecoin Forest](https://github.com/ChainSafe/forest "Filecoin Forest")
+- [Polkadot Substrate](https://github.com/paritytech/substrate "Polkadot Substrate")
 
 ## 总结
 

@@ -3,9 +3,27 @@ title: "点燃去中心化网络的火花：Rust libp2p 最佳实践从入门到
 description: "本指南将由浅入深，结合理论与实战，介绍 `rust-libp2p` 的最佳实践，覆盖基础场景（如简单 P2P 通信）、进阶场景（如节点发现与消息广播）以及生产级优化。我们将通过详细的代码示例和最佳实践建议，带你从零开始构建一个健壮的 P2P 应用，并提供清晰的参考资料，助你在去中心化网络的开发中游刃有余。"
 date: 2025-07-27T10:20:00Z
 image: "https://static-rs.bifuba.com/images/250804/pexels-katie-mukhina-975382726-33381356.jpg"
-categories: [ "Rust","Cargo","libp2p","实战指南" ]
-authors: [ "houseme" ]
-tags: [ "rust","cargo","Cargo.toml","libp2p","P2P","networking","distributed systems","peer-to-peer","Filecoin","Polkadot","Ethereum 2.0","实战指南","点对点","网络开发","分布式系统","区块链" ]
+categories: ["Rust", "Cargo", "libp2p", "实战指南"]
+authors: ["houseme"]
+tags:
+  [
+    "rust",
+    "cargo",
+    "Cargo.toml",
+    "libp2p",
+    "P2P",
+    "networking",
+    "distributed systems",
+    "peer-to-peer",
+    "Filecoin",
+    "Polkadot",
+    "Ethereum 2.0",
+    "实战指南",
+    "点对点",
+    "网络开发",
+    "分布式系统",
+    "区块链",
+  ]
 keywords: "rust,cargo,Cargo.toml,libp2p,P2P,networking,distributed systems,peer-to-peer,Filecoin,Polkadot,Ethereum 2.0,实战指南,点对点,网络开发,分布式系统,区块链"
 draft: false
 ---
@@ -676,48 +694,56 @@ async fn main() -> Result<(), Box<dyn Error>> {
 
 1. **模块化设计**：
 
-  - 按需选择协议（如 Ping、Kademlia、Gossipsub），避免加载不必要的模块。
-  - 使用 `NetworkBehaviour` 宏简化多协议整合。
+- 按需选择协议（如 Ping、Kademlia、Gossipsub），避免加载不必要的模块。
+- 使用 `NetworkBehaviour` 宏简化多协议整合。
 
 2. **错误与日志**：
 
-  - 使用 `log` 宏记录关键事件，便于调试和监控。
-  - 利用 Rust 的 `Result` 和 `?` 运算符处理错误。
+- 使用 `log` 宏记录关键事件，便于调试和监控。
+- 利用 Rust 的 `Result` 和 `?` 运算符处理错误。
 
 3. **性能优化**：
 
-  - 配置传输超时和连接限制。
-  - 调整 Gossipsub 的心跳间隔和缓存大小。
-  - 使用持久化存储（如 `DiskStore`）优化 Kademlia。
+- 配置传输超时和连接限制。
+- 调整 Gossipsub 的心跳间隔和缓存大小。
+- 使用持久化存储（如 `DiskStore`）优化 Kademlia。
 
 4. **安全性**：
 
-  - 始终启用 Noise 或 TLS 加密。
-  - 使用签名消息（`MessageAuthenticity::Signed`）。
+- 始终启用 Noise 或 TLS 加密。
+- 使用签名消息（`MessageAuthenticity::Signed`）。
 
 5. **生产部署**：
-  - 配置引导节点加速网络加入。
-  - 使用 `libp2p::relay` 或 `libp2p::autonat` 解决 NAT 穿越问题。
-  - 集成 `metrics` 库监控网络性能。
+
+- 配置引导节点加速网络加入。
+- 使用 `libp2p::relay` 或 `libp2p::autonat` 解决 NAT 穿越问题。
+- 集成 `metrics` 库监控网络性能。
 
 ## 参考资料
 
 1. **官方文档**：
-  - [rust-libp2p GitHub](https://github.com/libp2p/rust-libp2p "rust-libp2p GitHub")
-  - [libp2p 官方文档](https://docs.libp2p.io/ "libp2p 官方文档")
-  - [libp2p Specifications](https://github.com/libp2p/specs "libp2p Specifications")
+
+- [rust-libp2p GitHub](https://github.com/libp2p/rust-libp2p "rust-libp2p GitHub")
+- [libp2p 官方文档](https://docs.libp2p.io/ "libp2p 官方文档")
+- [libp2p Specifications](https://github.com/libp2p/specs "libp2p Specifications")
+
 2. **协议文档**：
-  - [Kademlia DHT](https://github.com/libp2p/specs/tree/master/kad-dht "Kademlia DHT")
-  - [Gossipsub](https://github.com/libp2p/specs/tree/master/pubsub/gossipsub "Gossipsub")
-  - [Request-Response](https://github.com/libp2p/specs/tree/master/request-response "Request-Response")
+
+- [Kademlia DHT](https://github.com/libp2p/specs/tree/master/kad-dht "Kademlia DHT")
+- [Gossipsub](https://github.com/libp2p/specs/tree/master/pubsub/gossipsub "Gossipsub")
+- [Request-Response](https://github.com/libp2p/specs/tree/master/request-response "Request-Response")
+
 3. **学习资源**：
-  - [Rust 官方文档](https://www.rust-lang.org/learn "Rust 官方文档")
-  - [Tokio 异步编程教程](https://tokio.rs/tokio/tutorial "Tokio 异步编程教程")
-  - [Serde 序列化](https://serde.rs/ "Serde 序列化")
+
+- [Rust 官方文档](https://www.rust-lang.org/learn "Rust 官方文档")
+- [Tokio 异步编程教程](https://tokio.rs/tokio/tutorial "Tokio 异步编程教程")
+- [Serde 序列化](https://serde.rs/ "Serde 序列化")
+
 4. **示例项目**：
-  - [rust-libp2p Examples](https://github.com/libp2p/rust-libp2p/tree/master/examples "rust-libp2p Examples")
-  - [Filecoin Forest](https://github.com/ChainSafe/forest "Filecoin Forest")
-  - [Polkadot Substrate](https://github.com/paritytech/substrate "Polkadot Substrate")
+
+- [rust-libp2p Examples](https://github.com/libp2p/rust-libp2p/tree/master/examples "rust-libp2p Examples")
+- [Filecoin Forest](https://github.com/ChainSafe/forest "Filecoin Forest")
+- [Polkadot Substrate](https://github.com/paritytech/substrate "Polkadot Substrate")
 
 ## 总结
 

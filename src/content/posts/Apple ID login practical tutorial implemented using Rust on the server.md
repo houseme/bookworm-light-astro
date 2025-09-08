@@ -6,7 +6,24 @@ image: "https://static-rs.bifuba.com/images/posts/tim-marshall-jqj2SqvxMVY-unspl
 categories:
   ["rust", "backend", "web", "apple", "jwt", "reqwest", "jsonwebtoken"]
 authors: ["houseme"]
-tags: ["rust", "apple id", "login", "jwt", "reqwest", "jsonwebtoken", "web", "backend", "apple", "authentication", "oauth", "security", "tutorial", "实战", "教程"]
+tags:
+  [
+    "rust",
+    "apple id",
+    "login",
+    "jwt",
+    "reqwest",
+    "jsonwebtoken",
+    "web",
+    "backend",
+    "apple",
+    "authentication",
+    "oauth",
+    "security",
+    "tutorial",
+    "实战",
+    "教程",
+  ]
 keywords: "rust, apple id, login, jwt, reqwest, jsonwebtoken, web, backend, apple, authentication, oauth, security, tutorial, 实战, 教程"
 draft: false
 ---

@@ -3,9 +3,22 @@ title: "Rust 实战指南：深入探索 Bacon——高效背景代码检测工�
 description: "Bacon 是一个由 Rust 实现的背景代码检测工具，专为开发者设计，用于在后台持续监控代码质量、运行测试、检查格式等。它可以帮助开发者在编写代码时自动发现问题，提升开发效率。本文将带你从基础到高级，逐步掌握 Bacon 的使用方法，并通过实例代码展示其强大功能。"
 date: 2025-01-04T07:00:00Z
 image: "https://static-rs.bifuba.com/images/posts/pexels-quentin-guiot-1392035088-30026004-1920.jpg"
-categories: [ "Rust", "Bacon","实战指南" ]
-authors: [ "houseme" ]
-tags: [ "rust", "Bacon", "code detection", "testing", "formatting", "background tool","实战指南","代码检测","测试","格式化","背景工具" ]
+categories: ["Rust", "Bacon", "实战指南"]
+authors: ["houseme"]
+tags:
+  [
+    "rust",
+    "Bacon",
+    "code detection",
+    "testing",
+    "formatting",
+    "background tool",
+    "实战指南",
+    "代码检测",
+    "测试",
+    "格式化",
+    "背景工具",
+  ]
 keywords: "rust,Bacon,code detection,testing,formatting,background tool,实战指南,代码检测,测试,格式化,背景工具"
 draft: false
 ---

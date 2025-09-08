@@ -5,7 +5,18 @@ date: 2024-08-09T06:00:00Z
 image: "https://static-rs.bifuba.com/images/posts/frida-aguilar-estrada-sMV0Rv4UKKY-unsplash.jpg"
 categories: ["Futures-rs", "Async", "Rust", "异步编程"]
 authors: ["houseme"]
-tags: ["rust", "async", "futures-rs", "异步编程", "Rust 异步编程", "futures-rs 项目", "异步任务", "异步操作", "异步 Rust 编程"]
+tags:
+  [
+    "rust",
+    "async",
+    "futures-rs",
+    "异步编程",
+    "Rust 异步编程",
+    "futures-rs 项目",
+    "异步任务",
+    "异步操作",
+    "异步 Rust 编程",
+  ]
 keywords: "rust,async,futures-rs，异步编程，Rust 异步编程，futures-rs 项目，异步任务，异步操作，异步 Rust 编程"
 draft: false
 ---

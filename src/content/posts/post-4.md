@@ -7,7 +7,7 @@ draft: false
 authors: ["houseme"]
 tags: ["rust", "Data Types", "Rust 入门", "Rust 编程", "Rust 数据类型"]
 keywords: "rust,Data Types,Rust 入门，Rust 编程，Rust 数据类型"
-categories: ["rust guide","Rust 入门"]
+categories: ["rust guide", "Rust 入门"]
 ---
 
 Rust 是一种系统级编程语言，具有静态类型系统，能够提供内存安全性和并发安全性，同时保持高性能。了解 Rust 的数据类型是学习该语言的重要一步。本教程将深入探讨 Rust 的数据类型，以及如何在实际项目中应用它们。

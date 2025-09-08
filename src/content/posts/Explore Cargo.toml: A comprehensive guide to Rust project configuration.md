@@ -3,13 +3,21 @@ title: "探索 Cargo.toml：Rust 项目配置全面指南"
 description: "在 Rust 编程世界中，`Cargo.toml` 是项目配置的核心。它决定了项目的构建方式、管理方式以及与其他项目的交互方式。深入理解 `Cargo.toml` 的各个部分和选项对于优化开发工作流程至关重要。本指南将深入探讨 `Cargo.toml` 的每个部分和选项，提供其功能、平台特定行为以及优化策略的见解。"
 date: 2024-12-09T10:00:00Z
 image: "https://static-rs.bifuba.com/images/posts/arno-senoner-_7bsgYdTTVE-unsplash.jpg"
-categories: [ "Rust","Cargo","项目配置","依赖管理","优化技巧" ]
-authors: [ "houseme" ]
-tags: [ "rust","cargo","Cargo.toml","package","dependency management","optimization tips","project configuration" ]
+categories: ["Rust", "Cargo", "项目配置", "依赖管理", "优化技巧"]
+authors: ["houseme"]
+tags:
+  [
+    "rust",
+    "cargo",
+    "Cargo.toml",
+    "package",
+    "dependency management",
+    "optimization tips",
+    "project configuration",
+  ]
 keywords: "rust,cargo,Cargo.toml,项目配置,依赖管理,优化技巧,package"
 draft: false
 ---
-
 
 ## 引言
 
@@ -29,6 +37,7 @@ draft: false
 - **include**, **exclude**: 定义包中包含或排除的文件。
 
 ### 优化技巧：
+
 - 使用最新的 Rust 版本以访问现代功能。
 - 保持元数据最新以提高清晰度和可发现性。
 
@@ -42,9 +51,11 @@ draft: false
 - **[features]**: 基于功能的条件编译。
 
 ### 平台特定考虑：
+
 - 使用 `cfg` 属性进行平台特定的依赖。
 
 ### 优化技巧：
+
 - 固定版本以确保稳定性。
 - 使用功能来管理可选功能。
 
@@ -58,9 +69,11 @@ draft: false
 - **[test]**: 定义测试配置。
 
 ### 平台差异：
+
 - Windows 上的库使用 `.dll`，而 Unix 使用 `.so`。
 
 ### 优化技巧：
+
 - 选择合适的 crate 类型（例如，`rlib`、`dylib`）。
 - 最小化不必要的目标以加快构建速度。
 
@@ -73,9 +86,11 @@ draft: false
 - **lto**: 启用链接时优化。
 
 ### 平台考虑：
+
 - 默认值可能有所不同；请查看 Cargo 文档。
 
 ### 优化技巧：
+
 - 调整配置文件以加快构建速度或生成更小的二进制文件。
 
 ## 第五部分：工作区
@@ -86,6 +101,7 @@ draft: false
 - **default-members**: 默认包含的项目。
 
 ### 优化技巧：
+
 - 为大型项目构建工作区。
 - 明智地使用依赖覆盖。
 
@@ -94,9 +110,11 @@ draft: false
 使用 `[target.'cfg(...')']` 进行平台特定的设置。
 
 ### 示例：
+
 - 为 Windows 和 Unix 设置不同的 crate 类型。
 
 ### 优化技巧：
+
 - 使用条件配置简化构建。
 
 ## 第七部分：高级配置技巧
@@ -104,9 +122,11 @@ draft: false
 探索环境变量、覆盖和补丁部分。
 
 ### 考虑：
+
 - 环境变量在不同系统上的行为可能不同。
 
 ### 优化技巧：
+
 - 利用高级功能进行复杂项目。
 
 ## 第八部分：最佳实践和常见陷阱
@@ -119,6 +139,6 @@ draft: false
 
 理解 `Cargo.toml` 对于高效的 Rust 开发至关重要。通过掌握其部分和选项，您可以优化项目以提高性能、可维护性和跨平台兼容性。继续探索 Rust 生态系统以增强您的技能和项目。
 
---- 
+---
 
 本指南旨在提供对 `Cargo.toml` 的全面且易于理解的了解，帮助您自信地应对 Rust 项目配置的复杂性。

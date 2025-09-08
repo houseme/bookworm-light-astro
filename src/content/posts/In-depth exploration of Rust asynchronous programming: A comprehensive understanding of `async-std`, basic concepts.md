@@ -3,9 +3,32 @@ title: "深入探索 Rust 异步编程：全面掌握 `async-std`，基本概念
 description: "`async-std` 是 Rust 生态系统中的一个异步编程库，旨在提供类似于标准库的 API，使得异步编程变得更加直观和容易。与 `tokio` 相比，`async-std` 更加轻量级。异步编程是一种处理并发任务的方法，可以在等待 I/O 操作（如文件读取或网络请求）完成时执行其他任务。与并行不同，并发任务不一定同时执行，而是通过任务切换提高效率"
 date: 2024-09-27T08:10:00Z
 image: "https://static-rs.bifuba.com/images/posts/tim-marshall-jqj2SqvxMVY-unsplash.jpg"
-categories: ["rust","async-std","tutorial","web-development","asynchronous-programming","programming","web-dev",]
+categories:
+  [
+    "rust",
+    "async-std",
+    "tutorial",
+    "web-development",
+    "asynchronous-programming",
+    "programming",
+    "web-dev",
+  ]
 authors: ["houseme"]
-tags: ["rust","async-std","tutorial","web-development","asynchronous-programming","programming","web-dev","asynchronous programming","Rust async-std tutorial","Rust web development","Rust 异步编程","Rust web 开发"]
+tags:
+  [
+    "rust",
+    "async-std",
+    "tutorial",
+    "web-development",
+    "asynchronous-programming",
+    "programming",
+    "web-dev",
+    "asynchronous programming",
+    "Rust async-std tutorial",
+    "Rust web development",
+    "Rust 异步编程",
+    "Rust web 开发",
+  ]
 keywords: "rust, async-std, tutorial, web development, asynchronous programming, web dev, programming,异步编程,Rust async-std tutorial,Rust web development,Rust 异步编程,Rust web 开发"
 draft: false
 ---

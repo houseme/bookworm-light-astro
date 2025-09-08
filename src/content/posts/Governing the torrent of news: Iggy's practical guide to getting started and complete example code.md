@@ -3,9 +3,22 @@ title: "驾驭消息洪流：Iggy 入门实战指南与完整实例代码"
 description: "深入 Iggy：构建高性能分布式消息系统的进阶指南，探讨先进的架构设计、性能优化技术以及实际应用案例。学习如何利用 Iggy 实现高效的消息传递，提升系统的可靠性与可扩展性，适合开发者和架构师深入理解分布式系统的核心要素。"
 date: 2025-01-02T07:00:00Z
 image: "https://static-rs.bifuba.com/images/posts/pexels-linken-van-zyl-263454378-14949783-1920.jpg"
-categories: [ "Rust", "Iggy","实战指南" ]
-authors: [ "houseme" ]
-tags: [ "rust", "Iggy", "distributed systems", "messaging systems", "architecture design", "performance optimization","实战指南","分布式系统","消息系统","架构设计","性能优化" ]
+categories: ["Rust", "Iggy", "实战指南"]
+authors: ["houseme"]
+tags:
+  [
+    "rust",
+    "Iggy",
+    "distributed systems",
+    "messaging systems",
+    "architecture design",
+    "performance optimization",
+    "实战指南",
+    "分布式系统",
+    "消息系统",
+    "架构设计",
+    "性能优化",
+  ]
 keywords: "rust,Iggy,distributed systems,messaging systems,architecture design,performance optimization,实战指南,分布式系统,消息系统,架构设计,性能优化"
 draft: false
 ---

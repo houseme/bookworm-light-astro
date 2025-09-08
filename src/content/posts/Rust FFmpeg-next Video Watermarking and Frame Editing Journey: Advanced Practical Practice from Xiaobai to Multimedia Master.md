@@ -3,9 +3,34 @@ title: "Rust FFmpeg-next 视频水印与帧编辑之旅：从小白到多媒体�
 description: "在 2025 年，视频内容爆炸式增长，从短视频剪辑到 AI 辅助编辑，多媒体处理已成为开发者必备技能。基于上篇高级进阶指南，我们结合 FFmpeg 的强大功能，使用 `ffmpeg-next` crate——Rust 中 FFmpeg 的安全绑定——实现视频截取、添加水印和帧级编辑。FFmpeg 作为开源多媒体框架，能高效处理解码、过滤和编码，而 Rust 的内存安全确保无泄漏风险。"
 date: 2025-09-03T06:00:00Z
 image: "https://static-rs.bifuba.com/images/posts/nick-page-zJRNsXbp0Cc-unsplash.jpg"
-categories: ["rust","实战指南","图像处理","watermark","image","rusttype","imageproc","ffmpeg-next"]
+categories:
+  [
+    "rust",
+    "实战指南",
+    "图像处理",
+    "watermark",
+    "image",
+    "rusttype",
+    "imageproc",
+    "ffmpeg-next",
+  ]
 authors: ["houseme"]
-tags: ["rust","实战指南","图像处理","watermark","image","rusttype","imageproc","ffmpeg-next","anyhow","clap","rayon","walkdir","indicatif"]
+tags:
+  [
+    "rust",
+    "实战指南",
+    "图像处理",
+    "watermark",
+    "image",
+    "rusttype",
+    "imageproc",
+    "ffmpeg-next",
+    "anyhow",
+    "clap",
+    "rayon",
+    "walkdir",
+    "indicatif",
+  ]
 keywords: "rust,实战指南,图像处理,watermark,image,rusttype,imageproc,ffmpeg-next,anyhow,clap,rayon,walkdir,indicatif"
 draft: false
 ---
@@ -19,6 +44,7 @@ draft: false
 ## 第一部分：基础入门 - 使用 FFmpeg-next 截取视频片段
 
 ### 理论基础
+
 视频截取（trim）是多媒体处理的起点，涉及寻求（seek）起始点和限制输出时长。`ffmpeg-next` 通过 `format::Context::seek()` 跳转时间戳；处理包时检查 PTS（Presentation Time Stamp）控制结束。基本流程：打开输入 -> seek 起始 -> 解码/编码循环 -> 直到时长结束 -> 输出。
 
 - **时间戳处理**：FFmpeg 用 AV_TIME_BASE (1/1000000 秒) 单位；rescale_ts 调整流时间基。
@@ -29,7 +55,9 @@ draft: false
 适合快速剪辑短视频。
 
 ### 实例代码：简单视频截取
+
 1. 项目设置：`Cargo.toml`（完整依赖，确保可运行）
+
 ```toml
 [package]
 name = "video_watermark_editor"
@@ -44,6 +72,7 @@ std = { version = "1.80", features = ["time"] }
 ```
 
 2. `src/main.rs`（完整可运行代码，包括 main 调用 trim_video）：
+
 ```rust
 use anyhow::Result;
 use ffmpeg_next as ffmpeg;
@@ -144,6 +173,7 @@ fn main() -> Result<()> {
 ## 第二部分：进阶水印添加 - 使用 FFmpeg 滤镜嵌入文字
 
 ### 理论基础
+
 水印添加用 FFmpeg 滤镜链，如 `drawtext` 嵌入文字。`ffmpeg-next` 的 `filter::Graph` 创建滤镜上下文：add filter（如 buffer, drawtext, buffersink）；连接输入/输出。流程：解码 -> 滤镜应用 -> 编码。
 
 - **drawtext 参数**：text, fontsize, fontcolor, x/y (支持表达式如 w-text_w-10 右对齐), fontfile (需系统字体路径)。
@@ -154,7 +184,9 @@ fn main() -> Result<()> {
 适合品牌视频水印。
 
 ### 实例代码：添加文字水印
+
 扩展 Cargo.toml 添加无新依赖。完整代码：
+
 ```rust
 use anyhow::Result;
 use ffmpeg_next as ffmpeg;
@@ -265,10 +297,11 @@ fn main() -> Result<()> {
 ## 第三部分：高级帧编辑 - 提取帧、编辑并重构视频
 
 ### 理论基础
+
 帧编辑：提取帧到图像缓冲，用 `image` crate 编辑（如加水印），然后编码新视频。`ffmpeg-next` 用 receive_frame 提取；scaler 转 RGB；image::ImageBuffer 处理像素。重构：创建新编码器，send_frame。
 
 - **提取**：循环 receive_frame，保存或编辑。
-- **编辑**：从 frame.data(0)  构建 ImageBuffer，应用滤镜。
+- **编辑**：从 frame.data(0) 构建 ImageBuffer，应用滤镜。
 - **重构**：新视频，添加编辑帧。
 - **最佳实践**：复用帧缓冲；并行编辑多帧。潜在问题：格式转换损失——用 YUV420P。
 - **小白提示**：帧是 raw 数据，stride 注意行对齐。
@@ -276,7 +309,9 @@ fn main() -> Result<()> {
 适合自定义帧级水印或特效。
 
 ### 实例代码：提取帧、添加水印并重构
+
 1. 更新 Cargo.toml：
+
 ```toml
 [dependencies]
 ffmpeg-next = "6.1"
@@ -289,6 +324,7 @@ std = { version = "1.80", features = ["time"] }
 ```
 
 2. 完整代码：
+
 ```rust
 use anyhow::Result;
 use ffmpeg_next as ffmpeg;
@@ -461,6 +497,7 @@ fn main() -> Result<()> {
 **解释**：提取 RGB 帧，用 image 添加水印右下角，转回 YUV 编码。完整处理所有平面和 EOF；into_raw() 转换缓冲。运行需字体文件在项目中。
 
 ## 参考资料
+
 - FFmpeg-next Crate 文档：https://crates.io/crates/ffmpeg-next
 - DEV.to 文章：Video Watermarking with Rust and FFmpeg https://dev.to/yeauty/video-watermarking-with-rust-and-ffmpeg-a-deep-dive-into-techniques-and-applications-166j
 - Medium 文章：Leveraging ffmpeg-next and image-rs https://medium.com/@akinsella/leveraging-ffmpeg-next-and-image-rs-for-multimedia-processing-in-rust-2097d1137d53

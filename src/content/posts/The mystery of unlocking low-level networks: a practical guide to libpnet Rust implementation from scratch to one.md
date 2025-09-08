@@ -3,9 +3,27 @@ title: "解锁低层网络的奥秘：libpnet Rust 实现从零到一实战指�
 description: "本指南专为初学者设计，将由浅入深地带你探索 `libpnet`，从理解其核心组件到实现一个简单的网络工具（如自定义 ICMP Ping）。我们将结合详细的理论讲解、完整的代码示例和最佳实践，助你在 Rust 的安全与性能加持下，快速上手低层网络编程。"
 date: 2025-07-29T10:20:00Z
 image: "https://static-rs.bifuba.com/images/250804/pexels-marius-dubost-2154685620-33430958.jpg"
-categories: [ "Rust","Cargo","libpnet","实战指南" ]
-authors: [ "houseme" ]
-tags: [ "rust","cargo","libpnet","network programming","ICMP","low-level networking","packet crafting","实战指南","网络编程","低层网络","数据包构造","网络工具","网络协议","跨平台","安全编程","高性能" ]
+categories: ["Rust", "Cargo", "libpnet", "实战指南"]
+authors: ["houseme"]
+tags:
+  [
+    "rust",
+    "cargo",
+    "libpnet",
+    "network programming",
+    "ICMP",
+    "low-level networking",
+    "packet crafting",
+    "实战指南",
+    "网络编程",
+    "低层网络",
+    "数据包构造",
+    "网络工具",
+    "网络协议",
+    "跨平台",
+    "安全编程",
+    "高性能",
+  ]
 keywords: "rust,cargo,Cargo.toml,libpnet,network programming,ICMP,low-level networking,packet crafting,network tools,network protocols,cross-platform,safe programming,high performance,实战指南,网络编程,低层网络,数据包构造,网络工具,网络协议,跨平台,安全编程,高性能"
 draft: false
 ---
@@ -284,27 +302,28 @@ IPv4 packet detected
 
 1. **权限管理**：
 
-  - 始终以管理员/root 权限运行需要发送或捕获原始数据包的程序。
-  - 在生产环境中，考虑使用 `setcap`（Linux）授予特定权限，减少 `sudo` 依赖。
+- 始终以管理员/root 权限运行需要发送或捕获原始数据包的程序。
+- 在生产环境中，考虑使用 `setcap`（Linux）授予特定权限，减少 `sudo` 依赖。
 
 2. **错误处理**：
 
-  - 使用 `Result` 和 `?` 运算符处理网络操作的潜在错误。
-  - 记录错误日志以便调试。
+- 使用 `Result` 和 `?` 运算符处理网络操作的潜在错误。
+- 记录错误日志以便调试。
 
 3. **性能优化**：
 
-  - 调整缓冲区大小（如 `transport_channel` 的 1024 字节）以平衡性能和内存使用。
-  - 使用批处理接收数据包，减少系统调用开销。
+- 调整缓冲区大小（如 `transport_channel` 的 1024 字节）以平衡性能和内存使用。
+- 使用批处理接收数据包，减少系统调用开销。
 
 4. **跨平台兼容性**：
 
-  - 在 Windows 上确保 Npcap/WinPcap 正确安装。
-  - 使用 `pnet::datalink::interfaces` 动态选择合适的网络接口。
+- 在 Windows 上确保 Npcap/WinPcap 正确安装。
+- 使用 `pnet::datalink::interfaces` 动态选择合适的网络接口。
 
 5. **安全注意**：
-  - 验证数据包内容，避免解析恶意数据包导致的未定义行为。
-  - 限制捕获的数据包类型，减少不必要的处理开销。
+
+- 验证数据包内容，避免解析恶意数据包导致的未定义行为。
+- 限制捕获的数据包类型，减少不必要的处理开销。
 
 ## 深入探索
 
@@ -322,18 +341,25 @@ IPv4 packet detected
 ## 参考资料
 
 1. **官方文档**：
-  - [libpnet GitHub](https://github.com/libpnet/libpnet "libpnet GitHub")
-  - [libpnet API 文档](https://docs.rs/pnet/ "libpnet API 文档")
+
+- [libpnet GitHub](https://github.com/libpnet/libpnet "libpnet GitHub")
+- [libpnet API 文档](https://docs.rs/pnet/ "libpnet API 文档")
+
 2. **学习资源**：
-  - [Rust 官方文档](https://www.rust-lang.org/learn "Rust 官方文档")
-  - [Rust 网络编程](https://doc.rust-lang.org/book/ch20-00-web-programming.html "Rust 网络编程")
-  - [WinPcap 开发者包](https://www.winpcap.org/devel.htm "WinPcap 开发者包")
+
+- [Rust 官方文档](https://www.rust-lang.org/learn "Rust 官方文档")
+- [Rust 网络编程](https://doc.rust-lang.org/book/ch20-00-web-programming.html "Rust 网络编程")
+- [WinPcap 开发者包](https://www.winpcap.org/devel.htm "WinPcap 开发者包")
+
 3. **社区和支持**：
-  - [Rust 社区论坛](https://users.rust-lang.org/ "Rust 社区论坛")
-  - [libpnet 讨论](https://github.com/libpnet/libpnet/discussions "libpnet 讨论")
+
+- [Rust 社区论坛](https://users.rust-lang.org/ "Rust 社区论坛")
+- [libpnet 讨论](https://github.com/libpnet/libpnet/discussions "libpnet 讨论")
+
 4. **相关工具**：
-  - [Npcap](https://nmap.org/npcap/ "Npcap")
-  - [libpcap](http://www.tcpdump.org/ "libpcap")
+
+- [Npcap](https://nmap.org/npcap/ "Npcap")
+- [libpcap](http://www.tcpdump.org/ "libpcap")
 
 ## 总结
 

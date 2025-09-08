@@ -3,9 +3,33 @@ title: "Rust 中的 Redis 入门指南：从连接到数据操作"
 description: "Redis 是一个高性能的键值存储系统，广泛用于缓存、消息队列、实时分析等场景。Rust 作为一种系统编程语言，以其内存安全和高性能著称。将 Rust 与 Redis 结合使用，可以构建高效、可靠的应用程序。本文将带你从零开始，学习如何在 Rust 中使用 `redis` crate 进行 Redis 操作。"
 date: 2024-11-03T09:25:00Z
 image: "https://static-rs.bifuba.com/images/posts/kenny-eliason-Hav7EXRbDoE-unsplash.jpg"
-categories: ["rust","serde","serialization","deserialization","redis","database","cache","message queue","real-time analysis","实战指南"]
+categories:
+  [
+    "rust",
+    "serde",
+    "serialization",
+    "deserialization",
+    "redis",
+    "database",
+    "cache",
+    "message queue",
+    "real-time analysis",
+    "实战指南",
+  ]
 authors: ["houseme"]
-tags: ["rust","serde","serialization","deserialization","redis","database","cache","message queue","real-time analysis","实战指南"]
+tags:
+  [
+    "rust",
+    "serde",
+    "serialization",
+    "deserialization",
+    "redis",
+    "database",
+    "cache",
+    "message queue",
+    "real-time analysis",
+    "实战指南",
+  ]
 keywords: "rust, serde, serialization, deserialization, redis, database,cache, message queue, real-time analysis"
 draft: false
 ---

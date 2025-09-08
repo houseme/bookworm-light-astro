@@ -3,13 +3,23 @@ title: "Rust 中的“时间守护者”：lru-rs LRU 缓存小白实战指南"
 description: "lru-rs，这个 Rust 库如一位时间守护者，简单却强大，受 Rust 标准库早期 collections 实现启发，提供 O(1) 操作的 LRU 缓存，支持 put、get、get_mut 和 pop 等核心功能。"
 date: 2025-08-24T14:20:00Z
 image: "https://static-rs.bifuba.com/images/250804/pexels-weichen-tian-480828942-33577592.jpg"
-categories: [ "Rust","Cargo","缓存","并发编程","性能优化" ]
-authors: [ "houseme" ]
-tags: [ "Rust 实战","Rust","cargo","缓存","lru","LRU 缓存","数据结构","性能优化","内存管理" ]
+categories: ["Rust", "Cargo", "缓存", "并发编程", "性能优化"]
+authors: ["houseme"]
+tags:
+  [
+    "Rust 实战",
+    "Rust",
+    "cargo",
+    "缓存",
+    "lru",
+    "LRU 缓存",
+    "数据结构",
+    "性能优化",
+    "内存管理",
+  ]
 keywords: "Rust 实战,Rust,cargo,缓存,lru,LRU 缓存,数据结构,性能优化,内存管理"
 draft: false
 ---
-
 
 ## 引言：重温经典，守护你的数据时光
 

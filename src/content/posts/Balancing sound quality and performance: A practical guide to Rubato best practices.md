@@ -3,9 +3,20 @@ title: "掌握音质与性能的平衡：Rubato 最佳实践实战指南"
 description: "在 Rust 项目中，`Cargo.toml` 文件是项目配置的核心，它不仅定义了项目的依赖，还控制着库和二进制文件的构建方式。本文将深入探讨 `Cargo.toml` 中的 `[lib]` 配置项，特别是在不同操作系统下的使用差异和优化技巧，帮助开发者高效地进行跨平台库开发。"
 date: 2025-07-19T10:20:00Z
 image: "https://static-rs.bifuba.com/images/250804/pexels-julia-volk-7292974.jpg"
-categories: [ "Rust","Cargo","Rubato","实战指南","音频处理","采样率转换" ]
-authors: [ "houseme" ]
-tags: [ "rust","cargo","Cargo.toml","Rubato","audio processing","sample rate conversion","performance optimization","real-time audio","digital signal processing" ]
+categories: ["Rust", "Cargo", "Rubato", "实战指南", "音频处理", "采样率转换"]
+authors: ["houseme"]
+tags:
+  [
+    "rust",
+    "cargo",
+    "Cargo.toml",
+    "Rubato",
+    "audio processing",
+    "sample rate conversion",
+    "performance optimization",
+    "real-time audio",
+    "digital signal processing",
+  ]
 keywords: "rust,cargo,Cargo.toml,Rubato,audio processing,sample rate conversion,performance optimization,real-time audio,digital signal processing"
 draft: false
 ---
@@ -32,11 +43,15 @@ Rubato 是一个专为 Rust 设计的音频采样率转换库，支持同步和�
 ### 1.2 最佳实践原则
 
 1. **选择合适的采样器**：
-  - 实时应用：优先`SincFixedOut`（固定输出块大小）或`SincFixedIn`（动态采样率）。
-  - 离线处理：优先`FftFixedInOut`（固定输入输出块大小）以提升性能。
+
+- 实时应用：优先`SincFixedOut`（固定输出块大小）或`SincFixedIn`（动态采样率）。
+- 离线处理：优先`FftFixedInOut`（固定输入输出块大小）以提升性能。
+
 2. **优化块大小**：
-  - 实时场景：使用小块（256-1024 样本）以降低延迟。
-  - 离线场景：使用大块（2048-8192 样本）以提高吞吐量。
+
+- 实时场景：使用小块（256-1024 样本）以降低延迟。
+- 离线场景：使用大块（2048-8192 样本）以提高吞吐量。
+
 3. **预分配缓冲区**：始终使用`process_into_buffer`和预分配缓冲区，避免实时处理中的内存分配。
 4. **参数调优**：根据音质和性能需求调整`sinc_len`、`f_cutoff`和`oversampling_factor`。
 5. **禁用不必要特性**：避免启用`log`特性以减少系统调用开销。

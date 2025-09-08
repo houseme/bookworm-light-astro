@@ -3,9 +3,27 @@ title: "Cross-Compiling for RISC-V: A Comprehensive Guide to Building on riscv64
 description: "The RISC-V architecture, with its open-source instruction set, has sparked a revolution in hardware design, offering flexibility and accessibility for developers worldwide."
 date: 2025-04-11T00:00:00Z
 image: "https://riscv.org/wp-content/uploads/2021/02/Standard_2-1920x1080-1.jpg"
-categories: [ "Rust","RISC-V","Cross","Compiling","Linux","QEMU" ]
-authors: [ "houseme" ]
-tags: [ "rust","RISC-V","Cross","Compiling","riscv64gc-unknown-linux-gnu","gcc-riscv64-linux-gnu","qemu-user","libssl-dev","libdbus-1-dev","libwayland-dev","libwebkit2gtk-4.1-dev","libxdo-dev","lld","pkg-config","build-essential","openssl" ]
+categories: ["Rust", "RISC-V", "Cross", "Compiling", "Linux", "QEMU"]
+authors: ["houseme"]
+tags:
+  [
+    "rust",
+    "RISC-V",
+    "Cross",
+    "Compiling",
+    "riscv64gc-unknown-linux-gnu",
+    "gcc-riscv64-linux-gnu",
+    "qemu-user",
+    "libssl-dev",
+    "libdbus-1-dev",
+    "libwayland-dev",
+    "libwebkit2gtk-4.1-dev",
+    "libxdo-dev",
+    "lld",
+    "pkg-config",
+    "build-essential",
+    "openssl",
+  ]
 keywords: "rust,RISC-V,Cross,Compiling,riscv64gc-unknown-linux-gnu,gcc-riscv64-linux-gnu,qemu-user,libssl-dev,libdbus-1-dev,libwayland-dev,libwebkit2gtk-4.1-dev,libxdo-dev,lld,pkg-config,build-essential,openssl"
 draft: false
 ---

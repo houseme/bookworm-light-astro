@@ -68,7 +68,7 @@ const { main }: { main: NavigationLink[] } = menu;
                 <ul class="nav-dropdown-list hidden group-hover:block md:invisible md:absolute md:block md:opacity-0 md:group-hover:visible md:group-hover:opacity-100">
                   {menu.children?.map((child) => (
                     <li class="nav-dropdown-item">
-                      <a href={child.url} class="nav-dropdown-link" title={child.name} >
+                      <a href={child.url} class="nav-dropdown-link">
                         {child.name}
                       </a>
                     </li>
@@ -77,13 +77,9 @@ const { main }: { main: NavigationLink[] } = menu;
               </li>
             ) : (
               <li class="nav-item">
-                {
-                  menu.url === '/rss.xml' ? (
-                    <a href={menu.url} target="_blank"  class="nav-link block" rel="noopener noreferrer" title={menu.name} >{menu.name}</a>
-                  ) : (
-                    <a href={menu.url}  class="nav-link block" title={menu.name} >{menu.name}</a>
-                  )
-                }
+                <a href={menu.url} class="nav-link block">
+                  {menu.name}
+                </a>
               </li>
             )}
           </>

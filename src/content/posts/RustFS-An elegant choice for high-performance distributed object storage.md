@@ -3,9 +3,22 @@ title: "RustFS- 高性能分布式对象存储的优雅之选"
 description: "RustFS 从筹备至今已经过去了两年的时间。我们总算开源了，特别感谢您能看到我们。"
 date: 2025-07-03T11:00:00Z
 image: "https://static-rs.bifuba.com/images/rustfs/06069d27-a637-42dd-95dc-52aeec4bdcb3.png"
-categories: [ "Rust", "RustFS", "Distributed Storage","实战指南" ]
-authors: [ "houseme" ]
-tags: [ "rust", "RustFS","s3","Distributed Storage", "Object Storage", "Open Source","实战指南","分布式存储","对象存储","云原生","云存储" ]
+categories: ["Rust", "RustFS", "Distributed Storage", "实战指南"]
+authors: ["houseme"]
+tags:
+  [
+    "rust",
+    "RustFS",
+    "s3",
+    "Distributed Storage",
+    "Object Storage",
+    "Open Source",
+    "实战指南",
+    "分布式存储",
+    "对象存储",
+    "云原生",
+    "云存储",
+  ]
 keywords: "rust,RustFS,s3,Distributed Storage,Object Storage,Open Source"
 draft: false
 ---
@@ -214,7 +227,6 @@ aws s3 cp myfile.txt s3://my-bucket/ --endpoint-url http://localhost:9000
 ## 五、总结
 
 RustFS 凭借高性能、S3 兼容性和开源特性，成为云原生存储领域的优雅选择。通过简单的安装和灵活的配置方式，小白用户也能快速搭建分布式对象存储系统。无论是 AI 工作负载、大数据分析，还是边缘计算，RustFS 都能提供可靠支持。借助丰富的社区资源和文档，你可以进一步挖掘 RustFS 的潜力，打造高效、安全的现代化存储解决方案。
-
 
 ## Star History
 

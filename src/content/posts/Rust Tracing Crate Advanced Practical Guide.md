@@ -3,9 +3,31 @@ title: "Rust 追踪艺术：Tracing Crate 高级进阶实战指南"
 description: "Rust 已逐渐成为构建高性能、安全可靠系统的首选语言。无论是云原生应用、存储系统，还是音视频处理与边缘计算，Rust 都能提供**内存安全 + 零开销抽象 + 高并发能力**的独特优势。本文将从架构原理、技术取舍出发，深入剖析构建现代应用所需的关键要素，并推荐对应的 Rust crate，帮助你快速落地。"
 date: 2025-08-21T15:20:00Z
 image: "https://static-rs.bifuba.com/images/250804/peter-thomas-jR4Mv-DHPiA-unsplash.jpg"
-categories: [ "Rust","Cargo","Tracing Crate","Rust Profiling","Rust 可观测性","实战指南" ]
-authors: [ "houseme" ]
-tags: [ "Rust 实战","tracing","Rust Profiling","Rust 可观测性","Tracing Crate","性能分析","分布式追踪","实战指南","日志","日志管理","日志级别","日志过滤" ]
+categories:
+  [
+    "Rust",
+    "Cargo",
+    "Tracing Crate",
+    "Rust Profiling",
+    "Rust 可观测性",
+    "实战指南",
+  ]
+authors: ["houseme"]
+tags:
+  [
+    "Rust 实战",
+    "tracing",
+    "Rust Profiling",
+    "Rust 可观测性",
+    "Tracing Crate",
+    "性能分析",
+    "分布式追踪",
+    "实战指南",
+    "日志",
+    "日志管理",
+    "日志级别",
+    "日志过滤",
+  ]
 keywords: "Rust 实战,tracing,Rust Profiling,Rust 可观测性,Tracing Crate,性能分析,分布式追踪"
 draft: false
 ---

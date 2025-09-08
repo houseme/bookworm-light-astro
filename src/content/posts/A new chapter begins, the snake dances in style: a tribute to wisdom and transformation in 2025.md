@@ -3,9 +3,22 @@ title: "元启新章，蛇舞风华：2025 年智慧与蜕变的礼赞"
 description: "值此元旦佳节，我们以代码为笔，以祝福为墨，将科技与传统文化相结合，创作了一份独特的元旦祝福。这份祝福不仅承载着对新年的美好期许，更融入了属相蛇的灵动与智慧。愿每一位读者在新的一年中，如蛇般智慧，如蛇般坚韧，在人生的旅途中舞出属于自己的风华篇章。"
 date: 2025-01-01T00:00:00Z
 image: "https://static-rs.bifuba.com/images/posts/pexels-anntarazevich-6027785.jpg"
-categories: [ "Rust","termion" ]
-authors: [ "houseme" ]
-tags: [ "rust","termion","ascii art","terminal effects","new year","blessings","code example","终端特效","新年祝福","代码示例","蛇年" ] 
+categories: ["Rust", "termion"]
+authors: ["houseme"]
+tags:
+  [
+    "rust",
+    "termion",
+    "ascii art",
+    "terminal effects",
+    "new year",
+    "blessings",
+    "code example",
+    "终端特效",
+    "新年祝福",
+    "代码示例",
+    "蛇年",
+  ]
 keywords: "rust,termion,ascii art,终端特效,新年,祝福,代码示例"
 draft: false
 ---

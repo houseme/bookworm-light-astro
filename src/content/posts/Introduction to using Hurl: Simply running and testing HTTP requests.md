@@ -3,9 +3,22 @@ title: "Hurl 使用介绍：简单运行和测试 HTTP 请求"
 description: "Hurl 是一个基于命令行的 HTTP 请求工具，旨在简化 HTTP 请求的发送和调试过程。它支持多种 HTTP 方法（如 GET、POST、PUT、DELETE 等），并且可以通过简单的文本文件来定义请求，使得测试和调试变得更加直观和高效。"
 date: 2024-09-26T06:00:00Z
 image: "https://static-rs.bifuba.com/images/posts/frida-aguilar-estrada-sMV0Rv4UKKY-unsplash.jpg"
-categories: ["hurl", "http request", "http tool", "command line tool","实战工具"]
+categories:
+  ["hurl", "http request", "http tool", "command line tool", "实战工具"]
 authors: ["houseme"]
-tags: ["hurl", "http request", "http tool", "command line tool", "curl alternative", "httpie alternative", "http client", "http debugging", "http testing", "http tooling"]
+tags:
+  [
+    "hurl",
+    "http request",
+    "http tool",
+    "command line tool",
+    "curl alternative",
+    "httpie alternative",
+    "http client",
+    "http debugging",
+    "http testing",
+    "http tooling",
+  ]
 keywords: "hurl, http request, http tool, command line tool, curl alternative, httpie alternative, http client, http debugging, http testing, http tooling"
 draft: false
 ---

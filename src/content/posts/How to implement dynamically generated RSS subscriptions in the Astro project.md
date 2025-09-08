@@ -5,7 +5,18 @@ date: 2024-09-27T06:00:00Z
 image: "https://astro.build/assets/wallpapers/desktop/teal.png"
 categories: ["astro", "rss", "javascript", "web-development", "web-design"]
 authors: ["houseme"]
-tags: ["astro", "rss", "javascript", "web-development", "web-design", "webdev", "RSS feed", "RSS subscription", "Astro project"]
+tags:
+  [
+    "astro",
+    "rss",
+    "javascript",
+    "web-development",
+    "web-design",
+    "webdev",
+    "RSS feed",
+    "RSS subscription",
+    "Astro project",
+  ]
 keywords: "astro, rss, javascript, web development, web design, webdev, RSS feed, RSS subscription, Astro project"
 draft: false
 ---

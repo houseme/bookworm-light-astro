@@ -3,9 +3,34 @@ title: "掌握 Sea-ORM：Rust 异步 ORM 库的完整实战教程"
 description: "在现代 Web 应用开发中，数据库操作是不可或缺的一部分。Sea-ORM 是一个基于 Rust 的异步 ORM 库，提供了强大的数据库操作能力。本文将通过一个完整的实战教程，带你从入门到精通 Sea-ORM，掌握如何使用 Sea-ORM 进行数据库操作、模型生成、迁移管理等。"
 date: 2024-09-29T08:15:00Z
 image: "https://static-rs.bifuba.com/images/posts/tim-marshall-jqj2SqvxMVY-unsplash.jpg"
-categories: ["rust", "tutorial", "sea-orm", "web-development", "database", "orm", "async","实战指南"]
+categories:
+  [
+    "rust",
+    "tutorial",
+    "sea-orm",
+    "web-development",
+    "database",
+    "orm",
+    "async",
+    "实战指南",
+  ]
 authors: ["houseme"]
-tags: ["rust", "tutorial", "sea-orm", "web-development", "database", "orm", "async", "cli", "tokio","实战指南","数据库","web开发","异步编程"]
+tags:
+  [
+    "rust",
+    "tutorial",
+    "sea-orm",
+    "web-development",
+    "database",
+    "orm",
+    "async",
+    "cli",
+    "tokio",
+    "实战指南",
+    "数据库",
+    "web开发",
+    "异步编程",
+  ]
 keywords: "rust, sea-orm, tutorial, web development, database, orm, async, cli, tokio, 实战指南, 数据库, web开发, 异步编程"
 draft: false
 ---

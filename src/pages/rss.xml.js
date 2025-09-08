@@ -26,7 +26,7 @@ export async function GET(context) {
   // 过滤掉根目录下的 `-index.md` 文件
   const filteredContent = allContent.filter(item => {
     // 检查 slug 或文件路径是否包含 `-index.md`
-    return !item.slug.includes('-index');
+    return item.id && !item.id.includes('-index');
   });
   return rss({
     title: config.site.title,
@@ -44,7 +44,7 @@ export async function GET(context) {
       }),
       // 从 `slug` 属性计算出 RSS 链接
       // 这个例子假设所有的文章都被渲染为 `/blog/[slug]` 路由
-      link: `/${post.slug}`,
+      link: `/${post.id}`,
     })),
   });
 }

@@ -3,9 +3,22 @@ title: "深入剖析 Rust 特征与特征对象：高级编程技巧与模式"
 description: "Rust 的特征（Trait）是其类型系统中的核心概念之一，用于定义共享行为。特征对象（Trait Object）则允许我们在运行时处理不同类型的对象，实现动态分发（Dynamic Dispatch）。本文将深入剖析 Rust 的特征与特征对象，探讨其高级用法、动态分发机制，并通过实战案例展示如何构建可扩展的库。"
 date: 2024-09-12T23:00:00Z
 image: "https://static-rs.bifuba.com/images/posts/mohammad-alizade-EkC1RcOmfmE-unsplash.jpg"
-categories: ["Rust", "Trait", "Trait Object", "Dynamic Dispatch", "高级编程","实战指南"]
+categories:
+  ["Rust", "Trait", "Trait Object", "Dynamic Dispatch", "高级编程", "实战指南"]
 authors: ["houseme"]
-tags: ["rust", "Tokio", "Trait", "Trait Object", "Dynamic Dispatch", "高级编程", "Rust 高级编程", "Rust 特征用法", "Rust 特征对象", "Rust 动态分发"]
+tags:
+  [
+    "rust",
+    "Tokio",
+    "Trait",
+    "Trait Object",
+    "Dynamic Dispatch",
+    "高级编程",
+    "Rust 高级编程",
+    "Rust 特征用法",
+    "Rust 特征对象",
+    "Rust 动态分发",
+  ]
 keywords: "Rust, Trait, 特征, 特征对象, 动态分发, Rust 高级编程, Rust 特征用法, Rust 特征对象, Rust 动态分发"
 draft: false
 ---

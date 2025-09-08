@@ -3,9 +3,26 @@ title: "Dioxus 0.6 指南：高效开发，从 Dioxus 开始"
 description: "Dioxus 是一个基于 Rust 的高效、灵活的前端框架，适用于构建 Web、桌面和移动应用。本文将带你快速上手 Dioxus 0.6，帮助你从零开始构建一个简单的应用。"
 date: 2024-12-09T06:00:00Z
 image: "https://static-rs.bifuba.com/images/posts/dioxus/pexels-anaussieinvietnam-29953376-1080.jpg"
-categories: [ "Rust", "Dioxus", "Front-end", "Efficient Development" ]
-authors: [ "houseme" ]
-tags: [ "rust", "Dioxus", "front-end","Assent","Guide","Efficient Development","web","desktop","mobile","static resource management","resource management","static assets","web development","desktop development","mobile development" ]
+categories: ["Rust", "Dioxus", "Front-end", "Efficient Development"]
+authors: ["houseme"]
+tags:
+  [
+    "rust",
+    "Dioxus",
+    "front-end",
+    "Assent",
+    "Guide",
+    "Efficient Development",
+    "web",
+    "desktop",
+    "mobile",
+    "static resource management",
+    "resource management",
+    "static assets",
+    "web development",
+    "desktop development",
+    "mobile development",
+  ]
 keywords: "rust,Dioxus,static resource management,front-end,web,desktop,mobile,Assent,Guide,Efficient Development"
 draft: false
 ---
