@@ -2,7 +2,7 @@
 title: "Rust DNS 解析巅峰：进阶优化、测试与 DoH 加密探索"
 description: "在上篇进阶指南中，我们构建了`dns_guardian` crate，实现了预防性检查、智能重试、缓存、降级与转移的强大功能。但优化永无止境：在生产环境中，缓存需持久化以应对重启、配置需灵活以适应不同部署、测试需严谨以确保可靠性。更进一步，引入 DNS over HTTPS (DoH) 可加密查询，防范中间人攻击，提升隐私安全。"
 date: 2025-09-05T21:20:00Z
-image: "https://static-rs.bifuba.com/images/posts/daniel-sessler-Z5TV7ylXLrI-unsplash.jpg"
+image: "https://static-rs.bifuba.com/images/posts/adrian-infernus-AKWFs_ohU-k-unsplash.jpg"
 categories: ["Rust", "Cargo", "实战指南", "Hickory-DNS", "DNS解析"]
 authors: ["houseme"]
 tags: ["rust", "cargo", "hickory-dns", "dns解析", "实战指南", "网络编程", "异步编程", "tokio", "系统编程", "错误处理", "性能优化", "网络安全", "dns over https", "dns缓存", "多级域名", "网络调试","最佳实践","dns","redis","mockall","builder模式","doh","持久化","环境变量","测试","模拟","加密","rustls"]

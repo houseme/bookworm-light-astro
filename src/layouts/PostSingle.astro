@@ -12,7 +12,7 @@ import { BiCalendarEdit, BiCategoryAlt } from "react-icons/bi";
 const allAuthors = await getSinglePage("authors");
 const posts = await getSinglePage("posts");
 const { post } = Astro.props;
-const similarPosts = similerItems(post, posts, post.slug);
+const similarPosts = similerItems(post, posts, post.id,6);
 const { Content } = await render(post);
 const { title, description, authors, categories, image, date, tags } =
   post.data;
@@ -132,7 +132,7 @@ const { title, description, authors, categories, image, date, tags } =
     <section class="section pt-0">
       <div class="container">
         <h2 class="mb-8 text-center h3">Similar Posts</h2>
-        <SimilarPosts posts={similarPosts.slice(0, 3)} />
+        <SimilarPosts posts={similarPosts.slice(0, 6)} />
       </div>
     </section>
   )

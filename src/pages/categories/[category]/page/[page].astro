@@ -11,34 +11,39 @@ import Pagination from "@/layouts/components/Pagination.astro";
 
 export async function getStaticPaths() {
   const categories = await getTaxonomy("posts", "categories");
+  const posts = await getSinglePage("posts");
+  const paths = [];
 
-  return categories.map((category) => {
-    return {
-      params: { category },
-    };
-  });
+  for (const category of categories) {
+    const filterByCategory = taxonomyFilter(posts, "categories", category);
+    const totalPages = Math.ceil(filterByCategory.length / (config.settings.pagination+1));
+    for (let page = 2; page <= totalPages; page++) {
+      paths.push({ params: { category, page: String(page) } });
+    }
+  }
+  return paths;
 }
 
-const { category } = Astro.params;
+const { category, page } = Astro.params;
 
 const posts = await getSinglePage("posts");
 const filterByCategory = taxonomyFilter(posts, "categories", category);
 const sortedPosts = sortByDate(filterByCategory);
 
 const title = humanize(category || "");
-const page = Number(Astro.url.searchParams.get("page") || 1);
-const pageSize = config.settings.pagination+1;
-const pagedPosts = sortedPosts.slice((page - 1) * pageSize, page * pageSize);
-const totalPages = Math.ceil(sortedPosts.length / pageSize);
+const pageNum = Number(page);
+const pageSize = config.settings.pagination + 1;
+const pagedPosts = sortedPosts.slice((pageNum - 1) * pageSize, pageNum * pageSize);
+const totalPages = Math.ceil(sortedPosts.length / config.settings.pagination);
 ---
 
-<Base title={title +" Category - Rust 编程教程 - 学习 Rust 编程语言的最佳资源和教程" || "Category - Rust 编程教程 - 学习 Rust 编程语言的最佳资源和教程"}>
+<Base title={title +" Category - Rust 编程教程 - 学习 Rust 编程语言的最佳资源和教程"}>
   <div class="section">
     <div class="container">
       <p class="text-center text-2xl mb-4">Showing Posts From</p>
       <h1 class="h2 mb-16 text-center text-primary">{title}</h1>
       <Posts posts={pagedPosts} fluid={false} />
-      <Pagination section={`categories/${category}`}  currentPage={1} totalPages={totalPages} />
+      <Pagination section={`categories/${category}`} currentPage={pageNum} totalPages={totalPages} />
     </div>
   </div>
 </Base>

@@ -11,39 +11,39 @@ import Pagination from "@/layouts/components/Pagination.astro";
 
 export async function getStaticPaths() {
   const tags = await getTaxonomy("posts", "tags");
+  const posts = await getSinglePage("posts");
+  const paths = [];
 
-  return tags.map((tag) => {
-    return {
-      params: { tag },
-    };
-  });
+  for (const tag of tags) {
+    const filterByTag = taxonomyFilter(posts, "tags", tag);
+    const totalPages = Math.ceil(filterByTag.length / (config.settings.pagination+1));
+    for (let page = 2; page <= totalPages; page++) {
+      paths.push({ params: { tag, page: String(page) } });
+    }
+  }
+  return paths;
 }
 
-const { tag } = Astro.params;
+const { tag, page } = Astro.params;
 
 const posts = await getSinglePage("posts");
-const filterByTags = taxonomyFilter(posts, "tags", tag);
-const sortedPosts = sortByDate(filterByTags);
+const filterByTag = taxonomyFilter(posts, "tags", tag);
+const sortedPosts = sortByDate(filterByTag);
 
 const title = humanize(tag || "");
-const meta_title = ` ${title} | Tags - Rust 编程教程 - 学习 Rust 编程语言的最佳资源和教程`;
-const page = Number(Astro.url.searchParams.get("page") || 1);
 const pageNum = Number(page);
 const pageSize = config.settings.pagination + 1;
 const pagedPosts = sortedPosts.slice((pageNum - 1) * pageSize, pageNum * pageSize);
-const totalPages = Math.ceil(sortedPosts.length / pageSize);
+const totalPages = Math.ceil(sortedPosts.length / config.settings.pagination);
 ---
 
-<Base
-  title={title + ` | Tags - Rust 编程教程 - 学习 Rust 编程语言的最佳资源和教程`}
-  meta_title={meta_title}
->
+<Base title={title +" Tags - Rust 编程教程 - 学习 Rust 编程语言的最佳资源和教程"}>
   <div class="section">
     <div class="container">
       <p class="text-center text-2xl mb-4">Showing Posts From</p>
       <h1 class="h2 mb-16 text-center text-primary">{title}</h1>
       <Posts posts={pagedPosts} fluid={false} />
-      <Pagination section={`tags/${tag}`} currentPage={1} totalPages={totalPages} />
+      <Pagination section={`tags/${tag}`} currentPage={pageNum} totalPages={totalPages} />
     </div>
   </div>
 </Base>
