@@ -10,7 +10,7 @@ categories:
     "Tracing Crate",
     "Rust Profiling",
     "Rust 可观测性",
-    "实战指南",
+    "Tracing","实战指南","opentelemetry"
   ]
 authors: ["houseme"]
 tags:
@@ -26,7 +26,7 @@ tags:
     "日志",
     "日志管理",
     "日志级别",
-    "日志过滤",
+    "Tracing","日志过滤","opentelemetry"
   ]
 keywords: "Rust 实战,tracing,Rust Profiling,Rust 可观测性,Tracing Crate,性能分析,分布式追踪"
 draft: false

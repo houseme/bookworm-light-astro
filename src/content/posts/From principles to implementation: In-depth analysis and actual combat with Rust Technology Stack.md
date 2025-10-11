@@ -13,7 +13,7 @@ categories:
     "Rust Web 开发",
     "Rust 可观测性",
     "Rust 微服务",
-    "Rust Profiling",
+    "Rust Profiling","Tracing","opentelemetry"
   ]
 authors: ["houseme"]
 tags:
@@ -24,9 +24,9 @@ tags:
     "Rust Web 开发",
     "Rust 可观测性",
     "Rust 微服务",
-    "Rust Profiling",
+    "Rust Profiling","Tracing","opentelemetry"
   ]
-keywords: "Rust 实战,Rust crate 推荐,Rust 性能优化,Rust Web 开发,Rust 可观测性,Rust 微服务,Rust Profiling"
+keywords: "Rust 实战,Rust crate 推荐,Rust 性能优化,Rust Web 开发,Rust 可观测性,Rust 微服务,Rust Profiling,opentelemetry"
 draft: false
 ---
 

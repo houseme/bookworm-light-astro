@@ -11,7 +11,7 @@ categories:
     "分布式追踪",
     "日志管理",
     "日志收集",
-    "实战指南",
+    "Tracing","实战指南",
   ]
 authors: ["houseme"]
 tags:
@@ -30,7 +30,7 @@ tags:
     "链路追踪",
     "日志管理",
     "日志收集",
-    "实战指南",
+    "Tracing","实战指南",
   ]
 keywords: "rust,OpenTelemetry,tracing,traces,Logging,logs,metrics,Jaeger,Prometheus,OTLP,Protocol,分布式追踪,链路追踪,日志管理,日志收集,实战指南"
 draft: false
