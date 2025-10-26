@@ -21,6 +21,10 @@
       "url": "/categories/salvo"
     },
     {
+      "name": "RustFS",
+      "url": "/categories/rustfs"
+    },
+    {
       "name": "Tokio",
       "url": "/categories/tokio"
     },

@@ -1,6 +1,6 @@
 /* navbar items */
 .navbar {
-  @apply relative flex max-w-[1260px] flex-wrap items-center justify-between;
+  @apply relative flex max-w-[1440px] flex-wrap items-center justify-between;
 }
 
 .navbar-brand img {

@@ -31,7 +31,7 @@ export async function GET(context) {
   return rss({
     title: config.site.title,
     description: config.metadata.meta_description,
-    site: config.site.base_url ? config.site.base_url : "https://rs.bifuba.com",
+    site: config.site.base_url ? config.site.base_url : "https://heihutu.com",
     trailingSlash: false,
     stylesheet: '/rss/styles.xsl',
     items: filteredContent.map((post) => ({
