@@ -30,14 +30,21 @@ export interface Props {
   title?: string;
   meta_title?: string;
   description?: string;
+  keywords?: string;
   image?: string;
   noindex?: boolean;
   canonical?: string;
 }
 
 // distructure frontmatters
-const { title, meta_title, description, image, noindex, canonical } =
+const { title, meta_title, description,keywords, image, noindex, canonical } =
   Astro.props;
+
+const canonicalUrl =
+  canonical ??
+  (Astro.site
+    ? new URL(Astro.url.pathname, Astro.site).toString()
+    : `${config.site.base_url}${Astro.url.pathname}`);
 ---
 
 <!doctype html>
@@ -92,10 +99,18 @@ const { title, meta_title, description, image, noindex, canonical } =
     <title>{plainify(meta_title ? meta_title : title ? title : config.site.title)}</title>
 
     <!-- canonical url -->
-    {canonical && <link rel="canonical" href={canonical} item-prop="url" />}
+    {canonicalUrl && <link rel="canonical" href={canonicalUrl} itemprop="url" />}
 
     <!-- noindex robots -->
     {noindex && <meta name="robots" content="noindex,nofollow" />}
+
+      <!-- twitter-title -->
+      <meta
+        name="keywords"
+        content={plainify(
+          keywords ? keywords : config.metadata.meta_keywords
+        )}
+      />
 
     <!-- meta-description -->
     <meta
@@ -138,6 +153,7 @@ const { title, meta_title, description, image, noindex, canonical } =
         meta_title ? meta_title : title ? title : config.site.title
       )}
     />
+
 
     <!-- twitter-description -->
     <meta

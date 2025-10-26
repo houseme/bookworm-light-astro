@@ -6,6 +6,8 @@ import { getTaxonomy } from "@/lib/taxonomyParser.astro";
 import { sortByDate } from "@/lib/utils/sortFunctions";
 import taxonomyFilter from "@/lib/utils/taxonomyFilter";
 import { humanize } from "@/lib/utils/textConverter";
+import config from "@/config/config.json";
+import Pagination from "@/layouts/components/Pagination.astro";
 
 export async function getStaticPaths() {
   const tags = await getTaxonomy("posts", "tags");
@@ -25,6 +27,11 @@ const sortedPosts = sortByDate(filterByTags);
 
 const title = humanize(tag || "");
 const meta_title = ` ${title} | Tags - Rust 编程教程 - 学习 Rust 编程语言的最佳资源和教程`;
+const page = Number(Astro.url.searchParams.get("page") || 1);
+const pageNum = Number(page);
+const pageSize = config.settings.pagination + 1;
+const pagedPosts = sortedPosts.slice((pageNum - 1) * pageSize, pageNum * pageSize);
+const totalPages = Math.ceil(sortedPosts.length / pageSize);
 ---
 
 <Base
@@ -35,7 +42,8 @@ const meta_title = ` ${title} | Tags - Rust 编程教程 - 学习 Rust 编程语
     <div class="container">
       <p class="text-center text-2xl mb-4">Showing Posts From</p>
       <h1 class="h2 mb-16 text-center text-primary">{title}</h1>
-      <Posts posts={sortedPosts} fluid={false} />
+      <Posts posts={pagedPosts} fluid={false} />
+      <Pagination section={`tags/${tag}`} currentPage={1} totalPages={totalPages} />
     </div>
   </div>
 </Base>

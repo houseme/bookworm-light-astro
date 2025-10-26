@@ -5,7 +5,7 @@
 
 /* container */
 .container {
-  @apply max-w-[1260px]! px-4! md:px-8! mx-auto;
+  @apply max-w-[1440px]! px-4! md:px-8! mx-auto;
 }
 
 /* page heading */

@@ -10,9 +10,15 @@ const posts = await getSinglePage("posts");
 const sortedPosts = sortByDate(posts);
 const totalPages = Math.ceil(posts.length / config.settings.pagination);
 const currentPosts = sortedPosts.slice(0, config.settings.pagination);
+const canonical =
+  (Astro.site
+    ? new URL(Astro.url.pathname, Astro.site).toString()
+    : `${config.site.base_url}${Astro.url.pathname}`);
+
+const noindex = false;
 ---
 
-<Base>
+<Base canonical = {canonical} noindex = {noindex}>
   <section class="section">
     <div class="container">
       <Posts posts={currentPosts} className="mb-16" />
