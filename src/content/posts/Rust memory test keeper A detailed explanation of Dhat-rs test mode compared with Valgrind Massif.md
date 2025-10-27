@@ -2,7 +2,7 @@
 title: "Rust 内存测试守护：Dhat-rs 测试模式详解与 Valgrind Massif 比较"
 description: "本文在前文 Dhat-rs 基础上，深入详解测试模式的使用、机制与局限，并与 Valgrind Massif 进行全面比较。同时，增加更多代码示例（如集成测试文件、ad hoc 模式），模拟 Tokio 泄漏场景。2025 年 10 月 12 日的 Rust 生态中，Dhat-rs 0.3 版已优化测试生命周期，结合 Cargo test 成为企业级内存验证标准。无论排查异步缓冲泄漏还是基准优化，此指南将助你构建“铁壁防线”，让 Rust 内存测试如精密仪器般可靠"
 date: 2025-10-15T21:12:10Z
-image: "https://static-rs.bifuba.com/images/posts/pexels-nam-quan-nguy-n-459228913-23948964.jpg"
+image: "https://static-rs.bifuba.com/images/posts/pexels-nam-quan-nguy-n-459228913-23948964.jpg-slimming.webp"
 categories: ["Rust","性能优化","工具推荐","实战指南","hotpath","Jemalloc","Dhat","内存剖析","堆分析","性能调优"]
 authors: ["houseme"]
 tags: ["Rust","性能优化","工具推荐","实战指南","hotpath","Jemalloc","Dhat","内存剖析","堆分析","性能调优","内存管理","异步编程","高并发","性能剖析","内存泄漏","堆快照","火焰图","分配器","内存调试","性能监控","Rust生态","Linux专用","内存工具"]  

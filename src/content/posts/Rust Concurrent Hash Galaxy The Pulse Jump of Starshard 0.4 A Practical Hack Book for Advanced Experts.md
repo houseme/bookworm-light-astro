@@ -2,7 +2,7 @@
 title: "Rust 并发哈希星河：Starshard 0.4 的脉冲跃迁——高手进阶的实战黑客宝典"
 description: "在 Rust 并发编程的星河中，Starshard 0.4.0（2025 年 9 月 26 日发布）已从基础利器演变为生态霸主：它不仅继承 hashbrown 0.16 的 SwissTable 极速内核，还通过可选 rayon（并行迭代 4x 加速）、serde（序列化快照）和 async（Tokio RwLock 无缝融合）等 features，铸就了懒分片（30%+ 内存节省）、原子长度缓存（O(1) len）和一致性快照的完美平衡。"
 date: 2025-09-18T19:22:10Z
-image: "https://static-rs.bifuba.com/images/posts/pexels-valentin-ilas-2154050328-33045172.jpg"
+image: "https://static-rs.bifuba.com/images/posts/pexels-valentin-ilas-2154050328-33045172.jpg-slimming.webp"
 categories: ["Rust", "Cargo", "实战指南","异步编程", "性能优化", "tokio","高并发","IO密集型","分布式存储"]
 authors: ["houseme"]
 tags: ["rust", "cargo","tokio","异步编程", "性能优化", "实战指南","高并发","IO密集型","网络服务器","数据流处理","多线程","工作窃取","限流","背压","Channels","微服务","实时系统","磁盘IO","starshard","hashbrown","并发hashmap","分片锁","rwlock","fxhash","rayon"]

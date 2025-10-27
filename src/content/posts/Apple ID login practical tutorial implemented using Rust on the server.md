@@ -2,7 +2,7 @@
 title: "Apple ID 登录实战教程（服务端使用 Rust 实现）"
 description: "在本教程中，我们将介绍如何在服务端使用 Rust 实现 Apple ID 登录功能。我们将使用 `jsonwebtoken` 库来验证 Apple 提供的 JWT 令牌，并使用 `reqwest` 库来发送 HTTP 请求。"
 date: 2024-10-07T08:15:00Z
-image: "https://static-rs.bifuba.com/images/posts/tim-marshall-jqj2SqvxMVY-unsplash.jpg"
+image: "https://static-rs.bifuba.com/images/posts/tim-marshall-jqj2SqvxMVY-unsplash.jpg-slimming.webp"
 categories:
   ["rust", "backend", "web", "apple", "jwt", "reqwest", "jsonwebtoken"]
 authors: ["houseme"]

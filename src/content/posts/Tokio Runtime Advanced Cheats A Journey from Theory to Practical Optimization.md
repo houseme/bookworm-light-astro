@@ -2,7 +2,7 @@
 title: "Tokio Runtime 高级秘籍：从理论到实战的深度优化之旅"
 description: "本高级进阶指南从理论剖析入手，结合多场景实战（高并发服务器、IO 密集型、CPU 密集型、混合负载、测试/CLI），提供详细的原理讲解、完整代码示例和优化技巧。"
 date: 2025-09-24T11:42:10Z
-image: "https://static-rs.bifuba.com/images/posts/pexels-matreding-34111854.jpg"
+image: "https://static-rs.bifuba.com/images/posts/pexels-matreding-34111854.jpg-slimming.webp"
 categories: ["Rust", "Cargo", "实战指南","性能调优","分布式存储","对象存储","io-uring","Tokio","异步编程","Runtime"]
 authors: ["houseme"]
 tags: ["rust", "cargo","tokio","异步编程","性能调优","Runtime","io-uring","零拷贝","批量提交","高并发","低延迟","NVMe","SQE","CQE","内核优化","Linux 5.1+","RustFS","实战指南","2025","分布式存储","对象存储"]

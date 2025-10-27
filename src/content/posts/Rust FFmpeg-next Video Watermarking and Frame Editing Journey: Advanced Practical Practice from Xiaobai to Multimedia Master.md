@@ -2,7 +2,7 @@
 title: "Rust FFmpeg-next 视频水印与帧编辑之旅：从小白到多媒体高手的进阶实战"
 description: "在 2025 年，视频内容爆炸式增长，从短视频剪辑到 AI 辅助编辑，多媒体处理已成为开发者必备技能。基于上篇高级进阶指南，我们结合 FFmpeg 的强大功能，使用 `ffmpeg-next` crate——Rust 中 FFmpeg 的安全绑定——实现视频截取、添加水印和帧级编辑。FFmpeg 作为开源多媒体框架，能高效处理解码、过滤和编码，而 Rust 的内存安全确保无泄漏风险。"
 date: 2025-09-03T06:00:00Z
-image: "https://static-rs.bifuba.com/images/posts/nick-page-zJRNsXbp0Cc-unsplash.jpg"
+image: "https://static-rs.bifuba.com/images/posts/nick-page-zJRNsXbp0Cc-unsplash.jpg-slimming.webp"
 categories:
   [
     "rust",

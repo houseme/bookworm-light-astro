@@ -2,7 +2,7 @@
 title: "征服低层网络的巅峰：libpnet Rust 实现高级实战指南"
 description: "**libpnet** 作为 Rust 生态中强大的跨平台低层网络库，提供了安全、高效的 API，赋予开发者操控网络数据包、开发传输协议和处理数据链路层通信的能力。结合 Rust 的内存安全和零成本抽象，`libpnet` 在性能上媲美 C，同时避免了内存泄漏、线程安全等问题，广泛应用于网络诊断、流量分析和协议开发。"
 date: 2025-08-30T06:00:00Z
-image: "https://static-rs.bifuba.com/images/posts/pexels-travel-with-lenses-734723610-33576385.jpg"
+image: "https://static-rs.bifuba.com/images/posts/pexels-travel-with-lenses-734723610-33576385.jpg-slimming.webp"
 categories: ["rust", "实战指南", "去中心化通信", "网络编程", "libpnet"]
 authors: ["houseme"]
 tags:

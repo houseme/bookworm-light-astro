@@ -2,7 +2,7 @@
 title: "Rust 入门篇：流程控制 - Control Flow"
 description: "在任何编程语言中，流程控制是至关重要的。它允许我们根据不同条件执行不同的代码块，或者重复执行特定的代码片段。Rust 提供了强大而灵活的流程控制机制，包括条件语句、循环和模式匹配。本教程将深入剖析 Rust 中的流程控制，提供详细的概念讲解和实战指南。"
 date: 2022-04-05T16:56:47+06:00
-image: "https://static-rs.bifuba.com/images/posts/05.jpg"
+image: "https://static-rs.bifuba.com/images/posts/05.jpg-slimming.webp"
 draft: false
 authors: ["houseme"]
 tags:

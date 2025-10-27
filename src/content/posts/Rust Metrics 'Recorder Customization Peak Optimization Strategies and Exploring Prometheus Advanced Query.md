@@ -2,7 +2,7 @@
 title: "Rust Metrics 的 Recorder 定制巅峰：优化策略与 Prometheus 高级查询探秘"
 description: "在 2025 年 10 月 7 日的 Rust 生态中，高并发分布式系统面临观测风暴：每秒百万指标需高效缓冲、过滤，而 Prometheus 查询语言（PromQL）如精密探针，剖析延迟分布与资源瓶颈。Metrics Crate（0.24.2）通过自定义 Recorder 实现零锁优化，`metrics-exporter-opentelemetry`（0.1.2）桥接 OpenTelemetry（0.31.0），解锁全栈观测。本文深入 Recorder 定制（如高基数过滤、异步聚合），探索 PromQL 高级查询（如分位数、聚合运算），并增强代码注释详尽度。基于 Axum 微服务实战，助你从“数据洪流”转向“精准洞察”——简洁代码、详尽注释、生产级实践，一网打尽。"
 date: 2025-10-22T10:02:10Z
-image: "https://static-rs.bifuba.com/images/posts/pexels-williamhadley-34354935.jpg"
+image: "https://static-rs.bifuba.com/images/posts/pexels-williamhadley-34354935.jpg-slimming.webp"
 categories: ["Rust","性能优化","工具推荐","实战指南","RustFS","性能剖析","内存分配","异步编程","高并发","crate","tokio","Metrics","Observability","OpenTelemetry","Prometheus"]
 authors: ["houseme"]
 tags: ["Rust","性能优化","工具推荐","实战指南","RustFS","性能剖析","内存分配","异步编程","高并发","性能猎手","代码瓶颈","高性能","性能分析","内存管理","并发编程","性能调优","Rust生态","OpenTelemetry","OTel Metrics","AggregationSelector","自定义聚合","Histogram","ExponentialHistogram","Metrics","Zipkin","Distributed Tracing","Sampling Strategies","Head Sampling","Tail] Sampling","Tracing Crate","Prometheus"]

@@ -2,7 +2,7 @@
 title: "Rust 与 sqlx：分布式数据库与横向扩展实战指南"
 description: "在现代软件开发中，随着业务规模的扩大，单一数据库往往难以满足需求，分布式数据库和横向扩展成为必然选择。Rust，以其卓越的性能和安全性，结合 sqlx 库的强大功能，为开发者提供了处理分布式数据库和横向扩展的理想工具。本文将深入探讨如何使用 Rust 和 sqlx 进行分布式数据库与横向扩展，并通过详细的示例代码展示每一步的操作。"
 date: 2024-09-09T03:00:00Z
-image: "https://static-rs.bifuba.com/images/posts/tim-marshall-jqj2SqvxMVY-unsplash.jpg"
+image: "https://static-rs.bifuba.com/images/posts/tim-marshall-jqj2SqvxMVY-unsplash.jpg-slimming.webp"
 categories: ["Tokio", "SQLX", "Rust", "MySQL", "实战指南"]
 authors: ["houseme"]
 tags:

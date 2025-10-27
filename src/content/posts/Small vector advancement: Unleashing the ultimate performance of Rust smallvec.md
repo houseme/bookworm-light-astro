@@ -2,7 +2,7 @@
 title: "小向量进阶：释放 Rust smallvec 的极致性能"
 description: "本文将从性能调优、并发场景、序列化支持、自定义分配器到复杂实战案例，结合详细的代码示例和分析，助你在 Rust 项目中优雅地驾驭 `smallvec`。"
 date: 2025-07-24T10:20:00Z
-image: "https://static-rs.bifuba.com/images/250804/pexels-zulfugarkarimov-33370120.jpg"
+image: "https://static-rs.bifuba.com/images/250804/pexels-zulfugarkarimov-33370120.jpg-slimming.webp"
 categories: ["Rust", "Cargo", "smallvec", "实战指南"]
 authors: ["houseme"]
 tags:

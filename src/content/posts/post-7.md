@@ -2,7 +2,7 @@
 title: "Rust 深入剖析与实战指南"
 description: "Rust 是一种强大的系统级编程语言，它注重安全、并发性和性能。在本教程中，我们将深入剖析 Rust 的一些重要特性，并提供实战指南以帮助您更好地理解如何在实际项目中应用这些特性。"
 date: 2022-04-07T05:00:00Z
-image: "https://static-rs.bifuba.com/images/posts/01.jpg"
+image: "https://static-rs.bifuba.com/images/posts/01.jpg-slimming.webp"
 categories: ["rust guide", "Rust 入门"]
 authors: ["houseme"]
 tags:

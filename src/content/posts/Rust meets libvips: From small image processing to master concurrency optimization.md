@@ -2,7 +2,7 @@
 title: "Rust 遇上 libvips：从图像处理小白到并发优化高手"
 description: "在数字时代，图像处理如同一场无声的革命，从社交媒体的滤镜到医疗成像的精密分析，无处不在。然而，传统库往往在面对巨型图像时力不从心：内存爆炸、速度龟爬。libvips 犹如一位低调的武林高手，以需求驱动（demand-driven）和水平线程化（horizontally-threaded）为核心，专治大图像顽疾"
 date: 2025-09-09T17:20:00Z
-image: "https://static-rs.bifuba.com/images/posts/pexels-ivan-aguilar-2154351719-33801362.jpg"
+image: "https://static-rs.bifuba.com/images/posts/pexels-ivan-aguilar-2154351719-33801362.jpg-slimming.webp"
 categories: ["Rust", "Cargo", "实战指南","图像处理", "libvips", "并发优化"]
 authors: ["houseme"]
 tags: ["rust", "cargo","图像处理", "libvips", "并发优化", "实战指南","GObject","SIMD","多线程","性能调优","大图像处理","零拷贝","流式处理","需求驱动","水平线程化"]

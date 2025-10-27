@@ -2,7 +2,7 @@
 title: "JWT 与 OAuth2：无缝集成，构建安全的身份验证流程"
 description: "OAuth2 是一种广泛使用的授权框架，允许第三方应用访问用户资源，而无需用户提供其凭据。JSON Web Token (JWT) 是一种开放标准（RFC 7519），用于在网络应用环境间安全地传输信息。本文将深入探讨如何在 OAuth2 身份验证流程中集成 JWT，以构建更加安全和高效的身份验证系统。"
 date: 2024-10-27T08:15:00Z
-image: "https://static-rs.bifuba.com/images/posts/tim-marshall-jqj2SqvxMVY-unsplash.jpg"
+image: "https://static-rs.bifuba.com/images/posts/tim-marshall-jqj2SqvxMVY-unsplash.jpg-slimming.webp"
 categories: ["rust", "jwt", "jsonwebtoken", "oauth2", "security", "salvo"]
 authors: ["houseme"]
 tags:

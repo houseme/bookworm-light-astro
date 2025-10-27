@@ -2,7 +2,7 @@
 title: "日志流水线：Rayon 与 Crossbeam 协同打造 Rust 实时并发处理引擎"
 description: "本文以实时日志处理管道为场景，深入探讨如何利用 Rayon 和 Crossbeam 构建一个高效、健壮、可扩展的系统。我们将从基础理论入手，逐步实现一个完整的日志处理管道，涵盖日志接收、分发、并行处理和结果汇总。通过详细的代码示例、最佳实践和性能优化，我们将展示 Rust 并发的极致魅力。准备好你的 Rust 环境，让我们一起点燃这场并发编程的盛宴！"
 date: 2025-09-03T06:00:00Z
-image: "https://static-rs.bifuba.com/images/posts/daniel-sessler-IyhdFcaRYqE-unsplash.jpg"
+image: "https://static-rs.bifuba.com/images/posts/daniel-sessler-IyhdFcaRYqE-unsplash.jpg-slimming.webp"
 categories: ["rust", "实战指南", "并发", "Rayon", "Crossbeam"]
 authors: ["houseme"]
 tags:

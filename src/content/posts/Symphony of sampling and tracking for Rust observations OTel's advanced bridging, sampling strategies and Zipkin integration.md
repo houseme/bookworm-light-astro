@@ -2,7 +2,7 @@
 title: "Rust 观测的采样与追踪交响：OTel 高级桥接、采样策略及 Zipkin 集成"
 description: "本文基于最新版本（Metrics 0.24.2、metrics-exporter-opentelemetry 0.1.2、OTel 0.31.0），聚焦 OTel 采样策略（Tail/Head Sampling）、Zipkin 集成与 Metrics 桥接。由浅入深，理论 + 简洁代码，助力微服务全链路追踪。代码精炼，<40 行核心逻辑，生产级实践一触即发。"
 date: 2025-10-21T21:02:10Z
-image: "https://static-rs.bifuba.com/images/posts/pexels-ramon-rangel-661975902-34407518.jpg"
+image: "https://static-rs.bifuba.com/images/posts/pexels-ramon-rangel-661975902-34407518.jpg-slimming.webp"
 categories: ["Rust","性能优化","工具推荐","实战指南","RustFS","性能剖析","内存分配","异步编程","高并发","crate","tokio","Metrics","Observability","OpenTelemetry","Zipkin"]
 authors: ["houseme"]
 tags: ["Rust","性能优化","工具推荐","实战指南","RustFS","性能剖析","内存分配","异步编程","高并发","性能猎手","代码瓶颈","高性能","性能分析","内存管理","并发编程","性能调优","Rust生态","OpenTelemetry","OTel Metrics","AggregationSelector","自定义聚合","Histogram","ExponentialHistogram","Metrics","Zipkin","Distributed Tracing","Sampling Strategies","Head Sampling","Tail] Sampling","Tracing Crate"]

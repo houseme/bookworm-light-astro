@@ -2,7 +2,7 @@
 title: "提升 Rust 代码质量：Clippy 实战指南"
 description: "Rust is a system programming language that focuses on safety, concurrency, and performance. In order to effectively manage Rust installations and versions, `rustup` is designed as a Rust installer and version management tool. The following is a practical guide on how to use `rustup`."
 date: 2024-08-07T06:00:00Z
-image: "https://static-rs.bifuba.com/images/posts/01.jpg"
+image: "https://static-rs.bifuba.com/images/posts/01.jpg-slimming.webp"
 categories:
   ["rust guide", "Rust", "Clippy", "rustup", "code quality", "实战指南"]
 authors: ["houseme"]

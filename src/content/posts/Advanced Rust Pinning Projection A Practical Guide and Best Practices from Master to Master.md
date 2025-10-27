@@ -2,7 +2,7 @@
 title: "Rust Pinning 投影进阶：从高手到大师的实战指南与最佳实践"
 description: "我们将结合理论分析、代码剖析和真实场景模拟，涵盖自定义 Unpin、异步集成、优化策略以及常见 pitfalls。无论你是构建高性能服务器、自定义 Futures，还是优化嵌入式系统，这篇文章将助你一臂之力。让我们继续 Pinning 的艺术之旅，化繁为简，成为 Rust 生态的 Pinning 大师！"
 date: 2025-09-26T22:42:10Z
-image: "https://static-rs.bifuba.com/images/posts/pexels-ebrarivam-2151357087-34179111.jpg"
+image: "https://static-rs.bifuba.com/images/posts/pexels-ebrarivam-2151357087-34179111.jpg-slimming.webp"
 categories: ["Rust", "Cargo", "实战指南","性能调优","异步编程","pin-project","pin-project-lite"]
 authors: ["houseme"]
 tags: ["rust", "cargo","tokio","异步编程","性能调优","安全性","实战指南","性能优化","理论知识","场景选择","代码实例","pin-project","pin-project-lite"]

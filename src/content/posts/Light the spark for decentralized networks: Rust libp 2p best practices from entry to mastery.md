@@ -2,7 +2,7 @@
 title: "点燃去中心化网络的火花：Rust libp2p 最佳实践从入门到精通实战指南"
 description: "本指南将由浅入深，结合理论与实战，介绍 `rust-libp2p` 的最佳实践，覆盖基础场景（如简单 P2P 通信）、进阶场景（如节点发现与消息广播）以及生产级优化。我们将通过详细的代码示例和最佳实践建议，带你从零开始构建一个健壮的 P2P 应用，并提供清晰的参考资料，助你在去中心化网络的开发中游刃有余。"
 date: 2025-07-27T10:20:00Z
-image: "https://static-rs.bifuba.com/images/250804/pexels-katie-mukhina-975382726-33381356.jpg"
+image: "https://static-rs.bifuba.com/images/250804/pexels-katie-mukhina-975382726-33381356.jpg-slimming.webp"
 categories: ["Rust", "Cargo", "libp2p", "实战指南"]
 authors: ["houseme"]
 tags:

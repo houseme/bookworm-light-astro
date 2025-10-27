@@ -2,7 +2,7 @@
 title: "Tokio Runtime 配置之道：默认 vs 推荐，理论与实战全解析"
 description: "在 Rust 的异步编程世界中，Tokio 作为一匹骏马，承载着无数高性能应用的梦想。其 Runtime 配置不仅是技术细节，更是平衡效率、稳定与资源的艺术。默认配置提供了一个安全起点，但针对高并发、IO 密集或 CPU 密集场景，推荐值往往能解锁潜在性能。通过对比默认与推荐，我们能揭示其背后的理由、优势及解决的问题。"
 date: 2025-09-22T23:42:10Z
-image: "https://static-rs.bifuba.com/images/posts/pexels-saim-khan-2152064074-34110752.jpg"
+image: "https://static-rs.bifuba.com/images/posts/pexels-saim-khan-2152064074-34110752.jpg-slimming.webp"
 categories: ["Rust", "Cargo", "实战指南","Tokio","Runtime","性能调优"]
 authors: ["houseme"]
 tags: ["rust", "cargo","tokio","异步编程","性能调优","Runtime","多线程","工作窃取","阻塞任务","高并发","IO 密集型","CPU 密集型","spawn_blocking","配置优化","实战指南","2025"]

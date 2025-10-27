@@ -2,7 +2,7 @@
 title: "Rust 异步巅峰：自定义 Sink 与 async-stream 的精妙融合"
 description: "本指南将深入这些主题，提供完整的理论剖析、实战代码和最佳实践。基于 futures-rs 0.3 版本，我们将结合真实场景，如网络服务器和数据管道，展示如何从“会用”到“精通”。无论你是构建高负载 API 还是嵌入式异步系统，这场进阶之旅将让你在 Rust 的并发世界中游刃有余。让我们奏响异步的交响吧！"
 date: 2025-10-03T10:12:10Z
-image: "https://static-rs.bifuba.com/images/posts/pexels-emilio-sanchez-hernandez-285921208-34309494.jpg"
+image: "https://static-rs.bifuba.com/images/posts/pexels-emilio-sanchez-hernandez-285921208-34309494.jpg-slimming.webp"
 categories: ["Rust","性能优化","工具推荐","实战指南","Futures","性能剖析","内存分配","异步编程","高并发","crate","tokio"]
 authors: ["houseme"]
 tags: ["Rust","性能优化","工具推荐","实战指南","Futures","性能剖析","内存分配","异步编程","高并发","性能猎手","代码瓶颈","高性能","性能分析","内存管理","并发编程","性能调优","Rust生态","Futures-rs","join!","select!","zero-cost","async/await"]  

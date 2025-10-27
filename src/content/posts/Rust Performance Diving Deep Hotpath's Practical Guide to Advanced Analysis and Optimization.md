@@ -2,7 +2,7 @@
 title: "Rust 性能深潜：hotpath 高级剖析与优化实战指南"
 description: "本文在前文基础上，聚焦高级进阶：从宏注入的底层机制到生产级部署策略，提供完整实战指南。无论你是构建高吞吐服务器还是调试复杂异步流，hotpath 的高级特性（如 GuardBuilder、自定义 Reporter 和 alloc 模式）将助你化身为性能“猎鹰”，俯瞰代码全貌。"
 date: 2025-09-30T23:42:10Z
-image: "https://static-rs.bifuba.com/images/posts/pexels-emilio-sanchez-hernandez-285921208-34281791.jpg"
+image: "https://static-rs.bifuba.com/images/posts/pexels-emilio-sanchez-hernandez-285921208-34281791.jpg-slimming.webp"
 categories: ["Rust","性能优化","工具推荐","实战指南","hotpath","性能剖析","内存分配","异步编程","高并发","crate","alloc"]
 authors: ["houseme"]
 tags: ["Rust","性能优化","工具推荐","实战指南","hotpath","性能剖析","内存分配","异步编程","高并发","性能猎手","代码瓶颈","高性能","性能分析","内存管理","并发编程","性能调优","Rust生态","GuardBuilder","Reporter","allocation-counter"]  

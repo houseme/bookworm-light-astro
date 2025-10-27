@@ -2,7 +2,7 @@
 title: "探索 Rust Salvo：高性能异步 Web 框架的深入入门学习指南"
 description: "Salvo 是一个用 Rust 语言编写的高性能异步 Web 框架。它设计简单，功能强大，易于扩展。"
 date: 2024-09-10T12:00:00Z
-image: "https://static-rs.bifuba.com/images/posts/mariana-franco-48e4LUyIXVE-unsplash.jpg"
+image: "https://static-rs.bifuba.com/images/posts/mariana-franco-48e4LUyIXVE-unsplash.jpg-slimming.webp"
 categories:
   [
     "rust",

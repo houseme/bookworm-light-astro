@@ -2,7 +2,7 @@
 title: "Rust 性能提升“最后一公里”：详解 Profiling 瓶颈定位与优化"
 description: "Profiling（性能剖析）就是那把解锁“最后一公里”的钥匙。它通过采集运行时数据，帮助开发者识别瓶颈、量化问题，并指导优化。Rust 社区提供了强大的工具链，特别是基于 jemalloc 的内存分配器和 pprof 的剖析框架，能让你轻松生成火焰图（flamegraph）等可视化报告。"
 date: 2025-07-30T10:20:00Z
-image: "https://static-rs.bifuba.com/images/250804/pexels-kelly-33433053.jpg"
+image: "https://static-rs.bifuba.com/images/250804/pexels-kelly-33433053.jpg-slimming.webp"
 categories:
   ["Rust", "Cargo", "Profiling", "Performance Optimization", "实战指南"]
 authors: ["houseme"]

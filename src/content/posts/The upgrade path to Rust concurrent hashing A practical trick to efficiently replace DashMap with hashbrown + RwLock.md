@@ -2,7 +2,7 @@
 title: "Rust 并发哈希的升级之路：用 hashbrown + RwLock 高效替换 DashMap 的实战秘籍"
 description: "在 Rust 的多线程编程中，并发 HashMap 是高吞吐应用的基石，而 DashMap 作为社区经典，已成为 RwLock<HashMap<K, V>> 的高效替代品。它通过分片锁（sharded locking）机制，巧妙化解全局锁的争用瓶颈，实现读写并发。但在 2025 年的 Rust 生态中，随着 hashbrown 的成熟（SwissTable 算法的极致优化），开发者开始探索用 hashbrown + RwLock 构建自定义并发 Map，以进一步降低内存开销、提升 SIMD 加速，并适应 no_std 或特定负载场景。"
 date: 2025-09-21T13:42:10Z
-image: "https://static-rs.bifuba.com/images/posts/pexels-studio-buttons-2155820368-33915754.jpg"
+image: "https://static-rs.bifuba.com/images/posts/pexels-studio-buttons-2155820368-33915754.jpg-slimming.webp"
 categories: ["Rust", "Cargo", "实战指南","性能调优","分布式存储","对象存储","hashbrown","RustFS","DashMap"]
 authors: ["houseme"]
 tags: ["rust", "cargo","tokio","异步编程","分布式存储","对象存储","hashbrown","性能调优","安全性","HashMap","HashSet","RandomState","HashDoS","foldhash","SIMD 加速","二次探测","负载因子","Raw API","no_std","rayon","serde","allocator-api2","性能黑客","高并发","大数据","资源受限","基准测试","分布式系统","RustFS","DashMap"]

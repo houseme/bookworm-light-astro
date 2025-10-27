@@ -2,7 +2,7 @@
 title: "Rust 哈希进阶秘籍：hashbrown 的性能黑客——从高手到大师的优化实战"
 description: "在 Rust 的哈希世界中，hashbrown 不仅仅是入门工具，更是性能优化的利刃。继小白指南后，我们步入高级领域：探索 Raw API 的低级操控、自定义 Hasher 的安全强化、no_std 的嵌入式征服，以及 rayon/serde 等特性的生态融合。如果你已掌握基础，却在高并发、大数据或资源受限场景中挣扎；或追求极致基准，欲将 hashbrown 融入如 RustFS 的分布式系统——这份进阶指南将带你从高手跃升为大师。"
 date: 2025-09-20T23:42:10Z
-image: "https://static-rs.bifuba.com/images/posts/pexels-paco-esqueda-787628224-34067864.jpg"
+image: "https://static-rs.bifuba.com/images/posts/pexels-paco-esqueda-787628224-34067864.jpg-slimming.webp"
 categories: ["Rust", "Cargo", "实战指南","性能调优","分布式存储","对象存储","hashbrown","RustFS"]
 authors: ["houseme"]
 tags: ["rust", "cargo","tokio","异步编程","分布式存储","对象存储","hashbrown","性能调优","安全性","HashMap","HashSet","RandomState","HashDoS","foldhash","SIMD 加速","二次探测","负载因子","Raw API","no_std","rayon","serde","allocator-api2","性能黑客","高并发","大数据","资源受限","基准测试","分布式系统","RustFS"]

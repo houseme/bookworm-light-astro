@@ -2,7 +2,7 @@
 title: "起步指南：轻松配置和安装 Crossbeam 实现高效并发"
 description: "在 Rust 项目中引入 Crossbeam 是构建高效并发程序的第一步。本教程将带你完成从依赖安装到配置优化的过程，让你能够快速上手使用 Crossbeam 各模块。"
 date: 2024-12-09T06:00:00Z
-image: "https://static-rs.bifuba.com/images/posts/frida-aguilar-estrada-sMV0Rv4UKKY-unsplash.jpg"
+image: "https://static-rs.bifuba.com/images/posts/frida-aguilar-estrada-sMV0Rv4UKKY-unsplash.jpg-slimming.webp"
 categories: ["Crossbeam", "Async", "Rust", "并发编程", "Rust 并发编程"]
 authors: ["houseme"]
 tags:

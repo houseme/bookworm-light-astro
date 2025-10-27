@@ -2,7 +2,7 @@
 title: "Hashbrown 最佳实践：从 Rust 新手到性能极客的“哈希魔法”实战指南"
 description: "在 Rust 编程的浩瀚宇宙中，`HashMap`和`HashSet`如同可靠的“魔法书”，为数据存储和检索提供了高效的 O(1) 解决方案。而`hashbrown`——这个 Google SwissTable 哈希表的 Rust 移植版本——则是魔法书中的“高级咒语”。"
 date: 2025-08-29T16:00:00Z
-image: "https://static-rs.bifuba.com/images/posts/pexels-gosia-k-23254118-33686001.jpg"
+image: "https://static-rs.bifuba.com/images/posts/pexels-gosia-k-23254118-33686001.jpg-slimming.webp"
 categories: ["哈希", "Hashbrown", "rust", "实战指南"]
 authors: ["houseme"]
 tags:

@@ -2,7 +2,7 @@
 title: "在 Rust 中实战 io_uring：以文件系统 IO 为例"
 description: "io_uring 是 Linux 内核（从 5.1 版本开始支持）提供的高性能异步 IO 接口，它允许用户空间批量提交 IO 操作，减少系统调用开销，特别适合高吞吐的文件 IO 或网络 IO。Rust 社区有多个 crate 支持 io_uring："
 date: 2025-09-29T13:42:10Z
-image: "https://static-rs.bifuba.com/images/posts/pexels-oskar-gross-1074333632-34125813.jpg"
+image: "https://static-rs.bifuba.com/images/posts/pexels-oskar-gross-1074333632-34125813.jpg-slimming.webp"
 categories: ["Rust", "Cargo", "实战指南","性能调优","异步编程","io_uring","文件系统","网络编程"]
 authors: ["houseme"]
 tags: ["rust", "cargo","tokio","异步编程","性能调优","实战指南","性能优化","理论知识","场景选择","代码实例","io_uring","io-uring","tokio-uring","uring-fs","文件系统IO","网络编程"]  

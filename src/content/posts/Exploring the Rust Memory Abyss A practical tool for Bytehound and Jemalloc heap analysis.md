@@ -2,7 +2,7 @@
 title: "Rust 内存深渊探秘：Bytehound 与 Jemalloc 堆剖析的实战利器"
 description: "在 Rust 的内存管理“铁律”下（无 GC、借用检查器），开发者常以为“零泄漏”天生，但高并发异步场景（如 RustFS 的 S3 数据缓冲）中，隐形“内存黑洞”——如临时 Vec 扩容、Arc 循环引用或 forgotten futures——仍会悄然蚕食资源，导致 OOM 或性能崩盘。Bytehound 如一盏“深渊探灯”，专为 Linux 设计的 Rust 原生内存剖析器，捕捉实时堆快照，揭示泄漏源头；Jemalloc 则如“堆守护者”，通过 prof 模式生成火焰图式堆剖析，量化分配路径。"
 date: 2025-10-18T10:12:10Z
-image: "https://static-rs.bifuba.com/images/posts/pexels-toulouse-3098606.jpg"
+image: "https://static-rs.bifuba.com/images/posts/pexels-toulouse-3098606.jpg-slimming.webp"
 categories: ["Rust","性能优化","工具推荐","实战指南","hotpath","Jemalloc","Bytehound","内存剖析","堆分析","性能调优"]
 authors: ["houseme"]
 tags: ["Rust","性能优化","工具推荐","实战指南","hotpath","Jemalloc","Bytehound","内存剖析","堆分析","性能调优","内存管理","异步编程","高并发","性能剖析","内存泄漏","堆快照","火焰图","分配器","内存调试","性能监控","Rust生态","Linux专用","内存工具"]  

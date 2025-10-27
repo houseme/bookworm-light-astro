@@ -2,7 +2,7 @@
 title: "Rust 哈希之王：hashbrown 的 SwissTable 探秘——从小白到高手的实战指南"
 description: "在 Rust 编程的世界里，哈希表是处理键值对和集合数据的核心工具，尤其在性能敏感的场景中如数据存储、缓存系统或算法优化。hashbrown crate 作为 Google SwissTable 哈希算法的 Rust 移植版，以其极致速度、低内存开销和无缝兼容性，成为开发者手中的利器。它不仅是 Rust 标准库（std）HashMap 和 HashSet 的底层实现（自 Rust 1.36 起），还作为独立 crate 提供更多灵活性，适用于 no_std 环境如嵌入式系统或内核开发。"
 date: 2025-09-20T09:42:10Z
-image: "https://static-rs.bifuba.com/images/posts/pexels-jenny-uhling-2262740-33660856.jpg"
+image: "https://static-rs.bifuba.com/images/posts/pexels-jenny-uhling-2262740-33660856.jpg-slimming.webp"
 categories: ["Rust", "Cargo", "实战指南","性能调优","分布式存储","对象存储","hashbrown","RustFS"]
 authors: ["houseme"]
 tags: ["rust", "cargo","tokio","异步编程","分布式存储","对象存储","hashbrown","性能调优","安全性","HashMap","HashSet","RandomState","HashDoS","foldhash","SIMD 加速","二次探测","负载因子","Raw API","no_std","RustFS"]

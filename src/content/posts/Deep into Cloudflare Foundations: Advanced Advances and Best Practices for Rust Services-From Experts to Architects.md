@@ -2,7 +2,7 @@
 title: "深入 Cloudflare Foundations：Rust 服务高级进阶与最佳实践——从专家到架构师"
 description: "在 2025 年，Rust 已然成为云计算和边缘计算的支柱，Foundations 则继续扮演关键角色，帮助开发者应对内存泄漏、系统调用漏洞和遥测瓶颈等挑战。本文将由进阶实战入手，深入剖析高级配置、遥测优化、安全强化、外部集成、测试与部署的最佳实践。"
 date: 2025-08-29T06:00:00Z
-image: "https://static-rs.bifuba.com/images/posts/james-forbes-wgPE3ds-VQQ-unsplash.jpg"
+image: "https://static-rs.bifuba.com/images/posts/james-forbes-wgPE3ds-VQQ-unsplash.jpg-slimming.webp"
 categories: ["tokio", "serde", "rust", "实战指南", "Foundations","Tracing","opentelemetry"]
 authors: ["houseme"]
 tags:

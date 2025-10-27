@@ -2,7 +2,7 @@
 title: "Rust hashbrown 的实战巅峰：场景分析、使用指南与最佳实践"
 description: "在 Rust 生态中，hashbrown 作为高性能哈希表实现，已从幕后英雄走向实战前线。它不仅驱动 Rust 标准库的 HashMap 和 HashSet，还在独立形式下为开发者提供极致优化选项。面对 2025 年的复杂场景——从 AI 数据管道的高吞吐到嵌入式系统的资源紧缺，hashbrown 的 SwissTable 算法以 2x 速度提升和低内存开销脱颖而出。"
 date: 2025-09-21T10:42:10Z
-image: "https://static-rs.bifuba.com/images/posts/pexels-mohamed-kheir-haj-ali-707734305-18649293.jpg"
+image: "https://static-rs.bifuba.com/images/posts/pexels-mohamed-kheir-haj-ali-707734305-18649293.jpg-slimming.webp"
 categories: ["Rust", "Cargo", "实战指南","性能调优","分布式存储","对象存储","hashbrown","RustFS"]
 authors: ["houseme"]
 tags: ["rust", "cargo","tokio","异步编程","分布式存储","对象存储","hashbrown","性能调优","安全性","HashMap","HashSet","RandomState","HashDoS","foldhash","SIMD 加速","二次探测","负载因子","Raw API","no_std","rayon","serde","allocator-api2","性能黑客","高并发","大数据","资源受限","基准测试","分布式系统","RustFS"]

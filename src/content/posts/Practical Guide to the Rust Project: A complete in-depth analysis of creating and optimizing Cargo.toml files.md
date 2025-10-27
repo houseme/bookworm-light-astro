@@ -2,7 +2,7 @@
 title: "Rust 项目实战指南：创建与优化 Cargo.toml 文件的完整深度解析"
 description: "在 Rust 中，项目可以分为两种主要类型：库（lib）项目和二进制（bin）项目。库项目用于创建可重用的代码库，而二进制项目用于创建可执行文件。本文将详细介绍如何创建和优化这两种项目的 `Cargo.toml` 文件，包括标准、异同点及注意事项。"
 date: 2024-12-09T10:30:00Z
-image: "https://static-rs.bifuba.com/images/posts/priscilla-du-preez-WWD93Icc30Y-unsplash.jpg"
+image: "https://static-rs.bifuba.com/images/posts/priscilla-du-preez-WWD93Icc30Y-unsplash.jpg-slimming.webp"
 categories: ["Rust", "Cargo", "practical guide", "实战指南"]
 authors: ["houseme"]
 tags:

@@ -2,7 +2,7 @@
 title: "Rust 泛型高阶秘籍：从熟练工到代码巫师的进阶实战之旅"
 description: "在 Rust 的编程世界中，泛型（Generics）不仅是代码复用的基础工具，更是通向高性能、可扩展和优雅代码设计的高阶魔法。初学者可能已经熟悉了泛型函数、结构体和基本 trait bounds，但要真正成为 Rust 代码的“巫师”，你需要掌握更复杂的泛型模式、性能优化技巧以及与 Rust 其他特性的深度整合。"
 date: 2025-08-20T14:20:00Z
-image: "https://static-rs.bifuba.com/images/250804/josh-hild-16ZUFFYQdbo-unsplash.jpg"
+image: "https://static-rs.bifuba.com/images/250804/josh-hild-16ZUFFYQdbo-unsplash.jpg-slimming.webp"
 categories: ["Rust", "Cargo", "泛型编程", "Rust 泛型", "Generics", "实战指南"]
 authors: ["houseme"]
 tags:

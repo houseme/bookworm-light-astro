@@ -2,7 +2,7 @@
 title: "Smol：Rust 异步运行时的轻量级王者——从原理到实战的全方位指南"
 description: "smol 诞生于 Rust 异步生态的蓬勃发展期，由 smol-rs 组织维护，它并非一个从零构建的运行时，而是巧妙地重新导出了一系列小型异步 crate 的功能，形成一个紧凑的异步框架。这使得 smol 在内存占用、编译速度和运行性能上脱颖而出，尤其适合嵌入式系统、CLI 工具或对资源敏感的应用。"
 date: 2025-09-12T17:20:00Z
-image: "https://static-rs.bifuba.com/images/posts/pexels-valentin-ivantsov-2154772556-33960383.jpg"
+image: "https://static-rs.bifuba.com/images/posts/pexels-valentin-ivantsov-2154772556-33960383.jpg-slimming.webp"
 categories: ["Rust", "Cargo", "实战指南","异步编程", "smol", "运行时", "性能优化", "嵌入式","tokio"]
 authors: ["houseme"]
 tags: ["rust", "cargo","异步编程", "smol", "运行时", "性能优化", "实战指南","no_std","嵌入式","CLI工具","内存占用","编译速度","多线程","单线程","async-compat","TCP","UDP","文件I/O","定时器","通道","阻塞I/O","tokio"]

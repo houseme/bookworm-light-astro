@@ -2,7 +2,7 @@
 title: "Rust DNS 解析进阶：铸造不朽的解析堡垒——Hickory-DNS 高级实战与最佳实践"
 description: "本篇聚焦于最佳实践与一个完整的`lib` crate 设计。这个 crate 接受域名列表作为参数，在应用启动时执行预防性检查、智能重试、结果缓存、优雅降级和故障转移。它不仅是工具，更是你的“DNS 守护者”，融合异步编程、缓存策略和多重备份，确保解析如钢铁般坚固。"
 date: 2025-09-05T19:20:00Z
-image: "https://static-rs.bifuba.com/images/posts/petar-avramoski-DYXMWfcd-g8-unsplash.jpg"
+image: "https://static-rs.bifuba.com/images/posts/petar-avramoski-DYXMWfcd-g8-unsplash.jpg-slimming.webp"
 categories: ["Rust", "Cargo", "实战指南", "Hickory-DNS", "DNS解析"]
 authors: ["houseme"]
 tags: ["rust", "cargo", "hickory-dns", "dns解析", "实战指南", "网络编程", "异步编程", "tokio", "系统编程", "错误处理", "性能优化", "网络安全", "dns over https", "dns缓存", "多级域名", "网络调试","最佳实践","rustls","redis","mockall","builder模式","doh","持久化","环境变量","测试","模拟","加密"]

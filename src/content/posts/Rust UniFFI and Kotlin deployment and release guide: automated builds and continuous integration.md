@@ -2,7 +2,7 @@
 title: "Rust UniFFI 与 Kotlin 部署与发布指南：自动化构建与持续集成"
 description: "在现代软件开发中，部署与发布是项目生命周期中至关重要的环节。通过使用 Cargo 发布 Rust 库，我们可以确保代码的高效性和安全性。同时，生成并发布 Kotlin 库或 Android 应用，使得我们的解决方案能够无缝集成到移动端生态系统中。集成 CI/CD 系统，设置自动化构建和测试，不仅提高了开发效率，还确保了代码质量。最终，将应用部署到 Google Play 或其他应用商店，让用户能够方便地获取和使用我们的产品。"
 date: 2024-08-07T06:00:00Z
-image: "https://static-rs.bifuba.com/images/posts/arno-senoner-_7bsgYdTTVE-unsplash.jpg"
+image: "https://static-rs.bifuba.com/images/posts/arno-senoner-_7bsgYdTTVE-unsplash.jpg-slimming.webp"
 categories: ["UniFFI", "Kotlin", "deployment", "release", "实战指南"]
 authors: ["houseme"]
 tags:

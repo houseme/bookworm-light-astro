@@ -2,7 +2,7 @@
 title: "Rust 入门篇：基础语法 (Basic Syntax)"
 description: "Rust 是一种系统级编程语言，它拥有内存安全、并发性和高性能等特点。在本教程中，我们将介绍 Rust 的基础语法，包括变量、数据类型、函数、控制流等内容，并提供代码示例以帮助您更好地理解。"
 date: 2022-04-03T06:00:00+00:00
-image: "https://static-rs.bifuba.com/images/posts/kenny-eliason-Hav7EXRbDoE-unsplash.jpg"
+image: "https://static-rs.bifuba.com/images/posts/kenny-eliason-Hav7EXRbDoE-unsplash.jpg-slimming.webp"
 categories:
   [
     "rust guide",

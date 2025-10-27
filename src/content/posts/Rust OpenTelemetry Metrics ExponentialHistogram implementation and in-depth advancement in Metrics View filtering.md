@@ -2,7 +2,7 @@
 title: "Rust OpenTelemetry Metrics：ExponentialHistogram 实现与 Metrics View 过滤的深度进阶"
 description: "在 Rust OpenTelemetry（OTel）Metrics SDK 中，聚合策略（Aggregation Strategy）是指标处理的“心脏”。它决定如何从原始测量值（如计数或延迟样本）中提炼出高效、可导出的指标数据。默认策略已能满足大多数场景，但当你的应用面临高基数标签、特定延迟分布或资源优化需求时，自定义聚合成为关键：它能减少数据体积、提升精度，并适应业务语义。"
 date: 2025-10-20T21:12:10Z
-image: "https://static-rs.bifuba.com/images/posts/pexels-paola-tordoni-2152145178-34415664.jpg"
+image: "https://static-rs.bifuba.com/images/posts/pexels-paola-tordoni-2152145178-34415664.jpg-slimming.webp"
 categories: ["Rust","性能优化","工具推荐","实战指南","RustFS","性能剖析","内存分配","异步编程","高并发","crate","tokio","Metrics","Observability","OpenTelemetry"]
 authors: ["houseme"]
 tags: ["Rust","性能优化","工具推荐","实战指南","RustFS","性能剖析","内存分配","异步编程","高并发","性能猎手","代码瓶颈","高性能","性能分析","内存管理","并发编程","性能调优","Rust生态","OpenTelemetry","OTel Metrics","AggregationSelector","自定义聚合","Histogram","ExponentialHistogram","Metrics"] 

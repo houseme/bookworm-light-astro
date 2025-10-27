@@ -2,7 +2,7 @@
 title: "Rust 观测全栈：Metrics、OTel 桥接与 Tracing 并发优化的巅峰指南"
 description: "本文融合前文精华，由浅入深探讨 Metrics 与 OTel 桥接、Tracing 并发、OTel 高级配置（采样/资源注入）、分布式工具（Jaeger/Zipkin）、自定义 Recorder 深度优化。代码更简洁，注释详尽详实，实战基于 Axum 微服务，助你构建生产级观测系统——从“数据混沌”转向“全栈洞察”。"
 date: 2025-09-28T13:42:10Z
-image: "https://static-rs.bifuba.com/images/posts/pexels-gerhard-lipold-274371-5949444.jpg"
+image: "https://static-rs.bifuba.com/images/posts/pexels-gerhard-lipold-274371-5949444.jpg-slimming.webp"
 categories: ["Rust", "Cargo", "实战指南","性能调优","异步编程","Metrics","指标","opentelemetry","Tracing"]
 authors: ["houseme"]
 tags: ["rust", "cargo","tokio","异步编程","性能调优","安全性","实战指南","性能优化","理论知识","场景选择","代码实例","Metrics","指标","metrics-rs","metrics-util","metrics-exporter-prometheus","Recorder","Counter","Gauge","Histogram","opentelemetry","tracing","tracing-opentelemetry","Jaeger","Zipkin"]  

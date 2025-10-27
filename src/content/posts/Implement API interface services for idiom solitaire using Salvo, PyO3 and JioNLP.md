@@ -2,7 +2,7 @@
 title: "使用 Salvo、PyO3 和 JioNLP 实现成语接龙的 API 接口服务"
 description: "自然语言处理（NLP）是人工智能领域的一个重要分支，广泛应用于文本分析、情感分析、机器翻译等场景。Python 因其丰富的库生态系统和易用性成为 NLP 开发者的首选语言，而 Rust 则以其高性能和内存安全特性逐渐受到关注。本教程详细介绍了如何在 Linux 环境下使用 Rust 的 Web 框架 Salvo、PyO3 库和 Python 包 `JioNLP` 实现一个成语接龙的 API 接口服务。我们还介绍了如何使用 Docker 来打包和运行这个服务。通过本教程，你将学会如何设置 Rust 项目、创建 Python 虚拟环境、安装所需的 Python 包，并在 Rust 中调用 Python 代码。"
 date: 2024-09-09T12:00:00Z
-image: "https://static-rs.bifuba.com/images/posts/mariana-franco-48e4LUyIXVE-unsplash.jpg"
+image: "https://static-rs.bifuba.com/images/posts/mariana-franco-48e4LUyIXVE-unsplash.jpg-slimming.webp"
 categories: ["PyO3", "Python", "Rust", "JioNLP", "Salvo", "API", "Docker"]
 authors: ["houseme"]
 tags:

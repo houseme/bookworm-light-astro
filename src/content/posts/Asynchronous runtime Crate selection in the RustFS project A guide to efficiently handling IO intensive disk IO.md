@@ -2,7 +2,7 @@
 title: "RustFS 项目中异步运行时 Crate 选择：高效处理 IO 密集型磁盘 IO 的指南"
 description: "RustFS 作为 MinIO 替代品，核心依赖 Rust 的异步生态处理分布式存储的 IO 操作。其仓库（https://github.com/rustfs/rustfs）显示，它使用 tokio 作为主要异步运行时，支持 S3 兼容的网络 IO 和磁盘操作。对于磁盘 IO，RustFS 集成 **rustfs-rio** 子模块，这是一个高性能异步 IO 框架，专为分布式对象存储设计。它依赖 tokio 的 executor 和 reactor，实现批量读写和零拷贝优化。"
 date: 2025-09-25T18:42:10Z
-image: "https://static-rs.bifuba.com/images/posts/pexels-matreding-34111861.jpg"
+image: "https://static-rs.bifuba.com/images/posts/pexels-matreding-34111861.jpg-slimming.webp"
 categories: ["Rust", "Cargo", "实战指南","性能调优","分布式存储","对象存储","io-uring","Tokio","异步编程","RustFS"]
 authors: ["houseme"]
 tags: ["rust", "cargo","tokio","异步编程","性能调优","Runtime","io-uring","零拷贝","批量提交","高并发","低延迟","NVMe","SQE","CQE","内核优化","Linux 5.1+","RustFS","实战指南","2025","分布式存储","对象存储"]

@@ -2,7 +2,7 @@
 title: "Rust 哈希之巅：std 与 hashbrown 的性能对决——从基础到进阶的实战宝典"
 description: "在 Rust 编程的世界里，哈希表（HashMap 和 HashSet）是处理键值对和唯一元素集的利器，尤其在数据密集型应用中不可或缺。Rust 1.90.0 作为当前（2025 年 9 月）最新的稳定版本，其标准库 `std::collections::{HashMap, HashSet}` 提供了可靠的哈希表实现，而 `hashbrown::{HashMap, HashSet}` 则是一个独立的 crate，由 Rust 社区维护的“幕后英雄”。"
 date: 2025-09-18T23:42:10Z
-image: "https://static-rs.bifuba.com/images/posts/pexels-andreas-neubauer-734874-8824362.jpg"
+image: "https://static-rs.bifuba.com/images/posts/pexels-andreas-neubauer-734874-8824362.jpg-slimming.webp"
 categories: ["Rust", "Cargo", "实战指南","hashbrown","性能调优","RustFS"]
 authors: ["houseme"]
 tags: ["rust", "cargo","tokio","异步编程","性能调优","安全性","HashMap","HashSet","RandomState","HashDoS","hashbrown","实战指南","性能优化","理论知识","场景选择","代码实例","RustFS"]

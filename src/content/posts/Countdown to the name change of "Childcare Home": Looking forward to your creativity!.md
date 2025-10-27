@@ -2,7 +2,7 @@
 title: "“育儿之家”更名倒计时：期待你的创意！"
 description: "您的每一个建议都将被认真对待，并有机会成为我们新的标志。让我们携手为育儿之家找到一个契合新时代的名称，继续为社区提供优质内容和服务。"
 date: 2024-09-26T06:00:00Z
-image: "https://static-rs.bifuba.com/images/posts/01.jpg"
+image: "https://static-rs.bifuba.com/images/posts/01.jpg-slimming.webp"
 categories: ["childcare home", "name change"]
 authors: ["houseme"]
 tags:

@@ -2,7 +2,7 @@
 title: "解锁低层网络的奥秘：libpnet Rust 实现从零到一实战指南"
 description: "本指南专为初学者设计，将由浅入深地带你探索 `libpnet`，从理解其核心组件到实现一个简单的网络工具（如自定义 ICMP Ping）。我们将结合详细的理论讲解、完整的代码示例和最佳实践，助你在 Rust 的安全与性能加持下，快速上手低层网络编程。"
 date: 2025-07-29T10:20:00Z
-image: "https://static-rs.bifuba.com/images/250804/pexels-marius-dubost-2154685620-33430958.jpg"
+image: "https://static-rs.bifuba.com/images/250804/pexels-marius-dubost-2154685620-33430958.jpg-slimming.webp"
 categories: ["Rust", "Cargo", "libpnet", "实战指南"]
 authors: ["houseme"]
 tags:

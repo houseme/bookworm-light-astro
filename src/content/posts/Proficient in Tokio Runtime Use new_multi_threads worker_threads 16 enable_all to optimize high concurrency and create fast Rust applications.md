@@ -2,7 +2,7 @@
 title: "精通 Tokio Runtime：基于自定义 Runtime 设置优化高并发，打造极速 Rust 应用"
 description: "在 RustFS 项目中，Tokio 是 `rustfs-rio` 的核心异步运行时，用于处理 IO 密集型场景（如 S3 兼容的分布式对象存储）。通过 `tokio::runtime::Builder` 配置多线程运行时，可以显著优化高并发磁盘 IO 和网络请求的性能。"
 date: 2025-09-17T07:22:00Z
-image: "https://static-rs.bifuba.com/images/posts/pexels-serra-nur-cevikdal-2147703100-30772466.jpg"
+image: "https://static-rs.bifuba.com/images/posts/pexels-serra-nur-cevikdal-2147703100-30772466.jpg-slimming.webp"
 categories: ["Rust", "Cargo", "实战指南","异步编程", "运行时", "性能优化", "tokio","高并发","IO密集型","磁盘IO","runtime"]
 authors: ["houseme"]
 tags: ["rust", "cargo","tokio","异步编程", "运行时", "性能优化", "实战指南","高并发","IO密集型","网络服务器","数据流处理","多线程","工作窃取","限流","背压","Channels","微服务","实时系统","磁盘IO","monoio","io_uring","异步文件IO","高性能","runtime"]

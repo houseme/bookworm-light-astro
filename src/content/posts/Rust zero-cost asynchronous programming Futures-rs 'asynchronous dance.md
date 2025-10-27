@@ -2,7 +2,7 @@
 title: "Rust 零成本异步编程：Futures-rs 的异步之舞"
 description: "在 Rust 编程的世界中，异步编程如同一场优雅的舞蹈，它允许程序在不阻塞线程的情况下处理并发任务，实现高效的 I/O 操作、网络通信和多任务协调。传统同步编程往往导致资源浪费和性能瓶颈，而 Rust 的零成本抽象（zero-cost abstractions）理念，让异步编程变得高效且无额外开销。futures-rs 库正是这一革命的核心，它为 Rust 提供了异步编程的基础设施，包括 Future、Stream 和 Sink 等关键 trait，以及强大的宏如 join! 和 select!，让开发者能够编写出富有表现力的异步控制流。"
 date: 2025-10-01T03:42:10Z
-image: "https://static-rs.bifuba.com/images/posts/pexels-evelin-magnus-2156241912-34155620.jpg"
+image: "https://static-rs.bifuba.com/images/posts/pexels-evelin-magnus-2156241912-34155620.jpg-slimming.webp"
 categories: ["Rust","性能优化","工具推荐","实战指南","Futures","性能剖析","内存分配","异步编程","高并发","crate","tokio"]
 authors: ["houseme"]
 tags: ["Rust","性能优化","工具推荐","实战指南","Futures","性能剖析","内存分配","异步编程","高并发","性能猎手","代码瓶颈","高性能","性能分析","内存管理","并发编程","性能调优","Rust生态","Futures-rs","join!","select!","zero-cost","async/await"]  

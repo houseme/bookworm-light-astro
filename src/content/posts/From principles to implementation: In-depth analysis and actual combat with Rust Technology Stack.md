@@ -2,7 +2,7 @@
 title: "从原理到落地：深入剖析与 Rust 技术栈实战 crate 全景指南"
 description: "Rust 已逐渐成为构建高性能、安全可靠系统的首选语言。无论是云原生应用、存储系统，还是音视频处理与边缘计算，Rust 都能提供**内存安全 + 零开销抽象 + 高并发能力**的独特优势。本文将从架构原理、技术取舍出发，深入剖析构建现代应用所需的关键要素，并推荐对应的 Rust crate，帮助你快速落地。"
 date: 2025-08-21T14:20:00Z
-image: "https://static-rs.bifuba.com/images/250804/valeria-reverdo-ltVrPGvl3hc-unsplash.jpg"
+image: "https://static-rs.bifuba.com/images/250804/valeria-reverdo-ltVrPGvl3hc-unsplash.jpg-slimming.webp"
 categories:
   [
     "Rust",

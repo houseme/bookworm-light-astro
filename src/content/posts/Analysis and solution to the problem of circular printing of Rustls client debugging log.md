@@ -2,7 +2,7 @@
 title: "Rustls 客户端调试日志循环打印问题解析与解决方案"
 description: "在现代网络通信中，TLS（传输层安全协议）已经成为确保数据传输安全性的标准。Rust 社区提供的 `rustls` 库是一个纯 Rust 实现的 TLS 协议库，因其安全性和性能而备受青睐。然而，在使用 `rustls` 进行客户端开发时，开发者可能会遇到一个常见的问题：调试日志循环打印，尤其是以下两条日志："
 date: 2024-09-13T06:00:00Z
-image: "https://static-rs.bifuba.com/images/posts/caleb-woods-NntIbC93kaM-unsplash.jpg"
+image: "https://static-rs.bifuba.com/images/posts/caleb-woods-NntIbC93kaM-unsplash.jpg-slimming.webp"
 categories: ["Rustls", "Rust", "TLS"]
 authors: ["houseme"]
 tags:

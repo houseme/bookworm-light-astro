@@ -2,7 +2,7 @@
 title: "优雅构建安全可靠的 DNS 服务：Hickory-DNS 入门实战指南"
 description: "在当今互联网世界中，DNS（域名系统）作为网络基础设施的核心组件，其安全性和可靠性至关重要。Hickory-DNS 是一个基于 Rust 语言开发的 DNS 客户端、服务器和解析器，从头开始就注重安全性和可靠性。本文将带您从零开始，通过实战指南和完整实例代码，掌握如何使用 Hickory-DNS 构建安全可靠的 DNS 服务。"
 date: 2025-01-01T21:00:00Z
-image: "https://static-rs.bifuba.com/images/posts/pexels-ayrat-244411276-30003668-1920.jpg"
+image: "https://static-rs.bifuba.com/images/posts/pexels-ayrat-244411276-30003668-1920.jpg-slimming.webp"
 categories:
   [
     "Rust",

@@ -2,7 +2,7 @@
 title: "深入浅出：Rust 驱动 ESP32 的优雅实践 —— esp-hal 使用指南"
 description: "本指南将从 `esp-hal` 的基础理论出发，逐步深入到实际开发中的配置、构建和调试，结合实例代码展示如何用 Rust 驱动 ESP32 的外设（如 GPIO、UART、LED 和 Wi-Fi）。通过优雅的代码组织和实用的开发技巧，带你体验 Rust 在嵌入式开发中的独特魅力。无论你是 Rust 新手还是嵌入式老兵，这篇指南都将为你提供从入门到精通的完整路径。"
 date: 2025-07-08T16:00:00Z
-image: "https://static-rs.bifuba.com/images/250804/pexels-hub-jacqu-750015482-29005959.jpg"
+image: "https://static-rs.bifuba.com/images/250804/pexels-hub-jacqu-750015482-29005959.jpg-slimming.webp"
 categories:
   [
     "rust",

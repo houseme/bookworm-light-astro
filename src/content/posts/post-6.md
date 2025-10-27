@@ -2,7 +2,7 @@
 title: "Rust 基础语法综合教程"
 description: "Rust 是一种现代化、安全、并发的系统级编程语言，具有强大的功能和丰富的特性。本教程将深入探讨 Rust 的基础语法，包括变量与数据类型、函数、模式匹配、所有权与借用、Trait 和泛型以及错误处理等内容，并提供实际示例帮助您更好地理解。"
 date: 2022-04-06T16:56:47+06:00
-image: "https://static-rs.bifuba.com/images/posts/06.jpg"
+image: "https://static-rs.bifuba.com/images/posts/06.jpg-slimming.webp"
 draft: false
 authors: ["houseme"]
 tags:

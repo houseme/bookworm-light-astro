@@ -2,7 +2,7 @@
 title: "Rust 与 sqlx：性能基准测试与优化实战指南"
 description: "在现代软件开发中，确保数据库操作的高性能是至关重要的。Rust，以其卓越的性能和安全性，结合 sqlx 库的强大功能，为开发者提供了处理数据库操作的理想工具。本文将深入探讨如何使用 Rust 和 sqlx 进行性能基准测试与优化，并通过详细的示例代码展示每一步的操作。"
 date: 2024-09-09T23:00:00Z
-image: "https://static-rs.bifuba.com/images/posts/tim-marshall-jqj2SqvxMVY-unsplash.jpg"
+image: "https://static-rs.bifuba.com/images/posts/tim-marshall-jqj2SqvxMVY-unsplash.jpg-slimming.webp"
 categories: ["Tokio", "SQLX", "Rust", "MySQL", "实战指南"]
 authors: ["houseme"]
 tags:

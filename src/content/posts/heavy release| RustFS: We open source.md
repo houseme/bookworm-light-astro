@@ -2,7 +2,7 @@
 title: "重磅发布 | RustFS：我们开源啦"
 description: "RustFS 从筹备至今已经过去了两年的时间。我们总算开源了，特别感谢您能看到我们。RustFS，一个基于 Rust 语言开发的高性能分布式对象存储系统，专为 AI、大数据和云原生工作负载设计，完全兼容 S3 协议，提供卓越的性能和安全性，助力企业快速搭建现代化数据基础设施。"
 date: 2025-07-02T11:00:00Z
-image: "https://static-rs.bifuba.com/images/rustfs/06069d27-a637-42dd-95dc-52aeec4bdcb3.png"
+image: "https://static-rs.bifuba.com/images/rustfs/06069d27-a637-42dd-95dc-52aeec4bdcb3.png-slimming.webp"
 categories: ["Rust", "RustFS", "对象存储"]
 authors: ["houseme"]
 tags:
@@ -28,7 +28,7 @@ draft: false
 
 # 一、为什么要做 RustFS？
 
-![](https://static-rs.bifuba.com/images/rustfs/06069d27-a637-42dd-95dc-52aeec4bdcb3.png)
+![](https://static-rs.bifuba.com/images/rustfs/06069d27-a637-42dd-95dc-52aeec4bdcb3.png-slimming.webp)
 
 我们团队从 2019 年开始使用 MinIO，对于 MinIO 的方便、简洁、高效深深的折服。它的设计中没有了元数据中心，只需要单机即可快速部署。特别方便我们这种还在发展中的团队。
 除了单机模式外，它还提供了多机、分布式、联邦模式等多种不同的模式。满足了我们从小到大的全部想象。
@@ -39,7 +39,7 @@ draft: false
 
 # 二、为什么选择这个时机开源？
 
-![](https://static-rs.bifuba.com/images/rustfs/cd085003-3a99-4f14-9786-2b6e222d7e94.png)
+![](https://static-rs.bifuba.com/images/rustfs/cd085003-3a99-4f14-9786-2b6e222d7e94.png-slimming.webp)
 
 这个产品从策划到现在其实已经做了两年的时间，中间经过很多困难。
 
@@ -61,7 +61,7 @@ draft: false
 
 # 三、你们会放弃 RustFS，追求 AI 的热点吗？
 
-![](https://static-rs.bifuba.com/images/rustfs/15eb982c-bcff-4eb6-9c2d-1fa92441f72e.png)
+![](https://static-rs.bifuba.com/images/rustfs/15eb982c-bcff-4eb6-9c2d-1fa92441f72e.png-slimming.webp)
 
 我们一直在路上，一直会努力为开源做些事情，记住我们的初心——帮全世界降低存储成本，提升数据安全水平。
 两年多的时间我们坚持下来了。我们深信————长期主义。并且，我们对于存储、人类发展的理解更加深刻了。
@@ -78,7 +78,7 @@ draft: false
 
 # 四、开源界喷子多，你们害怕吗？
 
-![](https://static-rs.bifuba.com/images/rustfs/88ba5d5f-282d-4a5e-8d84-97126f000915.png)
+![](https://static-rs.bifuba.com/images/rustfs/88ba5d5f-282d-4a5e-8d84-97126f000915.png-slimming.webp)
 
 其实哪儿喷子都多。大家在网络上没有了耐心。用分别心去对待不同的人。用不诚信、谩骂去对待网上看不见的那个它或者他。因为，骂人后几乎不用负责任。
 骂完你，还要告诉你一句————这是我的言论自由。
@@ -89,7 +89,7 @@ draft: false
 
 # 五、写给未来
 
-![](https://static-rs.bifuba.com/images/rustfs/1ec4d812-db70-48cf-b067-14d9035a0538.png)
+![](https://static-rs.bifuba.com/images/rustfs/1ec4d812-db70-48cf-b067-14d9035a0538.png-slimming.webp)
 
 感谢您，您的注意力让我们成长的更快！
 

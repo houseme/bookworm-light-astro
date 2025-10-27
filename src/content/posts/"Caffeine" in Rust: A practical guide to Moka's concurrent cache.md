@@ -2,7 +2,7 @@
 title: "Rust 中的“咖啡因”：Moka 并发缓存库小白实战指南"
 description: "Moka 库是一个受 Java Caffeine 缓存库启发的 Rust 实现，它专注于高性能、线程安全的并发缓存，帮助开发者在多线程或异步环境中高效管理数据，避免频繁访问昂贵的资源（如数据库或网络）。"
 date: 2025-08-23T14:20:00Z
-image: "https://static-rs.bifuba.com/images/250804/pexels-irgirey-18731626.jpg"
+image: "https://static-rs.bifuba.com/images/250804/pexels-irgirey-18731626.jpg-slimming.webp"
 categories: ["Rust", "Cargo", "缓存", "Moka", "并发编程"]
 authors: ["houseme"]
 tags:

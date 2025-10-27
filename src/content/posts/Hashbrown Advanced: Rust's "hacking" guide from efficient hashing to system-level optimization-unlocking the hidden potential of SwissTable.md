@@ -2,7 +2,7 @@
 title: "Hashbrown 进阶：从高效哈希到系统级优化的 Rust“黑客”指南——解锁 SwissTable 的隐藏潜力"
 description: "Hashbrown 作为 Google SwissTable 的 Rust 移植，不仅是标准库的“幕后英雄”（自 Rust 1.36 起），还提供了超越标准库的灵活性：自定义 hasher、no_std 支持、SIMD 加速和低级 API 访问。"
 date: 2025-08-02T12:20:00Z
-image: "https://static-rs.bifuba.com/images/250804/pexels-lange-x-2151365597-31636923.jpg"
+image: "https://static-rs.bifuba.com/images/250804/pexels-lange-x-2151365597-31636923.jpg-slimming.webp"
 categories:
   ["Rust", "Cargo", "Hashbrown", "哈希表", "性能优化", "系统级编程", "实战指南"]
 authors: ["houseme"]

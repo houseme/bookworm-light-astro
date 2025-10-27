@@ -2,7 +2,7 @@
 title: "探索 Cloudflare Foundations：Rust 服务开发的坚实基石——从小白到实战高手"
 description: "Foundations 提供了日志、追踪、指标、内存剖析、安全沙箱、配置管理和 CLI 助手等功能，支持通过 Cargo 特性灵活启用，适用于分布式、生产级系统的扩展。"
 date: 2025-08-28T18:20:00Z
-image: "https://static-rs.bifuba.com/images/250804/brian-mcmahon-hD3NmeK4auE-unsplash.jpg"
+image: "https://static-rs.bifuba.com/images/250804/brian-mcmahon-hD3NmeK4auE-unsplash.jpg-slimming.webp"
 categories:
   [
     "Rust",

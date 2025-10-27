@@ -2,7 +2,7 @@
 title: "Rust 与 FFmpeg 的奇妙邂逅：小白从零起步的多媒体处理实战指南"
 description: "FFmpeg，作为一个开源的多媒体框架，堪称“瑞士军刀”级的工具，它能处理视频、音频的编码、解码、转码、流媒体传输等诸多任务。从简单的视频格式转换，到复杂的实时视频处理，FFmpeg 无所不能。这份指南专为小白设计，由浅入深，从基础命令行调用入手，逐步深入到库绑定和实战项目。无论你是 Rust 新手还是多媒体处理初学者，都能通过理论讲解、代码实例一步步上手。让我们开启这场 Rust 与 FFmpeg 的奇妙之旅吧！"
 date: 2025-08-01T12:20:00Z
-image: "https://static-rs.bifuba.com/images/250804/pexels-nikiemmert-33127482.jpg"
+image: "https://static-rs.bifuba.com/images/250804/pexels-nikiemmert-33127482.jpg-slimming.webp"
 categories: ["Rust", "Cargo", "FFmpeg", "实战指南", "ffmpeg-next"]
 authors: ["houseme"]
 tags:

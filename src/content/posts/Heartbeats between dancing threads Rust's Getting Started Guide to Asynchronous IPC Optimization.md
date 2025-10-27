@@ -2,7 +2,7 @@
 title: "舞动线程间的心跳：Rust 异步 IPC 优化入门指南"
 description: "什么是 IPC？进程间通信（Inter-Process Communication，IPC）是操作系统中不同进程或线程之间交换数据的机制。在 Rust 中，异步 IPC 通过结合异步编程模型（如`async/await`）与高效的并发原语，提供低延迟、高吞吐的线程或进程间通信方式。"
 date: 2025-10-22T20:22:10Z
-image: "https://static-rs.bifuba.com/images/posts/pexels-diji-aderogba-351053474-31653067.jpg"
+image: "https://static-rs.bifuba.com/images/posts/pexels-diji-aderogba-351053474-31653067.jpg-slimming.webp"
 categories: ["Rust","性能优化","工具推荐","实战指南","Rust 异步","IPC 优化","并发编程","异步编程","tokio","crate"]
 authors: ["houseme"]
 tags: ["Rust","性能优化","工具推荐","实战指南","Rust 异步","IPC 优化","channel","异步编程","性能猎手","代码瓶颈","高性能","性能分析","内存管理","并发编程","性能调优","Rust生态"]

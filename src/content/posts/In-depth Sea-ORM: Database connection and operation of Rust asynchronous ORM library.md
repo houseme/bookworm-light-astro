@@ -2,7 +2,7 @@
 title: "深入 Sea-ORM：Rust 异步 ORM 库的数据库连接与操作实战"
 description: "在现代 Web 应用开发中，数据库操作是不可或缺的一部分。Sea-ORM 是一个基于 Rust 的异步 ORM 库，提供了强大的数据库操作能力。本文将通过一个完整的实战教程，带你从入门到精通 Sea-ORM，掌握如何使用 Sea-ORM 进行数据库操作、模型生成、迁移管理等。"
 date: 2024-09-29T18:15:00Z
-image: "https://static-rs.bifuba.com/images/posts/tim-marshall-jqj2SqvxMVY-unsplash.jpg"
+image: "https://static-rs.bifuba.com/images/posts/tim-marshall-jqj2SqvxMVY-unsplash.jpg-slimming.webp"
 categories:
   [
     "rust",

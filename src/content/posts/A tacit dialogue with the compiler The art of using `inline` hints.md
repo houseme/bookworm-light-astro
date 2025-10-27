@@ -2,7 +2,7 @@
 title: "Rust 语言中与编译器的默契对话：善用 #[inline] 提示的艺术"
 description: "`#[inline]` 注解就是给编译器的一个**强烈提示**，建议编译器对这个函数进行内联优化。它**并不强制**编译器必须内联，编译器最终会根据自身的启发式规则决定是否内联（例如，函数复杂度、调用频率等）。"
 date: 2025-09-18T23:22:10Z
-image: "https://static-rs.bifuba.com/images/posts/pexels-marija-piliskic-2155438514-33754558.jpg"
+image: "https://static-rs.bifuba.com/images/posts/pexels-marija-piliskic-2155438514-33754558.jpg-slimming.webp"
 categories: ["Rust", "Cargo", "实战指南","性能调优"]
 authors: ["houseme"]
 tags: ["rust", "cargo","tokio","内联","编译器优化","性能调优"]

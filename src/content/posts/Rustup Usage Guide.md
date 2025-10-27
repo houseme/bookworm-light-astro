@@ -2,7 +2,7 @@
 title: "Rustup 使用实战指南"
 description: "Rust is a system programming language that focuses on safety, concurrency, and performance. In order to effectively manage Rust installations and versions, `rustup` is designed as a Rust installer and version management tool. The following is a practical guide on how to use `rustup`."
 date: 2024-08-07T05:00:00Z
-image: "https://static-rs.bifuba.com/images/posts/arno-senoner-_7bsgYdTTVE-unsplash.jpg"
+image: "https://static-rs.bifuba.com/images/posts/arno-senoner-_7bsgYdTTVE-unsplash.jpg-slimming.webp"
 categories: ["rust guide", "rustup", "实战指南"]
 authors: ["houseme"]
 tags:

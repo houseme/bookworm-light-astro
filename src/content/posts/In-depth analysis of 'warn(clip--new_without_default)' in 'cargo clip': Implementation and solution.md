@@ -2,7 +2,7 @@
 title: "深度剖析 `cargo clippy` 中的 `warn(clippy--new_without_default)`：实现与解决之道"
 description: "在 Rust 开发中，`cargo clippy` 是一个强大的静态分析工具，用于检查代码中的潜在问题和改进建议。其中一个常见的警告是 `warn(clippy::new_without_default)`，它提示我们在定义 `new` 方法时，如果没有提供 `Default` 实现，可能会导致潜在的问题。本文将深入探讨这个警告的实现原理、解决方法以及它在 Rust 编程中的重要性。"
 date: 2024-09-10T22:00:00Z
-image: "https://static-rs.bifuba.com/images/posts/tim-marshall-jqj2SqvxMVY-unsplash.jpg"
+image: "https://static-rs.bifuba.com/images/posts/tim-marshall-jqj2SqvxMVY-unsplash.jpg-slimming.webp"
 categories: ["Rust", "cargo", "clippy", "实战指南", "性能优化", "代码质量"]
 authors: ["houseme"]
 tags:

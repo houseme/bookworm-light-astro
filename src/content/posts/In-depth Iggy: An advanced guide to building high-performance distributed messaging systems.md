@@ -2,7 +2,7 @@
 title: "深入 Iggy：构建高性能分布式消息系统的进阶指南"
 description: "深入 Iggy：构建高性能分布式消息系统的进阶指南，探讨先进的架构设计、性能优化技术以及实际应用案例。学习如何利用 Iggy 实现高效的消息传递，提升系统的可靠性与可扩展性，适合开发者和架构师深入理解分布式系统的核心要素。"
 date: 2025-01-03T07:00:00Z
-image: "https://static-rs.bifuba.com/images/posts/pexels-rasca-don-1638657-30032159-1920.jpg"
+image: "https://static-rs.bifuba.com/images/posts/pexels-rasca-don-1638657-30032159-1920.jpg-slimming.webp"
 categories:
   ["Rust", "Iggy", "实战指南", "分布式系统", "消息系统", "架构设计", "性能优化"]
 authors: ["houseme"]

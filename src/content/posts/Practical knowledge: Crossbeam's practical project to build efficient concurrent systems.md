@@ -2,7 +2,7 @@
 title: "高效并发的秘诀：Crossbeam 的性能优化与调试技巧"
 description: "Crossbeam 是 Rust 并发编程的利器，其模块化设计允许开发者根据需求选择性地使用功能强大的工具。理论与实战的结合是学习并发编程的最佳途径。本教程通过一个综合项目展示如何使用 Crossbeam 构建高效的并发系统。从需求分析到代码实现，我们将引导你完成一个实际项目，全面体验 Crossbeam 的强大功能。"
 date: 2024-12-13T14:45:00Z
-image: "https://static-rs.bifuba.com/images/posts/pexels-sakuratosoju-29962711-1920.jpg"
+image: "https://static-rs.bifuba.com/images/posts/pexels-sakuratosoju-29962711-1920.jpg-slimming.webp"
 categories: ["Rust", "Crossbeam", "practical guide", "实战指南"]
 authors: ["houseme"]
 tags:

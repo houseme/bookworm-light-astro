@@ -2,7 +2,7 @@
 title: "Rust UniFFI 与 Kotlin 资源与社区指南：探索跨语言开发的生态系统"
 description: "在现代软件开发中，跨平台和跨语言的交互变得越来越重要。UniFFI 和 Kotlin 作为两个强大的工具，各自在不同的领域中发挥着重要作用。"
 date: 2024-08-08T06:00:00Z
-image: "https://static-rs.bifuba.com/images/posts/caleb-woods-NntIbC93kaM-unsplash.jpg"
+image: "https://static-rs.bifuba.com/images/posts/caleb-woods-NntIbC93kaM-unsplash.jpg-slimming.webp"
 categories: ["UniFFI", "Kotlin", "Rust", "Cross-language", "实战指南"]
 authors: ["houseme"]
 tags:

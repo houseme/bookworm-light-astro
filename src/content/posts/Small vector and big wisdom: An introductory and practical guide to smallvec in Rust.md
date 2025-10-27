@@ -2,7 +2,7 @@
 title: "小向量大智慧：Rust 中 smallvec 的入门与实战指南"
 description: "本文将从零基础开始，带你深入理解 `smallvec` 的原理、使用场景和实战技巧，结合详细的代码示例，让你从“小白”快速进阶为“老司机”。"
 date: 2025-07-23T10:20:00Z
-image: "https://static-rs.bifuba.com/images/250804/pexels-chane-bruwer-424963865-30238892.jpg"
+image: "https://static-rs.bifuba.com/images/250804/pexels-chane-bruwer-424963865-30238892.jpg-slimming.webp"
 categories: ["Rust", "Cargo", "smallvec", "实战指南"]
 authors: ["houseme"]
 tags:

@@ -2,7 +2,7 @@
 title: "并发编程的艺术：用 Crossbeam 实现高效设计模式"
 description: "Crossbeam 是 Rust 并发编程的利器，其模块化设计允许开发者根据需求选择性地使用功能强大的工具。在现代软件开发中，良好的并发设计模式能极大地提高程序性能与可维护性。本文将介绍几种经典的并发设计模式，并结合 Rust 的 Crossbeam 工具库，展示如何优雅地实现这些模式。"
 date: 2024-12-12T12:45:00Z
-image: "https://static-rs.bifuba.com/images/posts/pexels-candid-flaneur-175964800-29931635-1920.jpg"
+image: "https://static-rs.bifuba.com/images/posts/pexels-candid-flaneur-175964800-29931635-1920.jpg-slimming.webp"
 categories: ["Rust", "Crossbeam", "实战指南"]
 authors: ["houseme"]
 tags:

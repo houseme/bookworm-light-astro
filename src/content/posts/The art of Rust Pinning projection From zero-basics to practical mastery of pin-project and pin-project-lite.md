@@ -2,7 +2,7 @@
 title: "Rust Pinning 投影的艺术：从零基础到实战掌握 pin-project 与 pin-project-lite"
 description: "本文将从 Rust Pinning 的基础知识入手，由浅入深地讲解理论原理、实现机制，并结合实例代码，提供一个完整的入门级实战指南。无论你是 Rust 新手，还是想优化异步代码的开发者，这篇文章都能让你从“小白”变成“老鸟”。我们将逐步剖析两个 crate 的用法、差异和原理，最后通过实战项目让你上手。准备好你的 Cargo.toml 吧，让我们开启这场 Pinning 的艺术之旅！"
 date: 2025-09-26T18:42:10Z
-image: "https://static-rs.bifuba.com/images/posts/pexels-heinz-klier-261981-4625868.jpg"
+image: "https://static-rs.bifuba.com/images/posts/pexels-heinz-klier-261981-4625868.jpg-slimming.webp"
 categories: ["Rust", "Cargo", "实战指南","性能调优","异步编程","pin-project","pin-project-lite"]
 authors: ["houseme"]
 tags: ["rust", "cargo","tokio","异步编程","性能调优","安全性","实战指南","性能优化","理论知识","场景选择","代码实例","pin-project","pin-project-lite"]

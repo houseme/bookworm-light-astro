@@ -2,7 +2,7 @@
 title: "Dioxus 0.6 入门指南 优雅的代码，从资源管理开始！"
 description: "Dioxus 是一个基于 Rust 的高效、灵活的前端框架，适用于构建 Web、桌面和移动应用。本文将带你快速上手 Dioxus 0.6，帮助你从零开始构建一个简单的应用。"
 date: 2024-12-09T07:00:00Z
-image: "https://static-rs.bifuba.com/images/posts/dioxus/pexels-felix-antoine-coutu-174902-29705625.jpg"
+image: "https://static-rs.bifuba.com/images/posts/dioxus/pexels-felix-antoine-coutu-174902-29705625.jpg-slimming.webp"
 categories: ["Rust", "Dioxus", "Front-end", "Assent"]
 authors: ["houseme"]
 tags:

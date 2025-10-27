@@ -4,7 +4,7 @@ description: "在 Rust WebAssembly 的开发过程中，了解和预测技术的
 技术的未来趋势，并强调持续关注 WebAssembly 生态系统的发展。通过这一系列的学习和实践，我们将为构建高性能的 Web
 应用打下坚实的基础。"
 date: 2024-08-07T06:00:00Z
-image: "https://static-rs.bifuba.com/images/posts/arno-senoner-_7bsgYdTTVE-unsplash.jpg"
+image: "https://static-rs.bifuba.com/images/posts/arno-senoner-_7bsgYdTTVE-unsplash.jpg-slimming.webp"
 categories: ["WebAssembly","Rust","exploration","future","wasmtime","wasmer","实战指南"]
 authors: ["houseme"]
 tags: ["rust", "WebAssembly", "exploration","wasmtime","wasmer","实战指南","Rust WebAssembly","WebAssembly 未来","WebAssembly 生态系统","高性能","多线程","并行计算","安全性","生态系统"]

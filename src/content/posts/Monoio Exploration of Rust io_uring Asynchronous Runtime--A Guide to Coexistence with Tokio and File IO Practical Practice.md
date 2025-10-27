@@ -2,7 +2,7 @@
 title: "Monoio：Rust io_uring 异步运行时的探索——与 Tokio 共存及文件 IO 实战指南"
 description: "在 2025 年 9 月的 Rust 生态中，Monoio 作为 ByteDance 开发的异步运行时，继续以其基于 io_uring 的真正异步 I/O 能力脱颖而出。最新活跃讨论出现在 2025 年 3 月的 Reddit 和博客中，Monoio 被誉为高性能服务器的理想选择，尤其在 IO-bound 场景下，其线程-per-core 模型和零拷贝优化可显著提升吞吐量。与 Tokio 不同，Monoio 不依赖线程池模拟异步，而是利用 Linux 5.6+ 的 io_uring 内核 API，实现原生异步文件和网络 IO。"
 date: 2025-09-16T17:22:00Z
-image: "https://static-rs.bifuba.com/images/posts/pexels-ferezou-7115508.jpg"
+image: "https://static-rs.bifuba.com/images/posts/pexels-ferezou-7115508.jpg-slimming.webp"
 categories: ["Rust", "Cargo", "实战指南","异步编程", "运行时", "性能优化", "tokio","高并发","IO密集型","磁盘IO"]
 authors: ["houseme"]
 tags: ["rust", "cargo","tokio","异步编程", "运行时", "性能优化", "实战指南","高并发","IO密集型","网络服务器","数据流处理","多线程","工作窃取","限流","背压","Channels","微服务","实时系统","磁盘IO","monoio","io_uring","异步文件IO","高性能"]

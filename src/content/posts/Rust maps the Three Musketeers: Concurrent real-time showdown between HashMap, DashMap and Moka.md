@@ -2,7 +2,7 @@
 title: "Rust 映射三剑客：HashMap、DashMap 与 Moka 的并发实战对决"
 description: "在 Rust 的内存世界中，数据映射如三国鼎立：HashMap，这位“单线程霸主”，标准库的经典之作，简洁高效却独行侠般不善并发；DashMap，这位“并发游侠”，以闪电般的速度打造线程安全 HashMap，灵感源于标准库却超越其边界；Moka，这位“缓存智者”，如摩卡壶般高压萃取并发性能，融合 TinyLFU 算法，提供驱逐、过期与监听的智慧之剑。"
 date: 2025-08-28T08:20:00Z
-image: "https://static-rs.bifuba.com/images/250804/pexels-omergulen-29421973.jpg"
+image: "https://static-rs.bifuba.com/images/250804/pexels-omergulen-29421973.jpg-slimming.webp"
 categories: ["Rust", "Cargo", "缓存", "并发编程", "性能优化"]
 authors: ["houseme"]
 tags:

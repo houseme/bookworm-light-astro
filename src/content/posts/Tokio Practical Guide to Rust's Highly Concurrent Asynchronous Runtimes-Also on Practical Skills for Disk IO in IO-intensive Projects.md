@@ -2,7 +2,7 @@
 title: "Tokio：Rust 高并发异步运行时的实战指南——兼论 IO 密集型项目中磁盘 IO 的实战技巧"
 description: "本指南分为两部分：首先聚焦高并发实战，结合原理与代码示例；其次深入 IO 密集型项目中的磁盘 IO 技巧，强调 Tokio 的文件操作策略。我们将通过真实场景演示，帮助你构建高效应用。无论你是开发微服务还是大数据管道，Tokio 都能提供坚实基础。让我们驾驭高并发的洪流！"
 date: 2025-09-15T17:20:00Z
-image: "https://static-rs.bifuba.com/images/posts/pexels-enrique72-33998586.jpg"
+image: "https://static-rs.bifuba.com/images/posts/pexels-enrique72-33998586.jpg-slimming.webp"
 categories: ["Rust", "Cargo", "实战指南","异步编程", "运行时", "性能优化", "tokio","高并发","IO密集型","磁盘IO"]
 authors: ["houseme"]
 tags: ["rust", "cargo","tokio","异步编程", "运行时", "性能优化", "实战指南","高并发","IO密集型","网络服务器","数据流处理","多线程","工作窃取","限流","背压","Channels","微服务","实时系统","磁盘IO"]

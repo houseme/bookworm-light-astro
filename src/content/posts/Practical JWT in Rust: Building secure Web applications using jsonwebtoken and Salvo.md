@@ -2,7 +2,7 @@
 title: "Rust 中的 JWT 实战：使用 jsonwebtoken 和 Salvo 构建安全的 Web 应用"
 description: "JSON Web Token (JWT) 是一种开放标准（RFC 7519），用于在网络应用环境间安全地传输信息。JWT 通常用于身份验证和信息交换。它由三部分组成：头部（Header）、载荷（Payload）和签名（Signature），这三部分通过`.`连接在一起。"
 date: 2024-10-28T08:15:00Z
-image: "https://static-rs.bifuba.com/images/posts/arno-senoner-_7bsgYdTTVE-unsplash.jpg"
+image: "https://static-rs.bifuba.com/images/posts/arno-senoner-_7bsgYdTTVE-unsplash.jpg-slimming.webp"
 categories: ["rust", "jwt", "jsonwebtoken", "oauth2", "security", "salvo"]
 authors: ["houseme"]
 tags:

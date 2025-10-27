@@ -2,7 +2,7 @@
 title: "告别选择困难！新手入门宣纸：尺寸选四尺，特性挑半生熟"
 description: "刚接触书法的你，是否在面对琳琅满目的宣纸时感到迷茫？4 尺还是 6 尺？生宣还是熟宣？别担心，这份快速指南将化繁为简，为你指明一条最稳妥、最高效的入门之路。记住这句核心口诀：**“尺寸选四尺，特性挑半生熟”**。下面我们就来详细解读为什么。"
 date: 2025-09-16T07:20:00Z
-image: "https://static-rs.bifuba.com/images/posts/pexels-ferezou-6213052.jpg"
+image: "https://static-rs.bifuba.com/images/posts/pexels-ferezou-6213052.jpg-slimming.webp"
 categories: ["生活琐事"]
 authors: ["houseme"]
 tags: ["生活琐事","书法","宣纸","入门指南"]

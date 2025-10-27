@@ -2,7 +2,7 @@
 title: "Rust 性能优化“巅峰之旅”：高级 Profiling 瓶颈剖析与极致调优"
 description: "本文作为入门指南的进阶篇，将聚焦高级主题：从 perf 和 cachegrind 等系统级工具，到 DHAT 和 heaptrack 的内存深度剖析，再到 pprof 的自定义配置和 jemalloc 的运行时控制。我们将结合最新最佳实践（截至 2025 年），提供详尽理论、代码示例和实战案例。"
 date: 2025-08-01T10:20:00Z
-image: "https://static-rs.bifuba.com/images/250804/pexels-jordicosta-32377236.jpg"
+image: "https://static-rs.bifuba.com/images/250804/pexels-jordicosta-32377236.jpg-slimming.webp"
 categories:
   ["Rust", "Cargo", "Profiling", "Performance Optimization", "实战指南"]
 authors: ["houseme"]

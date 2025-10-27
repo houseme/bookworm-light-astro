@@ -2,7 +2,7 @@
 title: "Rust 观测的协奏曲：Metrics 与 OpenTelemetry 桥接及 Tracing 并发优化"
 description: "在高并发 Rust 应用中，指标（Metrics）、追踪（Tracing）和日志（Logs）如乐章三部曲，共同谱写系统洞察的交响。Metrics Crate（`metrics-rs`）以无锁原子操作提供极致性能，OpenTelemetry（OTel）则通过标准化协议（如 OTLP）实现跨语言观测，而 `tracing` Crate 则为分布式追踪注入动态上下文。2025 年的生产环境，Kubernetes 集群中每秒百万请求，需在低开销下捕捉延迟分布、错误率，并关联跨服务调用。"
 date: 2025-10-21T11:02:10Z
-image: "https://static-rs.bifuba.com/images/posts/pexels-waltc-34405804.jpg"
+image: "https://static-rs.bifuba.com/images/posts/pexels-waltc-34405804.jpg-slimming.webp"
 categories: ["Rust","性能优化","工具推荐","实战指南","RustFS","性能剖析","内存分配","异步编程","高并发","crate","tokio","Metrics","Observability","OpenTelemetry"]
 authors: ["houseme"]
 tags: ["Rust","性能优化","工具推荐","实战指南","RustFS","性能剖析","内存分配","异步编程","高并发","性能猎手","代码瓶颈","高性能","性能分析","内存管理","并发编程","性能调优","Rust生态","OpenTelemetry","OTel Metrics","AggregationSelector","自定义聚合","Histogram","ExponentialHistogram","Metrics","Zipkin","Distributed Tracing","Sampling Strategies","Head Sampling","Tail] Sampling","Tracing Crate"]

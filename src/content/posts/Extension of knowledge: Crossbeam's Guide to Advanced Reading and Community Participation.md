@@ -2,7 +2,7 @@
 title: "知识的延伸：Crossbeam 进阶阅读与社区参与指南"
 description: "Crossbeam 是 Rust 并发编程的利器，其模块化设计允许开发者根据需求选择性地使用功能强大的工具。学习 Crossbeam 不仅限于掌握其基础模块与用法，更重要的是持续跟踪生态发展，深入理解其设计哲学，并与社区互动以获得更多实际经验。本教程将为你提供进阶阅读推荐和社区参与的实用指导。"
 date: 2024-12-14T16:45:00Z
-image: "https://static-rs.bifuba.com/images/posts/pexels-rui-wang-16615369-29954278-1920.jpg"
+image: "https://static-rs.bifuba.com/images/posts/pexels-rui-wang-16615369-29954278-1920.jpg-slimming.webp"
 categories:
   [
     "Rust",

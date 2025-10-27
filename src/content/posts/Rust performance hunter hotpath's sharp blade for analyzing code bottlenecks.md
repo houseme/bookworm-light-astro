@@ -2,7 +2,7 @@
 title: "Rust 性能猎手：hotpath 剖析代码瓶颈的利刃"
 description: "hotpath 作为一款轻量级、零成本的 Rust 性能分析器，应运而生。它像一把手术刀，精准剖析代码中耗时和内存分配的“热点路径”（hot paths），帮助开发者快速定位瓶颈，而非盲目优化。"
 date: 2025-09-30T03:42:10Z
-image: "https://static-rs.bifuba.com/images/posts/pexels-ahmet-enes-tek-2154596175-33429090.jpg"
+image: "https://static-rs.bifuba.com/images/posts/pexels-ahmet-enes-tek-2154596175-33429090.jpg-slimming.webp"
 categories: ["Rust","性能优化","工具推荐","实战指南","hotpath","性能剖析","内存分配","异步编程","高并发","crate"]
 authors: ["houseme"]
 tags: ["Rust","性能优化","工具推荐","实战指南","hotpath","性能剖析","内存分配","异步编程","高并发","性能猎手","代码瓶颈","高性能","性能分析","内存管理","并发编程","性能调优","Rust生态"]  

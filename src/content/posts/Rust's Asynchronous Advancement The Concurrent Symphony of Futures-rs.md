@@ -2,7 +2,7 @@
 title: "Rust 异步进阶：Futures-rs 的并发交响乐"
 description: "现在，让我们迈入高级进阶领域，如同一场华丽的交响乐，futures-rs 将与更强大的 runtime 携手，奏响高并发、容错和优化的乐章。在 Rust 的异步生态中，futures-rs 不仅是基石，更是桥梁，它连接了 Tokio、async-std 等生产级工具，助力开发者构建可扩展的 Web 服务、实时系统和分布式应用。"
 date: 2025-10-01T13:42:10Z
-image: "https://static-rs.bifuba.com/images/posts/pexels-alois-lackner-21432835-6575868.jpg"
+image: "https://static-rs.bifuba.com/images/posts/pexels-alois-lackner-21432835-6575868.jpg-slimming.webp"
 categories: ["Rust","性能优化","工具推荐","实战指南","Futures","性能剖析","内存分配","异步编程","高并发","crate","tokio"]
 authors: ["houseme"]
 tags: ["Rust","性能优化","工具推荐","实战指南","Futures","性能剖析","内存分配","异步编程","高并发","性能猎手","代码瓶颈","高性能","性能分析","内存管理","并发编程","性能调优","Rust生态","Futures-rs","join!","select!","zero-cost","async/await"]  

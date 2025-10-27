@@ -2,7 +2,7 @@
 title: "Rust 异步协作：Futures-rs 与 Tokio 的融合、差异分析及场景选择指南"
 description: "在 Rust 的异步编程领域，futures-rs 和 Tokio 如双子星般相辅相成。futures-rs 提供零成本的异步抽象核心，而 Tokio 则构建在其上，演绎出高性能的 runtime 交响。自 Rust 异步引入以来（尤其是 async/await 稳定后），futures-rs 作为标准库 std::future 的扩展，定义了异步编程的基石；Tokio 则作为主流 runtime，驱动了无数生产级应用，如 Web 服务器、数据库客户端和区块链节点。"
 date: 2025-10-03T20:12:10Z
-image: "https://static-rs.bifuba.com/images/posts/pexels-novkov-visuals-745725-34308311.jpg"
+image: "https://static-rs.bifuba.com/images/posts/pexels-novkov-visuals-745725-34308311.jpg-slimming.webp"
 categories: ["Rust","性能优化","工具推荐","实战指南","Futures","性能剖析","内存分配","异步编程","高并发","crate","tokio"]
 authors: ["houseme"]
 tags: ["Rust","性能优化","工具推荐","实战指南","Futures","性能剖析","内存分配","异步编程","高并发","性能猎手","代码瓶颈","高性能","性能分析","内存管理","并发编程","性能调优","Rust生态","Futures-rs","join!","select!","zero-cost","async/await"]  

@@ -2,7 +2,7 @@
 title: " WebTransport 与 WebSocket 的高级交响：Rust 项目中的实时之舞"
 description: "在 Rust 项目中，WebSocket 与 WebTransport 的交汇如一曲高级交响乐，前者以稳健的旋律奠基，后者以灵动的节奏引领未来。基于入门指南，我们深入高级进阶：探索共享状态管理、多路复用、认证安全、性能优化、测试部署等完整实战。"
 date: 2025-10-25T09:22:10Z
-image: "https://static-rs.bifuba.com/images/posts/pexels-mfbeki-34446730.jpg"
+image: "https://static-rs.bifuba.com/images/posts/pexels-mfbeki-34446730.jpg-slimming.webp"
 categories: ["Rust","性能优化","工具推荐","实战指南","WebSocket","WebTransport","实时通信","QUIC","TCP","UDP","异步编程","tokio"]
 authors: ["houseme"]
 tags: ["Rust","性能优化","工具推荐","实战指南","WebSocket","WebTransport","实时通信","QUIC","TCP","UDP","异步编程","tokio"]

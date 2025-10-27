@@ -2,7 +2,7 @@
 title: "Rust Moka 缓存高级进阶：从高手到大师的并发优化之旅"
 description: "现在，是时候加点“蒸汽压力”了！Moka 不仅仅是基础缓存，它是 Rust 生态中并发优化的利器，受 Caffeine 启发，内置 TinyLFU 算法，能在高负载场景下保持近乎完美的命中率。"
 date: 2025-08-25T18:20:00Z
-image: "https://static-rs.bifuba.com/images/250804/pexels-ernestorosas-33607930.jpg"
+image: "https://static-rs.bifuba.com/images/250804/pexels-ernestorosas-33607930.jpg-slimming.webp"
 categories: ["Rust", "Cargo", "缓存", "并发编程", "性能优化"]
 authors: ["houseme"]
 tags:

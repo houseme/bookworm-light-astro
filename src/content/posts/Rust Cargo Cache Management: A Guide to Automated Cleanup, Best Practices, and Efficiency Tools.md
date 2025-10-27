@@ -2,7 +2,7 @@
 title: "Rust Cargo 缓存管理：自动清理、最佳实践与高效工具指南"
 description: "Cargo 作为 Rust 的包管理工具，不仅在项目构建中扮演了重要的角色，其高效的缓存机制也为 Rust 开发者节省了大量的时间。Cargo 使用缓存来提高构建效率，当执行构建命令时，它会把下载的依赖包存放在 `CARGO_HOME` 目录下，该目录默认位于用户的 home 目录下的 `.cargo` 文件夹内。"
 date: 2024-12-10T06:00:00Z
-image: "https://static-rs.bifuba.com/images/posts/elijah-hiett-7FNutMHhBxI-unsplash.jpg"
+image: "https://static-rs.bifuba.com/images/posts/elijah-hiett-7FNutMHhBxI-unsplash.jpg-slimming.webp"
 categories: ["Rust", "Cargo", "缓存管理", "实战指南"]
 authors: ["houseme"]
 tags:

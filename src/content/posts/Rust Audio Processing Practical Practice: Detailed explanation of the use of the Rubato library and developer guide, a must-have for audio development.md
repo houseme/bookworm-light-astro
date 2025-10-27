@@ -2,7 +2,7 @@
 title: "Rust 音频处理实战：Rubato 库使用详解与开发者指南，音频开发必备"
 description: "本指南面向已掌握 Rubato 基础的开发者，深入探讨其高级功能、优化技巧以及复杂场景下的实战应用。我们将通过详细的理论分析、优化策略和实际代码示例，帮助你将 Rubato 的潜力发挥到极致，打造高性能音频处理应用。"
 date: 2025-07-19T10:30:00Z
-image: "https://static-rs.bifuba.com/images/250804/pexels-jordicosta-32006759.jpg"
+image: "https://static-rs.bifuba.com/images/250804/pexels-jordicosta-32006759.jpg-slimming.webp"
 categories: ["Rust", "Cargo", "Rubato", "实战指南"]
 authors: ["houseme"]
 tags:

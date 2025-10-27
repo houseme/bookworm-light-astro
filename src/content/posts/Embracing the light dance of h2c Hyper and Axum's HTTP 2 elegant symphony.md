@@ -2,7 +2,7 @@
 title: "拥抱 h2c 的轻盈之舞：Hyper 与 Axum 的 HTTP/2 优雅交响"
 description: "在网络世界的丝竹声中，HTTP/2（简称 h2）如一缕清风，携带着多路复用与头部压缩的优雅姿态，悄然革新了数据传输的艺术。h2c（HTTP/2 Cleartext），作为其无 TLS 加密的变奏曲，更是为开发与测试场景注入了一丝自由与简约的诗意。它摒弃了 HTTPS 的层层枷锁，却保留了 h2 的核心精髓：在不加密的明澈通道中，绽放高效的性能之花。"
 date: 2025-10-23T10:22:10Z
-image: "https://static-rs.bifuba.com/images/posts/pexels-christina99999-34427611.jpg"
+image: "https://static-rs.bifuba.com/images/posts/pexels-christina99999-34427611.jpg-slimming.webp"
 categories: ["Rust","性能优化","工具推荐","实战指南","HTTP/2","h2c","Hyper","Axum","网络编程","异步编程","tokio","crate"]
 authors: ["houseme"]
 tags: ["Rust","性能优化","工具推荐","实战指南","HTTP/2","h2c","Hyper","Axum","网络编程","异步编程","性能猎手","代码瓶颈","高性能","性能分析","内存管理","并发编程","性能调优","Rust生态"]

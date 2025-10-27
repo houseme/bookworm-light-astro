@@ -2,7 +2,7 @@
 title: "Rust Axum 进阶秘籍：多域名虚拟主机的深度优化，迈向生产级 Rust Web 巅峰"
 description: "为什么 Axum 进阶如此迷人？在 2025 年的云原生时代，Axum 的零开销抽象与异步协程，让它在微服务和边缘计算中大放异彩。背景扩展：虚拟主机不止于 Host 头匹配，还涉及 mTLS（互信 TLS）认证、多租户隔离（如 SaaS 平台的用户子域名），以及与 Prometheus/Grafana 的无缝监控。"
 date: 2025-09-06T03:20:00Z
-image: "https://static-rs.bifuba.com/images/posts/k-k-Y0DTcx1pGpc-unsplash.jpg"
+image: "https://static-rs.bifuba.com/images/posts/k-k-Y0DTcx1pGpc-unsplash.jpg-slimming.webp"
 categories: ["Rust", "Cargo", "实战指南", "Axum", "Tower", "TLS", "Redis", "Prometheus", "Kubernetes", "Web开发"]
 authors: ["houseme"]
 tags: ["rust", "cargo", "axum", "tower", "tls", "redis", "prometheus", "kubernetes", "web", "advanced", "virtual-hosting", "进阶", "实战指南","Tokio","metrics"]

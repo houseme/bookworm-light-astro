@@ -2,7 +2,7 @@
 title: "Rust 指标的并发巅峰：Metrics Crate 高级交响与生产级部署"
 description: "本文深入进阶，聚焦生产级实战：从理论深化到多服务集成、K8s 部署，再到最佳实践。无论面对微服务瓶颈还是边缘计算，我们将奏响“并发巅峰”的交响——高效、自愈、扩展。基于 Metrics 0.23+ 和 Tokio 1.0+，让你从“初学者”跃升“架构大师”。"
 date: 2025-09-27T23:42:10Z
-image: "https://static-rs.bifuba.com/images/posts/pexels-omar-ramadan-1739260-31728429.jpg"
+image: "https://static-rs.bifuba.com/images/posts/pexels-omar-ramadan-1739260-31728429.jpg-slimming.webp"
 categories: ["Rust", "Cargo", "实战指南","性能调优","异步编程","Metrics","指标","Tracing","opentelemetry"]
 authors: ["houseme"]
 tags: ["rust", "cargo","tokio","异步编程","性能调优","安全性","实战指南","性能优化","理论知识","场景选择","代码实例","Metrics","指标","metrics-rs","metrics-util","metrics-exporter-prometheus","Recorder","Counter","Gauge","Histogram","Tracing","opentelemetry"]

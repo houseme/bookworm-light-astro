@@ -2,7 +2,7 @@
 title: "RustFS 哈希存储的抉择：std 与 hashbrown 在分布式对象存储中的性能与安全博弈"
 description: "在 Rust 编程的世界里，哈希表（HashMap 和 HashSet）是处理键值对和唯一元素集的利器，尤其在数据密集型应用中不可或缺。Rust 1.90.0 作为当前（2025 年 9 月）最新的稳定版本，其标准库 `std::collections::{HashMap, HashSet}` 提供了可靠的哈希表实现，而 `hashbrown::{HashMap, HashSet}` 则是一个独立的 crate，由 Rust 社区维护的“幕后英雄”。"
 date: 2025-09-19T03:42:10Z
-image: "https://static-rs.bifuba.com/images/posts/pexels-toni-clavel-62572784-11666457.jpg"
+image: "https://static-rs.bifuba.com/images/posts/pexels-toni-clavel-62572784-11666457.jpg-slimming.webp"
 categories: ["Rust", "Cargo", "实战指南","性能调优","分布式存储","对象存储","hashbrown","RustFS"]
 authors: ["houseme"]
 tags: ["rust", "cargo","tokio","异步编程","分布式存储","对象存储","hashbrown","性能调优","安全性","HashMap","HashSet","RandomState","HashDoS","RustFS"]

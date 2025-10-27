@@ -2,7 +2,7 @@
 title: "探索 Rust 与 Python 的融合：使用 PyO3 调用 JioNLP 库"
 description: "自然语言处理（NLP）是人工智能领域的一个重要分支，广泛应用于文本分析、情感分析、机器翻译等场景。Python 因其丰富的库生态系统和易用性成为 NLP 开发者的首选语言，而 Rust 则以其高性能和内存安全特性逐渐受到关注。本文将探讨如何在 Rust 中调用 Python 的 JioNLP 库，通过 PyO3 实现 Rust 与 Python 的无缝集成，为 NLP 开发者提供一种高效且灵活的解决方案。"
 date: 2024-09-08T23:00:00Z
-image: "https://static-rs.bifuba.com/images/posts/tim-marshall-jqj2SqvxMVY-unsplash.jpg"
+image: "https://static-rs.bifuba.com/images/posts/tim-marshall-jqj2SqvxMVY-unsplash.jpg-slimming.webp"
 categories:
   [
     "PyO3",

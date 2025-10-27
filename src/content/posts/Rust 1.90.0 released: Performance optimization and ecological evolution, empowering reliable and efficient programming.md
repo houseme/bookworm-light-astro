@@ -2,7 +2,7 @@
 title: "Rust 1.90.0 发布：性能优化与生态进化，赋能可靠高效编程"
 description: "Rust 团队于 2025 年 9 月 18 日宣布推出 Rust 编程语言的新版本 1.90.0。Rust 是一种赋予开发者构建可靠且高效软件的编程语言。如果您已通过 `rustup` 安装了 Rust 的早期版本，可通过以下命令更新至 1.90.0"
 date: 2025-09-19T17:20:00Z
-image: "https://static-rs.bifuba.com/images/posts/pexels-happyrisingguy-33957865.jpg"
+image: "https://static-rs.bifuba.com/images/posts/pexels-happyrisingguy-33957865.jpg-slimming.webp"
 categories: ["Rust", "Cargo", "发布公告"]
 authors: ["houseme"]
 tags: ["rust", "cargo","发布公告","性能优化", "生态进化", "x86_64-unknown-linux-gnu", "LLD", "工作空间发布", "x86_64-apple-darwin", "Tier 2"]

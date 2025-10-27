@@ -2,7 +2,7 @@
 title: "RustFS 性能黑洞猎杀：hotpath 与 Dhat-rs 的深度协同剖析之旅"
 description: "本文基于 RustFS 文档与社区洞察，深度剖析其瓶颈（如分布式锁与 Tokio spawn 开销）。2025 年 10 月 12 日的 Rust 生态中，这些工具协同已成标配：hotpath 定位、Dhat 验证、Heaptrack 可视。我们将详解理论，提供实战代码（模拟 RustFS S3 handler，集成 Tokio 多示例），并附参考资料。跟随此指南，你将从“表面巡猎”进阶“黑洞歼灭”，让 RustFS 如精密时钟般高效运转。"
 date: 2025-10-16T21:12:10Z
-image: "https://static-rs.bifuba.com/images/posts/pexels-damir-34358548.jpg"
+image: "https://static-rs.bifuba.com/images/posts/pexels-damir-34358548.jpg-slimming.webp"
 categories: ["Rust","性能优化","工具推荐","实战指南","hotpath","Jemalloc","Dhat","内存剖析","堆分析","性能调优","RustFS"]
 authors: ["houseme"]
 tags: ["Rust","性能优化","工具推荐","实战指南","hotpath","Jemalloc","Dhat","内存剖析","堆分析","性能调优","内存管理","异步编程","高并发","性能剖析","内存泄漏","堆快照","火焰图","分配器","内存调试","性能监控","Rust生态","Linux专用","内存工具","RustFS"]  

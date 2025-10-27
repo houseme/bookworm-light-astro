@@ -2,7 +2,7 @@
 title: "🔎 洞悉依赖许可：Feluda 实战使用指南"
 description: "在现代软件开发中，依赖管理是项目开发的核心环节，但依赖的许可证问题往往被忽视。本文将从基础到进阶，详细介绍 `Feluda` 的工作原理、安装方法、实际操作以及 CI/CD 集成，帮助你轻松实现依赖许可证合规管理，保护项目免受法律风险的困扰。"
 date: 2025-07-05T16:00:00Z
-image: "https://static-rs.bifuba.com/images/250804/pexels-julia-volk-7292974.jpg"
+image: "https://static-rs.bifuba.com/images/250804/pexels-julia-volk-7292974.jpg-slimming.webp"
 categories: ["rust", "Feluda", "实战指南", "cargo", "许可证", "依赖管理"]
 authors: ["houseme"]
 tags:

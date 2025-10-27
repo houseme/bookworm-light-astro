@@ -2,7 +2,7 @@
 title: "Smol：Rust 异步运行时的实战指南——从入门到生产部署"
 description: "本实战指南聚焦于 smol 的实际应用，结合原理分析、代码示例和生产最佳实践。无论你是构建网络服务、数据管道还是嵌入式系统，本指南将一步步指导你从简单脚本到复杂部署。我们将使用真实场景，强调性能优化和错误处理，确保你的代码高效可靠。准备好，让 smol 驱动你的异步实战！"
 date: 2025-09-14T07:20:00Z
-image: "https://static-rs.bifuba.com/images/posts/pexels-makayla-asuncion-2155237133-33894777.jpg"
+image: "https://static-rs.bifuba.com/images/posts/pexels-makayla-asuncion-2155237133-33894777.jpg-slimming.webp"
 categories: ["Rust", "Cargo", "实战指南","异步编程", "smol", "运行时", "性能优化", "嵌入式","tokio"]
 authors: ["houseme"]
 tags: ["rust", "cargo","异步编程", "smol", "运行时", "性能优化", "实战指南","no_std","嵌入式","CLI工具","内存占用","编译速度","多线程","单线程","async-compat","TCP","UDP","文件I/O","定时器","通道","阻塞I/O","tokio"]

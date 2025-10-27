@@ -2,7 +2,7 @@
 title: "Rust 指标仪表的优雅交响：Metrics 与 OpenTelemetry 的无缝融合"
 description: "在 Rust 生态中，构建高性能应用时，监控与观测（Observability）是不可或缺的基石。想象一下，你的服务器在生产环境中悄无声息地“罢工”——CPU 飙升、请求延迟激增，却无从下手排查。这就是为什么指标（Metrics）收集如此重要：它量化了应用的“脉搏”，从请求计数到执行时长，帮助你诊断瓶颈、优化性能。"
 date: 2025-10-18T21:12:10Z
-image: "https://static-rs.bifuba.com/images/posts/pexels-dulce-panebra-695494914-34417317.jpg"
+image: "https://static-rs.bifuba.com/images/posts/pexels-dulce-panebra-695494914-34417317.jpg-slimming.webp"
 categories: ["Rust","性能优化","工具推荐","实战指南","RustFS","性能剖析","内存分配","异步编程","高并发","crate","tokio","Metrics","Observability","OpenTelemetry"]
 authors: ["houseme"]
 tags: ["Rust","性能优化","工具推荐","实战指南","RustFS","性能剖析","内存分配","异步编程","高并发","性能猎手","代码瓶颈","高性能","性能分析","内存管理","并发编程","性能调优","Rust生态","Heaptrack","Bytehound","hotpath","Observability","Dhat-rs","Metrics","OpenTelemetry"]  

@@ -2,7 +2,7 @@
 title: "Rust 高级实战与极致优化指南：Reed-Solomon-SIMD 的 Rust 深度征服及 RS-SIMD 巅峰对决"
 description: "在入门指南的基础上，我们已掌握 RS 码的理论与基本 API。现在，进入高级领域：`reed-solomon-simd` 的核心在于其模块化设计，允许通过 Engine 和 Rate trait 自定义优化，完美契合分布式存储如 RustFS 或 Ceph 的纠删码需求。"
 date: 2025-09-08T17:20:00Z
-image: "https://static-rs.bifuba.com/images/posts/pexels-inga-sv-3738039.jpg"
+image: "https://static-rs.bifuba.com/images/posts/pexels-inga-sv-3738039.jpg-slimming.webp"
 categories: ["Rust", "Cargo", "实战指南", "数据可靠性", "前向纠错", "Reed-Solomon", "SIMD", "分布式存储"]
 authors: ["houseme"]
 tags: ["rust", "cargo", "数据可靠性", "前向纠错", "Reed-Solomon", "SIMD", "分布式存储", "实战指南","FEC", "有限域", "多项式", "纠错码", "编码", "解码", "并发优化", "性能调优", "AI/ML存储", "工业备份", "保密系统", "开源","MIT许可","Leopard-RS","Vandermonde矩阵","Berlekamp-Massey算法","Forney算法","Walsh-Hadamard变换","rayon并行"]

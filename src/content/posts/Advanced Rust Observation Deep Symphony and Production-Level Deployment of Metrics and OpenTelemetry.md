@@ -2,7 +2,7 @@
 title: "Rust 观测进阶：Metrics 与 OpenTelemetry 的深度交响与生产级部署"
 description: "在上文中，我们探讨了 `metrics` crate 与 OpenTelemetry（OTel）的初步结合，通过桥接实现指标的标准化导出。这为 Rust 应用注入了基本的“洞察力”。然而，在生产环境中，观测需求远不止于简单计数：分布式微服务、动态负载、高可用性、跨语言互操作，以及与 CI/CD 的无缝集成，都要求我们迈向进阶。想象一个 Kubernetes 集群中的 Rust 服务链，指标需与追踪联动，实时诊断瓶颈——这就是进阶指南的焦点。"
 date: 2025-10-19T11:12:10Z
-image: "https://static-rs.bifuba.com/images/posts/pexels-farfalina-34405261.jpg"
+image: "https://static-rs.bifuba.com/images/posts/pexels-farfalina-34405261.jpg-slimming.webp"
 categories: ["Rust","性能优化","工具推荐","实战指南","RustFS","性能剖析","内存分配","异步编程","高并发","crate","tokio","Metrics","Observability","OpenTelemetry"]
 authors: ["houseme"]
 tags: ["Rust","性能优化","工具推荐","实战指南","RustFS","性能剖析","内存分配","异步编程","高并发","性能猎手","代码瓶颈","高性能","性能分析","内存管理","并发编程","性能调优","Rust生态","Heaptrack","Bytehound","hotpath","Observability","Dhat-rs","Metrics","OpenTelemetry"]  

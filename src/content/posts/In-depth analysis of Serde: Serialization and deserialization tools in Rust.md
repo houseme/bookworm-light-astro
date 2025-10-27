@@ -2,7 +2,7 @@
 title: "深入解析 Serde：Rust 中的序列化与反序列化利器"
 description: "Serde 不仅提供了处理默认值的灵活性，还提供了多种序列化和反序列化选项，使得开发者能够根据具体需求定制数据处理流程。"
 date: 2024-11-03T09:15:00Z
-image: "https://static-rs.bifuba.com/images/posts/willian-justen-de-vasconcellos-wk3Pjf4MK7w-unsplash.jpg"
+image: "https://static-rs.bifuba.com/images/posts/willian-justen-de-vasconcellos-wk3Pjf4MK7w-unsplash.jpg-slimming.webp"
 categories: ["rust", "serde", "serialization", "deserialization", "实战指南"]
 authors: ["houseme"]
 tags:

@@ -2,7 +2,7 @@
 title: "io_uring 在 Rust 中的网络 IO 实战：异步文件系统与高性能网络服务器"
 description: "Rust 作为一门注重安全和性能的语言，与 io_uring 的结合如虎添翼。Rust 社区提供了多个支持 io_uring 的 crate，其中 **tokio-uring** 是最成熟的异步运行时，基于 Tokio 生态，提供了优雅的 async/await 语法，适合快速构建高性能网络服务器和文件系统操作。此外，**uring-fs** 等 crate 专注于异步文件系统操作，类似 Rust 的 `std::fs` 但完全异步化。"
 date: 2025-10-04T20:12:10Z
-image: "https://static-rs.bifuba.com/images/posts/pexels-karlee-heck-767022502-34273469.jpg"
+image: "https://static-rs.bifuba.com/images/posts/pexels-karlee-heck-767022502-34273469.jpg-slimming.webp"
 categories: ["Rust","性能优化","工具推荐","实战指南","io_uring","性能剖析","内存分配","异步编程","高并发","crate","tokio"]
 authors: ["houseme"]
 tags: ["Rust","性能优化","工具推荐","实战指南","io_uring","性能剖析","内存分配","异步编程","高并发","性能猎手","代码瓶颈","高性能","性能分析","内存管理","并发编程","性能调优","Rust生态","io-uring","tokio-uring","uring-fs","zero-cost","async/await"]  

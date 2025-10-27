@@ -2,7 +2,7 @@
 title: "解码数据的守护者：Reed-Solomon-SIMD 的 Rust 之旅从零到精通指南"
 description: "在数字化浪潮中，数据可靠性是永恒的挑战。Reed-Solomon（RS）码作为一种经典的前向纠错（FEC）技术，自 1960 年由 Irving Reed 和 Gustave Solomon 提出以来，已成为存储和传输系统的基石。它能从冗余中恢复丢失数据，广泛应用于 RAID 系统、卫星通信、QR 码和现代分布式存储如 RustFS 或 Ceph。RS 码的核心魅力在于其数学优雅：将数据视为多项式，在有限域上运算，实现高效纠错。"
 date: 2025-09-08T07:20:00Z
-image: "https://static-rs.bifuba.com/images/posts/pexels-arina-krasnikova-5119837.jpg"
+image: "https://static-rs.bifuba.com/images/posts/pexels-arina-krasnikova-5119837.jpg-slimming.webp"
 categories: ["Rust", "Cargo", "实战指南", "数据可靠性", "前向纠错", "Reed-Solomon", "SIMD", "分布式存储"]
 authors: ["houseme"]
 tags: ["rust", "cargo", "数据可靠性", "前向纠错", "Reed-Solomon", "SIMD", "分布式存储", "实战指南","FEC", "有限域", "多项式", "纠错码", "编码", "解码", "并发优化", "性能调优", "AI/ML存储", "工业备份", "保密系统", "开源","MIT许可","Leopard-RS","Vandermonde矩阵","Berlekamp-Massey算法","Forney算法","Walsh-Hadamard变换","rayon并行"]

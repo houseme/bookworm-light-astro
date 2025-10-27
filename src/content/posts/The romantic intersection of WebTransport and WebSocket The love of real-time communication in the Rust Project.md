@@ -2,7 +2,7 @@
 title: "WebTransport 与 WebSocket 的浪漫交汇：Rust 项目中的实时通信之恋"
 description: "在 Rust 项目中，实时通信如一曲浪漫的交响乐，WebSocket 与 WebTransport 分别扮演着经典旋律与未来之音的角色。WebSocket，作为成熟的 Web API，基于 TCP 实现双向通信，已广泛应用于聊天、实时通知等领域。而 WebTransport，则是新兴力量，依托 QUIC 协议（UDP 基础），带来多路复用、低延迟与连接迁移的诗意流动，适合游戏、视频流等高性能场景。"
 date: 2025-10-24T19:22:10Z
-image: "https://static-rs.bifuba.com/images/posts/pexels-saleh-almawed-828527299-34455032.jpg"
+image: "https://static-rs.bifuba.com/images/posts/pexels-saleh-almawed-828527299-34455032.jpg-slimming.webp"
 categories: ["Rust","性能优化","工具推荐","实战指南","WebSocket","WebTransport","实时通信","QUIC","TCP","UDP","异步编程","tokio"]
 authors: ["houseme"]
 tags: ["Rust","性能优化","工具推荐","实战指南","WebSocket","WebTransport","实时通信","QUIC","TCP","UDP","异步编程","tokio"]

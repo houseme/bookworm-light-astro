@@ -2,7 +2,7 @@
 title: "Rust x libvips：2025 图像漩涡的编码炼金——从浅滩代码到风暴巅峰的完整铸造"
 description: "本秘籍如漩涡的螺旋编码卷轴，完善上篇实战场景：由浅入深，提供完整 Cargo.toml、理论剖析、详细 Rust 代码（含错误处理、基准注释）。从 Web 浅滩的 API 缩放到分布式风暴的监控，我们层层铸造，融合 8.17 GIF 去重与 Torch 集成。无论初探编码浅滩，还是深潜生产风暴，这里将助你掌控漩涡。点燃你的 Cargo build，让编码之涡永旋！"
 date: 2025-09-10T17:20:00Z
-image: "https://static-rs.bifuba.com/images/posts/pexels-197092734-29767372.jpg"
+image: "https://static-rs.bifuba.com/images/posts/pexels-197092734-29767372.jpg-slimming.webp"
 categories: ["Rust", "Cargo", "实战指南","图像处理", "libvips", "并发优化"]
 authors: ["houseme"]
 tags: ["rust", "cargo","图像处理", "libvips", "并发优化", "实战指南","GObject","SIMD","多线程","性能调优","大图像处理","零拷贝","流式处理","需求驱动","水平线程化","Tokio","Actix Web","Warp","Axum","图像API","医疗成像","AI管道","Torch","GIF去重"]

@@ -2,7 +2,7 @@
 title: "Rust x libvips 进阶：铸造图像处理的不朽管道"
 description: "本指南在上篇入门基础上，深入高级实战：自定义操作、内存调优、高并发服务构建、基准与部署最佳实践。我们将剖析内核逻辑，结合 Rust 代码，从理论到实战，助你成为性能魔术师。无论构建图像 API 还是优化 AI 管道，这里的一切都将点燃你的灵感。准备好你的 Rust 工具链，让我们炼金吧！"
 date: 2025-09-10T07:20:00Z
-image: "https://static-rs.bifuba.com/images/posts/pexels-james-lee-932763-33295463.jpg"
+image: "https://static-rs.bifuba.com/images/posts/pexels-james-lee-932763-33295463.jpg-slimming.webp"
 categories: ["Rust", "Cargo", "实战指南","图像处理", "libvips", "并发优化"]
 authors: ["houseme"]
 tags: ["rust", "cargo","图像处理", "libvips", "并发优化", "实战指南","GObject","SIMD","多线程","性能调优","大图像处理","零拷贝","流式处理","需求驱动","水平线程化","Tokio","Actix Web","Warp","Axum","图像API","医疗成像","AI管道"]

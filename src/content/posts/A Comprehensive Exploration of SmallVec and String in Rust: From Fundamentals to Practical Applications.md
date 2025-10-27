@@ -2,7 +2,7 @@
 title: "A Comprehensive Exploration of SmallVec and String in Rust: From Fundamentals to Practical Applications"
 description: "In the realm of systems programming, Rust stands out for its emphasis on performance, safety, and expressiveness. Two critical components in Rust's ecosystem that developers frequently encounter are `SmallVec` and `String`. These types address the need for efficient, flexible, and safe data storage, but they serve distinct purposes and offer unique trade-offs. `SmallVec`, part of the `smallvec` crate, is designed for scenarios where small, stack-allocated vectors can reduce heap allocation overhead. "
 date: 2025-04-21T00:00:00Z
-image: "https://static-rs.bifuba.com/images/posts/pexels-rui-wang-16615369-29954278-1920.jpg"
+image: "https://static-rs.bifuba.com/images/posts/pexels-rui-wang-16615369-29954278-1920.jpg-slimming.webp"
 categories: ["Rust", "SmallVec", "String"]
 authors: ["houseme"]
 tags:

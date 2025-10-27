@@ -2,7 +2,7 @@
 title: "实战 Tokio Runtime 最佳实践：多场景进阶指南"
 description: "在 2025 年 9 月 23 日的 Rust 生态中，Tokio 作为 Rust 最成熟的异步运行时，已更新至 1.47.1 版本，其 Runtime 是构建高性能应用的基石。Runtime 负责任务调度、IO 处理和线程管理，尤其在高并发场景中，通过工作窃取算法实现高效执行。本指南聚焦 Tokio Runtime 的最佳实践，结合 `tokio::runtime::Builder` 配置，提供多场景实战指导：从高并发服务器到 IO/CPU 密集型应用。"
 date: 2025-09-22T10:42:10Z
-image: "https://static-rs.bifuba.com/images/posts/pexels-alexis-b-1699196-33853817.jpg"
+image: "https://static-rs.bifuba.com/images/posts/pexels-alexis-b-1699196-33853817.jpg-slimming.webp"
 categories: ["Rust", "Cargo", "实战指南","Tokio","Runtime","性能调优"]
 authors: ["houseme"]
 tags: ["rust", "cargo","tokio","异步编程","性能调优","Runtime","多线程","工作窃取","阻塞任务","高并发","IO 密集型","CPU 密集型","spawn_blocking","配置优化","实战指南","2025"]

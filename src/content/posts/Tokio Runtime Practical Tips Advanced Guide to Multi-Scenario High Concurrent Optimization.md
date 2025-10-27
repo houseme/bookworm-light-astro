@@ -2,7 +2,7 @@
 title: "Tokio Runtime 实战秘籍：多场景高并发优化进阶指南"
 description: "本进阶指南从理论剖析入手，结合多场景实战（高并发服务器、IO 密集型、CPU 密集型、混合负载、测试/CLI），提供详细的原理讲解、完整代码示例和优化技巧。无论你是优化 RustFS 这样的分布式存储系统，还是构建微服务或数据管道，本文将带你深入 Tokio 的内核，掌握生产级调优秘籍。让我们从基础原理出发，逐步征服异步的复杂性！"
 date: 2025-09-22T20:42:10Z
-image: "https://static-rs.bifuba.com/images/posts/pexels-eva-purrer-1937326549-28838323.jpg"
+image: "https://static-rs.bifuba.com/images/posts/pexels-eva-purrer-1937326549-28838323.jpg-slimming.webp"
 categories: ["Rust", "Cargo", "实战指南","Tokio"]
 authors: ["houseme"]
 tags: ["rust", "cargo","tokio","异步编程","性能调优","Runtime","多线程","工作窃取","阻塞任务","高并发","IO 密集型","CPU 密集型","spawn_blocking","配置优化","实战指南","2025","最佳实践"]

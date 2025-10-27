@@ -2,7 +2,7 @@
 title: "Rust 异步内存幽灵猎杀：深入 Tokio 泄漏案例与 Dhat 检测实战"
 description: "在 Rust 的异步王国中，Tokio 作为高性能运行时，驱动着无数分布式系统（如 RustFS 的 S3 兼容存储），却也潜藏着内存泄漏的“幽灵”——如 forgotten JoinHandle 未 await、cyclic futures 循环引用，或临时缓冲区 Vec 未及时释放。这些泄漏在同步代码中已棘手，在 Tokio 的多任务调度下更易放大：高 QPS 下，驻留内存可飙升数 GB，导致 OOM 或 GC-like 停顿。Dhat-rs 如一柄“幽灵猎杀器”，Rust 原生的动态堆剖析工具（灵感源自 Valgrind DHAT），通过全局分配器拦截 alloc/free，生成详细堆快照，揭示泄漏栈和峰值使用。"
 date: 2025-10-15T10:12:10Z
-image: "https://static-rs.bifuba.com/images/posts/pexels-mahoneyfotos-30446015.jpg"
+image: "https://static-rs.bifuba.com/images/posts/pexels-mahoneyfotos-30446015.jpg-slimming.webp"
 categories: ["Rust","性能优化","工具推荐","实战指南","hotpath","Jemalloc","Dhat","内存剖析","堆分析","性能调优"]
 authors: ["houseme"]
 tags: ["Rust","性能优化","工具推荐","实战指南","hotpath","Jemalloc","Dhat","内存剖析","堆分析","性能调优","内存管理","异步编程","高并发","性能剖析","内存泄漏","堆快照","火焰图","分配器","内存调试","性能监控","Rust生态","Linux专用","内存工具"]  

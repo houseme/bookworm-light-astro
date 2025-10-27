@@ -2,7 +2,7 @@
 title: "Rust 与 FFmpeg 的高级征途：并发实时处理的深潜实战指南"
 description: "本指南聚焦高级主题：并发解码、实时流处理、库集成与优化。由理论剖析入手，配以实战代码，助你构建生产级应用。无论你是追求极致性能的工程师，还是探索 Rust 生态的冒险家，这场深潜之旅将点亮你的代码世界！"
 date: 2025-08-31T06:00:00Z
-image: "https://static-rs.bifuba.com/images/posts/matt-boitor-m6HrckD4yxw-unsplash.jpg"
+image: "https://static-rs.bifuba.com/images/posts/matt-boitor-m6HrckD4yxw-unsplash.jpg-slimming.webp"
 categories: ["rust", "实战指南", "FFmpeg", "并发", "实时处理", "ffmpeg-next"]
 authors: ["houseme"]
 tags:
@@ -220,7 +220,7 @@ fn main() {
     // ... (解码帧)
     let img = process_frame(&rgb_frame);
     img.resize(200, 200, image::imageops::FilterType::Lanczos3);
-    img.save("thumb.jpg").unwrap();
+    img.save("thumb.jpg-slimming.webp").unwrap();
 }
 ```
 

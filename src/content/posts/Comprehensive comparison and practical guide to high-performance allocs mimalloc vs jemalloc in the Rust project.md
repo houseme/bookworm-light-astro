@@ -2,7 +2,7 @@
 title: "高性能分配器全面对比与实战指南：Mimalloc vs Jemalloc 在 Rust 项目中的应用"
 description: "本文基于社区基准、GitHub 讨论和官方文档，深入对比 mimalloc 和 jemalloc 在 Rust 项目中的表现，剖析性能、兼容性、内存效率和配置复杂性，并提供实战代码与最佳实践。分析显示，mimalloc 在多线程和 musl 场景下更具优势，而 jemalloc 适合需要深度调优的内存密集型应用。无论你是优化 Web 服务还是构建 RustFS 插件，这份指南将助你做出明智选择。"
 date: 2025-09-09T07:20:00Z
-image: "https://static-rs.bifuba.com/images/posts/pexels-fedetoom-33302855.jpg"
+image: "https://static-rs.bifuba.com/images/posts/pexels-fedetoom-33302855.jpg-slimming.webp"
 categories: ["Rust", "Cargo", "实战指南","高性能分配器", "内存管理", "mimalloc", "jemalloc"]
 authors: ["houseme"]
 tags: ["rust", "cargo","高性能分配器", "内存管理", "mimalloc", "jemalloc", "实战指南","musl","静态链接","多线程优化","内存碎片","性能调优","分布式存储","RustFS","Actix Web","Redis","RocksDB"]

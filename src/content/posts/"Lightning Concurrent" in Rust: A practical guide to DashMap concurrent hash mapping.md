@@ -2,7 +2,7 @@
 title: "Rust 中的“闪电并发”：DashMap 并发哈希映射小白实战指南"
 description: "想象一下，你的数据如闪电般在多线程间穿梭，却无需复杂的锁链束缚。这就是 DashMap 的魅力——一个 Rust 中炙手可热的并发哈希映射库，如其名“Dash”（疾驰）所示，它以惊人的速度实现线程安全的关联数组。受标准库 HashMap 启发，DashMap 旨在成为 RwLock<HashMap<K, V>>的直接替代品，通过分片锁机制，让你轻松在 Arc 中共享映射，并在多线程中修改它，而无需&mut self 的限制。"
 date: 2025-08-27T08:20:00Z
-image: "https://static-rs.bifuba.com/images/250804/polina-kuzovkova-EB9YW7VUZW8-unsplash.jpg"
+image: "https://static-rs.bifuba.com/images/250804/polina-kuzovkova-EB9YW7VUZW8-unsplash.jpg-slimming.webp"
 categories: ["Rust", "Cargo", "缓存", "并发编程", "性能优化"]
 authors: ["houseme"]
 tags:

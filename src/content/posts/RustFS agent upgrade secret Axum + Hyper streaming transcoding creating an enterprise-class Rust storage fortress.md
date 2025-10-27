@@ -2,7 +2,7 @@
 title: "RustFS 代理升级秘籍：Axum + Hyper 流式转码，铸就企业级 Rust 存储堡垒"
 description: "RustFS 作为一款兼容 S3 协议的 Rust 存储系统，已在 AI/ML、大数据和保密存储领域大放异彩。Console 端的 API 转发代理是其核心组件，确保高效、安全地处理海量数据请求。在基础指南基础上，本高级进阶版聚焦企业级优化：从性能调优到部署运维，融入 Tower 生态的超时/重试/追踪，添加监控集成（如 Prometheus），并针对 S3 协议的特殊性（如分块上传、签名验证）提供最佳实践。"
 date: 2025-10-17T21:12:10Z
-image: "https://static-rs.bifuba.com/images/posts/pexels-patrick-o-connor-364803-34370916.jpg"
+image: "https://static-rs.bifuba.com/images/posts/pexels-patrick-o-connor-364803-34370916.jpg-slimming.webp"
 categories: ["Rust","性能优化","工具推荐","实战指南","RustFS","axum","hyper","流式代理","性能剖析","内存分配","异步编程","高并发","crate","tokio"]
 authors: ["houseme"]
 tags: ["Rust","性能优化","工具推荐","实战指南","RustFS","axum","hyper","流式代理","性能剖析","内存分配","异步编程","高并发","性能猎手","代码瓶颈","高性能","性能分析","内存管理","并发编程","性能调优","Rust生态","流式转发","Jemalloc","内存剖析","堆分析","连接池","TLS加密"]  

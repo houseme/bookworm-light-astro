@@ -2,7 +2,7 @@
 title: "Rust DNS 解析的艺术：基于 Hickory-DNS 的深度实战指南"
 description: "本指南将深入剖析这一问题的根源，并引入 Hickory-DNS（前身为 Trust-DNS）作为解决方案。这是一个纯 Rust 实现的 DNS 客户端库，能规避系统依赖，提供高效、可靠的解析能力。我们将结合理论原理、逐步分析和实例代码，形成一套完整的实战指南，帮助你从容应对 DNS 挑战。"
 date: 2025-09-05T15:20:00Z
-image: "https://static-rs.bifuba.com/images/posts/daniil-silantev-3pW91fGAKiE-unsplash.jpg"
+image: "https://static-rs.bifuba.com/images/posts/daniil-silantev-3pW91fGAKiE-unsplash.jpg-slimming.webp"
 categories: ["Rust", "Cargo", "实战指南", "Hickory-DNS", "DNS解析"]
 authors: ["houseme"]
 tags: ["rust", "cargo", "hickory-dns", "dns解析", "实战指南", "网络编程", "异步编程", "tokio", "系统编程", "错误处理", "性能优化", "网络安全", "dns over https", "dns缓存", "多级域名", "网络调试","TLD","CNAME"]

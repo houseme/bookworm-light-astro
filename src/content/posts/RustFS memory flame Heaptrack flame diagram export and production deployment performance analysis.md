@@ -2,7 +2,7 @@
 title: "RustFS 内存焰光：Heaptrack 火焰图导出与生产部署性能剖析"
 description: "本文聚焦 Heaptrack 火焰图导出技巧（SVG 渲染、临时分配过滤），结合 RustFS 生产部署（Docker 集群、Prometheus 监控），提供超简洁代码注释（核心瓶颈标注）。通过理论、实战（Tokio S3 示例）、参考资料，助你化身“焰光猎人”，让 RustFS 生产性能如烈焰般炽热无暇。"
 date: 2025-10-19T21:12:10Z
-image: "https://static-rs.bifuba.com/images/posts/pexels-juniorbastos-34372868.jpg"
+image: "https://static-rs.bifuba.com/images/posts/pexels-juniorbastos-34372868.jpg-slimming.webp"
 categories: ["Rust","性能优化","工具推荐","实战指南","RustFS","性能剖析","内存分配","异步编程","高并发","crate","tokio","Heaptrack"]
 authors: ["houseme"]
 tags: ["Rust","性能优化","工具推荐","实战指南","RustFS","性能剖析","内存分配","异步编程","高并发","性能猎手","代码瓶颈","高性能","性能分析","内存管理","并发编程","性能调优","Rust生态","Heaptrack","Bytehound","hotpath","Dhat-rs"]  

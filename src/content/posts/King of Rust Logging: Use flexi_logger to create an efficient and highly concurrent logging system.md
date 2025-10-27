@@ -2,7 +2,7 @@
 title: "Rust 日志之王：利用 flexi_logger 打造高效高并发日志系统"
 description: "flexi_logger 作为 Rust 生态中一款灵活且高效的日志库，完美解决了这些痛点。它基于 Rust 的标准日志门面（log crate），支持多种输出目标（如 stderr、文件或自定义流），并通过异步模式、缓冲机制和文件旋转策略，确保在高并发环境下日志记录的可靠性和低开销。"
 date: 2025-09-11T06:20:00Z
-image: "https://static-rs.bifuba.com/images/posts/pexels-son-hoa-nguyen-2155579462-33908079.jpg"
+image: "https://static-rs.bifuba.com/images/posts/pexels-son-hoa-nguyen-2155579462-33908079.jpg-slimming.webp"
 categories: ["Rust", "Cargo", "实战指南","日志系统", "高并发", "性能优化"]
 authors: ["houseme"]
 tags: ["rust", "cargo","日志系统", "高并发", "性能优化", "实战指南","异步日志","文件旋转","缓冲机制","跨线程","低延迟","日志过滤","环境变量","动态配置","日志格式化","flexi_logger","log crate","WriteMode","Criterion","Naming","Cleanup","LoggerHandle"]

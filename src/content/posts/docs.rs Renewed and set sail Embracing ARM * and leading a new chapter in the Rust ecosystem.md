@@ -2,7 +2,7 @@
 title: "docs.rs 焕新启航：拥抱 ARM64，引领 Rust 生态新篇章"
 description: "docs.rs 迎来重大更新，紧随 Rust 生态脉动，拥抱苹果 ARM64 硅片与 Linux ARM64 架构，替换传统 x86_64 和 32 位 x86 默认目标。这一变革彰显 Rust 社区对现代硬件趋势的敏锐响应，为开发者带来更高效、兼容的文档构建体验。crate 作者可通过 Cargo.toml 灵活定制目标，掌控项目未来！"
 date: 2025-10-17T23:12:10Z
-image: "https://static-rs.bifuba.com/images/posts/pexels-francesco-ungaro-2289652.jpg"
+image: "https://static-rs.bifuba.com/images/posts/pexels-francesco-ungaro-2289652.jpg-slimming.webp"
 categories: ["Rust","性能优化","工具推荐","实战指南","docs.rs","文档构建","ARM64","生态更新"]
 authors: ["houseme"]
 tags: ["Rust","性能优化","工具推荐","实战指南","docs.rs","文档构建","ARM64","生态更新"]  

@@ -2,7 +2,7 @@
 title: "Resolving Port Conflicts in Rust Web Servers: A Comprehensive Guide"
 description: "In modern web development, building secure and efficient web servers often involves handling both HTTP and HTTPS traffic. Rust, with its strong type system and performance guarantees, is an excellent choice for building such servers, particularly with frameworks like axum, tower, tower_http, hyper, and rustls. "
 date: 2025-04-12T00:00:00Z
-image: "https://static-rs.bifuba.com/images/posts/pexels-sakuratosoju-29962711-1920.jpg"
+image: "https://static-rs.bifuba.com/images/posts/pexels-sakuratosoju-29962711-1920.jpg-slimming.webp"
 categories: ["Rust", "Web", "Practical Guide"]
 authors: ["houseme"]
 tags:

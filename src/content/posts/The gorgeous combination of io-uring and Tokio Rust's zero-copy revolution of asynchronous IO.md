@@ -2,7 +2,7 @@
 title: "io-uring 与 Tokio 的华丽合体：Rust 异步 IO 的零拷贝革命"
 description: "在 Linux 内核的异步 IO 演进中，io-uring 如同一场悄然爆发的革命，自 5.1 版本引入以来，已成为高性能存储和网络应用的标配。2025 年 9 月 23 日，Rust 生态的 tokio-rs/io-uring（最新 0.7 版）进一步桥接了这一技术与 Tokio Runtime，让开发者以零拷贝、批量提交的方式驾驭异步 IO。"
 date: 2025-09-23T11:42:10Z
-image: "https://static-rs.bifuba.com/images/posts/pexels-matreding-34111861.jpg"
+image: "https://static-rs.bifuba.com/images/posts/pexels-matreding-34111861.jpg-slimming.webp"
 categories: ["Rust", "Cargo", "实战指南","性能调优","分布式存储","对象存储","io-uring","Tokio","异步编程"]
 authors: ["houseme"]
 tags: ["rust", "cargo","tokio","异步编程","性能调优","Runtime","io-uring","零拷贝","批量提交","高并发","低延迟","NVMe","SQE","CQE","内核优化","Linux 5.1+","RustFS"]

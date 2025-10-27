@@ -2,7 +2,7 @@
 title: "h2c 进阶的华尔兹：Hyper & Axum 生产级实战的璀璨乐章"
 description: "在网络交响的余韵中，h2c 如一阕未完的轻盈之舞，邀我们续谱进阶华尔兹——从开发沙盒的明澈试炼，跃升至生产星辰的璀璨守护。继《拥抱 h2c 的轻盈之舞》之基，本指南如夜阑灯火，点亮实战之径：铸就 TLS 铁盾、负载均衡之桥、监控的预言眼、DoS 的幽影墙。借 Hyper 的引擎与 Axum 的织锦，我们编织一曲完整乐章——代码如溪流，精炼无痕；实践如箴言，层层叠加。愿此华尔兹，助你的应用翩跹云端，永驻优雅与坚韧。"
 date: 2025-10-23T20:22:10Z
-image: "https://static-rs.bifuba.com/images/posts/pexels-mahoneyfotos-30445988.jpg"
+image: "https://static-rs.bifuba.com/images/posts/pexels-mahoneyfotos-30445988.jpg-slimming.webp"
 categories: ["Rust","性能优化","工具推荐","实战指南","HTTP/2","h2c","Hyper","Axum","网络编程","异步编程","tokio","crate"]
 authors: ["houseme"]
 tags: ["Rust","性能优化","工具推荐","实战指南","HTTP/2","h2c","Hyper","Axum","网络编程","异步编程","性能猎手","代码瓶颈","高性能","性能分析","内存管理","并发编程","性能调优","Rust生态"]

@@ -2,7 +2,7 @@
 title: "Rust 观测的分布式华章：Metrics 与 OpenTelemetry 高级桥接及追踪优化"
 description: "在 2025 年的 Rust 生态中，高并发分布式系统如 Kubernetes 集群中的微服务，需在百万 RPS 下捕捉每一次请求的脉动——延迟、错误、跨服务调用链。`metrics` Crate 以无锁原子操作提供极致性能，OpenTelemetry（OTel）通过 OTLP 协议统一指标（Metrics）与追踪（Tracing），而 `tracing` Crate 则为分布式追踪注入动态上下文。"
 date: 2025-09-28T23:42:10Z
-image: "https://static-rs.bifuba.com/images/posts/pexels-marco-pozzi-2156102230-34038189.jpg"
+image: "https://static-rs.bifuba.com/images/posts/pexels-marco-pozzi-2156102230-34038189.jpg-slimming.webp"
 categories: ["Rust", "Cargo", "实战指南","性能调优","异步编程","Metrics","指标","opentelemetry","Tracing","分布式追踪","Jaeger","Zipkin","可观测"]
 authors: ["houseme"]
 tags: ["rust", "cargo","tokio","异步编程","性能调优","安全性","实战指南","性能优化","理论知识","场景选择","代码实例","Metrics","指标","metrics-rs","metrics-util","metrics-exporter-prometheus","Recorder","Counter","Gauge","Histogram","opentelemetry","tracing","tracing-opentelemetry","Jaeger","Zipkin"]  

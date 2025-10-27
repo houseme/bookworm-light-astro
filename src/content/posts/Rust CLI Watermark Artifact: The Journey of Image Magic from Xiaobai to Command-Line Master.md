@@ -2,7 +2,7 @@
 title: "Rust CLI 水印神器：从小白到命令行大师的图像魔法之旅"
 description: "在数字化浪潮中，图像水印不仅是保护内容的盾牌，更是个性化表达的画笔。从入门级文字叠加，到高级边框背景融合，Rust 以其安全高效的特性，让这一切变得触手可及。现在，我们将这些功能改造为本地命令行工具（CLI），让你只需一行命令，就能批量或单张处理图片。"
 date: 2025-09-02T06:00:00Z
-image: "https://static-rs.bifuba.com/images/posts/matthew-pablico-0czHAdon3js-unsplash.jpg"
+image: "https://static-rs.bifuba.com/images/posts/matthew-pablico-0czHAdon3js-unsplash.jpg-slimming.webp"
 categories: ["rust", "实战指南", "图像处理", "watermark", "image"]
 authors: ["houseme"]
 tags:

@@ -2,7 +2,7 @@
 title: "io-uring 与 Tokio 的深度融合：Rust 异步 IO 的高级零拷贝实战指南"
 description: "本高级进阶指南基于 tokio-uring 的最新集成（GitHub Issue #7266 讨论的文件 IO 支持），深入剖析结合原理、优势及 IO 问题解决之道。结合理论模型（如队列论和 Amdahl 定律），我们将提供多场景实战：从批量文件 IO 到网络服务器融合，配以完整代码和优化技巧。"
 date: 2025-09-24T18:42:10Z
-image: "https://static-rs.bifuba.com/images/posts/pexels-matreding-34111859.jpg"
+image: "https://static-rs.bifuba.com/images/posts/pexels-matreding-34111859.jpg-slimming.webp"
 categories: ["Rust", "Cargo", "实战指南","性能调优","分布式存储","对象存储","io-uring","Tokio","异步编程","Runtime"]
 authors: ["houseme"]
 tags: ["rust", "cargo","tokio","异步编程","性能调优","Runtime","io-uring","零拷贝","批量提交","高并发","低延迟","NVMe","SQE","CQE","内核优化","Linux 5.1+","RustFS","实战指南","2025","分布式存储","对象存储"]

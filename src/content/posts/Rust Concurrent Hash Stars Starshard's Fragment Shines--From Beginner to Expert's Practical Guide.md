@@ -2,7 +2,7 @@
 title: "Rust 并发哈希星辰：Starshard 的分片闪耀——从入门到专家的实战宝典"
 description: "Starshard 诞生于 2025 年 9 月（版本 0.2.0），专为 Rust 1.90+ 设计，适用于分布式存储（如 RustFS 的 S3 元数据缓存）、Web API 会话管理、AI 数据管道等场景。无论你是 Rust 新手寻求简单并发，还是专家追求极致 QPS，这份指南将由浅入深，带你从基础 API 入手，剖析理论内核，再通过实例代码实战，最终给出选择指南。开启 Starshard 的星辰之旅，点亮你的并发代码吧！"
 date: 2025-09-18T07:22:10Z
-image: "https://static-rs.bifuba.com/images/posts/pexels-nadja-pr-1959418450-29014369.jpg"
+image: "https://static-rs.bifuba.com/images/posts/pexels-nadja-pr-1959418450-29014369.jpg-slimming.webp"
 categories: ["Rust", "Cargo", "实战指南","异步编程", "性能优化", "tokio","高并发","IO密集型","分布式存储"]
 authors: ["houseme"]
 tags: ["rust", "cargo","tokio","异步编程", "性能优化", "实战指南","高并发","IO密集型","网络服务器","数据流处理","多线程","工作窃取","限流","背压","Channels","微服务","实时系统","磁盘IO","starshard","hashbrown","并发hashmap","分片锁","rwlock","fxhash","rayon"]

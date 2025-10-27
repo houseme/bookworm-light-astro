@@ -2,7 +2,7 @@
 title: "Rust Axum 中的 SSL 进阶魔法：基于 Instant-ACME 的自动化证书管理与无缝 TLS 重载最佳实践"
 description: "本高级进阶指南面向希望将 Rust Web 服务打造成企业级 HTTPS 应用的开发者。我们将深入剖析 `instant-acme` 的高级功能，结合 Axum 和 Tokio 构建一个健壮的、容错的、可扩展的自动化证书管理系统。指南将涵盖最佳实践、错误处理、分布式场景、监控集成，并提供一份生产就绪的完整代码示例。让我们开启这场 Rust SSL 魔法的高阶冒险！"
 date: 2025-09-07T07:20:00Z
-image: "https://static-rs.bifuba.com/images/posts/daniel-sessler-HHRckNv-gK8-unsplash.jpg"
+image: "https://static-rs.bifuba.com/images/posts/daniel-sessler-HHRckNv-gK8-unsplash.jpg-slimming.webp"
 categories: ["Rust", "Cargo", "实战指南", "Axum", "Tower", "TLS", "Redis", "Prometheus", "Kubernetes", "Web开发"]
 authors: ["houseme"]
 tags: ["rust", "cargo", "axum", "tower", "tls", "redis", "prometheus", "kubernetes", "web", "advanced", "virtual-hosting", "进阶", "实战指南","Tokio","metrics","ssl","acme","certificate"]

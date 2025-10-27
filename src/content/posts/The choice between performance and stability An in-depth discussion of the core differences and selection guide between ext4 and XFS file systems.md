@@ -2,7 +2,7 @@
 title: "性能与稳定的抉择：深入探讨 ext4 与 XFS 的核心差异与选型指南"
 description: "Linux 通过文件系统来组织、管理和存储数据在磁盘或其他存储设备上。文件系统决定了数据如何被存储、索引和检索。本文将深入探讨两种主流文件系统 ext4 和 XFS 的核心差异、各自优势及适用场景，帮助你在性能与稳定性之间做出明智选择。"
 date: 2025-09-29T03:42:10Z
-image: "https://static-rs.bifuba.com/images/posts/pexels-lorenzo-castellino-61076802-33229965.jpg"
+image: "https://static-rs.bifuba.com/images/posts/pexels-lorenzo-castellino-61076802-33229965.jpg-slimming.webp"
 categories: ["文件系统","网络编程","实战指南","性能调优","Linux","ext4","XFS"]
 authors: ["houseme"]
 tags: ["文件系统IO","网络编程","ext4","XFS","文件系统","性能调优","实战指南","理论知识","场景选择","代码实例"]  

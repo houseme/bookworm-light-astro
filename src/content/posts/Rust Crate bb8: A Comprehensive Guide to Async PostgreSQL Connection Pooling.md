@@ -2,7 +2,7 @@
 title: "Rust Crate bb8: A Comprehensive Guide to Async PostgreSQL Connection Pooling"
 description: "The `bb8` crate, a full-featured, Tokio-based asynchronous connection pool, is designed to manage database connections efficiently, particularly for PostgreSQL via the `bb8-postgres` adapter. Inspired by the synchronous `r2d2` connection pool, `bb8` brings the same robustness to the async world, making it an essential tool for Rust developers working with databases in asynchronous applications. "
 date: 2025-04-20T00:00:00Z
-image: "https://static-rs.bifuba.com/images/posts/pexels-rui-wang-16615369-29954278-1920.jpg"
+image: "https://static-rs.bifuba.com/images/posts/pexels-rui-wang-16615369-29954278-1920.jpg-slimming.webp"
 categories: ["Rust", "Pooling", "Practical Guide"]
 authors: ["houseme"]
 tags:

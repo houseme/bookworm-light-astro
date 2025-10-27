@@ -2,7 +2,7 @@
 title: "深入去中心化网络的内核：rust-libp2p 高级实战指南"
 description: "`rust-libp2p` 作为 libp2p 协议栈的 Rust 实现，凭借其模块化设计和高性能，广泛应用于区块链、分布式存储和去中心化通信等场景，如 Filecoin、Polkadot 和 IPFS。本指南将带领你从基础的 P2P 聊天应用进阶到构建一个功能丰富的 P2P 网络，涵盖节点发现、发布订阅（PubSub）、自定义协议和性能优化等高级主题。"
 date: 2025-08-30T06:00:00Z
-image: "https://static-rs.bifuba.com/images/posts/pexels-jillyjillystudio-32129133.jpg"
+image: "https://static-rs.bifuba.com/images/posts/pexels-jillyjillystudio-32129133.jpg-slimming.webp"
 categories:
   ["rust", "实战指南", "去中心化通信", "网络编程", "分布式存储", "libp2p"]
 authors: ["houseme"]

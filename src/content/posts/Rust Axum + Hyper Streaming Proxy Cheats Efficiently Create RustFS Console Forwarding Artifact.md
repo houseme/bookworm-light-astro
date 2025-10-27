@@ -2,7 +2,7 @@
 title: "Rust Axum + Hyper 流式代理秘籍：高效铸就 RustFS Console 转发神器"
 description: "在 RustFS 项目中，实现 Console 端的 API 转发代理是关键一环。它需要高效处理 S3 协议兼容的大文件传输，支持 TLS 加密、内网转发，同时服务静态文件和特定路由。作为一款热门安全的 Rust 存储系统，RustFS 适用于 AI/ML、海量数据存储等场景，代理设计必须注重性能与简洁。"
 date: 2025-10-17T11:12:10Z
-image: "https://static-rs.bifuba.com/images/posts/pexels-rola-al-homsi-2876256-34370988.jpg"
+image: "https://static-rs.bifuba.com/images/posts/pexels-rola-al-homsi-2876256-34370988.jpg-slimming.webp"
 categories: ["Rust","性能优化","工具推荐","实战指南","RustFS","axum","hyper","流式代理","性能剖析","内存分配","异步编程","高并发","crate","tokio"]
 authors: ["houseme"]
 tags: ["Rust","性能优化","工具推荐","实战指南","RustFS","axum","hyper","流式代理","性能剖析","内存分配","异步编程","高并发","性能猎手","代码瓶颈","高性能","性能分析","内存管理","并发编程","性能调优","Rust生态","流式转发","Jemalloc","内存剖析","堆分析","连接池","TLS加密"]  
