@@ -29,6 +29,10 @@
       "url": "/categories/tokio"
     },
     {
+      "name": "Linux",
+      "url": "/linux"
+    },
+    {
       "name": "Pages",
       "url": "",
       "hasChildren": true,

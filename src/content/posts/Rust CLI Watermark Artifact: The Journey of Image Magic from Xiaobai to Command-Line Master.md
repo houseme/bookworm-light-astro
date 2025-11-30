@@ -16,7 +16,7 @@ tags:
     "imageproc",
     "ab_glyph",
     "anyhow",
-    "clap",
+    "clap","Rust 图片处理",
   ]
 keywords: "rust,实战指南,图像处理,watermark,image,rusttype,imageproc,ab_glyph,anyhow,clap,fltk"
 draft: false

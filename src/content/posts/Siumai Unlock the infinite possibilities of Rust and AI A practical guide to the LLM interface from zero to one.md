@@ -17,9 +17,9 @@ tags:
     "Anthropic",
     "Ollama",
     "Google Gemini",
-    "实战指南",
+    "实战指南","Rust 图片处理",
   ]
-keywords: "rust,cargo,Cargo.toml,Siumai,LLM,AI,OpenAI,Anthropic,Ollama,Google Gemini"
+keywords: "rust,cargo,Cargo.toml,Siumai,LLM,AI,OpenAI,Anthropic,Ollama,Google Gemini,实战指南,Rust 图片处理"
 draft: false
 ---
 

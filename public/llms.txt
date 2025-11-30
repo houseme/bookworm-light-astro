@@ -1,0 +1,343 @@
+# ==============================================
+# LLMS.TXT - 《Rust 编程实战学习》AI 爬虫控制策略
+# 网站：https://heihutu.com
+# 最后更新：2025 年 11 月 3 日
+# ==============================================
+
+# 全局默认规则（适用于所有未特别指定的爬虫）
+User-agent: *
+Crawl-delay: 3
+Disallow: /api/
+Disallow: /admin/
+Disallow: /private/
+Disallow: /user/
+Disallow: /account/
+Disallow: /dashboard/
+Disallow: /payment/
+Allow: /blog/
+Allow: /articles/
+Allow: /news/
+Allow: /docs/
+Allow: /tutorials/
+Allow: /categories
+Allow: /categories/*
+Allow: /tags
+Allow: /tags/*
+Allow: /authors
+Allow: /authors/*
+Allow: /about
+Allow: /contact
+Allow: /rss.xml
+
+# ========== 传统搜索引擎爬虫 ==========
+
+# Google 系列爬虫
+User-agent: Googlebot
+User-agent: Googlebot-Mobile
+User-agent: Googlebot-Image
+User-agent: Googlebot-News
+User-agent: Googlebot-Video
+Crawl-delay: 1
+Allow: /
+Disallow: /api/
+Allow: /categories
+Allow: /categories/*
+Allow: /tags
+Allow: /tags/*
+Allow: /authors
+Allow: /authors/*
+Allow: /about
+Allow: /contact
+Allow: /elements
+Allow: /privacy-policy
+Allow: /rss.xml
+
+# Bing 系列爬虫
+User-agent: Bingbot
+User-agent: msnbot-media
+Crawl-delay: 1
+Allow: /
+Disallow: /api/
+Allow: /categories
+Allow: /categories/*
+Allow: /tags
+Allow: /tags/*
+
+# 百度系列爬虫
+User-agent: Baiduspider
+User-agent: Baiduspider-image
+User-agent: Baiduspider-video
+Crawl-delay: 2
+Allow: /
+Disallow: /api/
+Allow: /categories
+Allow: /categories/*
+Allow: /tags
+Allow: /tags/*
+Allow: /authors
+Allow: /about
+Allow: /contact
+Allow: /rss.xml
+
+# 其他国际搜索引擎
+User-agent: Slurp
+User-agent: DuckDuckBot
+User-agent: YandexBot
+User-agent: YandexImages
+Crawl-delay: 2
+Allow: /
+Disallow: /api/
+
+# 国内其他搜索引擎
+User-agent: 360Spider
+User-agent: Sogou web spider
+User-agent: Sogou inst spider
+User-agent: Sogou spider2
+User-agent: Sogou blog
+User-agent: YisouSpider
+Crawl-delay: 3
+Allow: /
+Disallow: /api/
+Allow: /categories
+Allow: /categories/*
+Allow: /tags
+Allow: /tags/*
+Allow: /authors
+Allow: /about
+
+# ========== 社交媒体爬虫 ==========
+
+User-agent: FacebookBot
+User-agent: facebookexternalhit
+User-agent: Twitterbot
+User-agent: LinkedInBot
+User-agent: Pinterestbot
+Crawl-delay: 2
+Allow: /
+Disallow: /api/
+Allow: /blog/
+Allow: /articles/
+Allow: /categories
+Allow: /categories/*
+Allow: /tags
+Allow: /tags/*
+
+# ========== 专业工具爬虫 ==========
+
+User-agent: SemrushBot
+User-agent: AhrefsBot
+User-agent: MJ12bot
+Crawl-delay: 3
+Allow: /
+Disallow: /api/
+
+# ========== 学术和研究爬虫 ==========
+
+User-agent: ia_archiver
+User-agent: archive.org_bot
+Crawl-delay: 5
+Allow: /
+Disallow: /api/
+
+# ========== AI 爬虫专用规则 ==========
+
+# OpenAI 官方训练数据爬虫
+User-agent: GPTBot
+Crawl-delay: 5
+Disallow: /api/
+Disallow: /admin/
+Disallow: /user/
+Disallow: /account/
+Disallow: /private/
+Allow: /blog/
+Allow: /articles/
+Allow: /tutorials/
+Allow: /news/
+Allow: /docs/
+Allow: /categories
+Allow: /categories/rust/*
+Allow: /categories/salvo/*
+Allow: /categories/rustfs/*
+Allow: /categories/tokio/*
+Allow: /categories/*
+Allow: /tags
+Allow: /tags/*
+Allow: /authors
+Allow: /authors/*
+Allow: /about
+Allow: /contact
+Allow: /rss.xml
+
+# ChatGPT 浏览功能用户代理
+User-agent: ChatGPT-User
+Crawl-delay: 5
+Disallow: /api/
+Disallow: /admin/
+Disallow: /user/
+Disallow: /account/
+Disallow: /dashboard/
+Disallow: /payment/
+Disallow: /private-messages/
+Allow: /blog/
+Allow: /articles/
+Allow: /tutorials/
+Allow: /categories
+Allow: /categories/rust/*
+Allow: /categories/salvo/*
+Allow: /categories/rustfs/*
+Allow: /categories/tokio/*
+Allow: /categories/*
+Allow: /tags
+Allow: /tags/*
+Allow: /authors
+Allow: /authors/*
+Allow: /about
+Allow: /about/*
+Allow: /contact
+Allow: /elements
+Allow: /privacy-policy/*
+Allow: /rss.xml
+
+# Google AI 服务
+User-agent: Google-Extended
+Crawl-delay: 3
+Disallow: /api/
+Disallow: /admin/
+Disallow: /user/
+Disallow: /account/
+Allow: /blog/
+Allow: /articles/
+Allow: /tutorials/
+Allow: /news/
+Allow: /docs/
+Allow: /categories
+Allow: /categories/rust/*
+Allow: /categories/salvo/*
+Allow: /categories/rustfs/*
+Allow: /categories/tokio/*
+Allow: /categories/*
+Allow: /tags
+Allow: /tags/*
+Allow: /authors
+Allow: /authors/*
+Allow: /about
+Allow: /contact
+Allow: /rss.xml
+
+# Common Crawl (主要 AI 训练数据源)
+User-agent: CCBot
+Crawl-delay: 10
+Disallow: /api/
+Disallow: /admin/
+Disallow: /user/
+Disallow: /account/
+Disallow: /private/
+Allow: /blog/
+Allow: /articles/
+Allow: /tutorials/
+Allow: /categories
+Allow: /categories/rust/*
+Allow: /categories/salvo/*
+Allow: /categories/rustfs/*
+Allow: /categories/tokio/*
+Allow: /categories/*
+Allow: /tags
+Allow: /tags/*
+Allow: /authors
+Allow: /authors/*
+Allow: /about
+Allow: /rss.xml
+
+# Anthropic Claude 爬虫
+User-agent: Claude-Web
+User-agent: anthropic-ai
+Crawl-delay: 5
+Disallow: /api/
+Disallow: /admin/
+Disallow: /user/
+Disallow: /account/
+Allow: /blog/
+Allow: /articles/
+Allow: /tutorials/
+Allow: /categories
+Allow: /categories/rust/*
+Allow: /categories/salvo/*
+Allow: /categories/rustfs/*
+Allow: /categories/tokio/*
+Allow: /categories/*
+Allow: /tags
+Allow: /tags/*
+Allow: /authors
+Allow: /authors/*
+Allow: /about
+Allow: /contact
+Allow: /rss.xml
+
+# Apple AI 爬虫
+User-agent: Applebot
+Crawl-delay: 3
+Disallow: /api/
+Disallow: /admin/
+Disallow: /user/
+Allow: /blog/
+Allow: /articles/
+Allow: /tutorials/
+Allow: /categories
+Allow: /categories/rust/*
+Allow: /categories/salvo/*
+Allow: /categories/rustfs/*
+Allow: /categories/tokio/*
+Allow: /categories/*
+Allow: /tags
+Allow: /tags/*
+Allow: /authors
+Allow: /authors/*
+Allow: /about
+Allow: /contact
+Allow: /rss.xml
+
+# 字节跳动 AI 爬虫
+User-agent: Bytespider
+Crawl-delay: 3
+Disallow: /api/
+Disallow: /admin/
+Disallow: /user/
+Allow: /blog/
+Allow: /articles/
+Allow: /categories
+Allow: /categories/*
+Allow: /tags
+Allow: /tags/*
+Allow: /authors
+Allow: /authors/*
+Allow: /about
+
+# ========== 特殊说明 ==========
+
+# 爬虫访问策略总结：
+
+# 🟢 完全开放的路径：
+# /blog/ /articles/ /news/ /docs/ /tutorials/
+# /categories /categories/* /tags /tags/*
+# /authors /authors/* /about /contact /rss.xml
+# /elements /privacy-policy
+
+# 🔴 严格禁止的路径：
+# /api/ /admin/ /private/ /user/ /account/
+# /dashboard/ /payment/ /private-messages/
+
+# ⚡ 爬虫频率控制：
+# 传统搜索引擎：Crawl-delay: 1-2
+# AI 训练爬虫：Crawl-delay: 3-5
+# Common Crawl: Crawl-delay: 10
+# 社交媒体工具：Crawl-delay: 2-3
+
+# 🎯 技术重点分类：
+# Rust 编程：/categories/rust/*
+# Salvo 框架：/categories/salvo/*
+# Rust 文件系统：/categories/rustfs/*
+# Tokio 异步：/categories/tokio/*
+
+# 本配置专为技术博客优化，促进 Rust 技术内容传播
+# 同时保护网站管理功能和用户隐私数据
+# 更新日期：2025 年 11 月 3 日

@@ -3,21 +3,10 @@ title: "Rust 日志魔法：RUST_LOG 从小白到高手的全方位实战指南"
 description: "Rust 的标准日志库是 `log` crate，它是一个轻量级的 facade，不负责实际的日志输出，而是定义了统一的接口。实际的日志处理需要后端 crate，比如 `env_logger`、`simple_logger` 或更高级的 `tracing`。"
 date: 2025-08-19T11:20:00Z
 image: "https://static-rs.bifuba.com/images/250804/ren-hosoya-xYI_dcYIQas-unsplash.jpg-slimming.webp"
-categories: ["Rust", "logger", "实战指南"]
+categories: ["Rust", "logger", "实战指南", "日志管理", "日志级别", "日志过滤", "env_logger", "RUST_LOG"]
 authors: ["houseme"]
 tags:
-  [
-    "rust",
-    "cargo",
-    "RUST_LOG",
-    "env_logger",
-    "log",
-    "实战指南",
-    "日志",
-    "日志管理",
-    "日志级别",
-    "日志过滤",
-  ]
+  ["rust","cargo","RUST_LOG","env_logger","log","实战指南","日志","日志管理","日志级别","日志过滤","Rust 实战学习","Rust 日志"]
 keywords: "rust,cargo,Rust 实战学习,RUST_LOG,env_logger,log,实战指南,日志,日志管理,日志级别,日志过滤"
 draft: false
 ---
@@ -217,7 +206,7 @@ async fn main() -> std::io::Result<()> {
 1. Rust log crate 官方文档：https://docs.rs/log
 2. env_logger GitHub 仓库：https://github.com/rust-cli/env_logger
 3. Rust Cookbook - Configure Logging：https://rust-lang-nursery.github.io/rust-cookbook/development_tools/debugging/config_log.html
-4. Logging in Rust - Shuttle Blog：https://www.shuttle.dev/blog/2023/09/20/logging-in-rust
+4. Logging in Rust - Shuttle Blog
 5. Reddit 讨论：Your approach to logging：https://www.reddit.com/r/rust/comments/ye0a5j/your_approach_to_logging/
 6. Rust Compiler Dev Guide - Tracing：https://rustc-dev-guide.rust-lang.org/tracing.html
 7. Cargo 环境变量文档：https://doc.rust-lang.org/cargo/reference/environment-variables.html

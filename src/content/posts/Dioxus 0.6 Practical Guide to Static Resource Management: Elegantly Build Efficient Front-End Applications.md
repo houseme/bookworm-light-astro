@@ -20,7 +20,7 @@ tags:
     "web development",
     "desktop development",
     "mobile development",
-    "实战指南",
+    "实战指南","Rust 图片处理"
   ]
 keywords: "rust,Dioxus,static resource management,front-end,web,desktop,mobile,Assent,实战指南"
 draft: false

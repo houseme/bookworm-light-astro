@@ -3,7 +3,7 @@ title: "Rust 中的 SSL 魔法：用 Instant-ACME 实现自动证书更新与零
 description: "本指南专为小白设计，由浅入深：先铺垫理论基础，再实战代码，最后扩展高级技巧。无论你是 Rust 新手还是 Web 开发者，都能轻松上手。让我们一起开启这场“SSL 魔法之旅”！"
 date: 2025-09-05T05:00:00Z
 image: "https://static-rs.bifuba.com/images/posts/nadine-marfurt-Hom2rJ51jaQ-unsplash.jpg-slimming.webp"
-categories: ["rust", "实战指南", "web开发", "安全", "ssl"]
+categories: ["rust", "实战指南", "web开发", "安全", "ssl","acme","letsencrypt","tls","rustls","tokio","instant-acme","zero-downtime","certificate management"]
 authors: ["houseme"]
 tags: ["rust", "实战指南", "web开发", "安全", "ssl", "instant-acme", "axum", "tls", "letsencrypt", "acme", "tokio", "rustls", "zero-downtime", "certificate management", "自动化", "证书管理", "异步编程", "网络安全", "web安全", "rust web", "rust async", "rust tls", "rust web框架", "rust web开发", "rust 安全", "rust 实战", "rust 教程", "rust 新手", "rust 入门", "rust 进阶", "rust 项目", "rust 生态", "rust 社区"]
 keywords: "rust,实战指南,web开发,安全,ssl,instant-acme,axum,tls,letsencrypt,acme,tokio,rustls,zero-downtime,certificate management,自动化,证书管理,异步编程,网络安全,web安全,rust web,rust async,rust tls,rust web框架,rust web开发,rust 安全,rust 实战,rust 教程,rust 新手,rust 入门,rust 进阶,rust 项目,rust 生态,rust 社区"
@@ -305,7 +305,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
   - Instant-ACME GitHub: https://github.com/djc/instant-acme
   - Docs.rs: https://docs.rs/instant-acme/latest/instant_acme/
 - **相关博客**：
-  - "Provisioning TLS Certificates in Rust With ACME" (Shuttle.dev, 2025): https://www.shuttle.dev/blog/2025/02/06/provisioning-tls-certificates-with-acme-in-rust
+  - "Provisioning TLS Certificates in Rust With ACME" (Shuttle.dev, 2025)
 - **Axum 示例**：
   - Axum TLS 示例：https://github.com/tokio-rs/axum/tree/main/examples/tls-rustls
 - **ACME 标准**：

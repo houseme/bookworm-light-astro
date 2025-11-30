@@ -183,7 +183,6 @@ histogram!("order.duration_ms", duration_ms, "service" => "order");  // 高基�
 - **社区**：
   - Medium 教程：https://fdeantoni.medium.com/from-env-logger-to-tokio-tracing-and-opentelemetry-adb247c0d40f (配置示例)。
   - GitHub Issue：https://github.com/open-telemetry/opentelemetry-rust/issues/914 (自定义 Selector 讨论)。
-  - Shuttle Blog：https://www.shuttle.dev/blog/2025/09/23/monitor-data-pipelines-in-rust (生产案例，含聚合)。
 - **进一步**：CNCF OTel 社区（Slack #otel-rust），2025 更新聚焦 Exponential 优化。
 
 （基于最新搜索与文档，版本兼容至 Rust 1.75+。）

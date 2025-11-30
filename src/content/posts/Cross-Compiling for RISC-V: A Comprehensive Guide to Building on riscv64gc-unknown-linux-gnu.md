@@ -2,7 +2,7 @@
 title: "Cross-Compiling for RISC-V: A Comprehensive Guide to Building on riscv64gc-unknown-linux-gnu"
 description: "The RISC-V architecture, with its open-source instruction set, has sparked a revolution in hardware design, offering flexibility and accessibility for developers worldwide."
 date: 2025-04-11T00:00:00Z
-image: "https://riscv.org/wp-content/uploads/2021/02/Standard_2-1920x1080-1.jpg-slimming.webp"
+image: "https://static-rs.bifuba.com/images/posts/Standard_2-1920x1080-1.png"
 categories: ["Rust", "RISC-V", "Cross", "Compiling", "Linux", "QEMU"]
 authors: ["houseme"]
 tags:

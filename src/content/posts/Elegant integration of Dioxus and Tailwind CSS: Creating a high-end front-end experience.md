@@ -20,7 +20,7 @@ tags:
     "web design",
     "css framework",
     "utility-first css",
-    "responsive design",
+    "responsive design","Rust 图片处理",
   ]
 keywords: "rust,Dioxus,front-end,Tailwind CSS,asset,web,static resource management,resource management,static assets,css framework,utility-first css,responsive design"
 draft: false
