@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>系统维护中 | System Maintenance</title>
+  <style>
+    /* 全局重置与基础样式 */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background-color: #f3f4f6; /* 稍微冷一点的灰色背景 */
+      color: #1f2937;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+    }
+
+    /* 主容器 */
+    .container {
+      background: #ffffff;
+      padding: 4rem 2rem; /* 增加垂直留白，显得更从容 */
+      border-radius: 12px;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+      text-align: center;
+      max-width: 500px;
+      width: 90%;
+      /* 去掉了顶部的彩色装饰线，显得更加中性、严肃 */
+    }
+
+    /* 图标容器 */
+    .icon-box {
+      margin-bottom: 2rem;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      color: #6b7280; /* 使用中性灰，而非之前的亮蓝，降低情绪色彩 */
+    }
+
+    /* SVG 设置 */
+    .icon-svg {
+      width: 72px;
+      height: 72px;
+      fill: currentColor;
+    }
+
+    /* 标题 */
+    h1 {
+      font-size: 1.75rem;
+      font-weight: 500; /* 字重稍微减轻，不那么咄咄逼人 */
+      margin-bottom: 1.5rem;
+      color: #111827;
+      letter-spacing: -0.025em;
+    }
+
+    /* 描述文本 */
+    p {
+      font-size: 1.05rem;
+      line-height: 1.75;
+      color: #4b5563;
+      margin-bottom: 2.5rem;
+    }
+
+    /* 进度条背景 */
+    .progress-track {
+      width: 100%;
+      height: 4px; /* 更细的线条，更精致 */
+      background-color: #f3f4f6;
+      border-radius: 2px;
+      overflow: hidden;
+      margin-bottom: 2rem;
+    }
+
+    /* 进度条滑块 */
+    .progress-bar {
+      height: 100%;
+      width: 30%;
+      background-color: #9ca3af; /* 灰色进度条，保持低调 */
+      border-radius: 2px;
+      animation: slide 2s infinite ease-in-out;
+      transform-origin: 0% 50%;
+    }
+
+    /* 底部信息 */
+    .footer {
+      font-size: 0.875rem;
+      color: #9ca3af;
+    }
+
+    /* 动画：左右滑动 */
+    @keyframes slide {
+      0% { transform: translateX(-100%) scaleX(0.2); }
+      50% { transform: translateX(50%) scaleX(0.5); }
+      100% { transform: translateX(200%) scaleX(0.2); }
+    }
+
+    /* 动画：旋转 */
+    @keyframes spin {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+
+    .spin-gear {
+      transform-origin: center;
+      animation: spin 6s linear infinite; /* 稍微调慢速度，显得稳重 */
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <div class="icon-box">
+    <svg class="icon-svg" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <g class="spin-gear">
+        <path d="M19.14 12.94c.04-.3.06-.61.06-.94 0-.32-.02-.64-.07-.94l2.03-1.58a.49.49 0 0 0 .12-.61l-1.92-3.32a.488.488 0 0 0-.59-.22l-2.39.96c-.5-.38-1.03-.7-1.62-.94l-.36-2.54a.484.484 0 0 0-.48-.41h-3.84c-.24 0-.43.17-.47.41l-.36 2.54c-.59.24-1.13.57-1.62.94l-2.39-.96a.48.48 0 0 0-.59.22L2.04 8.87a.49.49 0 0 0 .12.61l2.03 1.58c-.05.3-.07.62-.07.94s.02.64.07.94l-2.03 1.58a.49.49 0 0 0-.12.61l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.24.24.41.48.41h3.84c.24 0 .44-.17.47-.41l.36-2.54c.59-.24 1.13-.56 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32a.49.49 0 0 0-.12-.61l-2.01-1.58zM12 15.6c-1.98 0-3.6-1.62-3.6-3.6s1.62-3.6 3.6-3.6 3.6 1.62 3.6 3.6-1.62 3.6-3.6 3.6z"/>
+      </g>
+    </svg>
+  </div>
+
+  <h1>系统升级维护中</h1>
+
+  <p>
+    系统当前正在进行后台维护。<br>
+    服务暂时无法访问，请您稍后重试。
+  </p>
+
+  <div class="progress-track">
+    <div class="progress-bar"></div>
+  </div>
+
+  <div class="footer">
+    System Maintenance in Progress
+  </div>
+</div>
+
+</body>
+</html>
