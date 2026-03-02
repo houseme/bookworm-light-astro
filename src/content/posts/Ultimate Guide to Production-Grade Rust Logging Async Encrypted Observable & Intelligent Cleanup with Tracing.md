@@ -10,16 +10,6 @@ keywords: "rust,工具链,Cargo,日志库,性能优化,异步编程,系统设计
 draft: false
 ---
 
-**中文标题**：  
-Rust 生产级日志系统终极指南：基于 Tracing 的异步加密、可观测与智能清理方案
-
-**英文翻译**：  
-Ultimate Guide to Production-Grade Rust Logging: Async, Encrypted, Observable & Intelligent Cleanup with Tracing
-
-### 80 字简介
-
-基于 tracing 生态构建的企业级 Rust 日志系统，实现了异步非阻塞文件写入、单文件大小主动旋转、字段级 AES-256-GCM 加密、OpenTelemetry 分布式追踪、Prometheus 指标暴露、ClickHouse 可选存储，以及 walkdir + fs_extra 驱动的智能清理（数量/大小/天数/磁盘空间多策略）。通过 feature flags 灵活裁剪依赖，支持 TOML 配置与优雅关闭，兼顾性能、安全与可观测性，适用于高并发微服务与合规敏感场景。
-
 ### 引言背景信息
 
 在 2026 年的云原生与分布式系统中，日志已不再是简单的调试工具，而是可观测性三大支柱（Logs + Metrics + Traces）中最重要的一环。Rust 凭借其零成本抽象与极致性能，成为越来越多后端基础设施与高性能服务的首选语言。然而，传统日志库（如 env_logger、flexi_logger）在异步支持、结构化加密、分布式追踪集成、磁盘智能管理等方面逐渐显露短板。
